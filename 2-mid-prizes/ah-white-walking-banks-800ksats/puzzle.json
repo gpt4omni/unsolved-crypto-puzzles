@@ -1,0 +1,108 @@
+{
+  "schema_version": 1,
+  "slug": "ah-white-walking-banks-800ksats",
+  "title": "AH White: Walking Banks",
+  "tier": "mid",
+  "status": "open",
+  "dead_end_reason": null,
+  "series": null,
+  "author": {
+    "name": "AH White",
+    "handles": [
+      "nostr:npub1c2rvx6ue9uewl452kczcfxz9w242sfzn64ul8dv2afd3t5dpktzs0kmmvf",
+      "reddit:AH_W"
+    ],
+    "url": "https://walkingbanks.com"
+  },
+  "published": {
+    "date": "2025-05-01",
+    "url": "https://njump.me/npub1c2rvx6ue9uewl452kczcfxz9w242sfzn64ul8dv2afd3t5dpktzs0kmmvf"
+  },
+  "chain": "bitcoin",
+  "prize": {
+    "amount": 800000,
+    "asset": "sats",
+    "usd_estimate": 646,
+    "usd_snapshot": "2026-10-24",
+    "note": "split across two P2WPKH addresses derived from one published xpub, funded 2024-09-05"
+  },
+  "addresses": [
+    {
+      "address": "bc1qxy4tf0s4n7x9w24rawf9qsxh2hyljrmvyrhwzt",
+      "chain": "bitcoin",
+      "role": "escrow",
+      "label": "account 0, index 0",
+      "explorer": "https://mempool.space/address/bc1qxy4tf0s4n7x9w24rawf9qsxh2hyljrmvyrhwzt",
+      "expected": "100000 sats",
+      "verified_on": "2026-10-24",
+      "verified_state": "funded-unspent"
+    },
+    {
+      "address": "bc1q4qc24xk5cehc4t7vr264zldsms2kmxf86jqjau",
+      "chain": "bitcoin",
+      "role": "escrow",
+      "label": "account 0, index 1",
+      "explorer": "https://mempool.space/address/bc1q4qc24xk5cehc4t7vr264zldsms2kmxf86jqjau",
+      "expected": "700000 sats",
+      "verified_on": "2026-10-24",
+      "verified_state": "funded-unspent"
+    }
+  ],
+  "puzzle_type": [
+    "bip39-seed",
+    "book",
+    "text-cipher"
+  ],
+  "target_format": "BIP39 24 words (English), empty passphrase, account key matching the published xpub (native SegWit, BIP84)",
+  "derivation": {
+    "summary": "derive the account-0 extended key (BIP84/44/49/86, empty passphrase) for a candidate 24-word mnemonic and compare its compressed public key and chain code to the published xpub",
+    "oracle": "tools/oracle.py",
+    "oracle_certified": true,
+    "certified_against": "the published xpub's own derivation of the two known treasure addresses, plus the public 24-word BIP39 test vector (all-zero entropy, checksum word 'art')"
+  },
+  "difficulty_left": "external-info",
+  "difficulty_note": "the mechanism is fully understood and the published text has been mined exhaustively; only 1 of 6 organ-donor groups (4 of 24 words) is printed as a decodable block, and the other 5 are not present anywhere in the free PDF, the site text, or the audiobook narration, which argues the remaining words depend on hints the author has not yet published",
+  "tested_total": {
+    "candidates": 0,
+    "families": 9,
+    "certified": true
+  },
+  "leads": [
+    {
+      "rank": 1,
+      "title": "write to the author",
+      "cost": "needs-a-person",
+      "status": "open"
+    },
+    {
+      "rank": 2,
+      "title": "watch the Nostr feed for new hints",
+      "cost": "minutes",
+      "status": "open"
+    },
+    {
+      "rank": 3,
+      "title": "GPU completion of the last 4 words once 20 are known",
+      "cost": "hours",
+      "status": "open"
+    }
+  ],
+  "solutions": [],
+  "artifacts": [],
+  "sources": [
+    {
+      "title": "AH White, Nostr profile",
+      "url": "https://njump.me/npub1c2rvx6ue9uewl452kczcfxz9w242sfzn64ul8dv2afd3t5dpktzs0kmmvf",
+      "date": "2026-08-16",
+      "archived": null
+    },
+    {
+      "title": "Walking Banks, official site (Find the Treasure)",
+      "url": "https://walkingbanks.com",
+      "date": "2026-08-16",
+      "archived": null
+    }
+  ],
+  "third_party_material": "no book pages, OCR text, or audiobook audio/transcripts are included; the one chapter 11 passage quoted in clues/author-posts.md is the short excerpt that carries the puzzle's own decoding rule",
+  "last_updated": "2026-10-24"
+}

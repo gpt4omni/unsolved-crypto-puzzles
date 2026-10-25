@@ -1,0 +1,9 @@
+# Residual entropy of the 16-byte secret behind the Bitaps Shamir challenge, at each
+# constraint I could establish. "duplicate-value rejection" and "igamc/igam defect" are
+# properties of the deployed generator (bitaps-com/jsbtc, commit 5b6dd995, 2020-06-19),
+# not of the 2 published shares, which carry no information about the secret's value on
+# their own (see README, "the 2 published shares alone do not derive the target").
+# stage,residual_bits,method,date
+theoretical secret entropy (16-byte BIP39 mnemonic),128.0,none: the un-narrowed byte space,2020-06-19
+after duplicate-value rejection (jsbtc/pybtc reject a share whose coefficients repeat a byte value),127.73,exhaustive enumeration of the per-byte coefficient space against the rejection rule,2026-08-03
+after the igamc/igam entropy-check defect measured on the deployed 2020 generator,125.05,3 concordant measurements on a Node.js harness loading the shipped 2020 binary (range 124.90 to 125.19),2026-08-03

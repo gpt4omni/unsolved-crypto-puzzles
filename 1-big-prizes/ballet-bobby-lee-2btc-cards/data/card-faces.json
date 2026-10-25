@@ -1,0 +1,23 @@
+{
+  "_comment": "Which BIP38 half is known vs missing on each face of each Ballet card, from QR-decoding the 4 published boha photos and the on-chain state checked 2026-08-16. front = address QR + address + passphrase scratch-off. back = encrypted-WIF QR under the tamper sticker.",
+  "cards": [
+    {
+      "name": "AA007448",
+      "state": "solved (oracle only, not part of the live prize)",
+      "front": {"label": "front", "known": "address 1LL6Xy92...", "detail": "address QR, scratch-off removed"},
+      "back": {"label": "back", "known": "encrypted WIF 6PnWfKaB...J4cH", "detail": "sticker removed, both faces published"}
+    },
+    {
+      "name": "AA009926",
+      "state": "open, 1.00003481 BTC",
+      "front": {"label": "front", "known": "MISSING", "detail": "passphrase scratch-off intact, never scratched"},
+      "back": {"label": "back", "known": "encrypted WIF 6PnQmAyB...A3Ld7", "detail": "sticker removed, photographed"}
+    },
+    {
+      "name": "AA012381",
+      "state": "open, 1.00003877 BTC",
+      "front": {"label": "front", "known": "passphrase 594Y-L2RW-4ME7-2XVX-9B41", "detail": "scratch-off removed, photo-confirmed legible"},
+      "back": {"label": "back", "known": "MISSING", "detail": "back face never photographed"}
+    }
+  ]
+}

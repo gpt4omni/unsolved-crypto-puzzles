@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1645" height="280" viewBox="0 0 1645 280" font-family="DejaVu Sans">
+<rect x="0" y="0" width="1645" height="280" fill="#FFFFFF"/>
+<rect x="30" y="120" width="170" height="60" rx="8" fill="#1F5FBF" stroke="#14406e" stroke-width="1.5"/>
+<text x="115.0" y="148.0" text-anchor="middle" font-size="11" fill="#FFFFFF">candidate</text>
+<text x="115.0" y="162.0" text-anchor="middle" font-size="11" fill="#FFFFFF">answer X</text>
+<rect x="296" y="120" width="170" height="60" rx="8" fill="#1F5FBF" stroke="#14406e" stroke-width="1.5"/>
+<text x="381.0" y="148.0" text-anchor="middle" font-size="11" fill="#FFFFFF">password</text>
+<text x="381.0" y="162.0" text-anchor="middle" font-size="11" fill="#FFFFFF">sha256(X) hex</text>
+<rect x="599" y="120" width="170" height="60" rx="8" fill="#1F5FBF" stroke="#14406e" stroke-width="1.5"/>
+<text x="684.0" y="148.0" text-anchor="middle" font-size="11" fill="#FFFFFF">blob plaintext</text>
+<text x="684.0" y="162.0" text-anchor="middle" font-size="11" fill="#FFFFFF">(&lt;=64 bytes)</text>
+<rect x="913" y="120" width="170" height="60" rx="8" fill="#1F5FBF" stroke="#14406e" stroke-width="1.5"/>
+<text x="998.0" y="148.0" text-anchor="middle" font-size="11" fill="#FFFFFF">private key</text>
+<text x="998.0" y="162.0" text-anchor="middle" font-size="11" fill="#FFFFFF">(32 bytes)</text>
+<rect x="1179" y="120" width="170" height="60" rx="8" fill="#1F5FBF" stroke="#14406e" stroke-width="1.5"/>
+<text x="1264.0" y="148.0" text-anchor="middle" font-size="11" fill="#FFFFFF">public key</text>
+<text x="1264.0" y="162.0" text-anchor="middle" font-size="11" fill="#FFFFFF">(uncompressed)</text>
+<rect x="1445" y="120" width="170" height="60" rx="8" fill="#1F5FBF" stroke="#14406e" stroke-width="1.5"/>
+<text x="1530.0" y="155.0" text-anchor="middle" font-size="11" fill="#FFFFFF">P2PKH address</text>
+<line x1="200" y1="150.0" x2="288" y2="150.0" stroke="#333333" stroke-width="1.5" marker-end="url(#arrow)"/>
+<text x="248.0" y="130.0" text-anchor="middle" font-size="9" fill="#333333">sha256</text>
+<line x1="466" y1="150.0" x2="591" y2="150.0" stroke="#333333" stroke-width="1.5" marker-end="url(#arrow)"/>
+<text x="532.5" y="106.0" text-anchor="middle" font-size="9" fill="#333333">AES-256-CBC decrypt</text>
+<text x="532.5" y="118.0" text-anchor="middle" font-size="9" fill="#333333">EVP_BytesToKey(MD5)</text>
+<text x="532.5" y="130.0" text-anchor="middle" font-size="9" fill="#333333">salt 3ab585348552415d</text>
+<line x1="769" y1="150.0" x2="905" y2="150.0" stroke="#333333" stroke-width="1.5" marker-end="url(#arrow)"/>
+<text x="841.0" y="106.0" text-anchor="middle" font-size="9" fill="#333333">reduction:</text>
+<text x="841.0" y="118.0" text-anchor="middle" font-size="9" fill="#333333">sha256, first32,</text>
+<text x="841.0" y="130.0" text-anchor="middle" font-size="9" fill="#333333">last32, sha256(first64)</text>
+<line x1="1083" y1="150.0" x2="1171" y2="150.0" stroke="#333333" stroke-width="1.5" marker-end="url(#arrow)"/>
+<text x="1131.0" y="130.0" text-anchor="middle" font-size="9" fill="#333333">secp256k1</text>
+<line x1="1349" y1="150.0" x2="1437" y2="150.0" stroke="#333333" stroke-width="1.5" marker-end="url(#arrow)"/>
+<text x="1397.0" y="118.0" text-anchor="middle" font-size="9" fill="#333333">HASH160</text>
+<text x="1397.0" y="130.0" text-anchor="middle" font-size="9" fill="#333333">+ Base58Check</text>
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#333333"/></marker></defs>
+</svg>

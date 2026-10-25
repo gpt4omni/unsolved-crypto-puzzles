@@ -1,0 +1,23 @@
+{
+  "_comment": "Automated OpenCV silhouette measurements of clues/arweave-puzzle-11.png (1600x1105, ink threshold gray<110). 12 buildings segmented left cluster then right cluster, left to right; 1 large sailboat bounding box; 5 small sail widths (no reliable per-sail x position was recovered, so they are reported but not boxed). Produced by measuring the source image directly.",
+  "image": "clues/arweave-puzzle-11.png",
+  "image_size": [1600, 1105],
+  "buildings": [
+    {"id": 1, "x0": 234, "x1": 322, "roof_y": 161, "bottom_y": 328},
+    {"id": 2, "x0": 326, "x1": 412, "roof_y": 78, "bottom_y": 323},
+    {"id": 3, "x0": 416, "x1": 500, "roof_y": 183, "bottom_y": 327},
+    {"id": 4, "x0": 502, "x1": 676, "roof_y": 107, "bottom_y": 319},
+    {"id": 5, "x0": 678, "x1": 782, "roof_y": 20, "bottom_y": 312},
+    {"id": 6, "x0": 884, "x1": 978, "roof_y": 201, "bottom_y": 307},
+    {"id": 7, "x0": 980, "x1": 1140, "roof_y": 72, "bottom_y": 322},
+    {"id": 8, "x0": 1142, "x1": 1258, "roof_y": 101, "bottom_y": 321},
+    {"id": 9, "x0": 1260, "x1": 1348, "roof_y": 176, "bottom_y": 313},
+    {"id": 10, "x0": 1350, "x1": 1452, "roof_y": 105, "bottom_y": 313},
+    {"id": 11, "x0": 1454, "x1": 1510, "roof_y": 163, "bottom_y": 307},
+    {"id": 12, "x0": 1514, "x1": 1592, "roof_y": 74, "bottom_y": 300}
+  ],
+  "large_sailboat": {"x0": 44, "y0": 320, "x1": 359, "y1": 599},
+  "small_sail_widths_left_to_right_px": [27, 53, 79, 83, 51],
+  "small_sails_band_y": [360, 480],
+  "tEXt_decoy_note": "the escrow address 0xFF2142E98E09b5344994F9bEB9C56C95506B9F17 is embedded in clear text in a PNG tEXt chunk; the author confirmed the format does not matter, so this container-level text is read as a decoy, not the carrier"
+}

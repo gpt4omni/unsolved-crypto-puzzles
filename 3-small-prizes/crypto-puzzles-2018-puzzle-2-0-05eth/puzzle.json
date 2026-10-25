@@ -1,0 +1,120 @@
+{
+  "schema_version": 1,
+  "slug": "crypto-puzzles-2018-puzzle-2-0-05eth",
+  "title": "Crypto Puzzles 2018: Puzzle #2",
+  "tier": "small",
+  "status": "open",
+  "dead_end_reason": null,
+  "series": "Crypto Puzzles (2018 YouTube channel), same series as the solved Puzzle #1",
+  "author": {
+    "name": "unnamed, published under the YouTube channel \"Crypto Puzzles\"",
+    "handles": [
+      "youtube:UCR8-P07nNhxyEr6fwJXvjQQ"
+    ],
+    "url": "https://www.youtube.com/channel/UCR8-P07nNhxyEr6fwJXvjQQ"
+  },
+  "published": {
+    "date": "2018-08-06",
+    "url": "https://www.youtube.com/watch?v=TRUUTryah70"
+  },
+  "chain": "ethereum",
+  "prize": {
+    "amount": 0.05,
+    "asset": "ETH",
+    "usd_estimate": 118,
+    "usd_snapshot": "2026-10-24",
+    "note": "single externally-owned account, never signed a transaction (nonce 0); that this address is Puzzle #2's escrow is a strong inference from the funder and amount matching Puzzle #1, not stated directly by the author"
+  },
+  "addresses": [
+    {
+      "address": "0x1fa8Be9De5bBFE047C72dB8E8E3257128F7661ad",
+      "chain": "ethereum",
+      "role": "escrow",
+      "label": "main",
+      "explorer": "https://etherscan.io/address/0x1fa8Be9De5bBFE047C72dB8E8E3257128F7661ad",
+      "expected": "0.05 ETH",
+      "verified_on": "2026-10-24",
+      "verified_state": "funded-unspent"
+    }
+  ],
+  "puzzle_type": [
+    "raw-private-key",
+    "image-stego",
+    "video-series"
+  ],
+  "target_format": "64-character hex private key (32 bytes), secp256k1, Keccak-256 of the uncompressed public key to a 20-byte address, no BIP39, no passphrase, no derivation path",
+  "derivation": {
+    "summary": "read a 64-character hex private key hidden as composite glyphs across the two Puzzle #2 videos, then derive secp256k1 -> Keccak-256 -> last 20 bytes to an Ethereum address",
+    "oracle": "tools/oracle.py",
+    "oracle_certified": true,
+    "certified_against": "Puzzle #1's own published solution (64-hex answer read from its solution video), which derives to the address that received and was later spent from for that puzzle's own 0.05 ETH prize in 2018"
+  },
+  "difficulty_left": "external-info",
+  "difficulty_note": "the transform is certified; what remains is finishing a visual read of Puzzle #2's two videos, about 40 to 50 of 64 hex characters legible today",
+  "tested_total": {
+    "candidates": 1,
+    "families": 2,
+    "certified": true
+  },
+  "leads": [
+    {
+      "rank": 1,
+      "title": "Replay Puzzle #1 end to end to fix the reading grammar",
+      "cost": "minutes",
+      "status": "open"
+    },
+    {
+      "rank": 2,
+      "title": "Finish the planned template-matching pass against Puzzle #1's glyph shapes",
+      "cost": "hours",
+      "status": "open"
+    },
+    {
+      "rank": 3,
+      "title": "Bounded 16^8 sweep if a small gap remains after reading",
+      "cost": "minutes, conditional",
+      "status": "open"
+    }
+  ],
+  "solutions": [],
+  "sources": [
+    {
+      "title": "Crypto Puzzle 1, statement part 1",
+      "url": "https://www.youtube.com/watch?v=3l1jFa3Mw0s",
+      "date": "2018-07-19",
+      "archived": null
+    },
+    {
+      "title": "Crypto Puzzle 1, statement part 2",
+      "url": "https://www.youtube.com/watch?v=hX-pOBj8VsI",
+      "date": "2018-07-19",
+      "archived": null
+    },
+    {
+      "title": "Crypto Puzzle 1 Solved!",
+      "url": "https://www.youtube.com/watch?v=0jJ6XadOAWk",
+      "date": "2018-07-19",
+      "archived": null
+    },
+    {
+      "title": "Crypto Puzzle 2, part 1",
+      "url": "https://www.youtube.com/watch?v=TRUUTryah70",
+      "date": "2018-08-06",
+      "archived": null
+    },
+    {
+      "title": "Crypto Puzzle 2, part 2",
+      "url": "https://www.youtube.com/watch?v=U_0DtYHDPy0",
+      "date": "2018-08-06",
+      "archived": null
+    },
+    {
+      "title": "Channel: Crypto Puzzles",
+      "url": "https://www.youtube.com/channel/UCR8-P07nNhxyEr6fwJXvjQQ",
+      "date": "2026-08-16",
+      "archived": null
+    }
+  ],
+  "third_party_material": "No video frames, screenshots, or video files are included; both puzzles are linked by video ID only. The certification vector (Puzzle #1's already-solved private key) is drawn from the author's own public solution video for a prize claimed and spent by an unrelated third party in 2018.",
+  "last_updated": "2026-10-24"
+}

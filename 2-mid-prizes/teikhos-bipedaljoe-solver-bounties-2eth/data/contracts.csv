@@ -1,0 +1,10 @@
+# contracts.csv -- the 5 TeikhosBounty contracts, used by tools/fig_family.py to draw
+# images/02-family-map.svg. eth = balance in ETH, re-read from eth_getBalance on 2026-08-16
+# (735B shows 0 because it self-destructed on payout). state: solved = paid out to me,
+# open = unsolved, still funded, dead = no payout is possible for anyone even with the key.
+tag,address,eth,variant,state
+735B,0x735ba26f91e1275fa4b504649b19ef74739fe7e7,0,keccak512,solved
+C1,0x17e5e0910b9185b0ede564dcbf074ca910ad56a4,1.000002,simple,open
+C2,0xd7c6d542f3dcdceda845112b8fd567b8f8655805,0.500002,symmetric,open
+9732,0x973c2178b09225d1de3ab037d40b3f24af696255,0.500002,keccak512,open
+AEC7,0xaec7e8c221c3fd24e75c996e32289235fd899ebf,1.000012,simple,dead

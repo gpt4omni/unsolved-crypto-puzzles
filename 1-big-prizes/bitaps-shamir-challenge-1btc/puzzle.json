@@ -1,0 +1,139 @@
+{
+  "schema_version": 1,
+  "slug": "bitaps-shamir-challenge-1btc",
+  "title": "Bitaps Shamir Secret Sharing Challenge",
+  "tier": "big",
+  "status": "open",
+  "dead_end_reason": null,
+  "series": null,
+  "author": {
+    "name": "Bitaps",
+    "handles": [
+      "x:@bitaps_com",
+      "web:bitaps.com"
+    ],
+    "url": "https://web.archive.org/web/20230328022959/https://bitaps.com/mnemonic/challenge"
+  },
+  "published": {
+    "date": "2020-06-19",
+    "url": "https://web.archive.org/web/20230328022959/https://bitaps.com/mnemonic/challenge"
+  },
+  "chain": "bitcoin",
+  "prize": {
+    "amount": 1.00016775,
+    "asset": "BTC",
+    "usd_estimate": 80779,
+    "usd_snapshot": "2026-10-24",
+    "note": "single P2WPKH escrow, funded across 5 transactions ending 2022-10"
+  },
+  "addresses": [
+    {
+      "address": "bc1qyjwa0tf0en4x09magpuwmt2smpsrlaxwn85lh6",
+      "chain": "bitcoin",
+      "role": "escrow",
+      "label": "main",
+      "explorer": "https://mempool.space/address/bc1qyjwa0tf0en4x09magpuwmt2smpsrlaxwn85lh6",
+      "expected": "1.00016775 BTC (100,016,775 sats)",
+      "verified_on": "2026-10-24",
+      "verified_state": "funded-unspent"
+    }
+  ],
+  "puzzle_type": [
+    "shamir",
+    "bip39-seed"
+  ],
+  "target_format": "BIP39 12-word English mnemonic (the secret), BIP84 m/84'/0'/0'/0/0, no passphrase",
+  "derivation": {
+    "summary": "reconstruct a 16-byte secret from 3 of 5 Shamir shares over GF(256) (2 published, 1 needed), re-encode as a BIP39 mnemonic with its true checksum, derive BIP84 m/84'/0'/0'/0/0, compare to the escrow",
+    "oracle": "tools/oracle.py",
+    "oracle_certified": true,
+    "certified_against": "public BIP84 test vector (abandon x11 + about) and a synthetic 3-of-5 GF(256) split/reconstruct round trip; no solved sibling exists for this puzzle"
+  },
+  "difficulty_left": "external-info",
+  "difficulty_note": "residual entropy is about 125 bits after every constraint I could establish (duplicate-value coefficient rejection plus a real defect in the deployed 2020 generator's entropy check); no third Shamir share has surfaced in the public record, including same-day Reddit and Telegram copies, the 2020-07-04 Common Crawl body, archive.today, live mirrors, and 13 GitHub forks of mnemonic-offline-tool; the published zpub is a BIP84 account key and its 0/0 child is the escrow; what would close this is that missing share, or a disclosed constraint on it, not compute",
+  "tested_total": {
+    "candidates": 394191,
+    "families": 10,
+    "certified": true
+  },
+  "leads": [
+    {
+      "rank": 1,
+      "title": "the unpublished 3rd share; same-day copies, the 2020-07-04 Common Crawl body, and later archives all show only the original 2 shares",
+      "cost": "hours",
+      "status": "open"
+    },
+    {
+      "rank": 2,
+      "title": "Memento TimeTravel still unreachable; X reply tree beyond the 3 replies returned with the announcement",
+      "cost": "hours",
+      "status": "open"
+    }
+  ],
+  "solutions": [],
+  "artifacts": [],
+  "sources": [
+    {
+      "title": "Shamir Secret Backup Scheme bug bounty (challenge page)",
+      "url": "https://bitaps.com/mnemonic/challenge",
+      "date": "2020-06-19",
+      "archived": "https://web.archive.org/web/20230328022959/https://bitaps.com/mnemonic/challenge"
+    },
+    {
+      "title": "Common Crawl CC-MAIN-2020-29 challenge page (challenge.warc)",
+      "url": "https://bitaps.com/mnemonic/challenge",
+      "date": "2020-07-04",
+      "archived": null
+    },
+    {
+      "title": "archive.today snapshot of the challenge page",
+      "url": "https://archive.is/8bNRM",
+      "date": "2021-06-20",
+      "archived": "https://archive.is/8bNRM"
+    },
+    {
+      "title": "Bitaps announcement",
+      "url": "https://x.com/bitaps_com/status/1274018817304379394",
+      "date": "2020-06-19",
+      "archived": null
+    },
+    {
+      "title": "Bitaps Reddit copy, r/Bitcoin hc4bfk",
+      "url": "https://www.reddit.com/r/Bitcoin/comments/hc4bfk/1_btc_cryptographic_challenge_with_splitted/",
+      "date": "2020-06-19",
+      "archived": "https://web.archive.org/web/20230611002230/https://old.reddit.com/r/Bitcoin/comments/hc4bfk/1_btc_cryptographic_challenge_with_splitted/"
+    },
+    {
+      "title": "Bitaps Telegram copy",
+      "url": "https://t.me/bitapscom/15",
+      "date": "2020-06-19",
+      "archived": null
+    },
+    {
+      "title": "mnemonic-offline-tool, commit 5b6dd995 (bundles jsbtc)",
+      "url": "https://github.com/bitaps-com/mnemonic-offline-tool/commit/5b6dd995478b49c489b95444fbb0dca4006746a2",
+      "date": "2020-06-19",
+      "archived": null
+    },
+    {
+      "title": "bitaps-com/jsbtc (repository)",
+      "url": "https://github.com/bitaps-com/jsbtc",
+      "date": "2026-08-16",
+      "archived": null
+    },
+    {
+      "title": "jsbtc issue #65, coefficient-bias defect",
+      "url": "https://github.com/bitaps-com/jsbtc/issues/65",
+      "date": "2026-07-16",
+      "archived": null
+    },
+    {
+      "title": "mempool.space, escrow address",
+      "url": "https://mempool.space/address/bc1qyjwa0tf0en4x09magpuwmt2smpsrlaxwn85lh6",
+      "date": "2026-08-28",
+      "archived": null
+    }
+  ],
+  "third_party_material": "the 2 published Shamir shares and the challenge-page quotes are Bitaps's own puzzle material, quoted briefly with source and date; no third-party copyrighted material is included",
+  "last_updated": "2026-10-24"
+}

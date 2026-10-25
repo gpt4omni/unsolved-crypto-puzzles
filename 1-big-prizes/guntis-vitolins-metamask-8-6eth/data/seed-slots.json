@@ -1,0 +1,21 @@
+{
+  "_comment": "The 12-word seed grid: which positions and words are confirmed, which words are confirmed list members with a free position, and which positions are fully unknown. Source: etat/contraintes.md C4 to C9 in the private research, each individually re-verified against CONTEXTE.md before being written here.",
+  "slots": [
+    {"pos": 1, "state": "confirmed", "label": "dutch"},
+    {"pos": 2, "state": "unknown", "label": "?"},
+    {"pos": 3, "state": "unknown", "label": "?"},
+    {"pos": 4, "state": "unknown", "label": "?"},
+    {"pos": 5, "state": "confirmed", "label": "fog | cloud"},
+    {"pos": 6, "state": "unknown", "label": "?"},
+    {"pos": 7, "state": "unknown", "label": "?"},
+    {"pos": 8, "state": "unknown", "label": "?"},
+    {"pos": 9, "state": "unknown", "label": "?"},
+    {"pos": 10, "state": "unknown", "label": "?"},
+    {"pos": 11, "state": "unknown", "label": "?"},
+    {"pos": 12, "state": "confirmed", "label": "parrot"}
+  ],
+  "floating": [
+    {"state": "candidate", "label": "fiber", "detail": "confirmed list member, position free"},
+    {"state": "candidate", "label": "fork", "detail": "confirmed list member, position free"}
+  ]
+}

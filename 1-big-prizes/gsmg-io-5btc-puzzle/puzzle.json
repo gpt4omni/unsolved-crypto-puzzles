@@ -1,0 +1,174 @@
+{
+  "schema_version": 1,
+  "slug": "gsmg-io-5btc-puzzle",
+  "title": "GSMG.io Puzzle",
+  "tier": "big",
+  "status": "open",
+  "dead_end_reason": null,
+  "series": null,
+  "author": {
+    "name": "Jrk Bgrt (pseudonymous, real identity not publicly resolved)",
+    "handles": [
+      "telegram:@SoWut"
+    ],
+    "url": null
+  },
+  "published": {
+    "date": "2019-04-13",
+    "url": "https://mempool.space/tx/73e48ff571a7e9a4387574a50cf2fcb7b21b6ea5702c777a035664df57cbce02"
+  },
+  "chain": "bitcoin",
+  "prize": {
+    "amount": 1.25649674,
+    "asset": "BTC",
+    "usd_estimate": 101481,
+    "usd_snapshot": "2026-10-24",
+    "note": "the balance of the prize address 1GSMG1JC9wtdSwfwApgj2xcmJPAwx7prBe at the 2026-10-24 snapshot (1.25649674 BTC; the excess over the 2026-08-16 snapshot is third-party dust). The creator announced in April 2019 that the reward halves at every Bitcoin halving, and it did: 5 BTC funded 2019-04-13, 2.5 BTC moved out in block 630001 (2020-05-11) and 1.25 BTC on 2024-04-24 to 17ucy1K9ZUAaoY6JVtM932W9jUp5LXfyHa, which has never spent and has no published payout path. Those 3.7505531 BTC are listed as an address below but not counted as prize; the reading that the Dualite blob gates them is unconfirmed. Correction contributed by Y0lan in issue #15 (2026-09-02), verified on chain 2026-09-03"
+  },
+  "addresses": [
+    {
+      "address": "1GSMG1JC9wtdSwfwApgj2xcmJPAwx7prBe",
+      "chain": "bitcoin",
+      "role": "escrow",
+      "label": "prize address (small blob gate)",
+      "explorer": "https://mempool.space/address/1GSMG1JC9wtdSwfwApgj2xcmJPAwx7prBe",
+      "expected": "125635374 sats",
+      "verified_on": "2026-10-24",
+      "verified_state": "partially-spent"
+    },
+    {
+      "address": "17ucy1K9ZUAaoY6JVtM932W9jUp5LXfyHa",
+      "chain": "bitcoin",
+      "role": "escrow",
+      "label": "halving split-off, creator controlled; not counted as prize (the Dualite-blob reading is unconfirmed)",
+      "explorer": "https://mempool.space/address/17ucy1K9ZUAaoY6JVtM932W9jUp5LXfyHa",
+      "expected": "375055856 sats",
+      "verified_on": "2026-10-24",
+      "verified_state": "funded-unspent"
+    }
+  ],
+  "puzzle_type": [
+    "text-cipher",
+    "pixel-code",
+    "web-tree",
+    "raw-private-key"
+  ],
+  "target_format": "candidate answer string X; password = sha256(X) hex (the creator's stated convention, EVP key derivation on SHA-256); decrypts one of two OpenSSL Salted__ AES-256-CBC blobs of 80 ciphertext bytes (the SalPhaseIon small blob, or the phase 3.2.2 blob); plaintext reduces to a 32-byte private key; uncompressed secp256k1 public key; P2PKH address. Separately, the creator planted one P2PKH address per stage answer (key = sha256 of the answer, or its raw bytes); one such address has no known preimage and is an exact offline oracle for the third door",
+  "derivation": {
+    "summary": "candidate answer to sha256 password to AES-256-CBC decrypt of the small final-page blob to a 32-byte private key (one of 4 standard readings of the plaintext) to uncompressed P2PKH address",
+    "oracle": "tools/oracle.py",
+    "oracle_certified": true,
+    "certified_against": "two independent parts: the escrow's own on-chain public key (from its 2024-04-24 spending transaction) hashes byte-exact to its address; a self-made OpenSSL-compatible AES-256-CBC round trip decrypts correctly with the right password and produces no valid padding with a wrong one. No end-to-end vector exists because X is unsolved."
+  },
+  "difficulty_left": "insight",
+  "difficulty_note": "the stage chain to the final page is fully solved and replays from archived material with the creator's own convention (password = sha256 of the answer); the 256-symbol object has been tested as a direct 32-byte key reduction across roughly 335.7 million candidates with 0 match; both 80-byte locks (SalPhaseIon small blob and the 2019 phase 3.2.2 blob) are negative for every word sequence of every puzzle text and of the three Matrix films, for stage answers and digests, interleavings and iterated hashes (about 25.8 million decryptions with witnesses); the creator's unmessaged planted address of 2020-04-07, the third door, is negative for every textual construction (about 62 million candidates with witnesses); the community's decrypted Cosmic Duality is a padding accident; what would open the third door is a rule of the creator's from early 2020 read on a non-textual object",
+  "tested_total": {
+    "candidates": 399847172,
+    "families": 17,
+    "certified": true
+  },
+  "leads": [
+    {
+      "rank": 1,
+      "title": "the third door: the preimage of the creator's unmessaged planted address of 2020-04-07, an exact offline oracle",
+      "cost": "seconds per family",
+      "status": "open"
+    },
+    {
+      "rank": 2,
+      "title": "every password against both 80-byte locks, plaintexts read 40 ways",
+      "cost": "seconds per family",
+      "status": "open"
+    },
+    {
+      "rank": 3,
+      "title": "replay the dynamically-constructed candidates a filter bug never reached, now against both locks and the third door",
+      "cost": "hours-to-days",
+      "status": "open"
+    },
+    {
+      "rank": 4,
+      "title": "identify the single tool reportedly used to build every phase",
+      "cost": "hours",
+      "status": "open"
+    },
+    {
+      "rank": 5,
+      "title": "follow esrever on the remaining objects (explained for the image URL)",
+      "cost": "minutes-to-hours",
+      "status": "open"
+    },
+    {
+      "rank": 6,
+      "title": "read the 29 dropped letters as their own message",
+      "cost": "minutes",
+      "status": "open"
+    }
+  ],
+  "solutions": [],
+  "artifacts": [],
+  "sources": [
+    {
+      "title": "GSMG.io, platform site",
+      "url": "https://www.gsmg.io/",
+      "date": "2026-08-16",
+      "archived": null
+    },
+    {
+      "title": "Escrow first-funding transaction",
+      "url": "https://mempool.space/tx/73e48ff571a7e9a4387574a50cf2fcb7b21b6ea5702c777a035664df57cbce02",
+      "date": "2019-04-13",
+      "archived": null
+    },
+    {
+      "title": "First transfer to the second address",
+      "url": "https://mempool.space/tx/2aa9a4a90be819d5122d70c993280785a0508f163521e7b38cebb4db0b071b13",
+      "date": "2020-05-11",
+      "archived": null
+    },
+    {
+      "title": "Second transfer to the second address",
+      "url": "https://mempool.space/tx/88cdb3cdca12b471551b1b26188508a14ca5fd8a415223ffb7c190381c9b9df3",
+      "date": "2024-04-24",
+      "archived": null
+    },
+    {
+      "title": "OP_RETURN \"Halving\" from the creator's vanity address, same block as the first split",
+      "url": "https://mempool.space/tx/a798905f53fdcadcbd2e2a1e61d23ba69a07e26130a78c76da4bf4d7a170f383",
+      "date": "2020-05-11",
+      "archived": null
+    },
+    {
+      "title": "Issue #15, Y0lan: prize is 1.25 BTC, not 5.0068982 BTC",
+      "url": "https://github.com/floflo777/open-crypto-puzzles/issues/15",
+      "date": "2026-09-02",
+      "archived": null
+    },
+    {
+      "title": "bitcointalk topic 5532424",
+      "url": "https://bitcointalk.org/index.php?topic=5532424.0",
+      "date": "2025-02-18",
+      "archived": null
+    },
+    {
+      "title": "Community-maintained stage documentation",
+      "url": "https://github.com/puzzlehunt/gsmgio-5btc-puzzle",
+      "date": "2026-08-16",
+      "archived": null
+    },
+    {
+      "title": "Phase 2 and Phase 3 page with the creator's cipher convention",
+      "url": "https://gsmg.io/choiceisanillusioncreatedbetweenthosewithpowerandthosewithoutaveryspecialdessertiwroteitmyself",
+      "date": "2020-11-12",
+      "archived": "https://web.archive.org/web/20201112015439/https://gsmg.io/choiceisanillusioncreatedbetweenthosewithpowerandthosewithoutaveryspecialdessertiwroteitmyself"
+    },
+    {
+      "title": "The creator's vanity wallet that funded the planted addresses",
+      "url": "https://mempool.space/address/3GSMG24TujqfMJG1kQoBX18DzJHQLeJYMK",
+      "date": "2026-09-03",
+      "archived": null
+    }
+  ],
+  "third_party_material": "no book, article, forum dump, or other bulk third-party material is included; the short strings quoted in clues/author-posts.md are verbatim decodings of the puzzle's own published page content, two lines of the creator's archived Phase 2 and 3 page, and the creator's own OP_RETURN messages read from the chain; no Telegram export is quoted, since the puzzle's Telegram group has no stable public URL, and the few Telegram statements referred to are marked reported",
+  "last_updated": "2026-10-24"
+}

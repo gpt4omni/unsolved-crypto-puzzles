@@ -1,0 +1,11 @@
+{
+  "_comment": "Stage labels for the final-gate derivation pipeline figure: candidate answer to P2PKH address, the transform tools/oracle.py implements and certifies in two independent parts (see README, Certified against).",
+  "stages": [
+    {"label": "candidate\nanswer X"},
+    {"label": "password\nsha256(X) hex", "edge": "sha256"},
+    {"label": "blob plaintext\n(<=64 bytes)", "edge": "AES-256-CBC decrypt\nEVP_BytesToKey(MD5)\nsalt 3ab585348552415d"},
+    {"label": "private key\n(32 bytes)", "edge": "reduction:\nsha256, first32,\nlast32, sha256(first64)"},
+    {"label": "public key\n(uncompressed)", "edge": "secp256k1"},
+    {"label": "P2PKH address", "edge": "HASH160\n+ Base58Check"}
+  ]
+}

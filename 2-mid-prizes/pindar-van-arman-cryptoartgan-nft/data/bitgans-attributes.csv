@@ -1,0 +1,520 @@
+# Cross-series bitGANs attribute catalogue, transcribed from the artist Pindar Van Arman's
+# own published journal page. 513 rows, columns Number,Title,Name,GANg,SubType,Type,Eyes,
+# Dimensions,Essence,Drop,Level. This table spans several of the artist's NFT series; only
+# 8 of its 513 rows belong to the cryptoArtGAN / Act 1 series that holds this puzzle's prize
+# (GANg column == 'cryptoArtGAN'), so any count taken from this file alone is scoped to the
+# catalogue, not to the 512-piece Act 1 series specifically. See the README for detail.
+Number,Title,Name,GANg,SubType,Type,Eyes,Dimensions,Essence,Drop,Level
+0,Pandimensional skullGAN,,skullGAN,Pandimensional,Skull,5,infinite,universe,,infinite
+1,The Moirai,The Moirai,skullGAN,Primordial,Ghost,6,5,abandon,skullGANs,1
+2,The Artist,The Artist,skullGAN,Primordial,Glitch,4,5,ability,skullGANs,1
+3,The Geometer,The Geometer,skullGAN,Primordial,Glitch,2,5,able,skullGANs,1
+4,Silver Smoke skullGAN,,skullGAN,Silver,Smoke,4,4,about,skullGANs,1
+5,Primordial whaleGAN,,whaleGAN,Primordial,Glitch,2,5,above,skullGANs,1
+6,Rainbow skullGAN,,skullGAN,Rainbow,Skull,2,3,absent,skullGANs,1
+7,Primordial Shimmer skullGAN,,skullGAN,Primordial,Shimmer,7,5,absorb,skullGANs,1
+8,Flaming blobGAN,,blobGAN,Flaming,Shimmer,6,2,abstract,skullGANs,1
+9,Silver Glitch skullGAN,,skullGAN,Silver,Glitch,3,4,absurd,skullGANs,1
+10,Flaming skullGAN,,skullGAN,Flaming,Skull,2,3,abuse,skullGANs,1
+11,Flaming Glitch skullGAN,,skullGAN,Flaming,Glitch,2,4,access,skullGANs,1
+12,Rainbow skullGAN,,skullGAN,Rainbow,Skull,2,3,accident,skullGANs,1
+13,Flaming spiritGAN,,spiritGAN,Flaming,Ghost,2,5,account,skullGANs,1
+14,Rainbow skullGAN,,skullGAN,Rainbow,Skull,3,4,accuse,skullGANs,1
+15,Flaming Glitch skullGAN,,skullGAN,Flaming,Glitch,3,3,achieve,skullGANs,1
+16,Primordial Ghost skullGAN,,skullGAN,Primordial,Ghost,4,4,acid,skullGANs,1
+17,Nebulous Ghost skullGAN,,skullGAN,Nebulous,Glitch,3,4,acoustic,skullGANs,1
+18,Rainbow skullGAN,,skullGAN,Rainbow,Skull,2,3,acquire,skullGANs,1
+19,Flaming Glitch skullGAN,,skullGAN,Flaming,Glitch,4,4,across,skullGANs,1
+20,Rainbow skullGAN,,skullGAN,Rainbow,Skull,2,3,act,skullGANs,1
+21,Beanie skullGAN,,skullGAN,Rainbow,Glitch,2,5,bean,skullGANs,1
+22,Slender skullGAN,,skullGAN,Slender,Skull,3,3,actor,skullGANs,1
+23,Flaming Glitch skullGAN,,skullGAN,Flaming,Glitch,2,3,actress,skullGANs,1
+24,Flaming Shimmer skullGAN,,skullGAN,Flaming,Shimmer,2,4,actual,skullGANs,1
+25,Silver Glitch skullGAN,,skullGAN,Silver,Glitch,2,4,adapt,skullGANs,1
+26,Slender skullGAN,,skullGAN,Slender,Skull,3,4,add,skullGANs,1
+27,Flaming Ghost skullGAN,,skullGAN,Flaming,Ghost,2,4,addict,skullGANs,1
+28,Primordial skullGAN,,skullGAN,Primordial,Skull,2,4,address,skullGANs,1
+29,Rainbow Glitch skullGAN,,skullGAN,Rainbow,Glitch,3,4,adjust,skullGANs,1
+30,Rainbow skullGAN,,skullGAN,Rainbow,Skull,2,3,admit,skullGANs,1
+31,Flaming Smoke skullGAN,,skullGAN,Flaming,Smoke,3,4,adult,skullGANs,1
+32,Slender skullGAN,,skullGAN,Slender,Skull,2,3,advance,skullGANs,1
+33,Flaming skullGAN,,skullGAN,Flaming,Skull,2,3,advice,skullGANs,1
+34,Heart skullGAN,,skullGAN,Flaming,Shimmer,2,5,aerobic,skullGANs,1
+35,Flaming Shimmer skullGAN,,skullGAN,Flaming,Shimmer,2,2,affair,skullGANs,1
+36,Silver Smoke skullGAN,,skullGAN,Silver,Smoke,6,4,afford,skullGANs,1
+37,Nebulous Glitch skullGAN,,skullGAN,Nebulous,Glitch,4,4,afraid,skullGANs,1
+38,Rainbow skullGAN,,skullGAN,Rainbow,Skull,3,3,again,skullGANs,1
+39,Flaming cyclopsGAN,,skullGAN,Flaming,Shimmer,1,2,age,skullGANs,1
+40,Rainbow Ghost skullGAN,,skullGAN,Rainbow,Ghost,2,3,agent,skullGANs,1
+41,Silver Glitch skullGAN,,skullGAN,Silver,Glitch,3,4,agree,skullGANs,1
+42,Nebulous skullGAN,,skullGAN,Nebulous,Skull,4,3,ahead,skullGANs,1
+43,Nebulous Shimmer skullGAN,,skullGAN,Nebulous,Shimmer,8,4,aim,skullGANs,1
+44,Ancient skullGAN,,skullGAN,Primordial,Skull,7,4,air,skullGANs,1
+45,Flaming Glitch skullGAN,,skullGAN,Flaming,Glitch,5,4,airport,skullGANs,1
+46,Primordial Glitch skullGAN,,skullGAN,Primordial,Glitch,5,4,aisle,skullGANs,1
+47,Twin Glitch skullGAN,,skullGAN,Twin,Glitch,4,4,alarm,skullGANs,1
+48,Rainbow skullGAN,,skullGAN,Rainbow,Skull,4,4,album,skullGANs,1
+49,Flaming Smoke skullGAN,,skullGAN,Flaming,Smoke,3,4,alcohol,skullGANs,1
+50,Nebulous Glitch skullGAN,,skullGAN,Nebulous,Glitch,7,4,alert,skullGANs,1
+51,Flaming Glitch skullGAN,,skullGAN,Flaming,Glitch,3,4,alien,skullGANs,1
+52,Rainbow skullGAN,,skullGAN,Rainbow,Skull,2,4,all,skullGANs,1
+53,Rainbow Glitch skullGAN,,skullGAN,Rainbow,Glitch,3,3,alley,skullGANs,1
+54,Rainbow skullGAN,,skullGAN,Rainbow,Skull,3,4,allow,skullGANs,1
+55,Silver Warrior skullGAN,,skullGAN,Silver,Smoke,2,5,almost,skullGANs,1
+56,Rainbow Glitch skullGAN,,skullGAN,Rainbow,Glitch,3,3,alone,skullGANs,1
+57,Flaming Ghost skullGAN,,skullGAN,Flaming,Ghost,3,4,mistake,skullGANs,1
+58,Rainbow Glitch skullGAN,,skullGAN,Rainbow,Glitch,2,4,already,skullGANs,1
+59,Twin Glitch skullGAN,,skullGAN,Twin,Glitch,4,4,also,skullGANs,1
+60,Nebulous Glitch skullGAN,,skullGAN,Nebulous,Glitch,4,4,alter,skullGANs,1
+61,Rainbow Glitch skullGAN,,skullGAN,Rainbow,Glitch,3,3,always,skullGANs,1
+62,Nebulous skullGAN,,skullGAN,Nebulous,Skull,2,3,amateur,skullGANs,1
+63,Flaming Ghost skullGAN,,skullGAN,Flaming,Ghost,4,4,amazing,skullGANs,1
+64,Silver skullGAN,,skullGAN,Silver,Skull,4,3,among,skullGANs,1
+65,Flaming Ghost skullGAN,,skullGAN,Flaming,Ghost,3,4,amount,skullGANs,1
+66,Rainbow Ghost skullGAN,,skullGAN,Rainbow,Ghost,3,3,amused,skullGANs,1
+67,Nebulous Shimmer skullGAN,,skullGAN,Nebulous,Shimmer,3,2,analyst,skullGANs,1
+68,Rainbow Shimmer skullGAN,,skullGAN,Rainbow,Shimmer,2,3,anchor,skullGANs,1
+69,Flaming skullGAN,,skullGAN,Flaming,Skull,3,3,ancient,skullGANs,1
+70,Rainbow Shimmer skullGAN,,skullGAN,Rainbow,Shimmer,2,3,anger,skullGANs,1
+71,Rainbow Shimmer skullGAN,,skullGAN,Rainbow,Shimmer,3,2,angle,skullGANs,1
+72,Rainbow Glitch skullGAN,,skullGAN,Rainbow,Glitch,3,4,angry,skullGANs,1
+73,Twin Glitch skullGAN,,skullGAN,Twin,Gltich,6,4,animal,skullGANs,1
+74,Slender skullGAN,,skullGAN,Slender,Skull,3,4,ankle,skullGANs,1
+75,Flaming Glitch skullGAN,,skullGAN,Flaming,Glitch,3,4,announce,skullGANs,1
+76,Rainbow skullGAN,,skullGAN,Rainbow,Skull,3,4,annual,skullGANs,1
+77,Flaming Ghost skullGAN,,skullGAN,Flaming,Ghost,2,4,another,skullGANs,1
+78,Primordial skullGAN,,skullGAN,Primordial,Skull,6,4,answer,skullGANs,1
+79,Slender Glitch skullGAN,,skullGAN,Slender,Glitch,2,3,antenna,skullGANs,1
+80,Rainbow skullGAN,,skullGAN,Rainbow,Skull,2,4,antique,skullGANs,1
+81,Silver Ghost skullGAN,,skullGAN,Silver,Ghost,5,4,anxiety,skullGANs,1
+82,Flaming skullGAN,,skullGAN,Flaming,Skull,2,4,any,skullGANs,1
+83,Rainbow Glitch skullGAN,,skullGAN,Rainbow,Glitch,2,3,apart,skullGANs,1
+84,Rainbow Glitch skullGAN,,skullGAN,Rainbow,Glitch,3,4,apology,skullGANs,1
+85,Flaming Ghost skullGAN,,skullGAN,Flaming,Ghost,3,4,appear,skullGANs,1
+86,Rainbow Glitch skullGAN,,skullGAN,Rainbow,Glitch,6,4,apple,skullGANs,1
+87,Flaming skullGAN,,skullGAN,Flaming,Skull,3,4,approve,skullGANs,1
+88,Slender skullGAN,,skullGAN,Slender,Skull,2,4,april,skullGANs,1
+89,Primordial sharkGAN,,sharkGAN,Primordial,Smoke,2,5,arch,skullGANs,1
+90,Rainbow Glitch skullGAN,,skullGAN,Rainbow,Glitch,3,4,arctic,skullGANs,1
+91,Flaming skullGAN,,skullGAN,Flaming,Skull,2,3,area,skullGANs,1
+92,Rainbow skullGAN,,skullGAN,Rainbow,Skull,2,3,arena,skullGANs,1
+93,Flaming skullGAN,,skullGAN,Flaming,Skull,3,3,argue,skullGANs,1
+94,Rainbow skullGAN,,skullGAN,Rainbow,Skull,3,3,arm,skullGANs,1
+95,Flaming Ghost skullGAN,,skullGAN,Flaming,Ghost,2,4,armed,skullGANs,1
+96,Rainbow skullGAN,,skullGAN,Rainbow,Skull,3,3,armor,skullGANs,1
+97,Slender Glitch skullGAN,,skullGAN,Slender,Glitch,2,4,army,skullGANs,1
+98,Nebulous skullGAN,,skullGAN,Nebulous,Skull,5,3,around,skullGANs,1
+99,Flaming Cronenberg skullGAN,,skullGAN,Flaming,Cronenberg,5,4,arrange,skullGANs,1
+100,Primordial Smoke skullGAN,,skullGAN,Primordial,Smoke,9,4,arrest,skullGANs,1
+101,Nebulous Glitch skullGAN,,skullGAN,Nebulous,Glitch,3,4,arrive,skullGANs,1
+102,Nebulous Glitch skullGAN,,skullGAN,Nebulous,Glitch,5,3,arrow,skullGANs,1
+103,Slender Glitch skullGAN,,skullGAN,Slender,Glitch,3,4,art,skullGANs,1
+104,Rainbow Shimmer skullGAN,,skullGAN,Rainbow,Shimmer,2,4,artefact,skullGANs,1
+105,Flaming Ghost skullGAN,,skullGAN,Flaming,Ghost,2,4,artist,skullGANs,1
+106,Rainbow skullGAN,,skullGAN,Rainbow,Skull,3,4,artwork,skullGANs,1
+107,Slender Glitch skullGAN,,skullGAN,Slender,Glitch,3,4,ask,skullGANs,1
+108,Rainbow skullGAN,,skullGAN,Rainbow,Skull,4,4,aspect,skullGANs,1
+109,Slender Glitch skullGAN,,skullGAN,Slender,Glitch,3,4,assault,skullGANs,1
+110,Rainbow skullGAN,,skullGAN,Rainbow,Skull,2,4,asset,skullGANs,1
+111,Flaming skullGAN,,skullGAN,Flaming,Skull,2,3,assist,skullGANs,1
+112,Primordial skullGAN,,skullGAN,Primordial,Skull,3,4,assume,skullGANs,1
+113,Nebulous Cronenberg skullGAN,,skullGAN,Nebulous,Cronenberg,5,4,asthma,skullGANs,1
+114,Rainbow skullGAN,,skullGAN,Rainbow,Skull,3,3,athlete,skullGANs,1
+115,Flaming Glitch skullGAN,,skullGAN,Flaming,Glitch,3,4,atom,skullGANs,1
+116,Flaming skullGAN,,skullGAN,Flaming,Skull,2,3,attack,skullGANs,1
+117,Flaming Shimmer skullGAN,,skullGAN,Flaming,Shimmer,4,3,attend,skullGANs,1
+118,Rainbow Shimmer skullGAN,,skullGAN,Rainbow,Shimmer,2,3,attitude,skullGANs,1
+119,Flaming skullGAN,,skullGAN,Flaming,Skull,3,3,attract,skullGANs,1
+120,Rainbow Cronenberg skullGAN,,skullGAN,Rainbow,Cronenberg,3,3,auction,skullGANs,1
+121,Twin Smoke skullGAN,,skullGAN,Twin,Smoke,6,4,audit,skullGANs,1
+122,Nebulous Cronenberg skullGAN,,skullGAN,Nebulous,Cronenberg,6,2,august,skullGANs,1
+123,Flaming Cronenber skullGAN,,skullGAN,Flaming,Cronenberg,5,4,aunt,skullGANs,1
+124,Twin Ghost skullGAN,,skullGAN,Twin,Ghost,4,4,author,skullGANs,1
+125,Flaming Ghost skullGAN,,skullGAN,Flaming,Ghost,4,4,auto,skullGANs,1
+126,Flaming skullGAN,,skullGAN,Flaming,Skull,2,3,autumn,skullGANs,1
+127,Flaming Glitch skullGAN,,skullGAN,Flaming,Glitch,3,4,average,skullGANs,1
+128,RainbowShimmer skullGAN,,skullGAN,Rainbow,Shimmer,2,3,avocado,skullGANs,1
+0,RoboboR (000000),RoboboR,nagaGAN,Deified,Reifier,2,8,alpha,2021.9.29.1202,1
+1,qubitGAN (000001),,qubitGAN,Quantum,Mechanic,2,8,quantum,2021.9.29.1202,1
+10,B1-b0rg cyberGAN (000010),,cyberGAN,Binary,Cyborg,0,4,blind,2021.9.29.1202,1
+11,Twinbot roboGAN (000011),,roboGAN,Twins,Bot,4,4,brother,2021.9.29.1202,1
+100,Cyber cryptoGAN (000100),,cryptoGAN,Cyber,Smoke,2,4,math,2021.9.29.1202,1
+101,Rainbot roboGAN (000101),,roboGAN,Rainbow,Bot,2,4,rain,2021.9.29.1202,1
+110,Primordial roboGAN (000110),,roboGAN,Primordial,Ghost,4,4,ghost,2021.9.29.1202,1
+111,G1itch1ng roboGAN (000111),,roboGAN,Binary,Glitch,4,4,dance,2021.9.29.1202,1
+1000,B1-b0rg cyberGAN (001000),,cyberGAN,Binary,Cyborg,0,4,eight,2021.9.29.1202,1
+1001,Cyber cryptoGAN (001001),,cryptoGAN,Cyber,Smoke,2,4,only,2021.9.29.1202,1
+1010,Twinbot roboGAN (001010),,roboGAN,Twins,Bot,2,4,echo,2021.9.29.1202,1
+1011,G1itch1ng roboGAN (001011),,roboGAN,Rainbow,Glitch,2,4,eye,2021.9.29.1202,1
+1100,Dr Awkward (001100),Dr Awkward,nagaGAN,Deified,Kook,2,8,awkward,2021.9.29.1202,1
+1101,G1itch1ng cryptoGAN (001101),,cryptoGAN,Binary,Glitch,2,4,flip,2021.9.29.1202,1
+1110,Shimmering cryptoGAN (001110),,cryptoGAN,Cyber,Shimmer,2,4,problem,2021.9.29.1202,1
+1111,Flaming cryptoGAN (001111),,cryptoGAN,Flaming,Ghost,2,4,flame,2021.9.29.1202,1
+10000,S1-b0rg cyberGAN (010000),,cyberGAN,Silver,Cyborg,0,4,silver,2021.9.29.1202,1
+10001,G1itch1ng roboGAN (010001),,roboGAN,Primordial,Glitch,4,4,hollow,2021.9.29.1202,1
+10010,Taco Cat (010010),Taco Cat,nagaGAN,Deified,Rotator,2,4,cat,2021.9.29.1202,1
+10011,G1itch1ng cryptoGAN (010011),,cryptoGAN,Cyber,Glitch,2,4,hint,2021.9.29.1202,1
+10100,Silverbot roboGAN (010100),,roboGAN,Silver,Bot,2,4,ice,2021.9.29.1202,1
+10101,Firebot roboGAN (010101),,roboGAN,Flaming,Bot,4,4,fire,2021.9.29.1202,1
+10110,Rainbot roboGAN (010110),,roboGAN,Rainbow,Bot,2,4,satoshi,2021.9.29.1202,1
+10111,Slender roboGAN (010111),,roboGAN,Slender,Glitch,4,4,jump,2021.9.29.1202,1
+11000,Cyber cryptoGAN (011000),,cryptoGAN,Cyber,Bot,4,4,puzzle,2021.9.29.1202,1
+11001,Smokebot CyberGAN (011001),,roboGAN,Rainbow,Smoke,2,4,smoke,2021.9.29.1202,1
+11010,Rainbot roboGAN (011010),,roboGAN,Rainbow,Bot,2,4,color,2021.9.29.1202,1
+11011,Flaming roboGAN (011011),,roboGAN,Flaming,Ghost,4,4,lava,2021.9.29.1202,1
+11100,Bit-Twins roboGAN (011100),,roboGAN,Binary,Twins,4,4,lonely,2021.9.29.1202,1
+11101,G1itch1ng cryptoGAN (011101),,cryptoGAN,Cyber,Glitch,4,4,that,2021.9.29.1202,1
+11110,Dog God (011110),Dog God,nagaGAN,Deified,Pup,2,4,dog,2021.9.29.1202,1
+11111,Slender roboGAN (011111),,roboGAN,Slender,Glitch,4,4,slender,2021.9.29.1202,1
+100000,Cyber skullGAN (100000),,skullGAN,Cyber,Skull,4,8,news,2021.9.29.1202,1
+100001,Star Rats (100001),Star Rats,nagaGAN,Dixid,Reviver,4,4,twin,2021.9.29.1202,1
+100010,Cyber cryptoGAN (100010),,cryptoGAN,Cyber,Ghost,2,4,time,2021.9.29.1202,1
+100011,Flamebot roboGAN (100011),,roboGAN,Flaming,Bot,2,4,orange,2021.9.29.1202,1
+100100,Cyber cryptoGAN (100100),,cryptoGAN,Cyber,Smoke,2,4,spirit,2021.9.29.1202,1
+100101,Rainbot roboGAN (100101),,roboGAN,Rainbow,Glitch,4,4,pink,2021.9.29.1202,1
+100110,Rainbot roboGAN (100110),,roboGAN,Rainbow,Bot,2,4,pumpkin,2021.9.29.1202,1
+100111,Shimmering cryptoGAN (100111),,cryptoGAN,Cyber,Shimmer,4,4,hidden,2021.9.29.1202,1
+101000,Ghostbot roboGAN (101000),,roboGAN,Slender,Ghost,4,4,unlock,2021.9.29.1202,1
+101001,G1itchb0t roboGAN (101001),,roboGAN,Raibow,Glitch,2,4,quiz,2021.9.29.1202,1
+101010,Rainbot roboGAN (101010),,roboGAN,Rainbow,Bot,2,4,zebra,2021.9.29.1202,1
+101011,G1itchb0t roboGAN (101011),,roboGAN,Rainbow,Glitch,2,4,robot,2021.9.29.1202,1
+101100,Cyber cryptoGAN (101100),,cryptoGAN,Cyber,Ghost,2,4,worry,2021.9.29.1202,1
+101101,Evil Olive  (101101),Evil Olive,nagaGAN,Dioid,Reifier,2,4,olive,2021.9.29.1202,1
+101110,Rainbot skullGan (101110),,skullGAN,Raibow,Skull,2,4,skull,2021.9.29.1202,1
+101111,Slenderbot roboGAN (101111),,roboGAN,Slender,Glitch,2,4,three,2021.9.29.1202,1
+110000,Rainbot roboGAN (110000),,roboGAN,Rainbow,Bot,4,4,twelve,2021.9.29.1202,1
+110001,Cyber cryptoGAN (110001),,cryptoGAN,Cyber,Smoke,2,4,this,2021.9.29.1202,1
+110010,Ghostbot roboGAN (110010),,roboGAN,Rainbow,Ghost,4,4,under,2021.9.29.1202,1
+110011,Flow Wolf (110011),Flow Wolf,nagaGAN,Sus,Pup,2,4,wolf,2021.9.29.1202,1
+110100,Rainbot roboGAN (110100),,roboGAN,Rainbow,Bot,4,4,vault,2021.9.29.1202,1
+110101,G1itchb0t roboGAN (110101),,roboGAN,Rainbow,Glitch,2,4,virus,2021.9.29.1202,1
+110110,Cyber cryptoGAN (110110),,cryptoGAN,Cyber,Bot,2,4,word,2021.9.29.1202,1
+110111,Flamebot roboGAN (110111),,roboGAN,Flaming,Bot,2,4,warm,2021.9.29.1202,1
+111000,Cyber cryptoGAN (111000),,cryptoGAN,Cyber,Bot,2,4,digital,2021.9.29.1202,1
+111001,Ghostbot cryptoGAN (111001),,cryptoGAN,Flaming,Ghost,2,4,endless,2021.9.29.1202,1
+111010,Cyber skullGAN (111010),,skullGAN,Cyber,Skull,4,4,mirror,2021.9.29.1202,1
+111011,G1itch1ng cryptoGAN (111011),,cryptoGAN,Cyber,Glitch,4,4,pattern,2021.9.29.1202,1
+111100,Rainbot roboGAN (111100),,roboGAN,Rainbow,Bot,2,4,blue,2021.9.29.1202,1
+111101,Primordial roboGAN (111101),,roboGAN,Primordial,Glitch,4,4,primary,2021.9.29.1202,1
+111110,Cyber skullGAN (111110),,skullGAN,Cyber,Skull,4,4,err0r,2021.9.29.1202,1
+111111,CalcuclaC (111111),CalcuclaC,nagaGAN,Tenet,Reifier,8,4,zero,2021.9.29.1202,1
+0o0,Ghostly spookyGAN (0o0),,spookyGAN,Rainbow,Ghost,2,4,glue,2021.10.17,1
+0o1,8bit spookyGAN  (0o1),,spookyGAN,Rainbow,Sprite,4,5,goat,2021.10.17,1
+0o2,Anonymous spookyGAN (0o2),,spookyGAN,Anonymous,Monster,0,3,goddess,2021.10.17,1
+0o3,Ghostly spookyGAN (0o3),,spookyGAN,Rainbow,Ghost,2,4,gold,2021.10.17,1
+0o4,Pirate spookyGAN (0o4),,spookyGAN,Rainbow,Zombie,1,4,good,2021.10.17,1
+0o5,Pumpkin spookyGAN (0o5),,spookyGAN,Flaming,Ghost,2,5,goose,2021.10.17,1
+0o6,Mummy spookyGAN (0o6),,spookyGAN,Primordial,Ghost,2,4,gorilla,2021.10.17,1
+0o7,Count spookyGAN (0o7),,spookyGAN,Primordial,Glitch,3,4,gospel,2021.10.17,1
+0o10,Ghostly spookyGAN (0o10),,spookyGAN,Rainbow,Ghost,2,3,gossip,2021.10.17,1
+0o11,Masked spookyGAN  (0o11),,spookyGAN,Nebulous,Monster,4,4,govern,2021.10.17,1
+0o12,Friendly Clown spookyGAN  (0o12),,spookyGAN,Rainbow,Zombie,2,3,gown,2021.10.17,1
+0o13,Angry Clown spookyGAN  (0o13),,spookyGAN,Flaming,Zombie,3,4,grab,2021.10.17,1
+0o14,Flaming spookyGan (0o14),,spookyGAN,Flaming,Cronenberg,4,4,grace,2021.10.17,1
+0o15,Skullbot spookyGAN (0o15),,spookyGAN,Skull,Bot,4,5,grain,2021.10.17,1
+0o16,Monster spookyGAN  (0o16),,spookyGAN,Nebulous,Monster,3,3,grant,2021.10.17,1
+0o17,Ghostly spookyGAN  (0o17),,spookyGAN,Flaming,Ghost,2,4,grape,2021.10.17,1
+209,Solar skullGAN (#209),Sol,skullGAN,Ethereal,Skull,2,6,avoid,2021.12.21.1202,1
+210,Ghostly noohpGAN (#210),,bitGAN,Frozen,Ghost,3,5,awake,2021.12.21.1202,1
+211,Glitch mazzoneGAN (#211),,bitGAN,Frozen,Glitch,3,4,aware,2021.12.21.1202,1
+212,Ethereal monsterGAN (#212),,monsterGAN,Ethereal,Monster,6,5,away,2021.12.21.1202,1
+213,Inverted bitGAN (#213),,bitGAN,Inverted,Bit,3,3,awesome,2021.12.21.1202,1
+214,Ethereal bitGAN (#214),,bitGAN,Ethereal,Bit,4,5,awful,2021.12.21.1202,1
+215,Primordial bitGAN (#215),,bitGAN,Primordial,Monster,3,4,axis,2021.12.21.1202,1
+216,Slender bitGAN (#216),,bitGAN,Slender,Bit,2,3,baby,2021.12.21.1202,1
+217,Entangled cronenGAN (#217),,cronenGAN,Entangled,Cronenberg,4,5,bachelor,2021.12.21.1202,1
+218,Glowing bitGAN (#218),,bitGAN,Glowing,Bit,3,5,bacon,2021.12.21.1202,1
+219,Slender bitGAN (#219),,bitGAN,Slender,Bit,5,5,badge,2021.12.21.1202,1
+220,Glowing bitGAN (#220),,bitGAN,Glowing,Bit,4,4,bag,2021.12.21.1202,1
+221,Ethereal bitGAN (#221),,bitGAN,Ethereal,Bit,4,6,balance,2021.12.21.1202,1
+222,Entangled bitGAN (#222),,bitGAN,Entangled,Bit,4,6,balcony,2021.12.21.1202,1
+223,Slender bitGAN (#223),,bitGAN,Slender,Bit,3,4,ball,2021.12.21.1202,1
+224,Rainbow bitGAN (#224),,bitGAN,Rainbow,Bit,3,4,bamboo,2021.12.21.1202,1
+225,Glowing cronenGAN (#225),,cronenGAN,Glowing,Cronenberg,4,5,banana,2021.12.21.1202,1
+226,Entangled bitGAN (#226),,bitGAN,Entangled,Bit,5,4,banner,2021.12.21.1202,1
+227,Glowing bitGAN (#227),,bitGAN,Glowing,Bit,5,4,bar,2021.12.21.1202,1
+228,Kevin aboschGAN (#228),Kevin aboschGAN,cryptoArtGAN,Crypto,Artist,4,6,barely,2021.12.21.1202,1
+229,Vivid bitGAN (#229),,bitGAN,Vivid,Bit,3,4,bargain,2021.12.21.1202,1
+230,Inverted bitGAN (#230),,bitGAN,Inverted,Bit,2,4,barrel,2021.12.21.1202,1
+231,Frozen glitchGAN (#231),,glitchGAN,Frozen,Glitch,3,5,base,2021.12.21.1202,1
+232,Frozen bitGAN (#232),,bitGAN,Frozen,Bit,3,5,basic,2021.12.21.1202,1
+233,Cloudy bitGAN (#233),,bitGAN,Ethereal,Cloud,5,5,basket,2021.12.21.1202,1
+234,Frozen bitGAN (#234),,bitGAN,Frozen,Bit,3,4,battle,2021.12.21.1202,1
+235,Ghostly bitGAN (#235),,bitGAN,Entangled,Ghost,5,6,beach,2021.12.21.1202,1
+236,Vivid bitGAN (#236),,bitGAN,Vivid,Bit,2,4,beauty,2021.12.21.1202,1
+237,Ethereal bitGAN (#237),,bitGAN,Ethereal,Bit,3,4,because,2021.12.21.1202,1
+238,Glowing Smoke bitGAN (#238),,bitGAN,Glowing,Smoke,4,5,become,2021.12.21.1202,1
+239,Inverted monsterGAN (#239),,monsterGAN,Inverted,Monster,6,6,beef,2021.12.21.1202,1
+240,Glowing bitGAN (#240),,bitGAN,Glowing,Bit,3,5,before,2021.12.21.1202,1
+241,Glowing bitGAN (#241),,bitGAN,Glowing,Bit,2,4,begin,2021.12.21.1202,1
+242,Ethereal bitGAN (#242),,bitGAN,Ethereal,Cloud,5,5,behave,2021.12.21.1202,1
+243,Glowing bitGAN (#243),,bitGAN,Glowing,Bit,3,4,behind,2021.12.21.1202,1
+244,Entangled glitchGAN (#244),,glitchGAN,Entangled,Glitch,4,5,believe,2021.12.21.1202,1
+245,Slender bitGAN (#245),,bitGAN,Slender,Bit,5,5,below,2021.12.21.1202,1
+246,Hacka taoGAN (#246),Hacka taoGAN,cryptoArtGAN,Crypto,Artist,3,6,belt,2021.12.21.1202,1
+247,Frozen bitGAN (#247),,bitGAN,Frozen,Bit,2,4,bench,2021.12.21.1202,1
+248,Frozen bitGAN (#248),,bitGAN,Frozen,Bit,3,5,benefit,2021.12.21.1202,1
+249,Ethereal bitGAN (#249),,bitGAN,Ethereal,Bit,3,5,best,2021.12.21.1202,1
+250,Ghostly bitGAN (#250),,bitGAN,Vivid,Ghost,2,5,betray,2021.12.21.1202,1
+251,Vivid bitGAN (#251),,bitGAN,Vivid,Bit,3,4,better,2021.12.21.1202,1
+252,Glowing bitGAN (#252),,bitGAN,Glowing,Bit,2,4,between,2021.12.21.1202,1
+253,Ethereal bitGAN (#253),,bitGAN,Ethereal,Bit,3,5,beyond,2021.12.21.1202,1
+254,Glowing Smoke bitGAN (#254),,bitGAN,Glowing,Smoke,4,5,bicycle,2021.12.21.1202,1
+255,Rainbow bitGAN (#255),,bitGAN,Rainbow,Bit,4,5,bid,2021.12.21.1202,1
+256,Inverted glitchGAN (#256),,glitchGAN,Inverted,Glitch,4,5,bike,2021.12.21.1202,1
+257,Ghostly bitGAN (#257),,bitGAN,Vivid,Ghost,2,5,bind,2021.12.21.1202,1
+258,Ethereal bitGAN (#258),,bitGAN,Ethereal,Bit,4,5,biology,2021.12.21.1202,1
+259,Hungry Ghost bitGAN (#259),,bitGAN,Slender,Ghost,1,5,bless,2021.12.21.1202,1
+260,Entangled bitGAN (#260),,bitGAN,Entangled,Bit,6,6,birth,2021.12.21.1202,1
+261,Rainbow monsterGAN (#261),,monsterGAN,Rainbow,Monster,5,5,bitter,2021.12.21.1202,1
+262,Slender bitGAN (#262),,bitGAN,Slender,Bit,3,5,black,2021.12.21.1202,1
+263,Entangled bitGAN (#263),,bitGAN,Entangled,Bit,3,5,blade,2021.12.21.1202,1
+264,Killer acidGAN (#264),Killer acidGAN,cryptoArtGAN,Crypto,Artist,3,5,blame,2021.12.21.1202,1
+265,Frozen bitGAN (#265),,bitGAN,Frozen,Bit,3,4,blanket,2021.12.21.1202,1
+266,Inverted bitGAN (#266),,bitGAN,Inverted,Bit,3,4,blast,2021.12.21.1202,1
+267,Ghostly bitGAN (#267),,bitGAN,Frozen,Ghost,4,5,bleak,2021.12.21.1202,1
+268,Bird monsterGAN (#268),,monsterGAN,Vivid,Monster,2,5,bird,2021.12.21.1202,1
+269,Slender bitGAN (#269),,bitGAN,Slender,Bit,1,5,blood,2021.12.21.1202,1
+270,Inverted bitGAN (#270),,bitGAN,Inverted,Bit,3,5,blossom,2021.12.21.1202,1
+271,Glowing cronenGAN (#271),,cronenGAN,Glowing,Cronenberg,4,4,blouse,2021.12.21.1202,1
+272,Rainbow bitGAN (#272),,bitGAN,Rainbow,Bit,3,5,blur,2021.12.21.1202,1
+273,Ghostly bitGAN (#273),,bitGAN,Vivid,Ghost,2,5,blush,2021.12.21.1202,1
+274,Glowing glitchGAN (#274),,glitchGAN,Glowing,Glitch,4,5,board,2021.12.21.1202,1
+275,Vivid bitGAN (#275),,bitGAN,Vivid,Bit,2,4,boat,2021.12.21.1202,1
+276,Nebulous bitGAN (#276),,bitGAN,Nebulous,Cloud,3,6,body,2021.12.21.1202,1
+277,Glowing bitGAN (#277),,bitGAN,Glowing,Bit,2,5,boil,2021.12.21.1202,1
+278,Glowing bitGAN (#278),,bitGAN,Glowing,Bit,3,4,bomb,2021.12.21.1202,1
+279,Ghostly bitGAN (#279),,bitGAN,Vivid,Ghost,2,5,bone,2021.12.21.1202,1
+280,Glowing bitGAN (#280),,bitGAN,Glowing,Bit,4,5,bonus,2021.12.21.1202,1
+281,Entangled glitchGAN (#281),,glitchGAN,Entangled,Glitch,4,5,book,2021.12.21.1202,1
+282,Eclectic methodGAN (#282),Eclectic methodGAN,cryptoArtGAN,Crypto,Artist,2,5,boost,2021.12.21.1202,1
+283,Primordial bitGAN (#283),,bitGAN,Primordial,Bit,7,5,border,2021.12.21.1202,1
+284,Frozen bitGAN (#284),,bitGAN,Frozen,Bit,5,5,boring,2021.12.21.1202,1
+285,Ghost bitGAN (#285),,bitGAN,Frozen,Ghost,5,5,borrow,2021.12.21.1202,1
+286,Inverted bitGAN (#286),,bitGAN,Inverted,Bit,4,4,boss,2021.12.21.1202,1
+287,Vivid glitchGAN (#287),,glitchGAN,Vivid,Glitch,4,5,bottom,2021.12.21.1202,1
+288,Vivid Ghost bitGAN (#288),,bitGAN,Vivid,Ghost,3,5,bounce,2021.12.21.1202,1
+289,Ethereal bitGAN (#289),,bitGAN,Ethereal,Cloud,4,5,box,2021.12.21.1202,1
+290,Gazing monsterGAN (#290),,monsterGAN,Glowing,Monster,7,5,boy,2021.12.21.1202,1
+291,Rainbow glitchGAN (#291),,glitchGAN,Rainbow,Glitch,5,5,bracket,2021.12.21.1202,1
+292,Glowing cronenGAN (#292),,cronenGAN,Glowing,Cronenberg,6,5,brain,2021.12.21.1202,1
+293,Vivid Glitch bitGAN (#293),,bitGAN,Vivid,Cloud,4,5,brand,2021.12.21.1202,1
+294,Inverted bitGAN (#294),,bitGAN,Inverted,Cloud,4,5,brass,2021.12.21.1202,1
+295,Primordial bitGAN (#295),,bitGAN,Primordial,Bit,6,6,brave,2021.12.21.1202,1
+296,Vivid bitGAN (#296),,bitGAN,Vivid,Bit,4,5,bread,2021.12.21.1202,1
+297,Ethereal bitGAN (#297),,bitGAN,Ethereal,Bit,3,5,breeze,2021.12.21.1202,1
+298,Slender Twin bitGAN (#298),,bitGAN,Slender,Twins,3,5,brick,2021.12.21.1202,1
+299,Primordial cronenGAN (#299),,cronenGAN,Primordial,Cronenberg,8,6,bridge,2021.12.21.1202,1
+300,Lunar skullGAN (#300),Luna,skullGAN,Inverted,Skull,3,6,brief,2021.12.21.1202,1
+301,Dancing testGAN (1/144), ,testGAN,Dancing,Tester,2,4,exact,Ghosts in the Machine,1
+302,Dancing spaceGAN (2/144), ,spaceGAN,Dancing,Invader,3,4,gravity,Ghosts in the Machine,1
+303,Slender ghostGAN (3/144), ,ghostGAN,Slender,Ghost,3,5,hello,Ghosts in the Machine,1
+304,Binary ghostGAN (4/144), ,ghostGAN,Binary,Ghost,2,3,issue,Ghosts in the Machine,1
+305,Waking testGAN (5/144), ,testGAN,Waking,Tester,3,3,joke,Ghosts in the Machine,1
+306,Cyber ghostGAN (6/144), ,ghostGAN,Cyber,Ghost,2,4,rocket,Ghosts in the Machine,1
+307,Vivid ghostGAN (7/144), ,ghostGAN,Vivid,Ghost,3,4,chaos,Ghosts in the Machine,1
+308,Dancing ghostGAN (8/144), ,ghostGAN,Dancing,Ghost,4,5,sting,Ghosts in the Machine,1
+309,Frosty ghostGAN (9/144),Frosty Ghost,ghostGAN,Frozen,Ghost,2,2,frost,Ghosts in the Machine,1
+310,Invasive monsterGAN (10/144), ,monsterGAN,Invasive,Monster,9,4,story,Ghosts in the Machine,1
+311,Frozen testGAN (11/144), ,testGAN,Frozen,Tester,3,3,edge,Ghosts in the Machine,1
+312,Frozen ghostGAN (12/144), ,ghostGAN,Frozen,Ghost,2,4,sudden,Ghosts in the Machine,1
+313,Ultra testGAN (13/144), ,testGAN,Ultra,Tester,3,4,example,Ghosts in the Machine,1
+314,Ultra monsterGAN (14/144), ,monsterGAN,Ultra,Monster,8,3,supreme,Ghosts in the Machine,1
+315,Ultra spaceGAN (15/144), ,spaceGAN,Ultra,Invader,2,4,space,Ghosts in the Machine,1
+316,Binary ghostGAN (16/144), ,ghostGAN,Binary,Ghost,4,5,one,Ghosts in the Machine,1
+317,Shifty ghostGAN (17/144), ,ghostGAN,Shifty,Ghost,3,5,pyramid,Ghosts in the Machine,1
+318,Binary ghostGAN (18/144), ,ghostGAN,Binary,Ghost,4,5,sunset,Ghosts in the Machine,1
+319,Glowing ghostGAN (19/144), ,ghostGAN,Glowing,Ghost,2,4,coin,Ghosts in the Machine,1
+320,Amorphous monsterGAN (20/144), ,monsterGAN,Amorphous,Monster,4,6,fox,Ghosts in the Machine,1
+321,Slender ghostGAN (21/144), ,ghostGAN,Slender,Ghost,3,4,nothing,Ghosts in the Machine,1
+322,Ethereal skullGAN (22/144), ,skullGAN,Ethereal,Skull,3,5,choice,Ghosts in the Machine,1
+323,Twin ghostGAN (23/144), ,ghostGAN,Twin,Ghost,4,5,wet,Ghosts in the Machine,1
+324,Vivid ghostGAN (24/144), ,ghostGAN,Vivid,Ghost,3,4,whale,Ghosts in the Machine,1
+325,Slender testGAN (25/144), ,testGAN,Slender,Tester,2,4,excite,Ghosts in the Machine,1
+326,Frozen ghostGAN (26/144), ,ghostGAN,Frozen,Ghost,2,4,paper,Ghosts in the Machine,1
+327,Dry iceGAN (27/144),Dry iceGAN,iceGAN,Frozen,Smoke,2,4,frozen,Ghosts in the Machine,1
+328,Invading monsterGAN (28/144), ,monsterGAN,Invading,Cloud,4,5,double,Ghosts in the Machine,1
+329,Binary ghostGAN (29/144), ,ghostGAN,Binary,Cyborg,3,5,electric,Ghosts in the Machine,1
+330,Shifty testGAN (30/144), ,testGAN,Shifty,Tester,3,5,save,Ghosts in the Machine,1
+331,Dancing ghostGAN (31/144), ,ghostGAN,Dancing,Ghost,3,5,liquid,Ghosts in the Machine,1
+332,Ultra testGAN (32/144), ,testGAN,Ultra,Tester,3,5,spider,Ghosts in the Machine,1
+333,Slender ghostGAN (33/144), ,ghostGAN,Slender,Ghost,3,4,trophy,Ghosts in the Machine,1
+334,Shifty testGAN (34/144), ,testGAN,Shifty,Tester,3,4,emerge,Ghosts in the Machine,1
+335,Primordial skullGAN (35/144), ,skullGAN,Primordial,Skull,3,5,nuclear,Ghosts in the Machine,1
+336,Glowing testGAN (36/144), ,testGAN,Glowing,Tester,2,4,valid,Ghosts in the Machine,1
+337,Invasive spaceGAN (37/144), ,spaceGAN,Invasive,Cronenberg,3,5,execute,Ghosts in the Machine,1
+338,Shy ghostGAN (38/144), ,ghostGAN,Shy,Ghost,2,5,yellow,Ghosts in the Machine,1
+339,Vivid testGAN (39/144), ,testGAN,Vivid,Tester,2,5,screen,Ghosts in the Machine,1
+340,Shy spaceGAN (40/144), ,spaceGAN,Shy,Alien,2,5,theory,Ghosts in the Machine,1
+341,Vivid ghostGAN (41/144), ,ghostGAN,Vivid,Ghost,4,5,owner,Ghosts in the Machine,1
+342,Invasive spaceGAN (42/144), ,spaceGAN,Invasive,Alien,3,5,crack,Ghosts in the Machine,1
+343,Frozen ghostGAN (43/144), ,ghostGAN,Frozen,Ghost,3,5,obvious,Ghosts in the Machine,1
+344,Ethereal ghostGAN (44/144), ,ghostGAN,Ethereal,Ghost,2,5,couple,Ghosts in the Machine,1
+345,Frozen testGAN (45/144), ,testGAN,Frozen,Tester,3,5,original,Ghosts in the Machine,1
+346,Dancing ghostGAN (46/144), ,ghostGAN,Dancing,Cloud,3,5,over,Ghosts in the Machine,1
+347,Amorphous testGAN (47/144), ,testGAN,Amorphous,Tester,4,5,cross,Ghosts in the Machine,1
+348,Binary ghostGAN (48/144), ,ghostGAN,Binary,Ghost,4,5,clock,Ghosts in the Machine,1
+349,Bloody monsterGAN (49/144), ,monsterGAN,Bloody,Monster,5,5,exile,Ghosts in the Machine,1
+350,Waking ghostGAN (50/144), ,ghostGAN,Waking,Cloud,3,5,health,Ghosts in the Machine,1
+351,Glowing testGAN (51/144), ,testGAN,Glowing,Tester,2,5,heart,Ghosts in the Machine,1
+352,Crypto ghostGAN (52/144), ,ghostGAN,Crypto,Ghost,3,5,magic,Ghosts in the Machine,1
+353,Crypto ghostGAN (53/144), ,ghostGAN,Crypto,Cloud,3,5,cube,Ghosts in the Machine,1
+354,Primordial testGAN (54/144), ,testGAN,Primordial,Tester,3,5,cluster,Ghosts in the Machine,1
+355,Shy monsterGAN (55/144), ,monsterGAN,Shy,Cloud,6,5,off,Ghosts in the Machine,1
+356,Rainbow testGAN (56/144), ,testGAN,Rainbow,Tester,3,5,derive,Ghosts in the Machine,1
+357,Shy skullGAN (57/144), ,skullGAN,Shy,Skull,2,4,seed,Ghosts in the Machine,1
+358,Frozen ghostGAN (58/144), ,ghostGAN,Frozen,Ghost,3,5,destroy,Ghosts in the Machine,1
+359,Vivid testGAN (59/144), ,testGAN,Vivid,Tester,3,5,bright,Ghosts in the Machine,1
+360,Frozen skullGAN (60/144), ,skullGAN,Frozen,Skull,4,5,code,Ghosts in the Machine,1
+361,Ultra ghostGAN (61/144), ,ghostGAN,Ultra,Ghost,3,5,exist,Ghosts in the Machine,1
+362,Ultra skullGAN (62/144), ,skullGAN,Ultra,Skull,4,4,memory,Ghosts in the Machine,1
+363,Dancing ghostGAN (63/144), ,ghostGAN,Dancing,Ghost,6,5,TRUE,Ghosts in the Machine,1
+364,Nebulous skullGAN (64/144), ,skullGAN,Nebulous,Cloud,3,5,matrix,Ghosts in the Machine,1
+365,Bloody spaceGAN (65/144), ,spaceGAN,Bloody,Invader,2,4,square,Ghosts in the Machine,1
+366,Waking skullGAN (66/144), ,skullGAN,Waking,Skull,2,5,busy,Ghosts in the Machine,1
+367,Bloody ghostGAN (67/144), ,ghostGAN,Bloody,Ghost,4,5,question,Ghosts in the Machine,1
+368,Slender spaceGAN (68/144), ,spaceGAN,Slender,Invader,4,5,combine,Ghosts in the Machine,1
+369,Ethereal skullGAN (69/144), ,skullGAN,Ethereal,Cloud,2,5,when,Ghosts in the Machine,1
+370,Eye Swarm (70/144),Eye Swarm,monsterGAN,Invasive,Cloud,8,5,where,Ghosts in the Machine,1
+371,Glowing testGAN (71/144), ,testGAN,Glowing,Tester,2,4,penalty,Ghosts in the Machine,1
+372,Invasive monsterGAN (72/144), ,monsterGAN,Invasive,Cronenberg,7,5,common,Ghosts in the Machine,1
+373,Twinvader (73/144),Twinvader,spaceGAN,Twin,Invader,4,5,exit,Ghosts in the Machine,1
+374,Test Test (74/144),Test Test,testGAN,Twin,Tester,4,5,caution,Ghosts in the Machine,1
+375,Frozen monsterGAN (75/144), ,monsterGAN,Frozen,Invader,6,5,monster,Ghosts in the Machine,1
+376,Dancing ghostGAN (76/144), ,ghostGAN,Dancing,Cloud,3,4,pair,Ghosts in the Machine,1
+377,Ultra monsterGAN (77/144), ,monsterGAN,Ultra,Monster,7,4,drip,Ghosts in the Machine,1
+378,Waking ghostGAN (78/144), ,ghostGAN,Waking,Ghost,3,4,brown,Ghosts in the Machine,1
+379,Spin Twins (79/144), ,monsterGAN,Twin,Monster,7,5,please,Ghosts in the Machine,1
+380,Glowing ghostGAN (80/144), ,ghostGAN,Glowing,Ghost,4,5,control,Ghosts in the Machine,1
+381,Bloody testGAN (81/144), ,testGAN,Bloody,Tester,4,5,dream,Ghosts in the Machine,1
+382,Flaming ghostGAN (82/144), ,ghostGAN,Flaming,Ghost,2,6,multiply,Ghosts in the Machine,1
+383,Space-Clops (83/144),Space-clops,spaceGAN,Crypto,Invader,1,5,style,Ghosts in the Machine,1
+384,Glowing testGAN (84/144), ,testGAN,Glowing,Tester,3,5,develop,Ghosts in the Machine,1
+385,Dancing ghostGAN (85/144), ,ghostGAN,Dancing,Ghost,4,4,exotic,Ghosts in the Machine,1
+386,Glowing spaceGAN (86/144), ,spaceGAN,Glowing,Invader,3,4,name,Ghosts in the Machine,1
+387,Crypto ghostGAN (87/144), ,ghostGAN,Crypto,Ghost,2,4,shell,Ghosts in the Machine,1
+388,Vivid ghostGAN (88/144), ,ghostGAN,Vivid,Ghost,3,4,vivid,Ghosts in the Machine,1
+389,Ethereal testGAN (89/144), ,testGAN,Ethereal,Tester,2,5,correct,Ghosts in the Machine,1
+390,Frozen ghostGAN (90/144), ,ghostGAN,Frozen,Cloud,3,5,century,Ghosts in the Machine,1
+391,Cyber ghostGAN (91/144), ,ghostGAN,Cyber,Ghost,3,5,verify,Ghosts in the Machine,1
+392,Frozen testGAN (92/144), ,testGAN,Frozen,Tester,3,5,twenty,Ghosts in the Machine,1
+393,Ultra ghostGAN (93/144), ,ghostGAN,Ultra,Ghost,3,4,twice,Ghosts in the Machine,1
+394,Ethereal testGAN (94/144), ,testGAN,Ethereal,Tester,3,5,midnight,Ghosts in the Machine,1
+395,Twin ghostGAN (95/144), ,ghostGAN,Twin,Ghost,4,5,position,Ghosts in the Machine,1
+396,Dancing spaceGAN (96/144), ,spaceGAN,Dancing,Invader,2,5,want,Ghosts in the Machine,1
+397,Amorphous skullGAN (97/144), ,skullGAN,Amorphous,Skull,3,5,bullet,Ghosts in the Machine,1
+398,Bloody monsterGAN (98/144), ,monsterGAN,Bloody,Monster,7,5,expire,Ghosts in the Machine,1
+399,Glowing testGAN (99/144), ,testGAN,Glowing,Tester,3,4,half,Ghosts in the Machine,1
+400,Glowing skullGAN (100/144), ,skullGAN,Glowing,Skull,4,5,hundred,Ghosts in the Machine,1
+401,Fire Squid (101/144), ,monsterGAN,Flaming,Monster,10,5,dolphin,Ghosts in the Machine,1
+402,Dancing ghostGAN (102/144), ,ghostGAN,Dancing,Ghost,3,5,swap,Ghosts in the Machine,1
+403,Flaming spaceGAN (103/144), ,spaceGAN,Flaming,Invader,2,5,diamond,Ghosts in the Machine,1
+404,Not Found (104/144),404 Not Found,skullGAN,Vivid,Skull,3,4,crash,Ghosts in the Machine,1
+405,Vivid ghostGAN (105/144), ,ghostGAN,Vivid,Ghost,4,4,lazy,Ghosts in the Machine,1
+406,Frozen skullGAN (106/144), ,skullGAN,Frozen,Skull,3,4,power,Ghosts in the Machine,1
+407,Mint Bot (107/144),Mint Bot,roboGAN,Rainbow,Bot,4,4,crazy,Ghosts in the Machine,1
+408,Frozen spaceGAN (108/144), ,spaceGAN,Frozen,Invader,4,5,index,Ghosts in the Machine,1
+409,Ethereal skullGAN (109/144), ,skullGAN,Ethereal,Skull,2,6,physical,Ghosts in the Machine,1
+410,Cyber ghostGAN (110/144), ,ghostGAN,Cyber,Ghost,3,4,explain,Ghosts in the Machine,1
+411,Entangled skullGAN (111/144), ,skullGAN,Entangled,Skull,3,6,key,Ghosts in the Machine,1
+412,Ultra monsterGAN (112/144), ,monsterGAN,Ultra,Monster,7,5,lucky,Ghosts in the Machine,1
+413,Crypto ghostGAN (113/144), ,ghostGAN,Crypto,Ghost,3,5,sign,Ghosts in the Machine,1
+414,Dancing ghostGAN (114/144), ,ghostGAN,Dancing,Ghost,4,5,volcano,Ghosts in the Machine,1
+415,Glowing ghostGAN (115/144), ,ghostGAN,Glowing,Ghost,3,5,volume,Ghosts in the Machine,1
+416,Glowing testGAN (116/144), ,testGAN,Glowing,Tester,3,5,winner,Ghosts in the Machine,1
+417,Ethereal ghostGAN (117/144), ,ghostGAN,Ethereal,Ghost,3,5,move,Ghosts in the Machine,1
+418,Cyber ghostGAN (118/144), ,ghostGAN,Cyber,Ghost,2,5,letter,Ghosts in the Machine,1
+419,Vivid ghostGAN (119/144), ,ghostGAN,Vivid,Ghost,3,4,green,Ghosts in the Machine,1
+420,Four twentyGAN (120/144),Four twentyGAN,ghostGAN,Slender,Ghost,3,4,chronic,Ghosts in the Machine,1
+421,Vivid monsterGAN (121/144), ,monsterGAN,Vivid,Monster,8,4,then,Ghosts in the Machine,1
+422,Frozen ghostGAN (122/144), ,ghostGAN,Frozen,Ghost,4,5,extend,Ghosts in the Machine,1
+423,Rainbow skullGAN (123/144), ,skullGAN,Rainbow,Skull,2,5,cruel,Ghosts in the Machine,1
+424,Frozen ghostGAN (124/144), ,ghostGAN,Frozen,Ghost,3,5,two,Ghosts in the Machine,1
+425,Frozen spaceGAN (125/144), ,spaceGAN,Frozen,Invader,3,4,cage,Ghosts in the Machine,1
+426,Ultra spaceGAN (126/144), ,spaceGAN,Ultra,Invader,3,5,upper,Ghosts in the Machine,1
+427,Binary ghostGAN (127/144), ,ghostGAN,Binary,Ghost,3,5,useless,Ghosts in the Machine,1
+428,Slender testGAN (128/144), ,testGAN,Slender,Tester,3,5,vibrant,Ghosts in the Machine,1
+429,Glowing ghostGAN (129/144), ,ghostGAN,Glowing,Ghost,3,5,culture,Ghosts in the Machine,1
+430,Ultra testGAN (130/144), ,testGAN,Ultra,Tester,3,5,dynamic,Ghosts in the Machine,1
+431,Primordial monsterGAN (131/144), ,monsterGAN,Primordial,Monster,9,5,mystery,Ghosts in the Machine,1
+432,Glowing ghostGAN (132/144), ,ghostGAN,Glowing,Ghost,3,5,token,Ghosts in the Machine,1
+433,Binary ghostGAN (133/144), ,ghostGAN,Binary,Ghost,3,5,mushroom,Ghosts in the Machine,1
+434,Crypto testGAN (134/144), ,testGAN,Crypto,Tester,3,4,extra,Ghosts in the Machine,1
+435,Waking skullGAN (135/144), ,skullGAN,Waking,Skull,2,6,cinnamon,Ghosts in the Machine,1
+436,Entangled testGAN (136/144), ,testGAN,Entangled,Tester,5,5,circle,Ghosts in the Machine,1
+437,Nebulous ghostGAN (137/144), ,ghostGAN,Nebulous,Ghost,4,6,game,Ghosts in the Machine,1
+438,Vivid testGAN (138/144), ,testGAN,Vivid,Tester,2,4,race,Ghosts in the Machine,1
+439,Slender spaceGAN (139/144), ,spaceGAN,Slender,Invader,3,5,wonder,Ghosts in the Machine,1
+440,Frozen testGAN (140/144), ,testGAN,Frozen,Tester,2,4,cycle,Ghosts in the Machine,1
+441,Primordial Phantom (141/144),Phantom,ghostGAN,Primordial,Ghost,3,5,six,Ghosts in the Machine,1
+442,Dancing ghostGAN (142/144), ,ghostGAN,Dancing,Ghost,4,5,ten,Ghosts in the Machine,1
+443,Waking testGAN (143/144), ,testGAN,Waking,Tester,3,4,build,Ghosts in the Machine,1
+444,Waking ghostGAN (144/144), ,ghostGAN,Waking,Ghost,3,5,danger,Ghosts in the Machine,1
+445,Magic Internet moneyGAN (445/512),Magic Internet moneyGAN,cryptoArtGAN,Crypto,Collector,4,4,collect,Act 1 - Review,1
+446,SuperRare roseGAN (446/512),SuperRare roseGAN,cryptoArtGAN,Crypto,Artist,4,4,rose,Act 1 - Review,1
+447,Brinkman nimBudGAN (447/512),Nim budGAN,cryptoArtGAN,Crypto,Artist,4,4,cloud,Act 1 - Review,1
+448,Crypto stellaGAN (448/512),Crypto stellaGAN,cryptoArtGAN,Crypto,Artist,3,4,legend,Act 1 - Review,1
+449,Bean skullGAN (449/512),Bean,skullGAN,Primordial,Shimmer,3,4,divide,Act 1 - Review,1
+450,Entangled skullGAN (450/512), ,skullGAN,Entangled,Skull,5,4,solution,Act 1 - Review,1
+451,Staring skullGAN (451/512), ,skullGAN,Rainbow,Skull,2,3,daughter,Act 1 - Review,1
+452,OG skullGAN (452/512), ,skullGAN,Glowing,Skull,2,3,what,Act 1 - Review,1
+453,Smoky skullGAN (453/512), ,skullGAN,Silver,Smoke,2,5,solve,Act 1 - Review,1
+454,Primordial skullGAN (454/512), ,skullGAN,Primordial,Skull,8,6,quick,Act 1 - Review,1
+455,Flaming skullGAN (455/512), ,skullGAN,Flaming,Skull,3,5,trade,Act 1 - Review,1
+456,Ghostly skullGAN (456/512), ,skullGAN,Dancing,Ghost,3,5,coffee,Act 1 - Review,1
+1000000,Rainbow roboGAN (1000000), ,roboGAN,Rainbow,Bot,4,5,poem,Act 1 - Review,1
+1000001,Ghostly roboGAN (1000001), ,roboGAN,Waking,Ghost,2,5,soup,Act 1 - Review,1
+1000010,Binary roboGAN (1000010), ,roboGAN,Binary,Cyborg,7,3,small,Act 1 - Review,1
+1000011,Cyborg roboGAN (1000011), ,roboGAN,Rainbow,Cyborg,6,5,tonight,Act 1 - Review,1
+1000100,Slender roboGAN (1000100), ,roboGAN,Slender,Ghost,6,6,buyer,Act 1 - Review,1
+1000101,Rainbow cryptoGAN (1000101), ,cryptoGAN,Rainbow,Bot,2,4,never,Act 1 - Review,1
+1000110,Flaming cryptoGAN (1000110), ,cryptoGAN,Flaming,Bot,3,4,sorry,Act 1 - Review,1
+1000111,Waking cryptoGAN (1000111), ,cryptoGAN,Waking,Bot,3,4,torch,Act 1 - Review,1
+0x20,Entangled spookyGAN (0x20), ,spookyGAN,Entangled,Invader,5,6,tragic,Act 1 - Review,1
+0x21,Invading spookyGAN (0x21), ,spookyGAN,Rainbow,Invader,4,5,galaxy,Act 1 - Review,1
+467,Ethereal testGAN (467/512), ,testGAN,Ethereal,Tester,2,4,give,Act 1 - Review,1
+468,Flaming testGAN (468/512), ,testGAN,Flaming,Tester,4,5,random,Act 1 - Review,1
+469,Cyber testGAN (469/512), ,testGAN,Cyber,Tester,3,5,calm,Act 1 - Review,1
+470,Primordial monsterGAN (470/512), ,monsterGAN,Primordial,Monster,10,4,number,Act 1 - Review,1
+471,Slender monsterGAN (471/512), ,monsterGAN,Slender,Monster,5,5,someone,Act 1 - Review,1
+472,Rainbow monsterGAN (472/512), ,monsterGAN,Rainbow,Monster,7,5,snake,Act 1 - Review,1
+473,Entangled bitGAN (473/512), ,bitGAN,Entangled,Bit,5,5,FALSE,Act 1 - Review,1
+474,Invasive ghostGAN (474/512), ,bitGAN,Invasive,Ghost,3,6,truth,Act 1 - Review,1
+475,Flaming bitGAN (475/512), ,bitGAN,Flaming,Cloud,2,5,throw,Act 1 - Review,1
+476,Invasive bitGAN (476/512), ,bitGAN,Invasive,Bit,2,4,unique,Act 1 - Review,1
+477,Seasonal bitGAN (477/512), ,bitGAN,Rainbow,Bit,5,4,december,Act 1 - Review,1
+478,Rainbow bitGAN (478/512), ,bitGAN,Slender,Bit,2,4,recycle,Act 1 - Review,1
+479,Inverted glitchGAN (479/512), ,glitchGAN,Inverted,Glitch,4,5,song,Act 1 - Review,1
+480,slenderGAN (480/512),slenderGAN,slenderGAN,Slender,Ghost,1,4,fossil,Act 1 - Review,1
+481,Entangled testGAN (481/512), ,testGAN,Entangled,Tester,3,5,price,Act 1 - Review,1
+482,Testy McTestGAN (482/512),Testy McTestGAN,testGAN,Glowing,Tester,2,4,call,Act 1 - Review,1
+483,Rainbow testGAN (483/512), ,testGAN,Rainbow,Tester,2,3,sphere,Act 1 - Review,1
+484,Dancing testGAN (484/512), ,testGAN,Dancing,Tester,2,6,soon,Act 1 - Review,1
+485,Vivid monsterGAN (485/512), ,monsterGAN,Vivid,Monster,3,5,deposit,Act 1 - Review,1
+486,Rainbow monsterGAN (486/512), ,monsterGAN,Rainbow,Monster,3,6,remember,Act 1 - Review,1
+487,Cronenberg monsterGAN (487/512), ,monsterGAN,Rainbow,Cronenberg,5,7,soul,Act 1 - Review,1
+488,Slender monsterGAN (488/512), ,monsterGAN,Slender,Monster,2,4,reveal,Act 1 - Review,1
+489,Entangled skullGAN (489/512), ,skullGAN,Entangled,Ghost,4,5,draw,Act 1 - Review,1
+490,Horned skullGAN (490/512),Horned skullGAN,skullGAN,Flaming,Skull,4,5,knee,Act 1 - Review,1
+491,Frozen skullGAN (491/512), ,skullGAN,Frozen,Skull,4,6,weapon,Act 1 - Review,1
+492,Rainbow skullGAN (492/512), ,skullGAN,Rainbow,Skull,2,4,knife,Act 1 - Review,1
+493,Chromatic skullGAN (493/512), ,skullGAN,Rainbow,Skull,3,4,bronze,Act 1 - Review,1
+494,Vibrant skullGAN (494/512), ,skullGAN,Vivid,Skull,2,3,sort,Act 1 - Review,1
+495,Ghostly skullGAN (495/512), ,skullGAN,Frozen,Ghost,2,6,erase,Act 1 - Review,1
+496,Cloudy skullGAN (496/512),Cloud Skull,skullGAN,Rainbow,Cloud,3,6,reward,Act 1 - Review,1
+1001000,Binary ghostGAN (1001000/512), ,ghostGAN,Binary,Ghost,3,5,define,Act 1 - Review,1
+1001001,Monster cryptoGAN (1001001/512), ,monsterGAN,Rainbow,Monster,3,5,safe,Act 1 - Review,1
+1001010,Entangled roboGAN (1001010/512), ,roboGAN,Entangled,Bot,3,6,sound,Act 1 - Review,1
+1001011,Slender cryptoGAN (1001011/512), ,cryptoGAN,Slender,Bot,2,5,escape,Act 1 - Review,1
+501,Inverted skullGAN (501/512), ,skullGAN,Inverted,Skull,3,4,project,Act 1 - Review,1
+502,Inverted cronenGAN (502/512), ,skullGAN,Inverted,Cronenberg,5,5,source,Act 1 - Review,1
+503,Inverted glitchGAN (503/512), ,skullGAN,Inverted,Glitch,4,5,broken,Act 1 - Review,1
+504,Zombie skullGAN (504/512), ,skullGAN,Inverted,Zombie,2,3,weird,Act 1 - Review,1
+505,Inverted monsterGAN (505/512), ,monsterGAN,Inverted,Twins,4,5,elder,Act 1 - Review,1
+506,Dancing bitGAN (506/512), ,bitGAN,Dancing,Bit,2,5,wild,Act 1 - Review,1
+507,Nebulous cronenGAN (507/512), ,cronenGAN,Nebulous,Cronenberg,3,7,cancel,Act 1 - Review,1
+508,Rainbow roboGAN (508/512), ,roboGAN,Rainbow,Bot,2,5,south,Act 1 - Review,1
+509,Dark Rainbow (509/512),Dark Rainbow,skullGAN,Inverted,Skull,3,5,network,Act 1 - Review,1
+510,Invasive roboGAN (510/512), ,roboGAN,Invasive,Bot,3,4,capital,Act 1 - Review,1
+511,Inverted ghostGAN (511/512), ,ghostGAN,Inverted,Ghost,3,6,negative,Act 1 - Review,1
+512,Quantum glitchGAN (512/512),Quantum Glitch,xxxxxGAN,Quantum,Glitch,3,11,final,Act 1 - Review,1

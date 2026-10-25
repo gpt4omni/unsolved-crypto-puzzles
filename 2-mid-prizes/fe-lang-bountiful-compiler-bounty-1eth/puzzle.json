@@ -1,0 +1,204 @@
+{
+  "schema_version": 1,
+  "slug": "fe-lang-bountiful-compiler-bounty-1eth",
+  "title": "Bountiful: the Fe compiler bug bounty",
+  "tier": "mid",
+  "status": "open",
+  "dead_end_reason": null,
+  "series": "bountiful",
+  "author": {
+    "name": "Fe language team",
+    "handles": [
+      "github:fe-lang",
+      "github:cburgdorf",
+      "zulip:fe-lang.zulipchat.com"
+    ],
+    "url": "https://fe-lang.org"
+  },
+  "published": {
+    "date": "2026-05-04",
+    "url": "https://blog.fe-lang.org/posts/bountiful-reloaded/"
+  },
+  "chain": "ethereum",
+  "prize": {
+    "amount": 1.0,
+    "asset": "ETH",
+    "usd_estimate": 2355,
+    "usd_snapshot": "2026-10-24",
+    "note": "the registry holds 1 ETH and each of the 7 registered challenges carries a 0.25 ETH prize, so the pot pays the first 4 claims and the 5th would revert; the 1 ETH balance, not the 1.75 ETH nominal total, is what the chain can pay today"
+  },
+  "addresses": [
+    {
+      "address": "0x71fB6afcD98c5BD611712ad4b8D314EF729aa69D",
+      "chain": "ethereum",
+      "role": "escrow",
+      "label": "BountyRegistry, round 3",
+      "explorer": "https://etherscan.io/address/0x71fB6afcD98c5BD611712ad4b8D314EF729aa69D",
+      "expected": "1 ETH",
+      "verified_on": "2026-10-24",
+      "verified_state": "funded-unspent"
+    },
+    {
+      "address": "0x046a3a4968282BaA7ad6291723873C8275434623",
+      "chain": "ethereum",
+      "role": "contract",
+      "label": "Game",
+      "explorer": "https://etherscan.io/address/0x046a3a4968282BaA7ad6291723873C8275434623",
+      "expected": "0 ETH, prize held by the registry",
+      "verified_on": "2026-10-24",
+      "verified_state": "zero-balance-contract"
+    },
+    {
+      "address": "0xE959e7ecA1afCa6cf2Bf8b07e25Da355b6C8E8c7",
+      "chain": "ethereum",
+      "role": "contract",
+      "label": "Game2D",
+      "explorer": "https://etherscan.io/address/0xE959e7ecA1afCa6cf2Bf8b07e25Da355b6C8E8c7",
+      "expected": "0 ETH, prize held by the registry",
+      "verified_on": "2026-10-24",
+      "verified_state": "zero-balance-contract"
+    },
+    {
+      "address": "0xfb5423aDfBAC65ac675845Bb4FEBf8aeC128272E",
+      "chain": "ethereum",
+      "role": "contract",
+      "label": "GameEnum",
+      "explorer": "https://etherscan.io/address/0xfb5423aDfBAC65ac675845Bb4FEBf8aeC128272E",
+      "expected": "0 ETH, prize held by the registry",
+      "verified_on": "2026-10-24",
+      "verified_state": "zero-balance-contract"
+    },
+    {
+      "address": "0x5E987b6aADD4DFC2236D21edE6D07feb04350b06",
+      "chain": "ethereum",
+      "role": "contract",
+      "label": "GameBitboard",
+      "explorer": "https://etherscan.io/address/0x5E987b6aADD4DFC2236D21edE6D07feb04350b06",
+      "expected": "0 ETH, prize held by the registry",
+      "verified_on": "2026-10-24",
+      "verified_state": "zero-balance-contract"
+    },
+    {
+      "address": "0x86B7AEce1503242fED29E593FAEde3b7b00a5a1D",
+      "chain": "ethereum",
+      "role": "contract",
+      "label": "GameMonadic",
+      "explorer": "https://etherscan.io/address/0x86B7AEce1503242fED29E593FAEde3b7b00a5a1D",
+      "expected": "0 ETH, prize held by the registry",
+      "verified_on": "2026-10-24",
+      "verified_state": "zero-balance-contract"
+    },
+    {
+      "address": "0x3dF9789634995546B0126bC28B9F9FcBCB129F18",
+      "chain": "ethereum",
+      "role": "contract",
+      "label": "GameNested",
+      "explorer": "https://etherscan.io/address/0x3dF9789634995546B0126bC28B9F9FcBCB129F18",
+      "expected": "0 ETH, prize held by the registry",
+      "verified_on": "2026-10-24",
+      "verified_state": "zero-balance-contract"
+    },
+    {
+      "address": "0x85b4d0B32b8a285111c244E52524B642f1A5ccFE",
+      "chain": "ethereum",
+      "role": "contract",
+      "label": "GameTrait",
+      "explorer": "https://etherscan.io/address/0x85b4d0B32b8a285111c244E52524B642f1A5ccFE",
+      "expected": "0 ETH, prize held by the registry",
+      "verified_on": "2026-10-24",
+      "verified_state": "zero-balance-contract"
+    }
+  ],
+  "puzzle_type": [
+    "smart-contract",
+    "timelock"
+  ],
+  "target_format": "a reproducible transaction or calldata sequence against one current challenge or the registry that makes claim(challenge) succeed and transfer the prize; the normal flow requires an active lock, ordinary challenges expose moveField(uint256), Game2D exposes moveField(uint256,uint256), and an exploit may use raw calldata or bypass an expected registry condition",
+  "derivation": {
+    "summary": "the board starts with tiles 14 and 15 swapped, which puts it in the half of the state space the published move rules cannot leave; a successful claim therefore needs a defect in the Fe compiler, in the challenge contract, or in the registry that escapes or bypasses those rules",
+    "oracle": "tools/oracle.py",
+    "oracle_certified": false,
+    "certified_against": ""
+  },
+  "difficulty_left": "insight",
+  "difficulty_note": "the 7 contracts are small and their sources are published, so nothing here is compute bound; what is missing is a defect nobody has spotted yet, in a compiler at version 26.1.0 or in about 1,000 lines of hand-written Fe",
+  "tested_total": {
+    "candidates": 0,
+    "families": 5,
+    "certified": false
+  },
+  "leads": [
+    {
+      "rank": 1,
+      "title": "re-audit the hand-written data in each challenge: adjacency tables, index arithmetic, bit field offsets",
+      "cost": "hours",
+      "status": "open"
+    },
+    {
+      "rank": 2,
+      "title": "differential testing: run random move sequences against each compiled challenge and against a reference implementation, compare after every call",
+      "cost": "hours",
+      "status": "open"
+    },
+    {
+      "rank": 3,
+      "title": "GameBitboard and GameTrait are not verified on Sourcify: rebuild them with fe 26.1.0 and compare the runtime bytecode against the deployed code",
+      "cost": "hours",
+      "status": "open"
+    },
+    {
+      "rank": 4,
+      "title": "attack the registry rather than a game: claim() closes the challenge before the external isSolved() call and pays with a raw call forwarding all gas",
+      "cost": "hours",
+      "status": "open"
+    }
+  ],
+  "solutions": [],
+  "artifacts": [],
+  "sources": [
+    {
+      "title": "bountiful: reloaded",
+      "url": "https://blog.fe-lang.org/posts/bountiful-reloaded/",
+      "date": "2026-05-04",
+      "archived": null
+    },
+    {
+      "title": "bountiful: round #2",
+      "url": "https://blog.fe-lang.org/posts/bountiful-round-2/",
+      "date": "2023-01-11",
+      "archived": null
+    },
+    {
+      "title": "Bountiful platform website with the live challenge list",
+      "url": "https://bountiful.fe-lang.org/",
+      "date": "2026-08-17",
+      "archived": null
+    },
+    {
+      "title": "Bounty hunting guide, fe-lang/bountiful",
+      "url": "https://github.com/fe-lang/bountiful/blob/master/doc/bounty-hunting-guide.md",
+      "date": "2026-08-17",
+      "archived": null
+    },
+    {
+      "title": "Challenge and registry sources, fe-lang/bountiful",
+      "url": "https://github.com/fe-lang/bountiful",
+      "date": "2026-08-17",
+      "archived": null
+    },
+    {
+      "title": "Round 2 admin withdrawal of 3.1 ETH",
+      "url": "https://etherscan.io/tx/0xdd5188f6bb7a2fb5fab1b170213c3ad107dab20407e900128525adb92e36077e",
+      "date": "2025-11-04",
+      "archived": null
+    },
+    {
+      "title": "Sourcify verification of the Game challenge, compiler fe 26.1.0",
+      "url": "https://sourcify.dev/server/v2/contract/1/0x046a3a4968282BaA7ad6291723873C8275434623",
+      "date": "2026-08-17",
+      "archived": null
+    }
+  ],
+  "third_party_material": "no third-party articles or dumps; my own blog posts, repository sources and documentation, quoted in short excerpts with links, plus on-chain data I read directly from Ethereum mainnet",
+  "last_updated": "2026-10-24"
+}

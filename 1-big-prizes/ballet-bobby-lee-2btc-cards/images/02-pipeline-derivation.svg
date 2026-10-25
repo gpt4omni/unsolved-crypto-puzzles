@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1602" height="260" viewBox="0 0 1602 260" font-family="DejaVu Sans">
+<rect x="0" y="0" width="1602" height="260" fill="#FFFFFF"/>
+<rect x="30" y="100" width="170" height="60" rx="8" fill="#1F5FBF" stroke="#14406e" stroke-width="1.5"/>
+<text x="115.0" y="128.0" text-anchor="middle" font-size="11" fill="#FFFFFF">encrypted WIF</text>
+<text x="115.0" y="142.0" text-anchor="middle" font-size="11" fill="#FFFFFF">6P... (printed)</text>
+<rect x="310" y="100" width="187" height="60" rx="8" fill="#1F5FBF" stroke="#14406e" stroke-width="1.5"/>
+<text x="403.5" y="128.0" text-anchor="middle" font-size="11" fill="#FFFFFF">passphrase</text>
+<text x="403.5" y="142.0" text-anchor="middle" font-size="11" fill="#FFFFFF">XXXX-XXXX-XXXX-XXXX-XXXX</text>
+<rect x="596" y="100" width="170" height="60" rx="8" fill="#1F5FBF" stroke="#14406e" stroke-width="1.5"/>
+<text x="681.0" y="135.0" text-anchor="middle" font-size="11" fill="#FFFFFF">passfactor</text>
+<rect x="882" y="100" width="170" height="60" rx="8" fill="#1F5FBF" stroke="#14406e" stroke-width="1.5"/>
+<text x="967.0" y="135.0" text-anchor="middle" font-size="11" fill="#FFFFFF">private key</text>
+<rect x="1142" y="100" width="170" height="60" rx="8" fill="#1F5FBF" stroke="#14406e" stroke-width="1.5"/>
+<text x="1227.0" y="135.0" text-anchor="middle" font-size="11" fill="#FFFFFF">public key</text>
+<rect x="1402" y="100" width="170" height="60" rx="8" fill="#1F5FBF" stroke="#14406e" stroke-width="1.5"/>
+<text x="1487.0" y="135.0" text-anchor="middle" font-size="11" fill="#FFFFFF">P2PKH address</text>
+<line x1="200" y1="130.0" x2="302" y2="130.0" stroke="#333333" stroke-width="1.5" marker-end="url(#arrow)"/>
+<text x="255.0" y="102.0" text-anchor="middle" font-size="9" fill="#333333">+ ownerentropy</text>
+<text x="255.0" y="114.0" text-anchor="middle" font-size="9" fill="#333333">(8 bytes, public)</text>
+<line x1="497" y1="130.0" x2="588" y2="130.0" stroke="#333333" stroke-width="1.5" marker-end="url(#arrow)"/>
+<text x="546.5" y="102.0" text-anchor="middle" font-size="9" fill="#333333">scrypt</text>
+<text x="546.5" y="114.0" text-anchor="middle" font-size="9" fill="#333333">N=16384 r=8 p=8</text>
+<line x1="766" y1="130.0" x2="874" y2="130.0" stroke="#333333" stroke-width="1.5" marker-end="url(#arrow)"/>
+<text x="824.0" y="90.0" text-anchor="middle" font-size="9" fill="#333333">x factorb</text>
+<text x="824.0" y="102.0" text-anchor="middle" font-size="9" fill="#333333">(from seedb</text>
+<text x="824.0" y="114.0" text-anchor="middle" font-size="9" fill="#333333">in the 6P... blob)</text>
+<line x1="1052" y1="130.0" x2="1134" y2="130.0" stroke="#333333" stroke-width="1.5" marker-end="url(#arrow)"/>
+<text x="1097.0" y="114.0" text-anchor="middle" font-size="9" fill="#333333">secp256k1</text>
+<line x1="1312" y1="130.0" x2="1394" y2="130.0" stroke="#333333" stroke-width="1.5" marker-end="url(#arrow)"/>
+<text x="1357.0" y="102.0" text-anchor="middle" font-size="9" fill="#333333">HASH160</text>
+<text x="1357.0" y="114.0" text-anchor="middle" font-size="9" fill="#333333">+ Base58Check</text>
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#333333"/></marker></defs>
+</svg>

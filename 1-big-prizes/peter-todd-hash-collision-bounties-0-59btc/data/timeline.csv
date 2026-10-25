@@ -1,0 +1,6 @@
+# Dated events for the hash-collision bounty series. date,event,source
+2013-09-13,Peter Todd posts the challenge on BitcoinTalk and funds 6 bounty scripts (5 hash functions plus a non-hash OP_ABS demo),BitcoinTalk thread 293382
+2013-09-13,the non-hash OP_ABS demo bounty is claimed same day (about 5.5 hours after the post),mempool.space tx 567a53d1ce19ce3d07711885168484439965501536d0d0294c5d46d46c10e53b block 257727
+2017-02-23,Stevens et al. publish the first full SHA-1 collision ("SHAttered"),shattered.io
+2023-02-22,the SHA-1 bounty is claimed on-chain with the SHAttered pair,mempool.space tx 9ec2a0db0c4c3423a6b2c3cb2a26fc626b037121b4b5f3f57b08916196ff14e0 block 777856
+2026-08-16,SHA-256 RIPEMD-160 HASH160 and HASH256 remain unclaimed and unspent,mempool.space re-check this session

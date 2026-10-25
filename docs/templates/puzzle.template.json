@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "slug": "",
+  "title": "",
+  "tier": "big",
+  "status": "open",
+  "dead_end_reason": null,
+  "series": null,
+  "author": {
+    "name": "",
+    "handles": [],
+    "url": ""
+  },
+  "published": { "date": "YYYY-MM-DD", "url": "" },
+  "chain": "bitcoin",
+  "prize": {
+    "amount": 0,
+    "asset": "sats",
+    "usd_estimate": 0,
+    "usd_snapshot": "2026-08-16",
+    "note": ""
+  },
+  "addresses": [
+    {
+      "address": "",
+      "chain": "bitcoin",
+      "role": "escrow",
+      "label": "main",
+      "explorer": "",
+      "expected": "",
+      "verified_on": "YYYY-MM-DD",
+      "verified_state": "unknown"
+    }
+  ],
+  "puzzle_type": [],
+  "target_format": "",
+  "derivation": {
+    "summary": "",
+    "oracle": null,
+    "oracle_certified": false,
+    "certified_against": ""
+  },
+  "difficulty_left": "insight",
+  "difficulty_note": "",
+  "tested_total": { "candidates": 0, "families": 0, "certified": false },
+  "leads": [
+    { "rank": 1, "title": "", "cost": "", "status": "open" }
+  ],
+  "solutions": [],
+  "artifacts": [
+    { "path": "", "sha256": "", "source": "", "archived": null }
+  ],
+  "sources": [
+    { "title": "", "url": "", "date": "YYYY-MM-DD", "archived": null }
+  ],
+  "third_party_material": "",
+  "last_updated": "2026-08-16"
+}

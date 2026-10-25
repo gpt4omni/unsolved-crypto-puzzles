@@ -1,0 +1,116 @@
+{
+  "schema_version": 1,
+  "slug": "guntis-vitolins-metamask-8-6eth",
+  "title": "Guntis Vitolins: 10 ETH Challenge",
+  "tier": "big",
+  "status": "open",
+  "dead_end_reason": null,
+  "series": null,
+  "author": {
+    "name": "Guntis Vitolins",
+    "handles": [
+      "youtube:#GuntisVitolins",
+      "web:mineshop.eu"
+    ],
+    "url": "https://www.youtube.com/channel/UCkYCnjVcFJDN6Cp_uP0pv_A"
+  },
+  "published": {
+    "date": "2020-02-12",
+    "url": "https://www.youtube.com/watch?v=w4mpiuBP_aY"
+  },
+  "chain": "ethereum",
+  "prize": {
+    "amount": 8.612541554266,
+    "asset": "ETH",
+    "usd_estimate": 20281,
+    "usd_snapshot": "2026-10-24",
+    "note": "wallet funded with 10 ETH on 2020-02-12; the author has withdrawn from it 7 times since 2021-05, most recently 2024-06-04, totaling approximately 1.377 ETH; he still holds and periodically uses this private key, so this is not a frozen escrow"
+  },
+  "addresses": [
+    {
+      "address": "0x9C2F44EFAd0c1E852a09dF9939e6DaF061140CaF",
+      "chain": "ethereum",
+      "role": "escrow",
+      "label": "main",
+      "explorer": "https://etherscan.io/address/0x9C2F44EFAd0c1E852a09dF9939e6DaF061140CaF",
+      "expected": "8.61254155425694462 ETH",
+      "verified_on": "2026-10-24",
+      "verified_state": "funded-unspent"
+    }
+  ],
+  "puzzle_type": [
+    "bip39-seed",
+    "word-selection",
+    "video-series"
+  ],
+  "target_format": "12-word BIP39 English mnemonic, no passphrase, MetaMask default path m/44'/60'/0'/0/0",
+  "derivation": {
+    "summary": "12-word candidate to BIP39 checksum validation to seed to BIP44 m/44'/60'/0'/0/0 to Ethereum address, compared case-insensitively to the target",
+    "oracle": "tools/oracle.py",
+    "oracle_certified": true,
+    "certified_against": "the public canonical BIP-0039 test vector (abandon x11 + about to 0x9858effd...), plus a checksum-acceptance-rate check over the full English wordlist"
+  },
+  "difficulty_left": "bounded-compute",
+  "difficulty_note": "3 of 12 positions are confirmed (1, 5 with 2 candidates, and 12), plus 2 more confirmed list members with unknown positions; every sweep of the confirmed word pool (approximately 16.75 billion derivations across 6 metadata-era sweeps, all witnessed) has failed; the next 2 leads (connecting words, then substrings of longer words) are priced at hours and about a day respectively on one rented GPU and have not been run; a third lead (re-reading remaining metadata) is a human task, not a sweep",
+  "tested_total": {
+    "candidates": 21227190000,
+    "families": 9,
+    "certified": true
+  },
+  "leads": [
+    {
+      "rank": 1,
+      "title": "on-screen and spoken video words (issue #18): sweep RO1 with atom/link/basic/token/dash as free video words, then the 219-word extension",
+      "cost": "minutes to hours on one rented GPU",
+      "status": "partially tested: coin words as one free slot negative (issue #18, 2026-09-26); 219-word extension open"
+    },
+    {
+      "rank": 2,
+      "title": "extend the word pool with connecting words",
+      "cost": "hours on one rented GPU",
+      "status": "open"
+    },
+    {
+      "rank": 3,
+      "title": "extend to substrings of longer words",
+      "cost": "about a day on one rented GPU",
+      "status": "tested: negative on 7 paths (issue #18, 2026-09-26)"
+    },
+    {
+      "rank": 4,
+      "title": "re-read the video and post metadata once more",
+      "cost": "about an hour",
+      "status": "open"
+    }
+  ],
+  "solutions": [],
+  "artifacts": [],
+  "sources": [
+    {
+      "title": "Challenge video",
+      "url": "https://www.youtube.com/watch?v=w4mpiuBP_aY",
+      "date": "2020-02-12",
+      "archived": null
+    },
+    {
+      "title": "Challenge blog post",
+      "url": "https://mineshop.eu/2020/02/12/crypto-pumping-hardcore-research-portfolio-update-how-are-we-doing/",
+      "date": "2020-02-12",
+      "archived": "https://web.archive.org/web/20200528000000*/mineshop.eu/2020/02/12/crypto-pumping-hardcore-research-portfolio-update-how-are-we-doing/"
+    },
+    {
+      "title": "Hint 4 video",
+      "url": "https://www.youtube.com/watch?v=03wXiMczCXk",
+      "date": "2026-08-16",
+      "archived": null
+    },
+    {
+      "title": "Hint 5 video",
+      "url": "https://www.youtube.com/watch?v=ZjBJKooVmuE",
+      "date": "2026-08-16",
+      "archived": null
+    }
+  ],
+  "third_party_material": "no video or audio files are included; the challenge and hint videos are linked by URL only. The 5 planted sentences and 5 hints are the author's own published text, quoted short and verbatim with dates and links",
+  "last_updated": "2026-10-24"
+}

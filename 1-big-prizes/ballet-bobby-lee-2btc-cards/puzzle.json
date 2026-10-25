@@ -1,0 +1,141 @@
+{
+  "schema_version": 1,
+  "slug": "ballet-bobby-lee-2btc-cards",
+  "title": "Ballet / Bobby Lee: Take Bobby's Bitcoin",
+  "tier": "big",
+  "status": "open",
+  "dead_end_reason": null,
+  "series": null,
+  "author": {
+    "name": "Bobby Lee",
+    "handles": [
+      "x:@bobbyclee"
+    ],
+    "url": "https://x.com/bobbyclee"
+  },
+  "published": {
+    "date": "2020-07-24",
+    "url": "https://x.com/bobbyclee/status/1289004702122643456"
+  },
+  "chain": "bitcoin",
+  "prize": {
+    "amount": 2.00007358,
+    "asset": "BTC",
+    "usd_estimate": 161536,
+    "usd_snapshot": "2026-10-24",
+    "note": "two independent cards, 1.00003481 BTC (AA009926) and 1.00003877 BTC (AA012381); a third card, AA007448, was solved and swept by a third party in 2020 and is not part of the live prize"
+  },
+  "addresses": [
+    {
+      "address": "1JxWyNrkgYvgsHu8hVQZqTXEB9RftRGP5m",
+      "chain": "bitcoin",
+      "role": "escrow",
+      "label": "AA009926",
+      "explorer": "https://mempool.space/address/1JxWyNrkgYvgsHu8hVQZqTXEB9RftRGP5m",
+      "expected": "100003481 sats",
+      "verified_on": "2026-10-24",
+      "verified_state": "funded-unspent"
+    },
+    {
+      "address": "1QGtbKxx6FKDD66LwnrzHCAHmyZ7mDHqC4",
+      "chain": "bitcoin",
+      "role": "escrow",
+      "label": "AA012381",
+      "explorer": "https://mempool.space/address/1QGtbKxx6FKDD66LwnrzHCAHmyZ7mDHqC4",
+      "expected": "100003877 sats",
+      "verified_on": "2026-10-24",
+      "verified_state": "funded-unspent"
+    },
+    {
+      "address": "1LL6Xy92LwGDRfQP9fBU7f1477cEKctr7c",
+      "chain": "bitcoin",
+      "role": "escrow",
+      "label": "AA007448 (oracle, solved by a third party in 2020, not part of the live prize)",
+      "explorer": "https://mempool.space/address/1LL6Xy92LwGDRfQP9fBU7f1477cEKctr7c",
+      "expected": "n/a",
+      "verified_on": "2026-10-24",
+      "verified_state": "swept"
+    }
+  ],
+  "puzzle_type": [
+    "bip38",
+    "physical-object"
+  ],
+  "target_format": "BIP38 encrypted WIF (EC-multiply, blob prefix 0x0143) plus a passphrase (5 groups of 4 characters, about 32-symbol alphabet), decrypted to a compressed private key, derived to a P2PKH address",
+  "derivation": {
+    "summary": "decrypt the card's BIP38 EC-multiply encrypted WIF with its own passphrase to get a private key, derive the compressed P2PKH address, and compare it to the card's escrow address",
+    "oracle": "tools/oracle.py",
+    "oracle_certified": true,
+    "certified_against": "the solved sibling card AA007448 (encrypted WIF 6PnWfKaB...J4cH, passphrase 335Y-K745-C8WT-4D2W-80WP), reproduced byte for byte: address, WIF, and private key hex"
+  },
+  "difficulty_left": "external-info",
+  "difficulty_note": "the BIP38 EC-multiply pipeline is fully confirmed against the solved sibling card; each open card publishes only one half of its BIP38 pair (encrypted WIF on the back face, passphrase on the front face under a scratch-off), and the missing half was never photographed; image forensics on all 4 published photographs recover 0 characters of either missing half; brute force of either missing half is not feasible (about 100 bits for a passphrase, one full scrypt computation per guess)",
+  "tested_total": {
+    "candidates": 5,
+    "families": 5,
+    "certified": true
+  },
+  "leads": [
+    {
+      "rank": 1,
+      "title": "a photograph of AA012381's back face (the missing encrypted WIF)",
+      "cost": "needs-a-person",
+      "status": "open"
+    },
+    {
+      "rank": 2,
+      "title": "a photograph of AA009926's passphrase scratch-off face",
+      "cost": "needs-a-person",
+      "status": "open"
+    },
+    {
+      "rank": 3,
+      "title": "a credible disclosure of a Ballet 2020 entropy weakness",
+      "cost": "research-breakthrough",
+      "status": "open"
+    }
+  ],
+  "solutions": [],
+  "artifacts": [
+    {
+      "path": "clues/AA009926-puzzle.jpg",
+      "sha256": "574c68aebff7673fa29024d0765056b8b204d27ff8d4bfc22aabd42bc7977560",
+      "source": "https://raw.githubusercontent.com/oritwoen/boha/main/assets/ballet/AA009926/puzzle.jpg",
+      "archived": null
+    },
+    {
+      "path": "clues/AA009926-revealed.jpg",
+      "sha256": "78d4c2b748d66e68c2d6226ecf8df338d6b15fb2141f4d57fe74424de44eb859",
+      "source": "https://raw.githubusercontent.com/oritwoen/boha/main/assets/ballet/AA009926/revealed.jpg",
+      "archived": null
+    },
+    {
+      "path": "clues/AA012381-puzzle.jpg",
+      "sha256": "c625162197b5bc59a796949dba3816f0e532a97d0a199ca492b5f5445584d320",
+      "source": "https://raw.githubusercontent.com/oritwoen/boha/main/assets/ballet/AA012381/puzzle.jpg",
+      "archived": null
+    },
+    {
+      "path": "clues/AA007448-puzzle.jpg",
+      "sha256": "a9c67224d255afd26494fae895d0cf7c501883d464beeeca3704b46d431f20c7",
+      "source": "https://raw.githubusercontent.com/oritwoen/boha/main/assets/ballet/AA007448/puzzle.jpg",
+      "archived": null
+    }
+  ],
+  "sources": [
+    {
+      "title": "Bobby Lee, challenge announcement",
+      "url": "https://x.com/bobbyclee/status/1289004702122643456",
+      "date": "2020-07-24",
+      "archived": null
+    },
+    {
+      "title": "oritwoen/boha, community data mirror (addresses, encrypted WIFs, passphrases, card photographs)",
+      "url": "https://github.com/oritwoen/boha",
+      "date": "2026-08-16",
+      "archived": null
+    }
+  ],
+  "third_party_material": "the 4 card photographs in clues/ are the author-published puzzle itself (mirrored from Bobby Lee's own posted images via github.com/oritwoen/boha); no book, article, or other third-party copyrighted material is included",
+  "last_updated": "2026-10-24"
+}

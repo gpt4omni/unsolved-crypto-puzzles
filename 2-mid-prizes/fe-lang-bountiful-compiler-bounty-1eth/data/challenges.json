@@ -1,0 +1,146 @@
+{
+  "comment": "Round 3 of the Fe bountiful bug bounty, Ethereum mainnet. Read from the chain on 2026-08-17: getPrizeAmount(address) and isOpenChallenge(address) on the registry, every board field and isSolved() on each challenge. The false isSolved() results are uncertified because no known solved contract was retained as a positive RPC control.",
+  "chain_id": 1,
+  "registry": "0x71fB6afcD98c5BD611712ad4b8D314EF729aa69D",
+  "registry_balance_wei": "1000000000000000000",
+  "lock_deposit_wei": "10000000000000000",
+  "lock_period_blocks": 100,
+  "start_board": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    15,
+    14,
+    0
+  ],
+  "start_board_packed": "0x0EFDCBA987654321",
+  "solved_board": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    0
+  ],
+  "solved_board_packed": "0x0FEDCBA987654321",
+  "challenges": [
+    {
+      "name": "Game",
+      "address": "0x046a3a4968282BaA7ad6291723873C8275434623",
+      "prize_wei": "250000000000000000",
+      "open": true,
+      "is_solved": false,
+      "fe_feature": "StorageMap<u256, u256>",
+      "sourcify": "verified",
+      "get_board": {
+        "signature": "getBoard(uint256)",
+        "selector": "0x45e09e54",
+        "args": "index"
+      }
+    },
+    {
+      "name": "Game2D",
+      "address": "0xE959e7ecA1afCa6cf2Bf8b07e25Da355b6C8E8c7",
+      "prize_wei": "250000000000000000",
+      "open": true,
+      "is_solved": false,
+      "fe_feature": "[[u256; 4]; 4] nested arrays",
+      "sourcify": "verified",
+      "get_board": {
+        "signature": "getBoard(uint256,uint256)",
+        "selector": "0x58e4f026",
+        "args": "row, col"
+      }
+    },
+    {
+      "name": "GameEnum",
+      "address": "0xfb5423aDfBAC65ac675845Bb4FEBf8aeC128272E",
+      "prize_wei": "250000000000000000",
+      "open": true,
+      "is_solved": false,
+      "fe_feature": "enums, match, struct methods",
+      "sourcify": "verified",
+      "get_board": {
+        "signature": "getBoard(uint256)",
+        "selector": "0x45e09e54",
+        "args": "index"
+      }
+    },
+    {
+      "name": "GameBitboard",
+      "address": "0x5E987b6aADD4DFC2236D21edE6D07feb04350b06",
+      "prize_wei": "250000000000000000",
+      "open": true,
+      "is_solved": false,
+      "fe_feature": "single u256, bit packing",
+      "sourcify": "not-verified",
+      "get_board": {
+        "signature": "getBoard(uint256)",
+        "selector": "0x45e09e54",
+        "args": "index"
+      }
+    },
+    {
+      "name": "GameMonadic",
+      "address": "0x86B7AEce1503242fED29E593FAEde3b7b00a5a1D",
+      "prize_wei": "250000000000000000",
+      "open": true,
+      "is_solved": false,
+      "fe_feature": "single u256, functional combinators",
+      "sourcify": "verified",
+      "get_board": {
+        "signature": "getBoard(uint256)",
+        "selector": "0x45e09e54",
+        "args": "index"
+      }
+    },
+    {
+      "name": "GameNested",
+      "address": "0x3dF9789634995546B0126bC28B9F9FcBCB129F18",
+      "prize_wei": "250000000000000000",
+      "open": true,
+      "is_solved": false,
+      "fe_feature": "nested structs",
+      "sourcify": "verified",
+      "get_board": {
+        "signature": "getBoard(uint256)",
+        "selector": "0x45e09e54",
+        "args": "index"
+      }
+    },
+    {
+      "name": "GameTrait",
+      "address": "0x85b4d0B32b8a285111c244E52524B642f1A5ccFE",
+      "prize_wei": "250000000000000000",
+      "open": true,
+      "is_solved": false,
+      "fe_feature": "[u256; 16] plus trait dispatch",
+      "sourcify": "not-verified",
+      "get_board": {
+        "signature": "getBoard(uint256)",
+        "selector": "0x45e09e54",
+        "args": "index"
+      }
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "slug": "school-of-bitcoin-1msats",
+  "title": "School of Bitcoin: 1 Million Sats In This Image",
+  "tier": "mid",
+  "status": "open",
+  "dead_end_reason": null,
+  "series": null,
+  "author": {
+    "name": "School of Bitcoin",
+    "handles": [
+      "x:@schoolofbitcoin"
+    ],
+    "url": "https://schoolofbitcoin.com/"
+  },
+  "published": {
+    "date": "2025-03-09",
+    "url": "https://stacker.news/items/908283"
+  },
+  "chain": "bitcoin",
+  "prize": {
+    "amount": 1000000,
+    "asset": "sats",
+    "usd_estimate": 808,
+    "usd_snapshot": "2026-10-24",
+    "note": "single funding transaction, 0.01 BTC"
+  },
+  "addresses": [
+    {
+      "address": "bc1qcsdfkaqgy9ux668vmzflzqsyg0qtspncymt5ed",
+      "chain": "bitcoin",
+      "role": "escrow",
+      "label": "main",
+      "explorer": "https://mempool.space/address/bc1qcsdfkaqgy9ux668vmzflzqsyg0qtspncymt5ed",
+      "expected": "1000000 sats",
+      "verified_on": "2026-10-24",
+      "verified_state": "funded-unspent"
+    }
+  ],
+  "puzzle_type": [
+    "bip39-seed",
+    "image-stego",
+    "password-pages"
+  ],
+  "target_format": "BIP39 12 words, word 1 = abstract, possible passphrase, BIP84 m/84'/0'/0'/0/0",
+  "derivation": {
+    "summary": "derive the first receiving address for a 12-word candidate (with optional passphrase) under BIP44/49/84, account 0, and compare to the escrow address",
+    "oracle": "tools/oracle.py",
+    "oracle_certified": true,
+    "certified_against": "the public BIP39/BIP84 test vector (mnemonic 'abandon' repeated 11 times plus 'about'), since no solved sibling exists for this puzzle"
+  },
+  "difficulty_left": "external-info",
+  "difficulty_note": "word 1 (abstract) is confirmed; the remaining 11 words are not found on the card or in any crawled course content, and the intended-path KeePass file was pulled from the live site before it was opened by anyone who has a copy, so the missing piece is external information rather than more search over known material",
+  "tested_total": {
+    "candidates": 178264,
+    "families": 6,
+    "certified": true
+  },
+  "leads": [
+    {
+      "rank": 1,
+      "title": "obtain the complete kdbx file and its passphrase",
+      "cost": "needs-a-person",
+      "status": "open"
+    },
+    {
+      "rank": 2,
+      "title": "a fresh reading of the remaining 11 seed words",
+      "cost": "needs-new-information",
+      "status": "open"
+    }
+  ],
+  "solutions": [],
+  "artifacts": [],
+  "sources": [
+    {
+      "title": "Puzzle announcement, stacker.news item 908283",
+      "url": "https://stacker.news/items/908283",
+      "date": "2025-03-09",
+      "archived": null
+    },
+    {
+      "title": "School of Bitcoin course site",
+      "url": "https://schoolofbitcoin.com/",
+      "date": "2026-08-16",
+      "archived": null
+    }
+  ],
+  "third_party_material": "the course video and slide content are copyrighted and not reproduced; only short decoded clue text (the binary overlay message, the Morse and Wingdings decodes) is quoted in clues/author-posts.md",
+  "last_updated": "2026-10-24"
+}

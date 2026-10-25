@@ -1,0 +1,16 @@
+# Funding and solve events for the 12-lot series, read from mempool.space block data
+# (rechecked 2026-08-16). event: fund | solve. amount_sats is per lot for solve rows,
+# and per-lot amount for fund rows (the funding transaction pays all lots of one edition
+# in a single transaction; each lot still receives its own 200000 sats output).
+date,block_height,event,lot,amount_sats,txid
+2020-11-28,659090,fund,EN (8 lots),200000,f26ecab737b701982a7a3d0f9b0ffb3c509225cbbefecc2a4fe2e73758ce8972
+2021-01-04,664526,solve,EN_easy_2,200000,99212513b13d58dfa745e93d82195d75b666cbc6ea2d84ed995599f2913d7506
+2021-01-10,665464,solve,EN_medium_s,200000,1c6720389ded6f3d94d717a7630e6d518ee35840fefea135b48e60217605493c
+2021-02-05,669187,solve,EN_veryhard_s,200000,cfe513ddbb400fa9a7477ef96891c14172b981b26e1b8114bc7012a3864a3c89
+2021-09-11,700027,fund,IT (4 lots),200000,42919c00a64661e20b8af5719c64d58339e6e492ad21f07f4d38548768cbb23e
+2022-01-15,718767,solve,EN_easy_1,200000,5a4eb010ab4aa23a3946d50a602276551e160042862e95c793e384c5d8cf8011
+2022-02-18,723834,solve,IT_easy,200000,6112c03dda88afeab1ee32dfa9d5aa2f717edd18b959d7d378f4172d3b231efd
+2026-06-17,954149,solve,EN_hard_1,199622,b6e064aa8fde1153c342e2f7d98bce09e004bef5ac8db8f0138601289ceae69a
+2026-06-25,955367,solve,EN_hard_2,199600,c46c70fb04a2faeebde24057b22a547da7b309fd33b74b3d77181943a02b45d0
+2026-07-01,956264,solve,IT_medium,199600,914a825138f943fc357b5a026b607b3c62bf67d5997043761711aaeabf5cab49
+2026-07-03,956560,solve,IT_hard,199600,ad999c5837e67b4d566516a70344b352c4c688e1a0781eed739be3aad3afb20c

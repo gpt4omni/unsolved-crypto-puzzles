@@ -1,0 +1,15 @@
+# Build artifacts (produced locally by build.sh, never committed).
+*.so
+*.o
+secp256k1_hash160_engine
+electrum_v1_engine
+
+# Anything else build.sh might produce.
+*.exe
+*.out
+
+# Local run outputs.
+results/
+FOUND.txt
+*.pyc
+__pycache__/

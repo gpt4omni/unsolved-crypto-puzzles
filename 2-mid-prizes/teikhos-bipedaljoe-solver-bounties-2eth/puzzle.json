@@ -1,0 +1,173 @@
+{
+  "schema_version": 1,
+  "slug": "teikhos-bipedaljoe-solver-bounties-2eth",
+  "title": "TeikhosBounty: Johan Nygren's Proof-of-Public-Key Puzzles",
+  "tier": "mid",
+  "status": "open",
+  "dead_end_reason": null,
+  "series": "teikhos",
+  "author": {
+    "name": "Johan Nygren",
+    "handles": [
+      "github:resilience-me",
+      "reddit:johanngr",
+      "steemit:johan-nygren",
+      "x:resilience_me",
+      "former:bipedaljoe"
+    ],
+    "url": "https://github.com/resilience-me"
+  },
+  "published": {
+    "date": "2018-02-25",
+    "url": "https://gist.github.com/resilience-me/be11a0ed3575dddca10df8263b53cc1d"
+  },
+  "chain": "ethereum",
+  "prize": {
+    "amount": 2.000006078,
+    "asset": "ETH",
+    "usd_estimate": 4710,
+    "usd_snapshot": "2026-10-24",
+    "note": "sum of the 3 open contracts: C1 1.000002026 ETH, C2 0.500002026 ETH, 9732 0.500002026 ETH, balance re-checked 2026-10-24; a 4th contract, AEC7, holds 1.000012 ETH with no payout path for anyone; a 5th, 735B, was solved by me for 0.5 ETH and is now drained"
+  },
+  "addresses": [
+    {
+      "address": "0x735ba26f91e1275fa4b504649b19ef74739fe7e7",
+      "chain": "ethereum",
+      "role": "contract",
+      "label": "735B",
+      "explorer": "https://etherscan.io/address/0x735ba26f91e1275fa4b504649b19ef74739fe7e7",
+      "expected": "0.5 ETH",
+      "verified_on": "2026-10-24",
+      "verified_state": "swept"
+    },
+    {
+      "address": "0x17e5e0910b9185b0ede564dcbf074ca910ad56a4",
+      "chain": "ethereum",
+      "role": "contract",
+      "label": "C1",
+      "explorer": "https://etherscan.io/address/0x17e5e0910b9185b0ede564dcbf074ca910ad56a4",
+      "expected": "1.000002 ETH",
+      "verified_on": "2026-10-24",
+      "verified_state": "contract-holds-funds"
+    },
+    {
+      "address": "0xd7c6d542f3dcdceda845112b8fd567b8f8655805",
+      "chain": "ethereum",
+      "role": "contract",
+      "label": "C2",
+      "explorer": "https://etherscan.io/address/0xd7c6d542f3dcdceda845112b8fd567b8f8655805",
+      "expected": "0.500002 ETH",
+      "verified_on": "2026-10-24",
+      "verified_state": "contract-holds-funds"
+    },
+    {
+      "address": "0x973c2178b09225d1de3ab037d40b3f24af696255",
+      "chain": "ethereum",
+      "role": "contract",
+      "label": "9732",
+      "explorer": "https://etherscan.io/address/0x973c2178b09225d1de3ab037d40b3f24af696255",
+      "expected": "0.500002 ETH",
+      "verified_on": "2026-10-24",
+      "verified_state": "contract-holds-funds"
+    },
+    {
+      "address": "0xaec7e8c221c3fd24e75c996e32289235fd899ebf",
+      "chain": "ethereum",
+      "role": "contract",
+      "label": "AEC7",
+      "explorer": "https://etherscan.io/address/0xaec7e8c221c3fd24e75c996e32289235fd899ebf",
+      "expected": "1.000012 ETH, no payout path exists",
+      "verified_on": "2026-10-24",
+      "verified_state": "contract-holds-funds"
+    },
+    {
+      "address": "0x83e4b2a5A464bDfCD83057Ac08447f533A595156",
+      "chain": "ethereum",
+      "role": "payout",
+      "label": "my wallet (735B payout destination)",
+      "explorer": "https://etherscan.io/address/0x83e4b2a5A464bDfCD83057Ac08447f533A595156",
+      "expected": "n/a",
+      "verified_on": "2026-10-24",
+      "verified_state": "unknown"
+    }
+  ],
+  "puzzle_type": [
+    "smart-contract",
+    "timelock"
+  ],
+  "target_format": "64-byte uncompressed public key (no 0x04 prefix), unmasked against the contract's stored proof and checked with ecrecover; no private key needed",
+  "derivation": {
+    "summary": "unmask the contract's stored proof with a candidate 64-byte public key to get (r, s), then check with ECDSA public-key recovery (both recovery ids) that it is a valid signature of a fixed message under address(keccak256(pubkey))",
+    "oracle": "tools/oracle.py",
+    "oracle_certified": true,
+    "certified_against": "the real public key I recovered and submitted to solve 735B, itself public on chain since the winning authenticate() transaction; a deliberately altered version of the same key is confirmed to fail"
+  },
+  "difficulty_left": "external-info",
+  "difficulty_note": "the cryptography is sound and confirmed working end to end by the 735B solve; C1, C2, and 9732 target public keys that have never appeared on chain or in any OSINT trace found so far, so the only realistic path in is information from the author",
+  "tested_total": {
+    "candidates": 2,
+    "families": 5,
+    "certified": false
+  },
+  "leads": [
+    {
+      "rank": 1,
+      "title": "ask Johan Nygren directly where the C1/C2/9732 public keys or a solution are published",
+      "cost": "the time to send one message",
+      "status": "open"
+    },
+    {
+      "rank": 2,
+      "title": "passive triggers: a testnet snapshot resurfaces, the author discloses a key, or a competitor submits a key to C1/C2 in public",
+      "cost": "no action until triggered",
+      "status": "open"
+    }
+  ],
+  "solutions": [
+    {
+      "lot": "735B",
+      "date": "2026-06-21",
+      "answer": "ca6a98ceec61e213d9a0a8fdc0a6d5d9ed7566f5f4cfd24871fb9316feb6e1eb2367489f54a0cd4111f4c5356eb744d299a7521296786223c70947c8c36940c6",
+      "key_material_disclosed": false,
+      "payout_txid": "0x4d2bfceb311bda8d265debab1c8ad23cb860922b876eca523327d0405ab97bff",
+      "payout_amount": "0.5 ETH",
+      "payout_to": "0x83e4b2a5A464bDfCD83057Ac08447f533A595156",
+      "explorer": "https://etherscan.io/tx/0x4d2bfceb311bda8d265debab1c8ad23cb860922b876eca523327d0405ab97bff"
+    }
+  ],
+  "artifacts": [],
+  "sources": [
+    {
+      "title": "Signature idea for use with account abstraction",
+      "url": "https://github.com/ethereum/EIPs/issues/935",
+      "date": "2018-03-19",
+      "archived": null
+    },
+    {
+      "title": "ProofOfSymmetricKey.sol",
+      "url": "https://gist.github.com/resilience-me/be11a0ed3575dddca10df8263b53cc1d",
+      "date": "2018-02-27",
+      "archived": null
+    },
+    {
+      "title": "C1 verified source",
+      "url": "https://etherscan.io/address/0x17e5e0910b9185b0ede564dcbf074ca910ad56a4#code",
+      "date": "2026-08-16",
+      "archived": null
+    },
+    {
+      "title": "The 2022 reverted attempt that leaked 735B's public key",
+      "url": "https://etherscan.io/tx/0x7e2596f9f202aad8a90e84cf93e32e7b3fb0ba244491d84542cedaf089a553c4",
+      "date": "2022-04-03",
+      "archived": null
+    },
+    {
+      "title": "735B payout transaction",
+      "url": "https://etherscan.io/tx/0x4d2bfceb311bda8d265debab1c8ad23cb860922b876eca523327d0405ab97bff",
+      "date": "2026-06-21",
+      "archived": null
+    }
+  ],
+  "third_party_material": "no third-party articles or dumps; only the author's own published GitHub issue and gist text (about 90 words quoted total), verified contract source, and on-chain transaction data",
+  "last_updated": "2026-10-24"
+}

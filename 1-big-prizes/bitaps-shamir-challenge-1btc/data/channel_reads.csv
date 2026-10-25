@@ -1,0 +1,16 @@
+# Public channels read for a 3rd Shamir share on 2026-08-28.
+# extra_12word_shares=0 means the extractor found only the 2 published shares, or no share words at all.
+# date,channel,url,items,extra_12word_shares,witness
+2026-08-28,wayback-cdx-gap,https://web.archive.org/cdx/search/cdx,0 captures 2020-06-19 to 2020-07-03,0,same CDX query returns later captures of the known URL
+2026-08-28,common-crawl-CC-MAIN-2020-29,https://index.commoncrawl.org/CC-MAIN-2020-29-index,1 capture timestamp 20200704182040,0,this is the already-logged earliest capture
+2026-08-28,arquivo.pt-cdx,https://arquivo.pt/wayback/cdx,0 records (HTTP 200 empty body),0,empty body with HTTP 200
+2026-08-28,archive.today,https://archive.is/8bNRM,1 snapshot 2021-06-20,0,both known shares recovered from the snapshot
+2026-08-28,reddit-hc4bfk,https://www.reddit.com/r/Bitcoin/comments/hc4bfk/1_btc_cryptographic_challenge_with_splitted/,1 submission + 26 comments (Wayback 20230611002230),0,both known shares recovered from the submission body
+2026-08-28,telegram-bitapscom,https://t.me/s/bitapscom,public preview; post 15 is the 2020-06-19 announcement,0,known tweet URL and escrow address recovered
+2026-08-28,x-announcement,https://x.com/bitaps_com/status/1274018817304379394,1 post + 3 replies,0,known escrow address and date recovered
+2026-08-28,github-forks,https://github.com/bitaps-com/mnemonic-offline-tool/forks,13 reachable heads,0,12 heads equal commit 5b6dd995
+2026-08-28,live-challenge-pages,https://bitaps.com/mnemonic/challenge,3 hosts (bitaps.com tbtc.bitaps.com ltc.bitaps.com),0,both known shares recovered; zpub derives the escrow
+2026-08-28,cc-warc-challenge,challenge.warc,1 response 2020-07-04T18:20:40Z https://bitaps.com/mnemonic/challenge,0,stripped HTML recovers both known shares; 24 span.word-N values; zpub 0/0 derives escrow
+2026-08-28,cc-warc-tool-en,tool-en.warc,1 response 2020-07-04T19:03:29Z https://bitaps.com/mnemonic?language=en,0,restore slots empty; default split form 2 of 3
+2026-08-28,cc-warc-tool-ru,tool-ru.warc,1 response 2020-07-04T17:31:10Z https://bitaps.com/mnemonic?language=ru,0,restore slots empty; same default 2 of 3; no extra share words vs English
+2026-08-28,cc-warc-offline,offline.warc,1 response 2020-07-04T18:12:07Z https://bitaps.com/mnemonic/offline WARC-Truncated:length at 1 MiB,0,restore UI fully present and empty; cut is 255 BIP39 dice words abandon through cabin

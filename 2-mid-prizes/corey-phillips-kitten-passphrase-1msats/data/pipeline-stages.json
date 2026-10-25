@@ -1,0 +1,12 @@
+{
+  "_comment": "Stage list for the derivation pipeline figure. Source: clues/kitten.jpeg (the image), the author's own README in clues/author-posts.md, and tools/oracle.py, 2026-08-16.",
+  "stages": [
+    {"id": "image", "label": "kitten.jpeg\n(published image)", "edge": null},
+    {"id": "b64", "label": "base64 string", "edge": "base64 encode"},
+    {"id": "hash", "label": "sha256 digest", "edge": "sha256"},
+    {"id": "mnemonic", "label": "24-word mnemonic\n(FIXED, public)", "edge": "BIP39 entropy\nto mnemonic"},
+    {"id": "seed", "label": "seed\n(mnemonic + passphrase)", "edge": "PBKDF2-SHA512\n(2048 rounds)"},
+    {"id": "key", "label": "key pair\nm/84'/0'/0'/0/0", "edge": "BIP32"},
+    {"id": "addr", "label": "P2WPKH address\n(bech32)", "edge": "HASH160 + bech32"}
+  ]
+}

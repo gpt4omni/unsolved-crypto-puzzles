@@ -1,0 +1,15 @@
+{
+  "_comment": "The published stage chain of the GSMG.io web puzzle (page slugs from the Wayback Machine CDX index for gsmg.io, in solve order) and the two final gates it forks into. All chain stages have been passed by the community since 2019-2023; both final gates remain open as of 2026-08-16. Balances from mempool.space, checked 2026-08-16.",
+  "chain": [
+    {"label": "puzzle start\n2019-04-13", "state": "solved"},
+    {"label": "phase 1 to 3\ncryptograms", "state": "solved"},
+    {"label": "seed image +\nSalPhaseIon cipher", "state": "solved"},
+    {"label": "follow the\nwhite rabbit", "state": "solved"},
+    {"label": "the Architect\nChoice", "state": "solved"},
+    {"label": "final page\n1075 tokens", "state": "solved"}
+  ],
+  "gates": [
+    {"label": "small blob\n(salt 3ab58534...)", "state": "open", "target": "1GSMG1JC9wtdSwfwApgj2xcmJPAwx7prBe\n1.2563451 BTC"},
+    {"label": "\"Dualite\" blob\n(large, unopened)", "state": "open", "target": "17ucy1K9ZUAaoY6JVtM932W9jUp5LXfyHa\n3.7505531 BTC"}
+  ]
+}

@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1058" height="560" viewBox="0 0 1058 560" font-family="DejaVu Sans, sans-serif">
+<rect x="0" y="0" width="1058" height="560" fill="#FFFFFF"/>
+<text x="20" y="32" font-size="20" font-weight="bold" fill="#222222">3 coupled unknowns, 2 candidate formats</text>
+<text x="20" y="64" font-size="14" fill="#222222">Unknown:</text>
+<rect x="110" y="46" width="289" height="28" rx="6" fill="none" stroke="#E07A1F" stroke-width="2"/>
+<text x="254.5" y="65" font-size="13" fill="#222222" text-anchor="middle">1. format (BIP39 vs old-Electrum)</text>
+<rect x="415" y="46" width="322" height="28" rx="6" fill="none" stroke="#E07A1F" stroke-width="2"/>
+<text x="576.0" y="65" font-size="13" fill="#222222" text-anchor="middle">2. which 12 of about 30 visible words</text>
+<rect x="753" y="46" width="265" height="28" rx="6" fill="none" stroke="#E07A1F" stroke-width="2"/>
+<text x="885.5" y="65" font-size="13" fill="#222222" text-anchor="middle">3. the order of those 12 words</text>
+<line x1="529.0" y1="90" x2="529.0" y2="130" stroke="#222222" stroke-width="2" marker-end="url(#arrow)"/>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#222222"/></marker></defs>
+<text x="529.0" y="122" font-size="13" fill="#222222" text-anchor="middle">which format?</text>
+<rect x="129.0" y="150" width="380" height="340" rx="10" fill="none" stroke="#1F5FBF" stroke-width="2"/>
+<text x="319.0" y="184" font-size="17" font-weight="bold" fill="#222222" text-anchor="middle">BIP39</text>
+<text x="319.0" y="208" font-size="13" fill="#222222" text-anchor="middle">m/44'/0'/0'/0/0, P2PKH</text>
+<text x="145.0" y="240" font-size="13" fill="#222222">Exclusive words on the image (10):</text>
+<text x="145.0" y="264" font-size="13" fill="#E07A1F">camera, civil, food</text>
+<text x="145.0" y="286" font-size="13" fill="#E07A1F">liberty, police, proof</text>
+<text x="145.0" y="308" font-size="13" fill="#E07A1F">pyramid, riot, this</text>
+<text x="145.0" y="330" font-size="13" fill="#E07A1F">vote</text>
+<text x="145.0" y="454" font-size="12" fill="#9A9A9A">settled if one of these words is confirmed as</text>
+<text x="145.0" y="470" font-size="12" fill="#9A9A9A">a real seed word</text>
+<rect x="549.0" y="150" width="380" height="340" rx="10" fill="none" stroke="#1F5FBF" stroke-width="2"/>
+<text x="739.0" y="184" font-size="17" font-weight="bold" fill="#222222" text-anchor="middle">old-Electrum (v1)</text>
+<text x="739.0" y="208" font-size="13" fill="#222222" text-anchor="middle">m/change/index, no checksum</text>
+<text x="565.0" y="240" font-size="13" fill="#222222">Exclusive words on the image (7):</text>
+<text x="565.0" y="264" font-size="13" fill="#E07A1F">breathe, fist, free</text>
+<text x="565.0" y="286" font-size="13" fill="#E07A1F">needle, new, stop</text>
+<text x="565.0" y="308" font-size="13" fill="#E07A1F">war</text>
+<text x="565.0" y="454" font-size="12" fill="#9A9A9A">settled if one of these words is confirmed as</text>
+<text x="565.0" y="470" font-size="12" fill="#9A9A9A">a real seed word</text>
+</svg>

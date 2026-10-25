@@ -1,0 +1,532 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://unsolved-crypto-puzzles/schema/puzzle.schema.json",
+  "title": "puzzle.json",
+  "description": "Manifest for one puzzle folder in unsolved-crypto-puzzles.",
+  "type": "object",
+  "additionalProperties": true,
+  "required": [
+    "schema_version",
+    "slug",
+    "title",
+    "tier",
+    "status",
+    "dead_end_reason",
+    "author",
+    "published",
+    "chain",
+    "prize",
+    "addresses",
+    "puzzle_type",
+    "target_format",
+    "difficulty_left",
+    "solutions",
+    "sources",
+    "third_party_material",
+    "last_updated"
+  ],
+  "properties": {
+    "schema_version": {
+      "type": "integer",
+      "const": 1
+    },
+    "slug": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+      "description": "Must equal the folder name."
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "tier": {
+      "type": "string",
+      "enum": [
+        "big",
+        "mid",
+        "small"
+      ]
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "open",
+        "watch"
+      ]
+    },
+    "dead_end_reason": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "enum": [
+        null,
+        "unfunded",
+        "custodial",
+        "swept-by-third-party",
+        "solved-by-others",
+        "suspected-fake",
+        "no-exit-path",
+        "author-deceased-unfinished",
+        "window-closed",
+        "uneconomic",
+        "unobtainable-material"
+      ]
+    },
+    "series": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "author": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "name"
+      ],
+      "properties": {
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "handles": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "url": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "published": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "date",
+        "url"
+      ],
+      "properties": {
+        "date": {
+          "type": "string",
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+        },
+        "url": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "chain": {
+      "type": "string",
+      "enum": [
+        "bitcoin",
+        "ethereum",
+        "base",
+        "litecoin",
+        "arweave",
+        "solana",
+        "none"
+      ]
+    },
+    "prize": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "amount",
+        "asset",
+        "usd_estimate",
+        "usd_snapshot"
+      ],
+      "properties": {
+        "amount": {
+          "type": [
+            "number",
+            "string"
+          ]
+        },
+        "asset": {
+          "type": "string",
+          "enum": [
+            "BTC",
+            "sats",
+            "ETH",
+            "LTC",
+            "AR",
+            "USDT",
+            "USDC",
+            "SOL",
+            "NFT"
+          ]
+        },
+        "usd_estimate": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "usd_snapshot": {
+          "type": "string",
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+        },
+        "note": {
+          "type": "string"
+        }
+      }
+    },
+    "addresses": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "address",
+          "chain",
+          "role",
+          "explorer",
+          "verified_on",
+          "verified_state"
+        ],
+        "properties": {
+          "address": {
+            "type": "string",
+            "minLength": 1
+          },
+          "chain": {
+            "type": "string",
+            "enum": [
+              "bitcoin",
+              "ethereum",
+              "base",
+              "litecoin",
+              "arweave",
+              "solana",
+              "none"
+            ]
+          },
+          "role": {
+            "type": "string",
+            "enum": [
+              "escrow",
+              "contract",
+              "funder",
+              "payout",
+              "decoy"
+            ]
+          },
+          "label": {
+            "type": "string"
+          },
+          "explorer": {
+            "type": "string"
+          },
+          "expected": {
+            "type": "string"
+          },
+          "verified_on": {
+            "type": "string",
+            "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+          },
+          "verified_state": {
+            "type": "string",
+            "enum": [
+              "funded-unspent",
+              "partially-spent",
+              "swept",
+              "unfunded",
+              "contract-holds-funds",
+              "zero-balance-contract",
+              "unknown"
+            ]
+          },
+          "token_contract": {
+            "type": "string",
+            "description": "ERC-20 or ERC-1155 contract when the prize is a token rather than the native coin."
+          },
+          "token_id": {
+            "type": "string",
+            "description": "Token id for an ERC-1155 prize."
+          },
+          "token_standard": {
+            "type": "string",
+            "enum": [
+              "ERC-20",
+              "ERC-1155"
+            ]
+          },
+          "token_decimals": {
+            "type": "integer",
+            "minimum": 0
+          }
+        },
+        "allOf": [
+          {
+            "if": {
+              "properties": {
+                "verified_state": {
+                  "const": "zero-balance-contract"
+                }
+              },
+              "required": [
+                "verified_state"
+              ]
+            },
+            "then": {
+              "required": [
+                "expected"
+              ],
+              "properties": {
+                "chain": {
+                  "enum": [
+                    "ethereum",
+                    "base"
+                  ]
+                },
+                "role": {
+                  "const": "contract"
+                },
+                "expected": {
+                  "pattern": "^0+(?:\\.0+)?\\s"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "puzzle_type": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 4,
+      "items": {
+        "type": "string",
+        "enum": [
+          "bip39-seed",
+          "brainwallet",
+          "raw-private-key",
+          "bip38",
+          "shamir",
+          "multisig",
+          "timelock",
+          "hash-collision",
+          "smart-contract",
+          "image-stego",
+          "pixel-code",
+          "geometry",
+          "audio",
+          "book",
+          "text-cipher",
+          "word-selection",
+          "web-tree",
+          "physical-object",
+          "nft",
+          "video-series",
+          "password-pages"
+        ]
+      }
+    },
+    "target_format": {
+      "type": "string",
+      "minLength": 1
+    },
+    "derivation": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "summary": {
+          "type": "string"
+        },
+        "oracle": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "oracle_certified": {
+          "type": "boolean"
+        },
+        "certified_against": {
+          "type": "string"
+        }
+      }
+    },
+    "difficulty_left": {
+      "type": "string",
+      "enum": [
+        "bounded-compute",
+        "insight",
+        "external-info",
+        "human-action",
+        "research-breakthrough",
+        "uneconomic",
+        "none"
+      ]
+    },
+    "difficulty_note": {
+      "type": "string"
+    },
+    "tested_total": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "candidates": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "families": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "certified": {
+          "type": "boolean"
+        }
+      }
+    },
+    "leads": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "rank",
+          "title",
+          "cost",
+          "status"
+        ],
+        "properties": {
+          "rank": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "title": {
+            "type": "string"
+          },
+          "cost": {
+            "type": "string"
+          },
+          "status": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "solutions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "lot",
+          "date",
+          "answer",
+          "key_material_disclosed",
+          "payout_txid",
+          "payout_amount",
+          "payout_to",
+          "explorer"
+        ],
+        "properties": {
+          "lot": {
+            "type": "string"
+          },
+          "date": {
+            "type": "string",
+            "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+          },
+          "answer": {
+            "type": "string"
+          },
+          "key_material_disclosed": {
+            "type": "boolean"
+          },
+          "payout_txid": {
+            "type": "string"
+          },
+          "payout_amount": {
+            "type": "string"
+          },
+          "payout_to": {
+            "type": "string"
+          },
+          "explorer": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "artifacts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "path",
+          "sha256",
+          "source"
+        ],
+        "properties": {
+          "path": {
+            "type": "string"
+          },
+          "sha256": {
+            "type": "string",
+            "pattern": "^[a-f0-9]{64}$"
+          },
+          "source": {
+            "type": "string"
+          },
+          "archived": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        }
+      }
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "title",
+          "url",
+          "date"
+        ],
+        "properties": {
+          "title": {
+            "type": "string"
+          },
+          "url": {
+            "type": "string"
+          },
+          "date": {
+            "type": "string",
+            "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+          },
+          "archived": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        }
+      }
+    },
+    "third_party_material": {
+      "type": "string"
+    },
+    "last_updated": {
+      "type": "string",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+    }
+  }
+}

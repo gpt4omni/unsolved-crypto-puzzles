@@ -1,0 +1,12 @@
+{
+  "_comment": "The Quizchain series structure: round 1 (Quizchain) and round 2 (Quizchain2), roughly 90 blocks total (approximate, per the author's own posts), all claimed by readers between April and October 2019 except the 2 gates below. Confirmed exhaustively by src/sweep_escrows.py, which examined all 159 funding transactions cited in the author's 202 posts, with 0 unreadable. Balances from mempool.space, checked 2026-08-16.",
+  "chain": [
+    {"label": "Quizchain round 1\napprox. 45 blocks\nApr-Jun 2019", "state": "solved"},
+    {"label": "Quizchain2 round 2\nblocks 1 to 74", "state": "solved"},
+    {"label": "Real Big Block\nstage 1\n(certification witness)", "state": "solved"}
+  ],
+  "gates": [
+    {"label": "Real Big Block\nstage 2", "state": "open", "target": "14zMkTgaVXJcxdh4JdWi29MLRR44iUSG9W\n0.777 BTC"},
+    {"label": "Quizchain2\nBlock 76", "state": "open", "target": "13Cv6SXUnzGDT8JHqzzJ8xMPtsSdhJA4wd\n0.077 BTC"}
+  ]
+}

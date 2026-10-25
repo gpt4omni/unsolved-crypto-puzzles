@@ -1,0 +1,16 @@
+{
+  "_comment": "The 3 coupled unknowns for the BLM puzzle derivation and the 2 candidate seed formats, with the exclusive on-image words that argue for each. Source: docs/FRESH_ANALYSIS.md and docs/FORMAT_FINDING.md in the private research folder, re-read against the image itself.",
+  "unknowns": ["format (BIP39 vs old-Electrum)", "which 12 of about 30 visible words", "the order of those 12 words"],
+  "formats": [
+    {
+      "name": "BIP39",
+      "path": "m/44'/0'/0'/0/0, P2PKH",
+      "exclusive_words": ["camera", "civil", "food", "liberty", "police", "proof", "pyramid", "riot", "this", "vote"]
+    },
+    {
+      "name": "old-Electrum (v1)",
+      "path": "m/change/index, no checksum",
+      "exclusive_words": ["breathe", "fist", "free", "needle", "new", "stop", "war"]
+    }
+  ]
+}

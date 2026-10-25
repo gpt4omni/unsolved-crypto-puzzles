@@ -1,0 +1,71 @@
+{
+  "_note": "Derived index for the reading-order model in tools/sweep_reading_order.py. These are the BIP-0039 dictionary words that appear in the recovered 2020 source surfaces, listed in the order they are written, restricted to the ranges the model uses. This is a derived index, not a reproduction of the source text and not a copy of the BIP-0039 wordlist.",
+  "_derived_from": {
+    "video": "video description as archived 2020-05-28",
+    "post": "blog post body as archived 2020-05-28"
+  },
+  "anchors": {
+    "dutch": 1,
+    "fog": 5,
+    "parrot": 12
+  },
+  "video_pre_fog": [
+    "update",
+    "winter",
+    "follow",
+    "chat",
+    "original",
+    "post",
+    "account",
+    "share",
+    "this",
+    "video",
+    "more",
+    "great",
+    "tiny",
+    "you",
+    "address",
+    "seed",
+    "hidden",
+    "title",
+    "task",
+    "will",
+    "unlock",
+    "claim",
+    "expect",
+    "easy",
+    "there"
+  ],
+  "video_between_fog_and_parrot": [
+    "lake",
+    "also"
+  ],
+  "post_reading_order_after_dutch": [
+    "cattle",
+    "forest",
+    "wood",
+    "fiber",
+    "like",
+    "rib",
+    "roast",
+    "dinner",
+    "fresh",
+    "sponsor",
+    "video",
+    "word",
+    "seed",
+    "phrase",
+    "hidden",
+    "title",
+    "expect",
+    "easy",
+    "address"
+  ],
+  "counts": {
+    "video_pre_fog": 25,
+    "video_between_fog_and_parrot": 2,
+    "post_reading_order_after_dutch": 19
+  },
+  "fork_note": "fork appears only in the post tags, which have no position in reading order, so it takes any one of the 5 non-anchor post slots and is not listed here.",
+  "fiber_note": "fiber is a confirmed member from hint 4 and sits at rank 3 of the list above, so it keeps its reading-order place and is not a free choice."
+}

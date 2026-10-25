@@ -1,0 +1,11 @@
+{
+  "_comment": "Stage labels for the MD5-to-address derivation pipeline figure, confirmed by tools/oracle.py --selftest against the author's own published calibration vector (entropy 2941774a... to WIF at index 1).",
+  "stages": [
+    {"label": "source text\n(case-flip rule on\nsome paragraphs)"},
+    {"label": "128-bit\nentropy", "edge": "MD5\n(UTF-8 bytes)"},
+    {"label": "BIP39\nmnemonic", "edge": "entropy to\nmnemonic words"},
+    {"label": "seed", "edge": "PBKDF2\n(BIP39)"},
+    {"label": "private key", "edge": "BIP44\nm/44'/0'/0'/0/i"},
+    {"label": "P2PKH\naddress", "edge": "secp256k1\n+ HASH160"}
+  ]
+}

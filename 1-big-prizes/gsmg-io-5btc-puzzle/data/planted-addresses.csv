@@ -1,0 +1,16 @@
+# Addresses funded by the creator's vanity wallet 3GSMG24TujqfMJG1kQoBX18DzJHQLeJYMK with an
+# OP_RETURN message, and what their private keys are. key = how the 32-byte private key is
+# built from the preimage; "sha256" means sha256(preimage) as the key, "raw" means the ASCII
+# bytes zero-padded on the left, "bits reversed" means the 192-bit string of the raw bytes
+# read backwards. address = compressed P2PKH of that key. Every "verified" row was re-derived
+# on 2026-09-03; the unmessaged address of 2020-04-07 has no known preimage.
+address,funded,op_return,key,preimage,status
+1AD2wfwXukZ1kUAy848hTQQ72aSBZPB75r,2020-03-24,GSMG.io: are you sure?,sha256,theflowerblossomsthroughwhatseemstobeaconcretesurface,verified
+1Jqq37KkZEt4F3Dt6qXdtyiMEFBBdawbkJ,2020-03-24,"GSMG.io: Right, this is causality",sha256,causality,verified
+1M5ypvDbp124ZtKPbg3GJg1JqNs1x7TPoN,2020-03-24,GSMG.io: You are here because 227 chars were correct,sha256,the 7 parts of the phase 3 answer concatenated (227 characters; see the community repository),verified
+1K23RS1y2fnuZRkhw5nUpFr5Jk5WN11Zeq,2020-03-24,GSMG.io: phase3.2 pass OK,sha256,jacquefrescogiveitjustonesecondheisenbergsuncertaintyprinciple,verified
+18CchrjA3Uzfrzy4DFqao9ric6YfK4hjdc,2020-03-24,GSMG.io: part of the cipher,sha256,the 149-digit string of the phase 3.2 plaintext (whole),verified
+1GyT5WrLYpwFkuiVoPDJZa1Q6jtjbjuBff,2020-03-24,GSMG.io: do you beleive me you need it?,sha256,1GSMG1JC9wtdSwfwApgj2xcmJPAwx7prBe,verified
+148XH2YBmLr4oAJXQcG84FpNYoBmqnVPHQ,2020-04-03,"Good job, Neo!",raw,gsmg.io/theseedisplanted,verified
+13HGhjkmKUkP8sk9k63BLmhkxRjy7uK4Rp,2020-04-03,"Good job, Neo!",bits reversed,gsmg.io/theseedisplanted,verified
+1NULY7DhzuNvSDtPkFzNo6oRTZQWBqXNE9,2020-04-07,(none),unknown,unknown: the third door,open

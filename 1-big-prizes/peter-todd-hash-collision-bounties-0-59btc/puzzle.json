@@ -1,0 +1,153 @@
+{
+  "schema_version": 1,
+  "slug": "peter-todd-hash-collision-bounties-0-59btc",
+  "title": "Peter Todd Hash Collision Bounties",
+  "tier": "big",
+  "status": "watch",
+  "dead_end_reason": null,
+  "series": null,
+  "author": {
+    "name": "Peter Todd",
+    "handles": [
+      "bitcointalk:u=2546"
+    ],
+    "url": "https://bitcointalk.org/index.php?action=profile;u=2546"
+  },
+  "published": {
+    "date": "2013-09-13",
+    "url": "https://bitcointalk.org/index.php?topic=293382.0"
+  },
+  "chain": "bitcoin",
+  "prize": {
+    "amount": 0.59364885,
+    "asset": "BTC",
+    "usd_estimate": 47946,
+    "usd_snapshot": "2026-10-24",
+    "note": "combined across 4 live P2SH scripts (SHA-256, RIPEMD-160, HASH160, HASH256); a 5th sibling (SHA-1) was claimed in 2023 and is not part of this total"
+  },
+  "addresses": [
+    {
+      "address": "35Snmmy3uhaer2gTboc81ayCip4m9DT4ko",
+      "chain": "bitcoin",
+      "role": "escrow",
+      "label": "SHA-256",
+      "explorer": "https://mempool.space/address/35Snmmy3uhaer2gTboc81ayCip4m9DT4ko",
+      "expected": "0.27734251 BTC",
+      "verified_on": "2026-10-24",
+      "verified_state": "funded-unspent"
+    },
+    {
+      "address": "3KyiQEGqqdb4nqfhUzGKN6KPhXmQsLNpay",
+      "chain": "bitcoin",
+      "role": "escrow",
+      "label": "RIPEMD-160",
+      "explorer": "https://mempool.space/address/3KyiQEGqqdb4nqfhUzGKN6KPhXmQsLNpay",
+      "expected": "0.11576888 BTC",
+      "verified_on": "2026-10-24",
+      "verified_state": "funded-unspent"
+    },
+    {
+      "address": "39VXyuoc6SXYKp9TcAhoiN1mb4ns6z3Yu6",
+      "chain": "bitcoin",
+      "role": "escrow",
+      "label": "HASH160 (RIPEMD160(SHA256()))",
+      "explorer": "https://mempool.space/address/39VXyuoc6SXYKp9TcAhoiN1mb4ns6z3Yu6",
+      "expected": "0.10026873 BTC",
+      "verified_on": "2026-10-24",
+      "verified_state": "funded-unspent"
+    },
+    {
+      "address": "3DUQQvz4t57Jy7jxE86kyFcNpKtURNf1VW",
+      "chain": "bitcoin",
+      "role": "escrow",
+      "label": "HASH256 (SHA256(SHA256()))",
+      "explorer": "https://mempool.space/address/3DUQQvz4t57Jy7jxE86kyFcNpKtURNf1VW",
+      "expected": "0.10026873 BTC",
+      "verified_on": "2026-10-24",
+      "verified_state": "funded-unspent"
+    },
+    {
+      "address": "37k7toV1Nv4DfmQbmZ8KuZDQCYK9x5KpzP",
+      "chain": "bitcoin",
+      "role": "escrow",
+      "label": "SHA-1 (reference sibling, claimed 2023-02-22, not part of the live prize)",
+      "explorer": "https://mempool.space/address/37k7toV1Nv4DfmQbmZ8KuZDQCYK9x5KpzP",
+      "expected": "0 BTC (fully spent)",
+      "verified_on": "2026-10-24",
+      "verified_state": "swept"
+    }
+  ],
+  "puzzle_type": [
+    "hash-collision"
+  ],
+  "target_format": "two distinct byte strings, each under 521 bytes, with equal digest under the named hash function; submitted directly in a scriptSig, no key derivation involved",
+  "derivation": {
+    "summary": "supply 2 distinct pushes a, b in a single scriptSig such that HASH(a) == HASH(b); this is the generic collision-finding problem for the named hash, with no shortcut in the script itself",
+    "oracle": "tools/oracle.py",
+    "oracle_certified": true,
+    "certified_against": "the real 2023-02-22 SHA-1 claim (txid 9ec2a0db0c4c3423a6b2c3cb2a26fc626b037121b4b5f3f57b08916196ff14e0, block 777856), decoded directly from its scriptSig: the SHAttered PDF-prefix pair; and the same-day 2013-09-13 OP_ABS demo claim, a non-hash sibling script proving the same payout template works"
+  },
+  "difficulty_left": "research-breakthrough",
+  "difficulty_note": "no known shortcut over the generic collision bound for any of the 4 live hash functions (2^128 for SHA-256 and HASH256, 2^80 for RIPEMD-160 and HASH160); what would close this is a published practical collision on one of them, the way SHAttered did for SHA-1 in 2017",
+  "tested_total": {
+    "candidates": 0,
+    "families": 4,
+    "certified": true
+  },
+  "leads": [
+    {
+      "rank": 1,
+      "title": "a published practical or academic full collision on SHA-256, RIPEMD-160, HASH160 or HASH256",
+      "cost": "needs-a-research-breakthrough",
+      "status": "open"
+    },
+    {
+      "rank": 2,
+      "title": "RIPEMD-160 and HASH160 as the most-watched sub-targets (smallest generic bound, more active reduced-round literature)",
+      "cost": "none, prioritization only",
+      "status": "open"
+    },
+    {
+      "rank": 3,
+      "title": "passive monitoring of the spent flag on the 4 live addresses and of collision announcements",
+      "cost": "minutes, periodic",
+      "status": "open"
+    }
+  ],
+  "solutions": [],
+  "artifacts": [],
+  "sources": [
+    {
+      "title": "REWARD offered for hash collisions for SHA1, SHA256, RIPEMD160 and other",
+      "url": "https://bitcointalk.org/index.php?topic=293382.0",
+      "date": "2013-09-13",
+      "archived": null
+    },
+    {
+      "title": "boha, community bounty mirror (hash_collision.jsonc)",
+      "url": "https://github.com/oritwoen/boha",
+      "date": "2026-08-16",
+      "archived": null
+    },
+    {
+      "title": "The first collision for full SHA-1 (SHAttered)",
+      "url": "https://shattered.io",
+      "date": "2017-02-23",
+      "archived": null
+    },
+    {
+      "title": "mempool.space, SHA-1 bounty claiming transaction",
+      "url": "https://mempool.space/tx/9ec2a0db0c4c3423a6b2c3cb2a26fc626b037121b4b5f3f57b08916196ff14e0",
+      "date": "2023-02-22",
+      "archived": null
+    },
+    {
+      "title": "mempool.space, 4 live escrow addresses and the SHA-1 reference",
+      "url": "https://mempool.space/address/35Snmmy3uhaer2gTboc81ayCip4m9DT4ko",
+      "date": "2026-08-16",
+      "archived": null
+    }
+  ],
+  "third_party_material": "the redeem-script table and the quoted lines are Peter Todd's own puzzle material, quoted briefly with source and date; the SHAttered SHA-1 collision pair is a public academic research artifact (Stevens et al., 2017), read directly from the public blockchain rather than reproduced from the paper; no other third-party material is included",
+  "last_updated": "2026-10-24"
+}

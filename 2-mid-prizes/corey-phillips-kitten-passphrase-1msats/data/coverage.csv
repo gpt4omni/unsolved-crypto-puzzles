@@ -1,0 +1,19 @@
+# Passphrase search coverage for the Corey Phillips kitten puzzle.
+# One row per corpus family tested against the fixed 24-word mnemonic under BIP84
+# m/84'/0'/0'/0/0. Candidate counts recomputed by summing the individual runs listed in
+# my own results/PASSPHRASE_RUNS.md and results/STATUS.md (re-read and re-summed on
+# 2026-08-16; the sum here, 1,155,064,682, is the precise total, not a rounded figure).
+# witness: yes = a planted control passphrase in the same engine run was recovered, and
+# independently reproduced by a second tool (btcrecover) on a subset.
+family,candidates,engine,rate_per_s,witness,date
+author's own raw wordlists (skullsecurity lists bundled in the community repo),705613,CPU,12700,yes,2026-06-13
+rockyou.txt raw,14343467,GPU,315000,yes,2026-06-13
+rockyou + best64 rules,1104459484,GPU,690000,yes,2026-06-13
+Corey-specific corpus (108 mined words) raw plus 8 rule sets,23735781,GPU,690000,yes,2026-06-13
+Corey in-joke phrases (raw plus 2 rule sets),2808334,GPU,690000,yes,2026-06-13
+two-word thematic combinator (35 words x 6 join styles),7350,GPU,690000,yes,2026-06-13
+human password lists (probable-v2 darkweb2017 xato-1M ncsc-100k raw and best64),8967534,GPU,690000,yes,2026-06-13
+famous quotes plus BIP39 wordlist as a single-word passphrase,29201,GPU,690000,yes,2026-06-13
+audio-puzzle decoded message and 32 minimal variants,32,GPU,690000,yes,2026-06-13
+alternate BIP84 index paths (0/1 1/0 1'/0/0 0/2) on the Corey corpus,432,GPU,690000,yes,2026-06-13
+independent cross-check with a second tool (btcrecover),7454,CPU,1000,yes,2026-06-13

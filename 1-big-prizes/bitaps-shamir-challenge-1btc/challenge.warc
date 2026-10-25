@@ -1,0 +1,1330 @@
+WARC/1.0
+WARC-Type: response
+WARC-Date: 2020-07-04T18:20:40Z
+WARC-Record-ID: <urn:uuid:b43bce11-df8e-4aab-9d15-6477c43abd03>
+Content-Length: 71575
+Content-Type: application/http; msgtype=response
+WARC-Warcinfo-ID: <urn:uuid:960d1e5d-132c-4c82-b2d8-e544446ebb20>
+WARC-Concurrent-To: <urn:uuid:945552a3-986c-4d9b-a8d7-4fd67104a73c>
+WARC-IP-Address: 178.128.255.179
+WARC-Target-URI: https://bitaps.com/mnemonic/challenge
+WARC-Payload-Digest: sha1:VL2EUR4KXMBSCLVXAJN3VAYCO7WRVUPB
+WARC-Block-Digest: sha1:KB3F2L4YHCWEFJFZOKXGDVTXOV6RS3C7
+WARC-Identified-Payload-Type: text/html
+
+HTTP/1.1 200 OK
+Server: openresty
+Date: Sat, 04 Jul 2020 18:20:40 GMT
+Content-Type: text/html; charset=utf-8
+X-Crawler-Transfer-Encoding: chunked
+Connection: keep-alive
+SET-COOKIE: hide_dashboard=0
+Strict-Transport-Security: max-age=31536000
+X-Frame-Options: DENY
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Bitcoin: because fuck the banks
+X-Crawler-Content-Encoding: gzip
+Content-Length: 71144
+
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="yandex-verification" content="ad5e21acab336cca"/>
+    <meta name="format-detection" content="telephone=no">
+    <meta data-n-head="true" name="keywords"
+          content="bitcoins, transactions, blocks, address,blockchain, bitcoin, litecoin, blockchain search engine, blockchain explorer, block explorer, bitcoin explorer,  litecoin explorer, blockchain analytics, bitcoin block explorer, btc explorer">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="/static/css/bootstrap.min.css" crossorigin="anonymous">
+    <link href="/static/img/favicon.png" rel="shortcut icon">
+    
+        <meta id="theme-color" name="theme-color" content="#f1f1f1">
+        <meta id="msapplication-navbutton-color" name="msapplication-navbutton-color" content="#f1f1f1">
+        <meta id="apple-mobile-web-app-status-bar-style" name="apple-mobile-web-app-status-bar-style" content="#f1f1f1">
+
+    
+    
+    <title>1 BTC challenge</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="/static/css/style.css?1593883984305">
+    <link rel="stylesheet" href="/static/css/font-awesome.css">
+    
+    <style>
+
+        html[data-theme='dark'] {
+            --bbfb: url(/static/img/bbfbb.svg);
+        }
+        html {
+            --bbfb: url(/static/img/bbfb.svg);
+        }
+        ul {
+            margin-left: 2em;
+            margin-right: 2em;
+        }
+        ul li {
+            margin-bottom: 0.9em;
+        }
+
+        p {
+            font-size: 1.2em;
+            text-align: justify;
+            text-indent: 1em;
+
+            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+        }
+
+        h5 {
+            font-weight: lighter;
+            font-size: 1.5em;
+            font-family:   sans-serif;
+        }
+
+        h2 {
+            font-weight: lighter;
+            font-family:  sans-serif;
+        }
+
+
+
+
+
+    .textarea {
+
+    text-align: justify;
+    outline: none!important;
+    min-height: 3.3em;
+    -webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+
+    text-shadow: none;
+    display: inline-block;
+
+    -webkit-appearance: textarea;
+
+    -webkit-rtl-ordering: logical;
+
+    cursor: text;
+    white-space: pre-wrap;
+    overflow-wrap: break-word;
+    margin: 0em;
+
+    border-image: initial;
+    box-sizing: border-box;
+    direction: ltr;
+    border: none;
+
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+
+    font-family: 'Roboto',arial,sans-serif;
+    font-size: 1.2em;
+    overflow: hidden;
+    padding: 0.8em;
+    padding-right: 2em;
+    resize: none;
+
+
+    box-shadow: var(--card-border-shadow);
+    word-break: keep-all;
+    background-color: var(--text-area-background);
+    color:var(--body-color);
+        border: var(--text-area-border);
+    border-radius: 0.15em;
+}
+
+
+
+
+
+
+html {
+    --text-area-background: rgb(247, 247, 247);
+        --text-area-disabled-border: #bdbdbd;
+        --text-area-disabled-background: #fafafa;
+    --text-area-placeholder: #bbb;
+    --text-area-border: 0;
+    --x-btn-position: 0 0;
+    --share-color: #7e57c2;
+}
+
+html[data-theme='dark'] {
+            --text-area-disabled-background: transparent;
+    --text-area-background: transparent;
+        --text-area-placeholder: #2f434d;
+--text-area-border: 0.05em solid #7a7a7a !important;
+        --text-area-disabled-border: #232d36;
+   --share-color: #ffc107;
+        --x-btn-position: 100% 100%;
+}
+
+
+
+
+
+.wst  small{
+    color: silver !important;
+
+    padding-right: 0.2em;
+
+}
+
+
+
+.valid {
+    color: #009586;
+    position: relative;
+    font-weight: bold;
+}
+.valid::after {
+    display: block;
+    position: absolute;
+    color: #616161;
+    z-index: 100;
+    font-size: 0.4em;
+    width: 100%;
+    text-align: center;
+    top: 2.9em;
+    left:0;
+}
+.word-1::after {content: "1";}
+.word-2::after {content: "2";}
+.word-3::after {content: "3";}
+.word-4::after {content: "4";}
+.word-5::after {content: "5";}
+.word-6::after {content: "6";}
+.word-7::after {content: "7";}
+.word-8::after {content: "8";}
+.word-9::after {content: "9";}
+.word-10::after {content: "10";}
+.word-11::after {content: "11";}
+.word-12::after {content: "12";}
+
+
+.words-count-ok .valid::after {
+    color:green;
+}
+
+.textarea span {
+        display: inline-block;
+    margin-bottom: 0.3em;
+
+}
+
+ .share-div .valid{ color: var(--share-color)!important; }
+ .share-div .valid::after{ color: var(--share-color)!important; }
+
+
+
+
+
+
+
+    </style>
+
+</head>
+
+<body>
+<div class="content">
+    
+        <script src="/static/js/highcharts.js?1593883984305"></script>
+        <div id="header-top" class="header header-top">
+            <div class="container-fluid col-xl-11">
+                <!-- Top fast access menu -->
+                <div class="d-flex pt-2  flex-row justify-content-between align-items-start" id="top-menu">
+                    <div class="btn-group ">
+                        <div data-toggle="dropdown" role="navigation" aria-expanded="false">
+                            <div>
+                                <a class="pt-2 pb-3 d-flex flex-row justify-content-center" style="cursor:pointer;">
+                                    
+                                        <div class="bitcoin-logo"></div>
+                                        <div class="ml-1 pt-2">
+                                            <small>
+                                                <span class="fa fa-lg fa-angle-down"></span>
+                                            </small>
+                                        </div>
+                                    
+                                </a>
+                            </div>
+                        </div>
+                        <div class="dropdown-menu   " id="collapse-menu-net">
+
+                            <a class="dropdown-item bitcoin-logo-menu" href="https://btc.bitaps.com">
+                                <div class="bitcoin-logo-gray "></div>
+                            </a>
+                            <a class="dropdown-item litecoin-logo-menu" href="https://ltc.bitaps.com">
+                                <div class="litecoin-logo-gray "></div>
+                            </a>
+                            <a class="dropdown-item ethereum-logo-menu" href="https://eth.bitaps.com">
+                                <div class="ethereum-logo-gray "></div>
+                            </a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item  bitcoin-testnet-logo-menu  " href="https://tbtc.bitaps.com">
+                                <div class="bitcoin-testnet-logo-gray bitcoin-testnet-logo-menu"></div>
+                            </a>
+                            <a class="dropdown-item  litecoin-testnet-logo-menu  " href="https://tltc.bitaps.com">
+                                <div class="litecoin-testnet-logo-gray litecoin-testnet-logo-menu"></div>
+                            </a>
+                            <a class="dropdown-item ethereum-testnet-logo-menu" href="https://teth.bitaps.com">
+                                <div class="ethereum-testnet-logo-gray ethereum-testnet-logo-menu"></div>
+                            </a>
+                        </div>
+
+                        <div class="top-stat"
+                                
+                             style="display: block;"
+                                >
+
+                            <div class=" d-flex pt-3   flex-row align-items-end ml-3" >
+                                <h6 class="text-right pr-1 mb-0 pb-0"><b><span
+                                        id="last_block_top">637 700</span></b></h6>
+                                <small>
+                                    <small class="top-stat-helper"
+                                           id="tx-count-top">6&nbsp;964</small>
+                                </small>
+                            </div>
+                        </div>
+
+
+                        <div class="top-stat"
+                                
+                             style="display: block;"
+                                >
+
+                            <div class="top-stat d-flex pt-3    flex-row align-items-end ml-3">
+
+
+                                <h6 class="text-right pr-1 mb-0 pb-0" id="average_last_top">
+                                    <small>$</small>
+                                    <b><span id="average_last_dollars_top">9 168</span>.
+                                        <small id="average_last_cents_top">37</small>
+                                    </b></h6>
+                                <span class="bold text-right   smaller">
+                                                       <span id="average_ticker_change_percent_top"
+                                                               
+                                                             class="text-green top-stat-helper" >
+                                                           <span id="average_ticker_change_percent_direction_top">
+                                                               +</span>
+                                                           <span id="average_ticker_change_percent_dollars_top">0</span><span>.</span><small
+                                                               id="average_ticker_change_percent_cents_top"
+                                                               class="bold">98</small><span> %</span>
+
+
+                                                       </span>
+                                                   </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="    d-none d-md-block   dashboard-layout fast-menu mr-4" id="fast-menu">
+                        <ul class="list-inline">
+                            <li class="list-inline-item"><a class="nav-link"
+                                                            href="/blocks">Blocks</a></li>
+                            <li class="list-inline-item"><a class="nav-link"
+                                                            href="/tools">Tools</a></li>
+                            <li class="list-inline-item"><a class="nav-link"
+                                                            href="/statistics">Statistics</a>
+                            </li>
+                            <li class="list-inline-item"><a class="nav-link"
+                                                            href="https://developer.bitaps.com">Developers</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+
+                <!-- Dashboard -->
+                
+                    
+                    
+                    <div class="  d-flex flex-column flex-md-row   justify-content-around  dashboard "
+                            
+                         style="height: 0em;display: none;"
+                            
+                         id="net-dashboard">
+                        <div class="   mb-3   d-flex flex-column    align-items-center dashboard-card "
+                             id="last_block_header" style=" width: 100%; max-width:30em;min-width: 22.6em">
+                            <div class="p-4  dashboard-layout  d-flex flex-column    align-items-center"
+                                 style=" height:100%;">
+                                <p class="lattolight" style=" ">Last block</p>
+                                <h1 id="header_last_block_height"
+                                    class="lattobold pl-1 pr-1">637 700</h1>
+                                <p class="lattolight pb-1">Time from last block</p>
+                                <div id="block_age">
+                                    <div class="countdown-section"><b>00</b>
+                                        <span>hours</span></div>
+                                    <div class="countdown-section"><b>15</b>
+                                        <span>minutes</span></div>
+                                    <div class="countdown-section"><b>23</b>
+                                        <span>seconds</span></div>
+                                </div>
+                                <div class="lattolight pb-1 pt-3 d-flex flex-row justify-content-around align-items-end w-100">
+                                    <div class="d-flex flex-column align-items-center">
+                                        <h5 id="unconfirmed_tx_count"
+                                                
+                                                    
+                                                
+                                            class=" pl-1 pr-1 bold d-block ">6&nbsp;964</h5>
+                                        <small>Pool transactions</small>
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center">
+                                        <div class="d-flex flex-row align-items-center">
+                                            <span id="header_fee"
+                                                  style="padding-bottom: 0.3em;"
+                                                  class=" pl-1 pr-1 bold ">21.<span class="after-dot">26</span></span>
+                                            <div class="small">
+                                                <small> ś<b>/vByte</b></small>
+                                            </div>
+                                        </div>
+                                        <small>Best fee</small>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="d-flex flex-column   align-items-center dashboard-card  " id="market-dashboard"
+                             style="width: 100%;">
+                            <div id="htop-left-wrapper"
+                                 class="  d-flex ml-0 mr-4 pl-0 pr-4  flex-column   align-items-center    w-100"
+                                 style=" height:100%;">
+                                
+                                <div id="htop-left" class="d-flex flex-row  justify-content-around w-100" style="">
+
+
+                                    <!-- USD tickers -->
+                                    <div id="price-header">
+
+                                        <div class="pt-2 ">
+                                            <div id="average_ticker">
+                                                <div class="   ">BTC/USD Last 24 hours
+
+                                                </div>
+
+                                                <h2 class="text-right pr-1 mb-0 pb-0" id="average_price">
+                                                    <small>$</small>
+                                                    <b><span id="average_last_dollars">9 168</span>.
+                                                        <small id="average_last_cents">37</small>
+                                                    </b></h2>
+                                                <div class="d-flex flex-row justify-content-around p-1 ">
+                                                    <div id="average_ticker_hl" class="bold text-left w-100 ">
+                                                        <div class="d-flex flex-row ">
+                                                            <div style="width: 1.5em;">O</div>
+                                                            <div>
+                                                                <span id="average_ticker_open_dollars">9 078</span><span>.</span>
+                                                                <small class="bold"
+                                                                       id="average_ticker_open_cents">14</small>
+                                                            </div>
+                                                        </div>
+                                                        <div id="average_ticker_high" class="d-flex flex-row ">
+                                                            <div style="width: 1.5em;">H</div>
+                                                            <div>
+                                                                <span id="average_ticker_high_dollars">9 187</span><span>.</span>
+                                                                <small class="bold"
+                                                                       id="average_ticker_high_cents">29</small>
+                                                            </div>
+                                                        </div>
+                                                        <div id="average_ticker_low" class="d-flex flex-row">
+                                                            <div style="width: 1.5em;">L</div>
+                                                            <div>
+                                                                <span id="average_ticker_low_dollars">9 049</span><span>.</span>
+                                                                <small id="average_ticker_low_cents"
+                                                                       class="bold">34</small>
+                                                            </div>
+                                                        </div>
+                                                        <div id="average_ticker_vol" class="d-flex flex-row">
+                                                            <div style="width: 1.5em;">V</div>
+                                                            <div>
+                                                                <span id="average_ticker_vol_dollars">19 531</span><span>.</span>
+                                                                <small id="average_ticker_vol_cents"
+                                                                       class="bold">59</small>
+                                                            </div>
+                                                        </div>
+
+                                                    </div>
+                                                    <div id="average_ticker_change" class="bold text-left w-100">
+                                                        <div class="bold text-right w-100   smaller">
+                                                            <div id="average_ticker_change_amount"
+                                                                    
+                                                                 class="text-green" >
+                                                                <span id="average_ticker_change_amount_direction">
+                                                                    +</span>
+                                                                <span id="average_ticker_change_amount_dollars">90</span><span>.</span>
+                                                                <small class="bold"
+                                                                       id="average_ticker_change_amount_cents">23</small>
+                                                            </div>
+                                                        </div>
+                                                        <div class="bold text-right w-100  smaller">
+                                                            <div id="average_ticker_change_percent"
+                                                                    
+                                                                 class="text-green" >
+                                                                <span id="average_ticker_change_percent_direction">
+                                                                    +</span>
+                                                                <span id="average_ticker_change_percent_dollars">0</span><span>.</span>
+                                                                <small id="average_ticker_change_percent_cents"
+                                                                       class="bold">98</small>
+                                                                <span> %</span>
+                                                            </div>
+                                                        </div>
+
+                                                    </div>
+
+                                                </div>
+
+                                            </div>
+                                            <div id="dashboard-chart" style=""></div>
+                                        </div>
+
+                                        <div class="d-flex flex-row  justify-content-around small">
+                                            <div class="  d-sm-block" id="usd_markets">
+
+
+                                                <a target="_blank" rel="noopener noreferrer"
+                                                   href="https://bitfinex.com">
+                                                    <div class="row market bottom-line bold d-flex flex-row justify-content-between align-items-center">
+                                                        <div>Bitfinex</div>
+                                                        <div  
+                                                            class="text-green"  >
+                                                            <div class="d-flex flex-row align-items-end pr-1 pl-1"
+                                                                 id="BITFINEX_last">
+                                                                <small class="bold"></small>
+                                                                <span>9 175</span>
+                                                                <small class="bold">.</small>
+                                                                <small class="bold">89</small>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </a>
+
+                                                <a target="_blank" rel="noopener noreferrer"
+                                                   href="https://pro.coinbase.com">
+                                                    <div class="row market bottom-line bold d-flex flex-row justify-content-between align-items-center">
+                                                        <div>Coinbase Pro</div>
+                                                        <div   class="text-red"  >
+                                                            <div class="d-flex flex-row align-items-end pr-1 pl-1"
+                                                                 id="COINBASEPRO_last">
+                                                                <small class="bold"></small>
+                                                                <span>9 172</span>
+                                                                <small class="bold">.</small>
+                                                                <small class="bold">43</small>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </a>
+
+                                                <a target="_blank" rel="noopener noreferrer"
+                                                   href="https://bitstamp.com">
+                                                    <div class="row market bottom-line bold d-flex flex-row justify-content-between align-items-center">
+                                                        <div>Bitstamp</div>
+                                                        <div  
+                                                            class="text-green"  >
+                                                            <div class="d-flex flex-row align-items-end pr-1 pl-1"
+                                                                 id="BITSTAMP_last">
+                                                                <small class="bold"></small>
+                                                                <span>9 167</span>
+                                                                <small class="bold">.</small>
+                                                                <small class="bold">04</small>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </a>
+
+
+                                            </div>
+                                            <!-- USDT tickers -->
+                                            <div class="  d-sm-none d-md-block" id="usdt_markets">
+
+                                                <a target="_blank" rel="noopener noreferrer" href="https://gemini.com">
+                                                    <div class="row market bottom-line bold d-flex flex-row justify-content-between align-items-center">
+                                                        <div>Gemini</div>
+                                                        <div  
+                                                            class="text-green"  >
+                                                            <div class="d-flex flex-row align-items-end pr-1 pl-1"
+                                                                 id="GEMINI_last">
+                                                                <small class="bold"></small>
+                                                                <span>9 174</span>
+                                                                <small class="bold">.</small>
+                                                                <small class="bold">64</small>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </a>
+
+                                                <a target="_blank" rel="noopener noreferrer" href="https://kraken.com">
+                                                    <div class="row market bottom-line bold d-flex flex-row justify-content-between align-items-center">
+                                                        <div>Kraken</div>
+                                                        <div   class="text-red"  >
+                                                            <div class="d-flex flex-row align-items-end pr-1 pl-1"
+                                                                 id="KRAKEN_last">
+                                                                <small class="bold"></small>
+                                                                <span>9 165</span>
+                                                                <small class="bold">.</small>
+                                                                <small class="bold">70</small>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </a>
+
+                                                <a target="_blank" rel="noopener noreferrer" href="https://hitbtc.com">
+                                                    <div class="row market bottom-line bold d-flex flex-row justify-content-between align-items-center">
+                                                        <div>HitBTC</div>
+                                                        <div   class="text-red"  >
+                                                            <div class="d-flex flex-row align-items-end pr-1 pl-1"
+                                                                 id="HITBTC_last">
+                                                                <small class="bold"></small>
+                                                                <span>9 165</span>
+                                                                <small class="bold">.</small>
+                                                                <small class="bold">30</small>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </a>
+
+
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <a
+                                    class="arrow-container hide-dashboard
+                                        
+                                     show-dashboard
+                             ">
+                                <div class="arrowx"></div>
+                                <div class="arrowx"></div>
+                                <div class="arrowx"></div>
+                            </a>
+                        </div>
+                    </div>
+                
+            </div>
+        </div>
+        <nav id="sticky" class="header header-sticky sticky-top search-container flex-column">
+            <div class="container-fluid col-xl-11 " role="navigation">
+                <div class="row justify-content-between align-items-center">
+                    <div class="col logo-wrap ">
+                        <a href="/">
+                            <div class=" navbar-brand logo  slow_spin align-top"></div>
+                        </a>
+                    </div>
+                    <div class="col search-box-wrap">
+                        <div class="  ">
+                            <div class="pr-3" style="display:flex;position:relative;">
+                                <input type="text" id="search-box" class=" input-box"
+                                       autocomplete="off" autocapitalize="off" spellcheck="false"
+                                       placeholder="Search in blockchain for block, transaction or address ..."
+                                       onkeydown="check_pointer(this);" onkeyup="check_pointer(this)"
+                                       onpaste="check_pointer(this)">
+                                <span class="fa fa-search   search_icon"
+                                      onclick="window.location.href='/'+document.getElementById('search-box').value;">
+                                    </span>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="scan-qr" onclick="searchBarScanQrCode();">
+                    </div>
+                    <div class="col menu-picto-wrap moon">
+                        <i class="fa fa-lg theme ml-1"></i>
+                    </div>
+                    <div class="col menu-picto-wrap">
+                        <div id="rmenu" data-toggle="collapse" data-target="#collapse-menu" role="navigation"
+                             aria-expanded="false" aria-controls="collapse-menu"
+                             class="mobilemenu-toggle d-flex flex-column justify-content-around collapsed  ">
+                            <div class="icon-bar top-bar"></div>
+                            <div class="icon-bar middle-bar"></div>
+                            <div class="icon-bar bottom-bar"></div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="collapse " id="collapse-menu">
+                <div class=" pt-1 pl-4 pr-4 pb-4">
+                    <div class="row" style="cursor: default;">
+                        <div class="col-lg-3 col-md-4 col-sm-4 col-xs-6   pt-4 pl-4">
+                            <div class="inbox-item m-b-10 pb-2">Blockchain</div>
+                            <div class="inbox-item m-l-10"><a class=""
+                                                              href="/blocks">Blocks</a>
+                            </div>
+                            
+                            <div class="inbox-item m-l-10"><a class=""
+                                                              href="/statistics">Statistic</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6  pt-4 pl-4">
+                            <div class="inbox-item m-b-10 pb-2">Developer</div>
+                            <div class="inbox-item m-l-10"><a class=""
+                                                              href="https://developer.bitaps.com">Developer portal</a>
+                            </div>
+                            <div class="inbox-item m-l-10"><a class=""
+                                                              href="https://developer.bitaps.com/blockchain">Blockchain API</a>
+                            </div>
+                            <div class="inbox-item m-l-10"><a class=""
+                                                              href="https://developer.bitaps.com/market">Market API</a>
+                            </div>
+                            <div class="inbox-item m-l-10"><a class=""
+                                                              href="https://developer.bitaps.com/native">Native API</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6   pt-4 pl-4">
+                            <div class="inbox-item m-b-10 pb-2">Tools</div>
+                            <div class="inbox-item m-l-10"><a class="" href="/bip32">BIP32 calculator</a></div>
+                            <div class="inbox-item m-l-10"><a class="" href="/mnemonic">Mnemonic</a></div>
+                            <div class="inbox-item m-l-10">
+                                <a class="" href="/broadcast">Broadcast transaction</a>
+                            </div>
+
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6   pt-4 pl-4">
+                            <div class="inbox-item m-b-10 pb-2">Accept bitcoin</div>
+                            
+                            <div class="inbox-item m-l-10"><a class=""
+                                                              href="https://developer.bitaps.com/forwarding">Payment forwarding</a>
+                            </div>
+                            
+                            
+
+                        </div>
+
+                    </div>
+                    <div class="row   " style="cursor: default;">
+                        <div class="col-lg-3 col-md-2 col-sm-4 col-xs-6   pt-4 pl-4">
+                            <div class="inbox-item m-b-10 pb-2">Network</div>
+                            <div class="inbox-item m-l-10"><a
+                                    href="http://btc.bitaps.com">Bitcoin</a></div>
+                            <div class="inbox-item m-l-10"><a href="http://ltc.bitaps.com">Litecoin</a></div>
+                            <div class="inbox-item m-l-10"><a href="http://eth.bitaps.com">Ethereum </a></div>
+
+                            <div class="inbox-item m-l-10"><a
+                                    href="http://tbtc.bitaps.com">Bitcoin testnet</a>
+                            </div>
+                            <div class="inbox-item m-l-10"><a href="http://tltc.bitaps.com">Litecoin testnet</a></div>
+                            <div class="inbox-item m-l-10"><a href="http://teth.bitaps.com">Ethereum testnet</a></div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6   pt-4 pl-4">
+                            <div class="inbox-item m-b-10 pb-2">Learn more</div>
+                            <div class="inbox-item m-l-10"><a class=""
+                                                              href="/bitcoin">About bitcoin</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6   pt-4 pl-4">
+                            <div class="inbox-item m-b-10 pb-2">Company</div>
+                            <div class="inbox-item m-l-10"><a class=""
+                                                              href="/vision">Our vision</a>
+                            </div>
+                            <div class="inbox-item m-l-10"><a class=""
+                                                              href="https://medium.com/@bitaps.com">Blog</a>
+                            </div>
+                            <div class="inbox-item m-l-10">
+                                <a class="" href="/privacy">Privacy policy</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-2 col-sm-3 col-xs-6  pt-4 pl-4">
+                            <div class="inbox-item m-b-10 pb-2">Language</div>
+
+                            
+                                <div class="inbox-item m-l-10"><a onclick="return change_language('en');"
+                                                                  href="https://bitaps.com/mnemonic/challenge?language=en">English(US)</a>
+                                </div>
+                                <div class="inbox-item m-l-10"><a onclick="return change_language('ru');"
+                                                                  href="https://bitaps.com/mnemonic/challenge?language=ru">Русский(RU)</a>
+                                </div>
+                            
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+        </nav>
+
+        <div id="search-bar-qr-scanner" class="" style="display: none;">
+            <div id="search-bar-camera-loading-message" class="mt-4 text-center w-100 p-name ">
+                🎥 Unable to access video stream (please make sure you have a webcam enabled)
+            </div>
+            <div class="d-flex justify-content-center mt-4 ">
+                <div class="position-relative pb-2">
+                    <canvas id="search-bar-canvas" hidden style="width: 30em;max-width: 100%!important;"></canvas>
+                    <div id="search-bar-camera-close" class="x-btn position-absolute"
+                         onclick="searchBarCloseCamera();" hidden style="right: 0.3em;top:0.7em;"></div>
+                </div>
+            </div>
+        </div>
+    
+    
+    
+
+    
+
+
+    <div class="text-block" >
+
+
+        <div class="container-fluid col-xl-10  mt-4 mb-4  pb-4   d-flex flex-column h-100 w-100" style="flex: auto;max-width: 900px;">
+
+                        <div class="d-flex flex-row justify-content-center m-4">
+                <div class="brute-logo"
+                     style="background-image: url(/static/img/brute.jpg);height: 14em;width: 23em;
+                            background-size: cover;"></div>
+            </div>
+
+
+            <h4 class="text-center mb-4">1 BTC challenge with splitted mnemonic code</h4>
+            <br>
+            <div style="font-size: 1.3em;">
+            <div class="d-flex justify-content-start">
+                <div class="mr-4">Address: </div>
+                <div><a class="bold" style="font-family: 'Roboto', sans-serif;word-break: break-all;" href="/bc1qyjwa0tf0en4x09magpuwmt2smpsrlaxwn85lh6">bc1qyjwa0tf0en4x09magpuwmt2smpsrlaxwn85lh6</a>  1<span class="amount-tail-zerro">.</span><span class="after-dot"><span class="amount-tail-zerro">00000000</span></span><span class="font-bd">BTC</span></div>
+            </div>
+            <div class="d-flex mt-4" style="overflow:hidden;">
+                   <div class="mr-4">Zpub: </div>
+                  <div class="bold " style="font-family: 'Roboto', sans-serif;color: #009688!important; word-break: break-all;">zpub6qdEDkv51FpxX6g1rpFGckmiL46vV8ccmtEgPAkj3qj8N4ZZHyXDRA9RwpTiFK2Kb8vRaDmSmwgX6rfB4t2K8Ktdq8ExQ6fumKpn2ndJCqL</div>
+
+               </div>
+            </div>
+              <br>
+            <p>
+                The 12-word original mnemonic code was split using the <a href="https://en.wikipedia.org/wiki/Shamir%27s_Secret_Sharing">Shamir Secret Sharing</a> scheme with 3 out of 5 threshold schemes were used.
+                This means that any three shares are sufficient to restore the original mnemonic code.
+                The goal is to break the Shamir Secret Sharing scheme or break the implementation of software for SSSS. We publish 2 of 3 shares needed to restore the original mnemonics. </p>
+
+           <div class="d-flex flex-column justify-content-center">
+               <div class="mt-4">Share 1:</div>
+               <div id="share-input-1"  style="flex-wrap: wrap;" class="mnemonic-code textarea share-div  words-count-ok d-flex  justify-content-center mt-2" maxlength="216"  ><span class="valid word-1">session</span><span class="other"> </span><span class="valid word-2">cigar</span><span class="other"> </span><span class="valid word-3">grape</span><span class="other"> </span><span class="valid word-4">merry</span><span class="other"> </span><span class="valid word-5">useful</span><span class="other"> </span><span class="valid word-6">churn</span><span class="other"> </span><span class="valid word-7">fatal</span><span class="other"> </span><span class="valid word-8">thought</span><span class="other"> </span><span class="valid word-9">very</span><span class="other"> </span><span class="valid word-10">any</span><span class="other"> </span><span class="valid word-11">arm</span><span class="other"> </span><span class="valid word-12">unaware</span></div>
+               <div class="mt-4">Share 2:</div>
+               <div id="share-input-2"  style="flex-wrap: wrap;"  class="mnemonic-code textarea share-div   words-count-ok d-flex justify-content-center mt-2" maxlength="216" ><span class="valid word-1">clock</span><span class="other"> </span><span class="valid word-2">fresh</span><span class="other"> </span><span class="valid word-3">security</span><span class="other"> </span><span class="valid word-4">field</span><span class="other"> </span><span class="valid word-5">caution</span><span class="other"> </span><span class="valid word-6">effort</span><span class="other"> </span><span class="valid word-7">gorilla</span><span class="other"> </span><span class="valid word-8">speed</span><span class="other"> </span><span class="valid word-9">plastic</span><span class="other"> </span><span class="valid word-10">common</span><span class="other"> </span><span class="valid word-11">tomato</span><span class="other"> </span><span class="valid word-12">echo</span></div>
+           </div>
+            <br>
+            <p>
+                In case of success your 1 BTC will waiting for you at <span style="color: #009688;">m/84'/0'/0'/0/0</span> path.
+                We use this <a href="/mnemonic">mnemonic tool</a> to split code.<p>
+            <p class="text-left">
+                Details about used implementation of SSSS algorithm you can find here:
+            <br><a href="https://github.com/bitaps-com/mnemonic-offline-tool/blob/master/BIP/mnemonic-improvement.md" style="word-break: break-all;">https://github.com/bitaps-com/mnemonic-offline-tool/blob/master/BIP/mnemonic-improvement.md</a>
+        </p>
+            <p class="text-left">
+                Exact software implementation you can find here:
+                <br><a href="https://github.com/bitaps-com/jsbtc/blob/master/src/functions/shamir_secret_sharing.js#L88" style="word-break: break-all;">https://github.com/bitaps-com/jsbtc/blob/master/src/functions/shamir_secret_sharing.js#L88</a>
+            </p>
+
+
+            <p>Good luck :)</p>
+
+
+
+
+        </div>
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+</div>
+
+    <footer id="footer" class=" footer  ">
+        <div class=" container-fluid lattolight pt-1 pl-4 pr-4 pb-4">
+            <div class="row " style="cursor: default;">
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3  pt-4 pl-4">
+                    <div class="inbox-item m-b-10 pb-2">bitaps.com</div>
+                    <div class="inbox-item m-l-10"><a
+                            href="/vision">Our vision</a>
+                    </div>
+                    <div class="inbox-item m-l-10"><a
+                            href="https://medium.com/@bitaps.com">Blog</a>
+                    </div>
+                    <div class="inbox-item m-l-10"><a
+                            href="/privacy">Privacy policy</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3   pt-4 pl-4">
+                    <div class="inbox-item m-b-10 pb-2">Services</div>
+                    <div class="inbox-item m-l-10"><a
+                            href="https://developer.bitaps.com/forwarding">Accept payments</a>
+                    </div>
+                    <div class="inbox-item m-l-10"><a
+                            href="/">Block explorer</a></div>
+
+
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3   pt-4 pl-4">
+                    <div class="inbox-item m-b-10 pb-2">Language</div>
+
+                    
+                    
+                        <div>
+                            <a onclick="return change_language('en');"
+                               href="https://bitaps.com/mnemonic/challenge?language=en">English(US)</a>
+                        </div>
+                        <div>
+                            <a onclick="return change_language('ru');"
+                               href="https://bitaps.com/mnemonic/challenge?language=ru">Русский(RU)</a>
+                        </div>
+                    
+
+
+                </div>
+
+
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3   pt-4 pl-4">
+                    <div class="inbox-item m-b-10 pb-2">Social</div>
+                    <div class="inbox-item m-l-10"><a href="https://twitter.com/bitaps_com">Twitter</a></div>
+                    <div class="inbox-item m-l-10"><a href="https://t.me/bitapscom">Telegram</a>
+                    </div>
+
+                </div>
+
+            </div>
+            <div>
+                <div class="d-flex flex-row pt-3  pb-2 justify-content-end align-items-end  ">
+                    <div style="color: white;font-size: 0.8em;"> Powered by</div>
+                    <a href="https://github.com/bitaps-com/jsbtc"><span class="powered jsbtc"></span></a>
+                    <a href="https://pybtc.readthedocs.io"><span class="powered pybtc"></span></a>
+                    <a href="https://github.com/bitaps-com/btcapiserver"><span class="powered btcapi"></span></a>
+                    <a href="https://postgrespro.com"><span class="powered postgress"></span></a>
+
+                </div>
+            </div>
+            <hr class="mt-1 mb-1" style="border-color: var(--footer-line-color);">
+
+            <small style="font-size: 0.9em;color:white;"> © 2014 - 2020 bitaps.com</small>
+
+        </div>
+    </footer>
+
+    <div onclick="topFunction()" id="upBtn" class="upBtn-wrap">
+        <div class="arrow-container upBtn">
+            <div class="arrowx"></div>
+            <div class="arrowx"></div>
+            <div class="arrowx"></div>
+        </div>
+    </div>
+
+
+
+
+<script src="/static/js/jquery-3.3.1.min.js?1593883984305"></script>
+
+<script src="/static/js/poper.js?1593883984305"></script>
+
+<script src="/static/js/bootstrap.min.js?1593883984305" crossorigin="anonymous"></script>
+
+<script src="/static/js/tether.min.js?1593883984305"
+        integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
+        crossorigin="anonymous"></script>
+
+
+<script>
+    "use strict";
+
+    function set_cookie(name, value, exp_y, exp_m, exp_d, path, domain, secure) {
+        var cookie_string = name + "=" + escape(value);
+        if (exp_y) {
+            var expires = new Date(exp_y, exp_m, exp_d);
+            cookie_string += "; expires=" + expires.toGMTString();
+        }
+        if (path)
+            cookie_string += "; path=" + escape(path);
+        if (domain)
+            cookie_string += "; domain=" + escape(domain);
+        if (secure)
+            cookie_string += "; secure";
+        document.cookie = cookie_string;
+    }
+
+    // fix input scroll on chrome for sticky header
+    $('#search-box').on('input ', function () {
+
+        var p = $('<div style="font-size:1.2em"></div>').attr('id', 'tmp_search2')
+            .html(this.value.replace(/[&\/\\#,+()$~%.'":*?<>{}]/g, 'A') + 'AAAA')
+            .css({
+                'display': 'inline'
+            })
+            .appendTo('#sticky');
+        if (p[0].innerHTML.length > 4)
+            $(this).css({'max-width': (p[0].offsetWidth) + 'px'});
+        else
+            $(this).css({'max-width': '30rem'});
+        p.remove();
+        var wpe = $(this).data("wpe");
+        if (wpe == undefined) wpe = false;
+        if (!wpe) {
+            $(this).data("wpy", window.pageYOffset);
+            $(this).data("wpx", window.pageXOffset);
+            $(this).data("wpe", true);
+        }
+    });
+
+    $(window).on('scroll', function () {
+
+        var el = $(document.activeElement);
+        if (el[0].id == "search-box") {
+            var wpy = $(el[0]).data("wpy");
+            var wpx = $(el[0]).data("wpx");
+            var wpe = $(el[0]).data("wpe");
+            if (wpe == true) {
+                if (wpy != window.pageYOffset) {
+                    window.scrollTo(wpx, wpy);
+                    $(el[0]).data("wpe", false);
+                }
+            }
+        }
+        var sticky = $('#sticky');
+        var offset = $('#header-top').outerHeight();
+        var htop = $('#header-top');
+        if (offset < $(document).scrollTop()) {
+            
+        }
+        else {
+            sticky.css({position: "sticky", top: 0});
+            
+        }
+
+        $('#rmenu').on('click touch', function () {
+            var offset = $('#header-top').outerHeight();
+            var sticky = $('#sticky');
+            var apr = sticky.data("apr");
+            if (offset >= $(document).scrollTop() + 1) {
+
+                if (wpe != true) {
+                    sticky.data("apr", true);
+
+                    var body = $("html, body");
+                    body.stop().animate({scrollTop: offset}, 500, 'linear', function () {
+                        sticky.data("apr", false);
+
+                    });
+
+                }
+            }
+
+        });
+    })
+</script>
+
+
+<script>
+
+    var options = {
+        "chart": {
+            "type": "area",
+            "polar": false,
+            "backgroundColor": "rgba(0, 0, 0, 0.1)",
+            "parallelAxes": {"visible": false},
+            "resetZoomButton": {"position": {"align": "", "verticalAlign": ""}, "relativeTo": ""}
+        },
+
+        "title": {"text": ""},
+        "subtitle": {"text": ""},
+        "series": [{
+            "name": "A",
+            "turboThreshold": 0,
+            "marker": "",
+            "color": "#28a745",
+            "fillColor": "rgba(60, 120, 60, 0.4)",
+            "negativeColor": "rgba(225, 20, 20)",
+            "negativeFillColor": "rgba(225, 20, 20, 0.4)",
+            "animation": {"duration": 0},
+            "allAreas": true,
+            "data": [0.89, 1.81, 5.99, 4.36, 4.6, 5.9, 5.65, 4.37, 4.27, 3.58, 3.77, 4.04, 3.42, 2.84, 6.77, 8.92, 13.49, 12.78, 13.46, 11.58, 11.62, 10.66, 11.35, 11.26, 10.59, 9.42, 7.95, 11.49, 12.79, 9.19, 9.89, 5.94, 6.18, 5.2, 5.87, 4.79, 4.09, 4.01, 3.67, 0.49, 0.93, 0.38, -0.59, -0.24, -0.38, -2.83, -1.83, -1.02, -0.42, -2.21, -2.94, -4.84, -3.99, -3.97, -5.92, -4.44, -3.01, -1.75, 0.48, -0.4, 0.54, 0.53, 1.2, 2.79, 4.36, 4.3, 5.1, 1.25, -0.02, -3.01, -5.1, -4.22, -3.71, -2.98, -3.51, -5.69, -6.09, -1.81, 1.91, 0.75, 3.27, 3.84, 3.65, 3.95, 3.05, 2.76, 3.73, 4.15, 3.68, 4.51, 4.44, 4.62, 9.12, 7.06, 7.82, 7.67, 8.07, 8.16, 8.99, 3.33, 0.73, -0.85, -1.76, -1.28, -1.27, -0.64, -2.13, -0.73, -0.6, -2.18, -3.35, -3.45, -5.08, -4.25, -3.69, -3.89, -2.25, -2.34, -0.06, 1.36, 2.14, 3.45, 2.63, 2.94, 2.97, 2.79, 2.54, 2.86, 3.16, 0.1, -0.25, 0.18, 0.64, 0.65, 0.47, 1.17, 0.95, 0.3, 0.77, 0.93, 0.66, 0.76, 0.36, -0.31, -0.07, 6.24, 6.74, 11.03, 13.23, 14.36, 14.93, 12.43, 12.69, 11.98, 10.17, 9.88, 10.57, 10.85, 10.54, 12.35, 13.46, 13.31, 13.4, 14.76, 14.44, 14.11, 14.4, 14.12, 14.7, 14.33, 15.85, 16.14, 15.9, 14.2, 12.81, 11.55, 10.58, 9.21, 8.69, 8.94, 8.3, 9.0, 8.83, 7.8, 8.35, 7.51, 8.34, 7.82, 7.98, 7.5, 8.44, 7.92, 8.45, 8.68, 8.62, 8.94, 9.5, 9.0, 9.29, 9.38, 8.62, 10.0, 11.5, 11.59, 12.76, 12.17, 13.11, 13.5, 13.78, 14.71, 15.07, 16.44, 15.86, 15.99, 16.22, 17.68, 19.11, 18.65, 18.44, 17.67, 17.5, 15.54, 18.76, 18.2, 19.13, 18.82, 19.1, 19.05, 19.88, 18.52, 17.66, 15.89, 15.68, 14.41, 15.67, 15.16, 22.13, 20.82, 21.51, 20.57, 23.16, 20.89, 20.14, 22.99, 17.04, 14.44, 12.91, 13.45, 14.73, 14.2, 13.88, 13.8, 13.84, 13.72, 11.77, 10.64, 8.3, 10.19, 9.67, 10.74, 10.15, 9.35, 9.18, 9.42, 9.01, 8.46, 9.2, 9.5, 9.15, 11.69, 11.66, 13.28, 13.89, 12.68, 11.72, 10.33, 8.15, 7.97, 7.95, 7.07, 3.03, -4.94, -2.37, -4.81, -7.2, -3.45, -2.24, -2.18, -6.23, -8.9, -11.58, -1.69, -4.41, -1.33, -3.09, -5.51, -7.39, -8.62, -6.0, -8.36, -3.93, -3.44, -3.88, -1.88, -1.94, -2.51, -5.03, -1.69, -1.38, -5.44, -9.07, -9.25, -10.86, -10.06, -9.9, -9.72, -10.63, -14.47, -19.64, -23.04, -26.01, -24.08, -23.94, -10.62, -14.25, -11.75, -5.78, -8.61, -8.1, -8.24, -13.42, -16.13, -12.31, -14.21, -13.98, -5.4, -3.08, -4.17, -12.59, -19.38, -25.91, -28.81, -26.85, -25.26, -25.94, -25.31, -24.17, -19.4, -19.49, -15.41, -13.49, -14.91, -14.43, -15.69, -15.3, -16.78, -18.04, -16.73, -17.16, -20.67, -13.61, -11.14, -12.18, -9.88, -10.47, -9.94, -6.37, -7.61, -9.08, -4.61, -5.83, -3.51, -2.78, -1.9, -2.2, -7.59, -6.07, -8.62, -8.44, -2.9, -6.64, -0.73, -2.1, -4.56, -4.07, -5.22, -4.94, -3.19, 0.3, -6.23, -4.56, -6.96, -7.95, -10.3, -8.75, -10.78, -10.62, -9.35, -6.96, -7.94, -6.98, -7.47, -11.31, -19.14, -19.44, -20.9, -18.33, -18.22, -18.08, -18.88, -18.86, -14.53, -13.31, -14.86, -16.7, -13.72, -13.01, -12.11, -10.59, -12.55, -12.73, -13.22, -11.48, -10.79, -11.14, -10.79, -11.06, -8.8, -12.42, -11.78, -12.52, -9.66, -10.54, -7.44, -3.53, -2.63, -3.96, -2.86, -3.68, -3.5, -3.89, -5.43, -5.96, -7.64, -7.92, -5.82, -5.16, -5.23, -6.93, -8.08, -5.61, -3.69, -5.79, -3.95, -3.44, -4.27, -3.75, -4.92, -4.7, -6.89, -7.32, -8.53, -7.84, -9.03, -0.24, -1.4, 2.61, 5.68, 8.51, 6.09, 9.22, 7.66, 6.41, 7.38, 9.42, 13.32, 14.86, 13.65, 13.54, 13.17, 13.58, 13.05, 10.33, 10.39, 9.94, 9.6, 10.13, 11.5, 11.05, 10.67, 11.62, 8.78, 9.35, 11.22, 8.0, 6.36, 7.0, 6.64, 7.12, 6.9, 10.89, 14.6, 9.2, 9.99, 13.7, 12.66, 9.87, 9.08, 9.35, 5.85, 6.44, 6.3, 6.59, 4.91, 5.6, 9.74, 7.16, 6.56, 6.61, 7.85, 16.8, 18.44, 17.06, 15.96, 16.53, 14.75, 16.46, 14.58, 13.84, 12.64, 8.89, 9.07, 8.68, 8.54, 8.48, 8.59, 6.57, 5.24, 5.31, 4.46, 4.21, 3.39, 3.22, 3.24, 4.59, 6.2, 4.89, 5.82, 5.8, 3.78, 3.79, 0.92, 1.97, 5.18, 4.89, 4.84, 2.48, 1.88, 2.04, 2.54, 5.13, 5.0, 6.24, 6.62, 6.59, 6.36, 6.03, 6.4, 6.49, 6.08, 6.04, 6.46, 7.52, 8.45, 4.94, 5.69, 5.89, 5.83, 5.51, 6.78, 5.9, 5.43, 5.77, 5.96, 6.41, 6.26, 7.3, 10.1, 10.4, 9.18, 10.42, 8.13, 7.86, 8.38, 7.54, 7.34, 6.11, 5.97, 6.31, 5.9, 5.59, 3.25, 7.24, 6.6, 7.1, 8.13, 6.37, 5.25, 5.23, 8.67, 8.59, 9.6, 12.2, 11.99, 12.53, 10.92, 11.62, 11.49, 12.0, 11.52, 11.96, 11.7, 11.62, 10.99, 11.75, 12.0, 11.84, 11.42, 9.86, 10.46, 9.21, 8.49, 7.57, 7.11, 6.4, 6.66, 8.1, 7.95, 7.52, 7.58, 7.28, 7.37, 6.81, 7.08, 7.43, 6.69, 10.36, 10.7, 11.82, 11.97, 11.38, 11.33, 12.0, 13.17, 9.62, 8.29, 6.99, 7.17, 6.34, 6.64, 7.07, 8.59, 3.48, 4.89, 5.43, 4.19, 4.14, 4.07, 2.99, 1.82, 2.53, 3.04, 1.8, 2.21, 1.67, 3.97, 5.1, 4.54, 5.89, 5.47, 4.59, 7.33, 8.48, 9.05, 9.31, 9.15, 9.28, 10.22, 10.53, 8.24, 7.15, 8.09, 9.3, 10.08, 11.54, 11.37, 10.96, 11.76, 12.28, 12.91, 10.01, 9.83, 9.98, 9.68, 8.88, 8.97, 8.53, 8.3, 9.12, 9.16, 9.62, 10.29, 9.14, 8.34, 6.87, 6.96, 5.76, 5.78, 5.9, 5.08, 5.92, 6.19, 6.89, 7.22, 6.47, 5.13, 5.6, 5.83, 5.39, 5.62, 5.43, 5.96, 5.57, 5.81, 5.89, 5.77, 5.74, 3.14, -0.02, -0.66, -2.84, -3.56, -4.78, -5.37, -4.54, -2.74, -0.65, -0.22, 0.44, 0.48, 0.2, 0.47, 0.31, 0.81, 0.99, -1.46, -2.43, -2.22, -1.21, -1.15, -0.24, 1.28, 1.13, 0.75, 0.99, 1.35, 1.05, 4.02, 4.73, 4.87, 5.56, 5.18, 4.8, 5.36, 5.71, 5.43, 5.48, 5.53, 4.75, 4.35, 2.95, 0.36, -0.27, -0.9, -0.48, -0.66, -0.43, -1.0, 0.06, -0.71, 0.44, 0.64, -0.3, 0.1, -0.52, -0.2, -0.77, -1.65, -2.81, -3.47, -3.64, -1.99, -1.4, -2.03, -3.03, -3.43, -4.47, -4.59, -6.28, -6.31, -6.24, -6.69, -6.13, -6.36, -5.91, -6.05, -4.84, -5.61, -4.05, -4.46, -4.73, -4.71, -4.17, -4.62, -4.1, -5.12, -4.92, -4.48, -4.04, -4.35, -3.45, -2.32, -2.42, -0.12, 2.78, 3.21, 3.72, 3.72, 4.24, 3.97, 4.44, 3.56, 4.16, 4.59, 5.42, 5.64, 5.43, 4.68, 5.2, 6.19, 4.5, 4.61, 3.99, 4.66, 5.36, 5.34, 5.0, 4.27, 4.79, 4.23, 4.74, 2.18, 1.32, -0.33, -0.19, 0.05, -1.47, -1.75, -1.85, -2.28, -1.93, -2.06, -1.43, -0.31, 0.94, 0.74, 1.01, 0.86, 0.85, 1.08, 0.65, 0.05, -0.94, -4.85, -5.61, -6.33, -4.53, -5.27, -4.0, -3.72, -3.36, -3.54, -3.41, -2.97, -4.63, -3.88, -5.1, -4.89, -3.83, -4.64, -3.76, -4.44, -4.12, -4.91, -5.32, -4.96, -5.42, -5.96, -5.44, -6.28, -5.76, -6.56, -5.67, -5.1, -5.71, -5.69, -5.7, -5.85, -5.82, -3.86, -3.06, -1.37, -1.95, -1.26, -1.42, -2.4, -3.68, -3.87, -4.36, -4.4, -5.4, -5.9, -6.08, -6.31, -6.04, -6.38, -5.86, -4.11, -4.01, -4.24, -4.41, -4.58, -6.08, -6.66, -7.12, -7.46, -8.8, -8.76, -9.24, -10.01, -6.98, -8.34, -9.09, -7.46, -7.84, -8.3, -8.65, -9.05, -7.35, -7.92, -7.41, -7.94, -9.52, -9.14, -9.2, -10.13, -11.71, -11.88, -13.14, -13.82, -15.52, -12.22, -12.17, -11.15, -10.29, -9.5, -11.89, -11.85, -13.16, -12.95, -13.34, -12.3, -11.53, -11.85, -12.59, -12.9, -12.63, -13.11, -12.79, -12.03, -12.95, -13.05, -13.93, -15.6, -16.11, -16.83, -16.4, -14.59, -14.03, -14.4, -16.05, -16.37, -16.73, -18.04, -17.35, -18.25, -17.91, -17.05, -12.91, -14.37, -12.73, -10.92, -10.19, -9.37, -8.42, -6.67, -7.16, -2.84, -5.28, -3.14, -5.65, -6.3, -6.46, -6.8, -7.3, -8.23, -8.37, -9.09, -8.96, -9.74, -9.94, -9.2, -9.52, -10.28, -10.59, -10.12, -11.01, -10.68, -11.77, -12.31, -14.25, -14.45, -15.42, -17.67, -17.16, -17.54, -18.82, -18.4, -20.14, -17.1, -16.47, -14.79, -16.01, -15.7, -15.26, -14.02, -13.6, -14.85, -16.41, -16.65, -18.63, -18.46, -21.32, -28.74, -23.06, -19.89, -16.62, -13.27, -11.21, -12.23, -10.0, -11.37, -10.87, -10.57, -10.81, -9.87, -10.66, -10.59, -12.3, -11.12, -11.71, -9.67, -7.12, -6.28, -6.32, -6.54, -7.59, -7.48, -7.72, -6.73, -6.6, -5.15, -2.99, -1.52, -1.97, -4.85, -5.91, -6.56, -7.3, -7.4, -6.86, -7.19, -6.36, -6.55, -6.16, -5.65, -5.22, -5.59, -8.1, -8.5, -8.96, -9.04, -11.63, -10.41, -11.23, -11.37, -8.96, -9.03, -7.58, -6.25, -5.93, -6.0, -6.11, -6.69, -7.71, -8.34, -8.16, -7.95, -7.68, -7.33, -7.32, -8.16, -5.3, -6.04, -5.7, -6.84, -6.16, -5.72, -5.91, -5.59, -5.21, -5.66, -4.56, -1.91, -3.84, -2.2, -2.48, -4.08, -4.69, -4.31, -2.39, -3.62, -2.75, -3.19, -2.62, -2.63, -3.5, -2.59, -2.31, -2.67, -2.85, -1.19, -1.51, -0.8, -1.66, -0.73, -1.93, -0.89, -0.19, -0.21, 1.45, 3.11, 2.45, 5.05, 5.4, 5.28, 3.23, 1.64, 1.8, 3.09, 3.19, 4.03, 2.96, 2.82, 0.75, -0.31, -1.5, -2.33, -4.73, -4.9, 0.06, 2.5, -1.73, -1.11, -1.18, -1.35, -1.87, -0.42, 0.16, 0.5, -2.41, -3.68, -4.09, -5.46, -5.76, -4.79, -5.98, -5.1, -5.66, -5.02, -4.2, -4.02, -4.11, -3.61, -4.04, -3.72, -3.87, -2.61, -2.15, -3.08, -3.0, -2.52, -3.5, -3.39, -2.62, -2.04, -2.73, -2.29, -2.25, -2.04, -1.79, -4.38, -5.72, -7.41, -6.89, -6.6, -7.14, -7.49, -7.01, -6.32, -5.95, -5.89, -6.41, -6.26, -6.68, -7.74, -8.48, -8.56, -10.11, -12.45, -14.5, -18.02, -19.39, -17.24, -18.23, -16.25, -16.3, -17.02, -15.45, -15.5, -14.93, -16.01, -15.92, -16.18, -15.63, -16.99, -19.22, -20.49, -21.22, -24.28, -23.92, -19.08, -20.74, -17.58, -16.79, -16.53, -15.81, -15.7, -17.23, -17.43, -18.99, -19.87, -18.93, -15.58, -17.79, -16.16, -16.48, -15.39, -15.88, -14.92, -14.25, -14.4, -13.37, -13.82, -13.87, -13.45, -12.37, -12.62, -12.3, -10.25, -9.72, -11.04, -12.08, -14.47, -13.77, -13.37, -11.62, -10.88, -6.43, -7.07, -6.04, -8.47, -7.77, -11.78, -12.06, -13.82, -12.13, -11.52, -9.77, -10.05, -7.88, -7.88, -9.41, -9.86, -10.03, -7.33, -7.1, -6.55, -6.13, -5.44, -6.06, -7.44, -8.53, -10.36, -8.32, -9.65, -7.73, -6.95, -6.22, -6.53, -5.79, -6.28, -4.65, -7.17, -8.67, -10.09, -10.6, -10.66, -9.79, -7.78, -7.3, -7.16, -6.25, -6.14, -6.5, -5.84, -5.87, -5.11, -4.3, -3.91, -4.93, -5.05, -2.61, -1.54, 0.39, 1.2, -0.26, 0.36, -0.2, -0.71, -1.74, -3.02, -2.78, -2.7, -0.82, 0.84, -0.99, -1.09, -1.75, -1.65, -1.6, -2.01, -1.53, -0.8, -0.24, -0.4, 0.05, 1.08, -0.34, -0.74, -0.17, 2.96, 4.44, 59.21, 72.59, 81.45, 76.07, 77.65, 77.22, 81.44, 83.41, 84.1, 80.0, 79.34, 86.59, 88.71, 85.75, 86.77, 85.35, 89.34, 91.28, 96.34, 102.55, 96.32, 101.39, 98.01, 96.58, 94.0, 92.95, 101.58, 109.15, 105.72, 99.54, 97.89, 99.22, 94.95, 93.03, 91.87, 91.65, 90.15, 90.57, 89.77, 88.18, 94.46, 92.48, 94.54, 92.82, 91.45, 90.35, 90.35],
+            "lineWidth": 1
+        }
+        ],
+        "data": {
+            "googleSpreadsheetKey": false,
+            "googleSpreadsheetWorksheet": false
+        },
+        "colors": [],
+        "tooltip": {"enabled": false},
+        "plotOptions": {"series": {"enableMouseTracking": false}},
+        "pane": {"background": []},
+        "responsive": {"rules": []},
+        "annotations": [{"visible": false}],
+        "colorAxis": {"visible": false},
+        "legend": {"enabled": false},
+        "exporting": {"enabled": false},
+        "credits": {"enabled": false},
+        "xAxis": [{
+            "visible": false,
+            "tickWidth": 0,
+            "lineColor": "rgba(255,255,255,1.3)",
+            "gridLineWidth": 0,
+            "labels": {"enabled": false}
+        }],
+        "yAxis": [{
+            "visible": false,
+            "lineColor": "rgba(255,255,255,0.3)",
+            "lineWidth": 0,
+
+            "gridLineWidth": 0,
+            "title": {"text": ""},
+            "labels": {"enabled": false}
+        }]
+    };
+
+
+    var timestamp = 1593886840339;
+    var update_options = [];
+    var last_update = {};
+    var content_update = undefined;
+
+    function close_warning(warning, obj) {
+        let d = $(obj.parentElement.parentElement.parentElement);
+        d.hide();
+        cookies.set("testnet_warning_close", "1");
+    }
+
+
+    function switch_theme() {
+        let a = $(document.documentElement).attr('data-theme');
+        if (a === 'dark') {
+            $(document.documentElement).attr("data-theme", "light");
+            cookies.set("theme", "light", {path: '/', domain: '.bitaps.com'});
+            try {
+                theme_light();
+            } catch (e) {
+            }
+
+            $('#theme-color').attr('content', "#f1f1f1");
+            $('#msapplication-navbutton-color').attr('content', "#f1f1f1");
+            $('#apple-mobile-web-app-status-bar-style').attr('content', "#f1f1f1");
+        }
+        else {
+            $(document.documentElement).attr("data-theme", "dark");
+            cookies.set("theme", "dark", {path: '/', domain: '.bitaps.com'});
+            try {
+                theme_dark();
+            } catch (e) {
+            }
+            $('#theme-color').attr('content', "#10171e");
+            $('#msapplication-navbutton-color').attr('content', "#10171e");
+            $('#apple-mobile-web-app-status-bar-style').attr('content', "#10171e");
+        }
+
+    }
+
+    function hide_dashboard() {
+        if (dsh_bussy) return;
+        dsh_bussy = 1;
+        if (dsh_status === 1) {
+            dsh_status = 0;
+            cookies.set(dsh_cookie, "0");
+            $("#net-dashboard").animate({height: "0px"}, {
+                easing: 'swing',
+                duration: 200,
+                complete: function () {
+                    $('body').scrollTop(0);
+                    $('html').scrollTop(0);
+                    $(".top-stat").show();
+                    $(".hide-dashboard").addClass("show-dashboard");
+                    dsh_bussy = 0;
+                }
+            });
+        }
+        else {
+            dsh_status = 1;
+            cookies.set(dsh_cookie, "1");
+            let d = $("#net-dashboard");
+            let auto = d.css('height', 'auto').height();
+            d.height("0em").animate({height: auto}, {
+                easing: 'swing',
+                duration: 200,
+                complete: function () {
+                    $('body').scrollTop(0);
+                    $('html').scrollTop(0);
+                    $("#net-dashboard").height("auto");
+                    $(".top-stat").hide();
+                    $(".hide-dashboard").removeClass("show-dashboard");
+                    dsh_bussy = 0;
+
+                }
+            });
+
+
+        }
+
+    }
+
+
+    $('.hide-dashboard').on('click tap', function () {
+        hide_dashboard()
+    });
+    $('.moon').on('click tap', function () {
+        switch_theme()
+    });
+    var dsh_status =  0 ;
+    var dsh_bussy = 0;
+    var dsh_cookie =  "hide_dashboard" ;
+
+    $('#collapse-menu').on('show.bs.collapse', function () {
+
+        $('#collapse-menu').css('max-height', $(window).height() + 20 + "px");
+
+        window.onresize = function () {
+            $('#collapse-menu').css('max-height', $(window).height() + 20 + "px");
+            console.log($('#collapse-menu').first().height());
+            if ($('#collapse-menu').first().height() >= $(window).height() - 90) {
+                $('#collapse-menu').css('overflow-y', "scroll");
+            }
+            else {
+                $('#collapse-menu').css('overflow-y', "hidden");
+            }
+        }
+
+    });
+
+    $('#collapse-menu').on('shown.bs.collapse', function () {
+        if ($('#collapse-menu').height() >= $(window).height()) {
+            $('#collapse-menu').css('overflow-y', "scroll");
+        }
+        else {
+            $('#collapse-menu').css('overflow-y', "hidden");
+        }
+
+    });
+
+    $('#collapse-menu').on('hidden.bs.collapse', function () {
+        window.onresize = function () {
+        };
+    });
+
+    var average_chart = new Highcharts.Chart("dashboard-chart", options);
+
+    window.onscroll = function () {
+        scrollFunction()
+    };
+
+    function scrollFunction() {
+        if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+            document.getElementById("upBtn").style.display = "block";
+        } else {
+            document.getElementById("upBtn").style.display = "none";
+        }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+        $('html,body').animate({scrollTop: 0}, 'slow');
+    }
+
+
+    $.getScript("/static/js/jsQR.js?1593883984305", function () {
+       $(".scan-qr").show();
+       qrScannerLoaded = true;
+    });
+
+    var qrScannerLoaded = false;
+
+    function drawLine(canvas, begin, end, color) {
+        canvas.beginPath();
+        canvas.moveTo(begin.x, begin.y);
+        canvas.lineTo(end.x, end.y);
+        canvas.lineWidth = 4;
+        canvas.strokeStyle = color;
+        canvas.stroke();
+    }
+
+
+    var searchBarCameraActive = false;
+    var searchBarVideo = document.createElement("video");
+    var searchBarCanvasElement = document.getElementById("search-bar-canvas");
+    var searchBarCanvas = searchBarCanvasElement.getContext("2d");
+    var searchBarLoadingMessage = document.getElementById("search-bar-camera-loading-message");
+    var searchBarCameraClose = document.getElementById("search-bar-camera-close");
+
+    function stick() {
+        if (!searchBarCameraActive) {
+
+            searchBarCameraClose.hidden = true;
+            searchBarVideo.pause();
+            searchBarVideo.src = "";
+            searchBarVideo.srcObject.getTracks()[0].stop();
+            searchBarCanvasElement.hidden = true;
+            $("#search-bar-qr-scanner").hide();
+            return;
+        }
+        searchBarLoadingMessage.innerText = "Loading video...";
+        if (searchBarVideo.readyState === searchBarVideo.HAVE_ENOUGH_DATA) {
+            searchBarCameraClose.hidden = false;
+
+            searchBarLoadingMessage.hidden = true;
+            searchBarCanvasElement.hidden = false;
+
+            searchBarCanvasElement.height = searchBarVideo.videoHeight;
+            searchBarCanvasElement.width = searchBarVideo.videoWidth;
+            searchBarCanvas.drawImage(searchBarVideo, 0, 0, searchBarCanvasElement.width, searchBarCanvasElement.height);
+            var imageData = searchBarCanvas.getImageData(0, 0, searchBarCanvasElement.width, searchBarCanvasElement.height);
+            var code = jsQR(imageData.data, imageData.width, imageData.height, {
+                inversionAttempts: "dontInvert",
+            });
+            if ((code)&&(code.data.length>0)) {
+
+                drawLine(searchBarCanvas, code.location.topLeftCorner, code.location.topRightCorner, "#FF3B58");
+                drawLine(searchBarCanvas, code.location.topRightCorner, code.location.bottomRightCorner, "#FF3B58");
+                drawLine(searchBarCanvas, code.location.bottomRightCorner, code.location.bottomLeftCorner, "#FF3B58");
+                drawLine(searchBarCanvas, code.location.bottomLeftCorner, code.location.topLeftCorner, "#FF3B58");
+                $("#search-box")[0].value = code.data;
+                if (check_pointer($("#search-box")[0]))
+                    window.location.href='/'+document.getElementById('search-box').value;
+
+                searchBarCameraActive = false;
+            }
+        }
+        requestAnimationFrame(stick);
+    }
+
+
+    function searchBarScanQrCode() {
+        $("#search-bar-qr-scanner").show();
+        searchBarCameraActive = true;
+        navigator.mediaDevices.getUserMedia({video: {facingMode: "environment"}}).then(function (stream) {
+            searchBarVideo.srcObject = stream;
+            searchBarVideo.setAttribute("playsinline", true);
+            searchBarVideo.play();
+            requestAnimationFrame(stick);
+        });
+    }
+
+    function searchBarCloseCamera() {searchBarCameraActive = false;}
+
+</script>
+
+
+<script src="/static/js/lib.js?1593883984305"></script>
+
+
+
+<script src="/static/js/core.js?1593883984305"></script>
+</body>
+</html>
+

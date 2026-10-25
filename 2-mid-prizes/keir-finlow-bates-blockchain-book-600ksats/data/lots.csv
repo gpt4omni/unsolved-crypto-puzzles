@@ -1,0 +1,17 @@
+# 12-lot ledger for keir-finlow-bates-blockchain-book-600ksats.
+# Produced from on-chain checks (mempool.space, 2026-08-16) and results/SOLVED_*.md
+# in my own research notes. state: open | solved-by-me | solved-by-community.
+# One row per lot, in the order printed on the LEDGER: 8 EN lots then 4 IT lots.
+lot,edition,difficulty,address,amount_sats,state,solved_by,solve_date
+EN_easy_1,EN,easy,14aFhno96fkt7knLWMDQ4j8yh8v5hBF4n1,200000,solved-by-community,community,2022-01-15
+EN_easy_2,EN,easy,14utGQn5GdfPvUrHNLAwTmmP99QpXm9mg6,200000,solved-by-community,community,2021-01-04
+EN_medium_s,EN,medium,1QFafw3weoWTRQhiLafRw2eyWbVmES6wfJ,200000,solved-by-community,community,2021-01-10
+EN_medium,EN,medium,17Y9czcbcCz433QXsy1SGQjwLb27BBtLLZ,200000,open,,
+EN_hard_1,EN,hard,181rPpfdUGFg4fVEdhDZEfDbBSqgigtoZR,200000,solved-by-me,me,2026-06-17
+EN_hard_2,EN,hard,161YgNX2NrCzGunWvoV1hN3DuzWeuovBK3,200000,solved-by-me,me,2026-06-25
+EN_veryhard_s,EN,veryhard,1KZei2D5yz3UJ59LvXsC1Y9y4ktSgcnVwz,200000,solved-by-community,community,2021-02-05
+EN_veryhard,EN,veryhard,1DZ5NbUwDgxeJkKhQLgYcUUX36PtYso1pm,200000,open,,
+IT_easy,IT,easy,1MEstvLAzc5DzJtvx7uyvKNNUCPN3ofWMK,200000,solved-by-community,community,2022-02-18
+IT_medium,IT,medium,1Q78hDeaHXQbuCSQxG1uPAc4V3jsuVUG9r,200000,solved-by-me,me,2026-07-01
+IT_hard,IT,hard,1QExGvuieS9MvuKC3R1qjp6jGTVcqisTDj,200000,solved-by-me,me,2026-07-03
+IT_veryhard,IT,veryhard,19kkawFcg2U2s6vq368MXD7FJU9JZvRrjA,200000,open,,

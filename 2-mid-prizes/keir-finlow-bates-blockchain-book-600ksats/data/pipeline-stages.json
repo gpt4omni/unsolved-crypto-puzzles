@@ -1,0 +1,12 @@
+{
+  "_comment": "Stage list for the derivation pipeline figure. One entry per box; 'edge' labels the transform into that box from the previous one. Source: results/SOLVED_EN_easy_1.md and results/SOLVED_IT_hard.md (both solved lots use this exact chain), 2026-08-16.",
+  "stages": [
+    {"id": "answer", "label": "deduced answer string\n(exact spelling,\ncase-insensitive)", "edge": null},
+    {"id": "h1", "label": "SHA-256 #1", "edge": "sha256(utf-8 bytes)"},
+    {"id": "h2", "label": "SHA-256 #2", "edge": "sha256(digest)"},
+    {"id": "h3", "label": "SHA-256 #3\n= 32-byte private key", "edge": "sha256(digest)"},
+    {"id": "pub", "label": "public key\n(uncompressed, 65 bytes)", "edge": "secp256k1 x G"},
+    {"id": "h160", "label": "HASH160", "edge": "RIPEMD160(\nSHA-256(pubkey))"},
+    {"id": "addr", "label": "P2PKH address\n(version byte 0x00)", "edge": "Base58Check"}
+  ]
+}

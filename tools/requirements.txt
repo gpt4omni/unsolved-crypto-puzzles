@@ -1,0 +1,9 @@
+bip-utils
+ecdsa
+base58
+pycryptodome
+requests
+jsonschema
+matplotlib
+pillow
+graphviz

@@ -1,0 +1,3309 @@
+{
+  "schema_version": 1,
+  "generated_on": "2026-10-24",
+  "price_snapshot": {
+    "date": "2026-10-24",
+    "BTC": 80765,
+    "ETH": 2354.82,
+    "AR": 3.47,
+    "LTC": 56.96,
+    "USDT": 1.0,
+    "USDC": 1.0
+  },
+  "counts": {
+    "big": 7,
+    "mid": 14,
+    "small": 2
+  },
+  "puzzles": [
+    {
+      "schema_version": 1,
+      "slug": "aoi-nakamoto-quizchain-0-854btc",
+      "title": "Aoi Nakamoto Quizchain",
+      "tier": "big",
+      "status": "open",
+      "dead_end_reason": null,
+      "series": null,
+      "author": {
+        "name": "AoiNakamoto (pseudonymous)",
+        "handles": [
+          "reddit:AoiNakamoto",
+          "wattpad:AoiNakamoto"
+        ],
+        "url": "https://www.reddit.com/r/Grycoin/"
+      },
+      "published": {
+        "date": "2019-04-01",
+        "url": "https://www.reddit.com/r/Grycoin/"
+      },
+      "chain": "bitcoin",
+      "prize": {
+        "amount": 0.777,
+        "asset": "BTC",
+        "usd_estimate": 62754,
+        "usd_snapshot": "2026-10-24",
+        "note": "Block 76 (0.077 BTC) was solved and swept by a reader on 2026-08-17; only Real Big Block (0.777 BTC) remains open"
+      },
+      "addresses": [
+        {
+          "address": "14zMkTgaVXJcxdh4JdWi29MLRR44iUSG9W",
+          "chain": "bitcoin",
+          "role": "escrow",
+          "label": "Real Big Block, stage 2",
+          "explorer": "https://mempool.space/address/14zMkTgaVXJcxdh4JdWi29MLRR44iUSG9W",
+          "expected": "77700000 sats",
+          "verified_on": "2026-10-24",
+          "verified_state": "funded-unspent"
+        },
+        {
+          "address": "13Cv6SXUnzGDT8JHqzzJ8xMPtsSdhJA4wd",
+          "chain": "bitcoin",
+          "role": "escrow",
+          "label": "Quizchain2 Block 76",
+          "explorer": "https://mempool.space/address/13Cv6SXUnzGDT8JHqzzJ8xMPtsSdhJA4wd",
+          "expected": "7700000 sats",
+          "verified_on": "2026-10-24",
+          "verified_state": "swept"
+        },
+        {
+          "address": "19TbyN5KCg1Lg7qHwezifsLVcdSa2Rj5KN",
+          "chain": "bitcoin",
+          "role": "escrow",
+          "label": "Real Big Block, stage 1 (certification reference, solved by a third party in 2019, not part of the live prize)",
+          "explorer": "https://mempool.space/address/19TbyN5KCg1Lg7qHwezifsLVcdSa2Rj5KN",
+          "expected": "n/a",
+          "verified_on": "2026-10-24",
+          "verified_state": "swept"
+        }
+      ],
+      "puzzle_type": [
+        "bip39-seed",
+        "word-selection"
+      ],
+      "target_format": "source text (candidate answer); MD5 of its UTF-8 bytes as 128-bit entropy; BIP39 mnemonic; BIP44 m/44'/0'/0'/0/i for i = 0 to 5; P2PKH address",
+      "derivation": {
+        "summary": "candidate text to MD5 (128-bit entropy) to BIP39 mnemonic to BIP44 m/44'/0'/0'/0/i to P2PKH address, compared against both open escrows",
+        "oracle": "tools/oracle.py",
+        "oracle_certified": true,
+        "certified_against": "the author's own published calibration vector (entropy 2941774a2abec9f30c7d6777d1d53d91 to WIF L5Z66qPm... at BIP44 index 1), self-contained and exact; the case-flip rule and Block 76 prefix filter are certified separately with a synthetic example and a community-found candidate pair; full reproduction of the solved sibling lot Block 77 Stage One needs Hal Finney's bitcointalk post text, which this repository does not ship (third-party content), but which anyone can supply themselves to apply_stage_one_rule()"
+      },
+      "difficulty_left": "external-info",
+      "difficulty_note": "Real Big Block: the transform and the case-flip rule are confirmed exactly on a solved sibling lot; what is missing is the precise source text the author hashed on 2019-07-30. She removed one twist that day and kept at least one, and later wrote that she lost the solution herself. Every contiguous paragraph span (1,469,908 texts), a bounded 2-edit slice on the full chapter (221,520 texts), every pair of boundary edits on 16 certified bases (48,379,696 texts) and the rule the chapter dictates itself are negatives. The reader who swept Block 76 on 2026-08-17 holds the convention of a final Aoi block, which is the cheapest calibration left",
+      "tested_total": {
+        "candidates": 398397713,
+        "families": 34,
+        "certified": true
+      },
+      "leads": [
+        {
+          "rank": 1,
+          "title": "ask the Block 76 solver for the serialization, index and twist convention of a final Aoi block",
+          "cost": "needs-a-person",
+          "status": "open"
+        },
+        {
+          "rank": 2,
+          "title": "a bounded 2-character-edit sweep on the strongest base texts, outside the two families already swept",
+          "cost": "about an hour on a rented GPU",
+          "status": "open"
+        },
+        {
+          "rank": 3,
+          "title": "a non-uniform 2019 editor buffer, or a non-contiguous selection",
+          "cost": "needs a narrower reason before a search",
+          "status": "open"
+        },
+        {
+          "rank": 4,
+          "title": "all 2-character edits at all positions of the 8 certified bases on a rented GPU",
+          "cost": "4 to 5 GPU-hours, low expected value",
+          "status": "open"
+        }
+      ],
+      "solutions": [],
+      "artifacts": [],
+      "sources": [
+        {
+          "title": "Real Big Block stage 1",
+          "url": "https://www.reddit.com/r/Grycoin/comments/ca6jxv/77_mbtc_quizchain2_block_77_stage_one/",
+          "date": "2019-07-07",
+          "archived": null
+        },
+        {
+          "title": "Quizchain2 Block 76",
+          "url": "https://www.reddit.com/r/Grycoin/comments/cgcv9i/77_mbtc_quizchain2_block_76/",
+          "date": "2019-07-22",
+          "archived": null
+        },
+        {
+          "title": "Real Big Block Discussion",
+          "url": "https://www.reddit.com/r/Grycoin/comments/chn8un/real_big_block_discussion/",
+          "date": "2019-07-25",
+          "archived": null
+        },
+        {
+          "title": "Second, Wattpad chapter by AoiNakamoto",
+          "url": "https://www.wattpad.com/720888559-second",
+          "date": "2019-07-23",
+          "archived": null
+        },
+        {
+          "title": "Wattpad Nightmode userstyle, copies generic pre { white-space: pre-wrap }",
+          "url": "https://github.com/uso-archive/data/blob/master/data/usercss/170148.user.css",
+          "date": "2019-08-15",
+          "archived": null
+        },
+        {
+          "title": "Common Crawl CC-MAIN-2019-30 Wattpad homepage (CSS URL v=eb03e30)",
+          "url": "https://index.commoncrawl.org/CC-MAIN-2019-30-index?url=www.wattpad.com/&output=json",
+          "date": "2019-07-15",
+          "archived": null
+        },
+        {
+          "title": "[777 mbtc] Quizchain last block, r/Grycoin, with the 2019-07-30 update on the removed twist",
+          "url": "https://www.reddit.com/r/Grycoin/comments/cgkpbb/777_mbtc_quizchain_last_block/",
+          "date": "2019-07-22",
+          "archived": null
+        },
+        {
+          "title": "Starting Up, Wattpad part by AoiNakamoto: the author lost the solution",
+          "url": "https://www.wattpad.com/762380140",
+          "date": "2019-07-23",
+          "archived": null
+        },
+        {
+          "title": "Real Big Block escrow funding transaction",
+          "url": "https://mempool.space/tx/a1916e7ed9eac3fcc56a55056328cb09d06925e2694f2e6720de12b228514d1f",
+          "date": "2019-07-30",
+          "archived": null
+        },
+        {
+          "title": "Block 76 escrow funding transaction",
+          "url": "https://mempool.space/tx/979670f3d1d4134e7989ed6f4a4370362e15c101711c93675790cf0751c8dbd4",
+          "date": "2019-07-22",
+          "archived": null
+        },
+        {
+          "title": "Hal Finney, Bitcoin and me, bitcointalk topic 155054",
+          "url": "https://bitcointalk.org/index.php?topic=155054.0",
+          "date": "2013-05-27",
+          "archived": null
+        }
+      ],
+      "third_party_material": "no book, chapter text, forum dump, or other bulk third-party material is included; the Wattpad chapter (the author's own fiction) and Hal Finney's bitcointalk post (third-party historical content) are both referenced by URL only, never reproduced; quotes in clues/author-posts.md are short excerpts from the puzzle author's own public Reddit posts",
+      "last_updated": "2026-10-24",
+      "folder": "1-big-prizes/aoi-nakamoto-quizchain-0-854btc"
+    },
+    {
+      "schema_version": 1,
+      "slug": "ballet-bobby-lee-2btc-cards",
+      "title": "Ballet / Bobby Lee: Take Bobby's Bitcoin",
+      "tier": "big",
+      "status": "open",
+      "dead_end_reason": null,
+      "series": null,
+      "author": {
+        "name": "Bobby Lee",
+        "handles": [
+          "x:@bobbyclee"
+        ],
+        "url": "https://x.com/bobbyclee"
+      },
+      "published": {
+        "date": "2020-07-24",
+        "url": "https://x.com/bobbyclee/status/1289004702122643456"
+      },
+      "chain": "bitcoin",
+      "prize": {
+        "amount": 2.00007358,
+        "asset": "BTC",
+        "usd_estimate": 161536,
+        "usd_snapshot": "2026-10-24",
+        "note": "two independent cards, 1.00003481 BTC (AA009926) and 1.00003877 BTC (AA012381); a third card, AA007448, was solved and swept by a third party in 2020 and is not part of the live prize"
+      },
+      "addresses": [
+        {
+          "address": "1JxWyNrkgYvgsHu8hVQZqTXEB9RftRGP5m",
+          "chain": "bitcoin",
+          "role": "escrow",
+          "label": "AA009926",
+          "explorer": "https://mempool.space/address/1JxWyNrkgYvgsHu8hVQZqTXEB9RftRGP5m",
+          "expected": "100003481 sats",
+          "verified_on": "2026-10-24",
+          "verified_state": "funded-unspent"
+        },
+        {
+          "address": "1QGtbKxx6FKDD66LwnrzHCAHmyZ7mDHqC4",
+          "chain": "bitcoin",
+          "role": "escrow",
+          "label": "AA012381",
+          "explorer": "https://mempool.space/address/1QGtbKxx6FKDD66LwnrzHCAHmyZ7mDHqC4",
+          "expected": "100003877 sats",
+          "verified_on": "2026-10-24",
+          "verified_state": "funded-unspent"
+        },
+        {
+          "address": "1LL6Xy92LwGDRfQP9fBU7f1477cEKctr7c",
+          "chain": "bitcoin",
+          "role": "escrow",
+          "label": "AA007448 (oracle, solved by a third party in 2020, not part of the live prize)",
+          "explorer": "https://mempool.space/address/1LL6Xy92LwGDRfQP9fBU7f1477cEKctr7c",
+          "expected": "n/a",
+          "verified_on": "2026-10-24",
+          "verified_state": "swept"
+        }
+      ],
+      "puzzle_type": [
+        "bip38",
+        "physical-object"
+      ],
+      "target_format": "BIP38 encrypted WIF (EC-multiply, blob prefix 0x0143) plus a passphrase (5 groups of 4 characters, about 32-symbol alphabet), decrypted to a compressed private key, derived to a P2PKH address",
+      "derivation": {
+        "summary": "decrypt the card's BIP38 EC-multiply encrypted WIF with its own passphrase to get a private key, derive the compressed P2PKH address, and compare it to the card's escrow address",
+        "oracle": "tools/oracle.py",
+        "oracle_certified": true,
+        "certified_against": "the solved sibling card AA007448 (encrypted WIF 6PnWfKaB...J4cH, passphrase 335Y-K745-C8WT-4D2W-80WP), reproduced byte for byte: address, WIF, and private key hex"
+      },
+      "difficulty_left": "external-info",
+      "difficulty_note": "the BIP38 EC-multiply pipeline is fully confirmed against the solved sibling card; each open card publishes only one half of its BIP38 pair (encrypted WIF on the back face, passphrase on the front face under a scratch-off), and the missing half was never photographed; image forensics on all 4 published photographs recover 0 characters of either missing half; brute force of either missing half is not feasible (about 100 bits for a passphrase, one full scrypt computation per guess)",
+      "tested_total": {
+        "candidates": 5,
+        "families": 5,
+        "certified": true
+      },
+      "leads": [
+        {
+          "rank": 1,
+          "title": "a photograph of AA012381's back face (the missing encrypted WIF)",
+          "cost": "needs-a-person",
+          "status": "open"
+        },
+        {
+          "rank": 2,
+          "title": "a photograph of AA009926's passphrase scratch-off face",
+          "cost": "needs-a-person",
+          "status": "open"
+        },
+        {
+          "rank": 3,
+          "title": "a credible disclosure of a Ballet 2020 entropy weakness",
+          "cost": "research-breakthrough",
+          "status": "open"
+        }
+      ],
+      "solutions": [],
+      "artifacts": [
+        {
+          "path": "clues/AA009926-puzzle.jpg",
+          "sha256": "574c68aebff7673fa29024d0765056b8b204d27ff8d4bfc22aabd42bc7977560",
+          "source": "https://raw.githubusercontent.com/oritwoen/boha/main/assets/ballet/AA009926/puzzle.jpg",
+          "archived": null
+        },
+        {
+          "path": "clues/AA009926-revealed.jpg",
+          "sha256": "78d4c2b748d66e68c2d6226ecf8df338d6b15fb2141f4d57fe74424de44eb859",
+          "source": "https://raw.githubusercontent.com/oritwoen/boha/main/assets/ballet/AA009926/revealed.jpg",
+          "archived": null
+        },
+        {
+          "path": "clues/AA012381-puzzle.jpg",
+          "sha256": "c625162197b5bc59a796949dba3816f0e532a97d0a199ca492b5f5445584d320",
+          "source": "https://raw.githubusercontent.com/oritwoen/boha/main/assets/ballet/AA012381/puzzle.jpg",
+          "archived": null
+        },
+        {
+          "path": "clues/AA007448-puzzle.jpg",
+          "sha256": "a9c67224d255afd26494fae895d0cf7c501883d464beeeca3704b46d431f20c7",
+          "source": "https://raw.githubusercontent.com/oritwoen/boha/main/assets/ballet/AA007448/puzzle.jpg",
+          "archived": null
+        }
+      ],
+      "sources": [
+        {
+          "title": "Bobby Lee, challenge announcement",
+          "url": "https://x.com/bobbyclee/status/1289004702122643456",
+          "date": "2020-07-24",
+          "archived": null
+        },
+        {
+          "title": "oritwoen/boha, community data mirror (addresses, encrypted WIFs, passphrases, card photographs)",
+          "url": "https://github.com/oritwoen/boha",
+          "date": "2026-08-16",
+          "archived": null
+        }
+      ],
+      "third_party_material": "the 4 card photographs in clues/ are the author-published puzzle itself (mirrored from Bobby Lee's own posted images via github.com/oritwoen/boha); no book, article, or other third-party copyrighted material is included",
+      "last_updated": "2026-10-24",
+      "folder": "1-big-prizes/ballet-bobby-lee-2btc-cards"
+    },
+    {
+      "schema_version": 1,
+      "slug": "bitaps-shamir-challenge-1btc",
+      "title": "Bitaps Shamir Secret Sharing Challenge",
+      "tier": "big",
+      "status": "open",
+      "dead_end_reason": null,
+      "series": null,
+      "author": {
+        "name": "Bitaps",
+        "handles": [
+          "x:@bitaps_com",
+          "web:bitaps.com"
+        ],
+        "url": "https://web.archive.org/web/20230328022959/https://bitaps.com/mnemonic/challenge"
+      },
+      "published": {
+        "date": "2020-06-19",
+        "url": "https://web.archive.org/web/20230328022959/https://bitaps.com/mnemonic/challenge"
+      },
+      "chain": "bitcoin",
+      "prize": {
+        "amount": 1.00016775,
+        "asset": "BTC",
+        "usd_estimate": 80779,
+        "usd_snapshot": "2026-10-24",
+        "note": "single P2WPKH escrow, funded across 5 transactions ending 2022-10"
+      },
+      "addresses": [
+        {
+          "address": "bc1qyjwa0tf0en4x09magpuwmt2smpsrlaxwn85lh6",
+          "chain": "bitcoin",
+          "role": "escrow",
+          "label": "main",
+          "explorer": "https://mempool.space/address/bc1qyjwa0tf0en4x09magpuwmt2smpsrlaxwn85lh6",
+          "expected": "1.00016775 BTC (100,016,775 sats)",
+          "verified_on": "2026-10-24",
+          "verified_state": "funded-unspent"
+        }
+      ],
+      "puzzle_type": [
+        "shamir",
+        "bip39-seed"
+      ],
+      "target_format": "BIP39 12-word English mnemonic (the secret), BIP84 m/84'/0'/0'/0/0, no passphrase",
+      "derivation": {
+        "summary": "reconstruct a 16-byte secret from 3 of 5 Shamir shares over GF(256) (2 published, 1 needed), re-encode as a BIP39 mnemonic with its true checksum, derive BIP84 m/84'/0'/0'/0/0, compare to the escrow",
+        "oracle": "tools/oracle.py",
+        "oracle_certified": true,
+        "certified_against": "public BIP84 test vector (abandon x11 + about) and a synthetic 3-of-5 GF(256) split/reconstruct round trip; no solved sibling exists for this puzzle"
+      },
+      "difficulty_left": "external-info",
+      "difficulty_note": "residual entropy is about 125 bits after every constraint I could establish (duplicate-value coefficient rejection plus a real defect in the deployed 2020 generator's entropy check); no third Shamir share has surfaced in the public record, including same-day Reddit and Telegram copies, the 2020-07-04 Common Crawl body, archive.today, live mirrors, and 13 GitHub forks of mnemonic-offline-tool; the published zpub is a BIP84 account key and its 0/0 child is the escrow; what would close this is that missing share, or a disclosed constraint on it, not compute",
+      "tested_total": {
+        "candidates": 394191,
+        "families": 10,
+        "certified": true
+      },
+      "leads": [
+        {
+          "rank": 1,
+          "title": "the unpublished 3rd share; same-day copies, the 2020-07-04 Common Crawl body, and later archives all show only the original 2 shares",
+          "cost": "hours",
+          "status": "open"
+        },
+        {
+          "rank": 2,
+          "title": "Memento TimeTravel still unreachable; X reply tree beyond the 3 replies returned with the announcement",
+          "cost": "hours",
+          "status": "open"
+        }
+      ],
+      "solutions": [],
+      "artifacts": [],
+      "sources": [
+        {
+          "title": "Shamir Secret Backup Scheme bug bounty (challenge page)",
+          "url": "https://bitaps.com/mnemonic/challenge",
+          "date": "2020-06-19",
+          "archived": "https://web.archive.org/web/20230328022959/https://bitaps.com/mnemonic/challenge"
+        },
+        {
+          "title": "Common Crawl CC-MAIN-2020-29 challenge page (challenge.warc)",
+          "url": "https://bitaps.com/mnemonic/challenge",
+          "date": "2020-07-04",
+          "archived": null
+        },
+        {
+          "title": "archive.today snapshot of the challenge page",
+          "url": "https://archive.is/8bNRM",
+          "date": "2021-06-20",
+          "archived": "https://archive.is/8bNRM"
+        },
+        {
+          "title": "Bitaps announcement",
+          "url": "https://x.com/bitaps_com/status/1274018817304379394",
+          "date": "2020-06-19",
+          "archived": null
+        },
+        {
+          "title": "Bitaps Reddit copy, r/Bitcoin hc4bfk",
+          "url": "https://www.reddit.com/r/Bitcoin/comments/hc4bfk/1_btc_cryptographic_challenge_with_splitted/",
+          "date": "2020-06-19",
+          "archived": "https://web.archive.org/web/20230611002230/https://old.reddit.com/r/Bitcoin/comments/hc4bfk/1_btc_cryptographic_challenge_with_splitted/"
+        },
+        {
+          "title": "Bitaps Telegram copy",
+          "url": "https://t.me/bitapscom/15",
+          "date": "2020-06-19",
+          "archived": null
+        },
+        {
+          "title": "mnemonic-offline-tool, commit 5b6dd995 (bundles jsbtc)",
+          "url": "https://github.com/bitaps-com/mnemonic-offline-tool/commit/5b6dd995478b49c489b95444fbb0dca4006746a2",
+          "date": "2020-06-19",
+          "archived": null
+        },
+        {
+          "title": "bitaps-com/jsbtc (repository)",
+          "url": "https://github.com/bitaps-com/jsbtc",
+          "date": "2026-08-16",
+          "archived": null
+        },
+        {
+          "title": "jsbtc issue #65, coefficient-bias defect",
+          "url": "https://github.com/bitaps-com/jsbtc/issues/65",
+          "date": "2026-07-16",
+          "archived": null
+        },
+        {
+          "title": "mempool.space, escrow address",
+          "url": "https://mempool.space/address/bc1qyjwa0tf0en4x09magpuwmt2smpsrlaxwn85lh6",
+          "date": "2026-08-28",
+          "archived": null
+        }
+      ],
+      "third_party_material": "the 2 published Shamir shares and the challenge-page quotes are Bitaps's own puzzle material, quoted briefly with source and date; no third-party copyrighted material is included",
+      "last_updated": "2026-10-24",
+      "folder": "1-big-prizes/bitaps-shamir-challenge-1btc"
+    },
+    {
+      "schema_version": 1,
+      "slug": "blm-brave-new-world-0-2btc",
+      "title": "BLM Collage: Welcome to the Brave New World",
+      "tier": "big",
+      "status": "open",
+      "dead_end_reason": null,
+      "series": null,
+      "author": {
+        "name": "u/stsh_n",
+        "handles": [
+          "reddit:u/stsh_n"
+        ],
+        "url": "https://www.reddit.com/user/stsh_n/comments/j79zvj/bitcoin_puzzle_2000/"
+      },
+      "published": {
+        "date": "2020-10-08",
+        "url": "https://www.reddit.com/user/stsh_n/comments/j79zvj/bitcoin_puzzle_2000/"
+      },
+      "chain": "bitcoin",
+      "prize": {
+        "amount": 20107284,
+        "asset": "sats",
+        "usd_estimate": 16240,
+        "usd_snapshot": "2026-10-24",
+        "note": "0.20107284 BTC, funded 2020-05-10 in 5 transactions, before the puzzle post"
+      },
+      "addresses": [
+        {
+          "address": "1KfZGvwZxsvSmemoCmEV75uqcNzYBHjkHZ",
+          "chain": "bitcoin",
+          "role": "escrow",
+          "label": "main",
+          "explorer": "https://mempool.space/address/1KfZGvwZxsvSmemoCmEV75uqcNzYBHjkHZ",
+          "expected": "20107284 sats",
+          "verified_on": "2026-10-24",
+          "verified_state": "funded-unspent"
+        }
+      ],
+      "puzzle_type": [
+        "image-stego",
+        "word-selection",
+        "bip39-seed",
+        "text-cipher"
+      ],
+      "target_format": "BIP39 12 words at 4 candidate paths, or old-Electrum v1 12 words at 5 address indexes and 2 change values; both compressed and uncompressed P2PKH checked",
+      "derivation": {
+        "summary": "read 12 candidate words off the published collage, try them as a BIP39 mnemonic under 4 paths and both compressions, then as an old-Electrum v1 mnemonic under 5 indexes and 2 change values, and compare the derived P2PKH address to the escrow",
+        "oracle": "tools/oracle.py",
+        "oracle_certified": true,
+        "certified_against": "the raw priv=1 P2PKH vectors, the public BIP39 all-zero-entropy test vector, and a public old-Electrum v1 test vector, since no solved sibling exists for this puzzle"
+      },
+      "difficulty_left": "insight",
+      "difficulty_note": "the derivation, both candidate formats, and every path are fully mapped and oracle-certified; about 479 million derivations have been tested across anchor-based and anchor-free families (including 7.2 billion GPU sequences over a 13-word pool with no fixed positions), all negative; the 4 word-position anchors that framed nearly all of that work trace to 2 Reddit accounts with zero posts about this puzzle and are retracted here, so what remains open is the 12-word input, not compute or path coverage",
+      "tested_total": {
+        "candidates": 479054867,
+        "families": 14,
+        "certified": true
+      },
+      "leads": [
+        {
+          "rank": 1,
+          "title": "log the 3 already-launched btcrecover runs",
+          "cost": "minutes",
+          "status": "open"
+        },
+        {
+          "rank": 2,
+          "title": "re-derive the word inventory from the image itself",
+          "cost": "hours",
+          "status": "open"
+        },
+        {
+          "rank": 3,
+          "title": "cross the rune transcription against the Russian-prose cipher key",
+          "cost": "minutes",
+          "status": "open"
+        },
+        {
+          "rank": 4,
+          "title": "settle BIP39 versus old-Electrum from a source",
+          "cost": "needs-new-information",
+          "status": "open"
+        }
+      ],
+      "solutions": [],
+      "artifacts": [
+        {
+          "path": "clues/welcome-to-the-brave-new-world.png",
+          "sha256": "d0b04378f75d63997b8034ec2ef1bdd108178e4546de78237bd35abf4189a782",
+          "source": "https://www.reddit.com/user/stsh_n/comments/j79zvj/bitcoin_puzzle_2000/",
+          "archived": "https://web.archive.org/web/20210613000000/https://www.reddit.com/user/stsh_n/comments/j79zvj/bitcoin_puzzle_2000/"
+        }
+      ],
+      "sources": [
+        {
+          "title": "u/stsh_n, Bitcoin puzzle (2000$)",
+          "url": "https://www.reddit.com/user/stsh_n/comments/j79zvj/bitcoin_puzzle_2000/",
+          "date": "2020-10-08",
+          "archived": null
+        },
+        {
+          "title": "Is this puzzle still valid?, r/bitcoinpuzzles",
+          "url": "https://www.reddit.com/r/bitcoinpuzzles/comments/jrr7mo/is_this_puzzle_still_valid_is_this_image_correct/",
+          "date": "2026-08-16",
+          "archived": null
+        },
+        {
+          "title": "BitcoinTalk topic 5404767",
+          "url": "https://bitcointalk.org/index.php?topic=5404767.0",
+          "date": "2026-08-16",
+          "archived": null
+        }
+      ],
+      "third_party_material": "the collage image in clues/ is the author's own published puzzle material, posted once on Reddit; no other author material exists; community forum discussion is cited by URL and date only, never reproduced",
+      "last_updated": "2026-10-24",
+      "folder": "1-big-prizes/blm-brave-new-world-0-2btc"
+    },
+    {
+      "schema_version": 1,
+      "slug": "gsmg-io-5btc-puzzle",
+      "title": "GSMG.io Puzzle",
+      "tier": "big",
+      "status": "open",
+      "dead_end_reason": null,
+      "series": null,
+      "author": {
+        "name": "Jrk Bgrt (pseudonymous, real identity not publicly resolved)",
+        "handles": [
+          "telegram:@SoWut"
+        ],
+        "url": null
+      },
+      "published": {
+        "date": "2019-04-13",
+        "url": "https://mempool.space/tx/73e48ff571a7e9a4387574a50cf2fcb7b21b6ea5702c777a035664df57cbce02"
+      },
+      "chain": "bitcoin",
+      "prize": {
+        "amount": 1.25649674,
+        "asset": "BTC",
+        "usd_estimate": 101481,
+        "usd_snapshot": "2026-10-24",
+        "note": "the balance of the prize address 1GSMG1JC9wtdSwfwApgj2xcmJPAwx7prBe at the 2026-10-24 snapshot (1.25649674 BTC; the excess over the 2026-08-16 snapshot is third-party dust). The creator announced in April 2019 that the reward halves at every Bitcoin halving, and it did: 5 BTC funded 2019-04-13, 2.5 BTC moved out in block 630001 (2020-05-11) and 1.25 BTC on 2024-04-24 to 17ucy1K9ZUAaoY6JVtM932W9jUp5LXfyHa, which has never spent and has no published payout path. Those 3.7505531 BTC are listed as an address below but not counted as prize; the reading that the Dualite blob gates them is unconfirmed. Correction contributed by Y0lan in issue #15 (2026-09-02), verified on chain 2026-09-03"
+      },
+      "addresses": [
+        {
+          "address": "1GSMG1JC9wtdSwfwApgj2xcmJPAwx7prBe",
+          "chain": "bitcoin",
+          "role": "escrow",
+          "label": "prize address (small blob gate)",
+          "explorer": "https://mempool.space/address/1GSMG1JC9wtdSwfwApgj2xcmJPAwx7prBe",
+          "expected": "125635374 sats",
+          "verified_on": "2026-10-24",
+          "verified_state": "partially-spent"
+        },
+        {
+          "address": "17ucy1K9ZUAaoY6JVtM932W9jUp5LXfyHa",
+          "chain": "bitcoin",
+          "role": "escrow",
+          "label": "halving split-off, creator controlled; not counted as prize (the Dualite-blob reading is unconfirmed)",
+          "explorer": "https://mempool.space/address/17ucy1K9ZUAaoY6JVtM932W9jUp5LXfyHa",
+          "expected": "375055856 sats",
+          "verified_on": "2026-10-24",
+          "verified_state": "funded-unspent"
+        }
+      ],
+      "puzzle_type": [
+        "text-cipher",
+        "pixel-code",
+        "web-tree",
+        "raw-private-key"
+      ],
+      "target_format": "candidate answer string X; password = sha256(X) hex (the creator's stated convention, EVP key derivation on SHA-256); decrypts one of two OpenSSL Salted__ AES-256-CBC blobs of 80 ciphertext bytes (the SalPhaseIon small blob, or the phase 3.2.2 blob); plaintext reduces to a 32-byte private key; uncompressed secp256k1 public key; P2PKH address. Separately, the creator planted one P2PKH address per stage answer (key = sha256 of the answer, or its raw bytes); one such address has no known preimage and is an exact offline oracle for the third door",
+      "derivation": {
+        "summary": "candidate answer to sha256 password to AES-256-CBC decrypt of the small final-page blob to a 32-byte private key (one of 4 standard readings of the plaintext) to uncompressed P2PKH address",
+        "oracle": "tools/oracle.py",
+        "oracle_certified": true,
+        "certified_against": "two independent parts: the escrow's own on-chain public key (from its 2024-04-24 spending transaction) hashes byte-exact to its address; a self-made OpenSSL-compatible AES-256-CBC round trip decrypts correctly with the right password and produces no valid padding with a wrong one. No end-to-end vector exists because X is unsolved."
+      },
+      "difficulty_left": "insight",
+      "difficulty_note": "the stage chain to the final page is fully solved and replays from archived material with the creator's own convention (password = sha256 of the answer); the 256-symbol object has been tested as a direct 32-byte key reduction across roughly 335.7 million candidates with 0 match; both 80-byte locks (SalPhaseIon small blob and the 2019 phase 3.2.2 blob) are negative for every word sequence of every puzzle text and of the three Matrix films, for stage answers and digests, interleavings and iterated hashes (about 25.8 million decryptions with witnesses); the creator's unmessaged planted address of 2020-04-07, the third door, is negative for every textual construction (about 62 million candidates with witnesses); the community's decrypted Cosmic Duality is a padding accident; what would open the third door is a rule of the creator's from early 2020 read on a non-textual object",
+      "tested_total": {
+        "candidates": 399847172,
+        "families": 17,
+        "certified": true
+      },
+      "leads": [
+        {
+          "rank": 1,
+          "title": "the third door: the preimage of the creator's unmessaged planted address of 2020-04-07, an exact offline oracle",
+          "cost": "seconds per family",
+          "status": "open"
+        },
+        {
+          "rank": 2,
+          "title": "every password against both 80-byte locks, plaintexts read 40 ways",
+          "cost": "seconds per family",
+          "status": "open"
+        },
+        {
+          "rank": 3,
+          "title": "replay the dynamically-constructed candidates a filter bug never reached, now against both locks and the third door",
+          "cost": "hours-to-days",
+          "status": "open"
+        },
+        {
+          "rank": 4,
+          "title": "identify the single tool reportedly used to build every phase",
+          "cost": "hours",
+          "status": "open"
+        },
+        {
+          "rank": 5,
+          "title": "follow esrever on the remaining objects (explained for the image URL)",
+          "cost": "minutes-to-hours",
+          "status": "open"
+        },
+        {
+          "rank": 6,
+          "title": "read the 29 dropped letters as their own message",
+          "cost": "minutes",
+          "status": "open"
+        }
+      ],
+      "solutions": [],
+      "artifacts": [],
+      "sources": [
+        {
+          "title": "GSMG.io, platform site",
+          "url": "https://www.gsmg.io/",
+          "date": "2026-08-16",
+          "archived": null
+        },
+        {
+          "title": "Escrow first-funding transaction",
+          "url": "https://mempool.space/tx/73e48ff571a7e9a4387574a50cf2fcb7b21b6ea5702c777a035664df57cbce02",
+          "date": "2019-04-13",
+          "archived": null
+        },
+        {
+          "title": "First transfer to the second address",
+          "url": "https://mempool.space/tx/2aa9a4a90be819d5122d70c993280785a0508f163521e7b38cebb4db0b071b13",
+          "date": "2020-05-11",
+          "archived": null
+        },
+        {
+          "title": "Second transfer to the second address",
+          "url": "https://mempool.space/tx/88cdb3cdca12b471551b1b26188508a14ca5fd8a415223ffb7c190381c9b9df3",
+          "date": "2024-04-24",
+          "archived": null
+        },
+        {
+          "title": "OP_RETURN \"Halving\" from the creator's vanity address, same block as the first split",
+          "url": "https://mempool.space/tx/a798905f53fdcadcbd2e2a1e61d23ba69a07e26130a78c76da4bf4d7a170f383",
+          "date": "2020-05-11",
+          "archived": null
+        },
+        {
+          "title": "Issue #15, Y0lan: prize is 1.25 BTC, not 5.0068982 BTC",
+          "url": "https://github.com/floflo777/open-crypto-puzzles/issues/15",
+          "date": "2026-09-02",
+          "archived": null
+        },
+        {
+          "title": "bitcointalk topic 5532424",
+          "url": "https://bitcointalk.org/index.php?topic=5532424.0",
+          "date": "2025-02-18",
+          "archived": null
+        },
+        {
+          "title": "Community-maintained stage documentation",
+          "url": "https://github.com/puzzlehunt/gsmgio-5btc-puzzle",
+          "date": "2026-08-16",
+          "archived": null
+        },
+        {
+          "title": "Phase 2 and Phase 3 page with the creator's cipher convention",
+          "url": "https://gsmg.io/choiceisanillusioncreatedbetweenthosewithpowerandthosewithoutaveryspecialdessertiwroteitmyself",
+          "date": "2020-11-12",
+          "archived": "https://web.archive.org/web/20201112015439/https://gsmg.io/choiceisanillusioncreatedbetweenthosewithpowerandthosewithoutaveryspecialdessertiwroteitmyself"
+        },
+        {
+          "title": "The creator's vanity wallet that funded the planted addresses",
+          "url": "https://mempool.space/address/3GSMG24TujqfMJG1kQoBX18DzJHQLeJYMK",
+          "date": "2026-09-03",
+          "archived": null
+        }
+      ],
+      "third_party_material": "no book, article, forum dump, or other bulk third-party material is included; the short strings quoted in clues/author-posts.md are verbatim decodings of the puzzle's own published page content, two lines of the creator's archived Phase 2 and 3 page, and the creator's own OP_RETURN messages read from the chain; no Telegram export is quoted, since the puzzle's Telegram group has no stable public URL, and the few Telegram statements referred to are marked reported",
+      "last_updated": "2026-10-24",
+      "folder": "1-big-prizes/gsmg-io-5btc-puzzle"
+    },
+    {
+      "schema_version": 1,
+      "slug": "guntis-vitolins-metamask-8-6eth",
+      "title": "Guntis Vitolins: 10 ETH Challenge",
+      "tier": "big",
+      "status": "open",
+      "dead_end_reason": null,
+      "series": null,
+      "author": {
+        "name": "Guntis Vitolins",
+        "handles": [
+          "youtube:#GuntisVitolins",
+          "web:mineshop.eu"
+        ],
+        "url": "https://www.youtube.com/channel/UCkYCnjVcFJDN6Cp_uP0pv_A"
+      },
+      "published": {
+        "date": "2020-02-12",
+        "url": "https://www.youtube.com/watch?v=w4mpiuBP_aY"
+      },
+      "chain": "ethereum",
+      "prize": {
+        "amount": 8.612541554266,
+        "asset": "ETH",
+        "usd_estimate": 20281,
+        "usd_snapshot": "2026-10-24",
+        "note": "wallet funded with 10 ETH on 2020-02-12; the author has withdrawn from it 7 times since 2021-05, most recently 2024-06-04, totaling approximately 1.377 ETH; he still holds and periodically uses this private key, so this is not a frozen escrow"
+      },
+      "addresses": [
+        {
+          "address": "0x9C2F44EFAd0c1E852a09dF9939e6DaF061140CaF",
+          "chain": "ethereum",
+          "role": "escrow",
+          "label": "main",
+          "explorer": "https://etherscan.io/address/0x9C2F44EFAd0c1E852a09dF9939e6DaF061140CaF",
+          "expected": "8.61254155425694462 ETH",
+          "verified_on": "2026-10-24",
+          "verified_state": "funded-unspent"
+        }
+      ],
+      "puzzle_type": [
+        "bip39-seed",
+        "word-selection",
+        "video-series"
+      ],
+      "target_format": "12-word BIP39 English mnemonic, no passphrase, MetaMask default path m/44'/60'/0'/0/0",
+      "derivation": {
+        "summary": "12-word candidate to BIP39 checksum validation to seed to BIP44 m/44'/60'/0'/0/0 to Ethereum address, compared case-insensitively to the target",
+        "oracle": "tools/oracle.py",
+        "oracle_certified": true,
+        "certified_against": "the public canonical BIP-0039 test vector (abandon x11 + about to 0x9858effd...), plus a checksum-acceptance-rate check over the full English wordlist"
+      },
+      "difficulty_left": "bounded-compute",
+      "difficulty_note": "3 of 12 positions are confirmed (1, 5 with 2 candidates, and 12), plus 2 more confirmed list members with unknown positions; every sweep of the confirmed word pool (approximately 16.75 billion derivations across 6 metadata-era sweeps, all witnessed) has failed; the next 2 leads (connecting words, then substrings of longer words) are priced at hours and about a day respectively on one rented GPU and have not been run; a third lead (re-reading remaining metadata) is a human task, not a sweep",
+      "tested_total": {
+        "candidates": 21227190000,
+        "families": 9,
+        "certified": true
+      },
+      "leads": [
+        {
+          "rank": 1,
+          "title": "on-screen and spoken video words (issue #18): sweep RO1 with atom/link/basic/token/dash as free video words, then the 219-word extension",
+          "cost": "minutes to hours on one rented GPU",
+          "status": "partially tested: coin words as one free slot negative (issue #18, 2026-09-26); 219-word extension open"
+        },
+        {
+          "rank": 2,
+          "title": "extend the word pool with connecting words",
+          "cost": "hours on one rented GPU",
+          "status": "open"
+        },
+        {
+          "rank": 3,
+          "title": "extend to substrings of longer words",
+          "cost": "about a day on one rented GPU",
+          "status": "tested: negative on 7 paths (issue #18, 2026-09-26)"
+        },
+        {
+          "rank": 4,
+          "title": "re-read the video and post metadata once more",
+          "cost": "about an hour",
+          "status": "open"
+        }
+      ],
+      "solutions": [],
+      "artifacts": [],
+      "sources": [
+        {
+          "title": "Challenge video",
+          "url": "https://www.youtube.com/watch?v=w4mpiuBP_aY",
+          "date": "2020-02-12",
+          "archived": null
+        },
+        {
+          "title": "Challenge blog post",
+          "url": "https://mineshop.eu/2020/02/12/crypto-pumping-hardcore-research-portfolio-update-how-are-we-doing/",
+          "date": "2020-02-12",
+          "archived": "https://web.archive.org/web/20200528000000*/mineshop.eu/2020/02/12/crypto-pumping-hardcore-research-portfolio-update-how-are-we-doing/"
+        },
+        {
+          "title": "Hint 4 video",
+          "url": "https://www.youtube.com/watch?v=03wXiMczCXk",
+          "date": "2026-08-16",
+          "archived": null
+        },
+        {
+          "title": "Hint 5 video",
+          "url": "https://www.youtube.com/watch?v=ZjBJKooVmuE",
+          "date": "2026-08-16",
+          "archived": null
+        }
+      ],
+      "third_party_material": "no video or audio files are included; the challenge and hint videos are linked by URL only. The 5 planted sentences and 5 hints are the author's own published text, quoted short and verbatim with dates and links",
+      "last_updated": "2026-10-24",
+      "folder": "1-big-prizes/guntis-vitolins-metamask-8-6eth"
+    },
+    {
+      "schema_version": 1,
+      "slug": "peter-todd-hash-collision-bounties-0-59btc",
+      "title": "Peter Todd Hash Collision Bounties",
+      "tier": "big",
+      "status": "watch",
+      "dead_end_reason": null,
+      "series": null,
+      "author": {
+        "name": "Peter Todd",
+        "handles": [
+          "bitcointalk:u=2546"
+        ],
+        "url": "https://bitcointalk.org/index.php?action=profile;u=2546"
+      },
+      "published": {
+        "date": "2013-09-13",
+        "url": "https://bitcointalk.org/index.php?topic=293382.0"
+      },
+      "chain": "bitcoin",
+      "prize": {
+        "amount": 0.59364885,
+        "asset": "BTC",
+        "usd_estimate": 47946,
+        "usd_snapshot": "2026-10-24",
+        "note": "combined across 4 live P2SH scripts (SHA-256, RIPEMD-160, HASH160, HASH256); a 5th sibling (SHA-1) was claimed in 2023 and is not part of this total"
+      },
+      "addresses": [
+        {
+          "address": "35Snmmy3uhaer2gTboc81ayCip4m9DT4ko",
+          "chain": "bitcoin",
+          "role": "escrow",
+          "label": "SHA-256",
+          "explorer": "https://mempool.space/address/35Snmmy3uhaer2gTboc81ayCip4m9DT4ko",
+          "expected": "0.27734251 BTC",
+          "verified_on": "2026-10-24",
+          "verified_state": "funded-unspent"
+        },
+        {
+          "address": "3KyiQEGqqdb4nqfhUzGKN6KPhXmQsLNpay",
+          "chain": "bitcoin",
+          "role": "escrow",
+          "label": "RIPEMD-160",
+          "explorer": "https://mempool.space/address/3KyiQEGqqdb4nqfhUzGKN6KPhXmQsLNpay",
+          "expected": "0.11576888 BTC",
+          "verified_on": "2026-10-24",
+          "verified_state": "funded-unspent"
+        },
+        {
+          "address": "39VXyuoc6SXYKp9TcAhoiN1mb4ns6z3Yu6",
+          "chain": "bitcoin",
+          "role": "escrow",
+          "label": "HASH160 (RIPEMD160(SHA256()))",
+          "explorer": "https://mempool.space/address/39VXyuoc6SXYKp9TcAhoiN1mb4ns6z3Yu6",
+          "expected": "0.10026873 BTC",
+          "verified_on": "2026-10-24",
+          "verified_state": "funded-unspent"
+        },
+        {
+          "address": "3DUQQvz4t57Jy7jxE86kyFcNpKtURNf1VW",
+          "chain": "bitcoin",
+          "role": "escrow",
+          "label": "HASH256 (SHA256(SHA256()))",
+          "explorer": "https://mempool.space/address/3DUQQvz4t57Jy7jxE86kyFcNpKtURNf1VW",
+          "expected": "0.10026873 BTC",
+          "verified_on": "2026-10-24",
+          "verified_state": "funded-unspent"
+        },
+        {
+          "address": "37k7toV1Nv4DfmQbmZ8KuZDQCYK9x5KpzP",
+          "chain": "bitcoin",
+          "role": "escrow",
+          "label": "SHA-1 (reference sibling, claimed 2023-02-22, not part of the live prize)",
+          "explorer": "https://mempool.space/address/37k7toV1Nv4DfmQbmZ8KuZDQCYK9x5KpzP",
+          "expected": "0 BTC (fully spent)",
+          "verified_on": "2026-10-24",
+          "verified_state": "swept"
+        }
+      ],
+      "puzzle_type": [
+        "hash-collision"
+      ],
+      "target_format": "two distinct byte strings, each under 521 bytes, with equal digest under the named hash function; submitted directly in a scriptSig, no key derivation involved",
+      "derivation": {
+        "summary": "supply 2 distinct pushes a, b in a single scriptSig such that HASH(a) == HASH(b); this is the generic collision-finding problem for the named hash, with no shortcut in the script itself",
+        "oracle": "tools/oracle.py",
+        "oracle_certified": true,
+        "certified_against": "the real 2023-02-22 SHA-1 claim (txid 9ec2a0db0c4c3423a6b2c3cb2a26fc626b037121b4b5f3f57b08916196ff14e0, block 777856), decoded directly from its scriptSig: the SHAttered PDF-prefix pair; and the same-day 2013-09-13 OP_ABS demo claim, a non-hash sibling script proving the same payout template works"
+      },
+      "difficulty_left": "research-breakthrough",
+      "difficulty_note": "no known shortcut over the generic collision bound for any of the 4 live hash functions (2^128 for SHA-256 and HASH256, 2^80 for RIPEMD-160 and HASH160); what would close this is a published practical collision on one of them, the way SHAttered did for SHA-1 in 2017",
+      "tested_total": {
+        "candidates": 0,
+        "families": 4,
+        "certified": true
+      },
+      "leads": [
+        {
+          "rank": 1,
+          "title": "a published practical or academic full collision on SHA-256, RIPEMD-160, HASH160 or HASH256",
+          "cost": "needs-a-research-breakthrough",
+          "status": "open"
+        },
+        {
+          "rank": 2,
+          "title": "RIPEMD-160 and HASH160 as the most-watched sub-targets (smallest generic bound, more active reduced-round literature)",
+          "cost": "none, prioritization only",
+          "status": "open"
+        },
+        {
+          "rank": 3,
+          "title": "passive monitoring of the spent flag on the 4 live addresses and of collision announcements",
+          "cost": "minutes, periodic",
+          "status": "open"
+        }
+      ],
+      "solutions": [],
+      "artifacts": [],
+      "sources": [
+        {
+          "title": "REWARD offered for hash collisions for SHA1, SHA256, RIPEMD160 and other",
+          "url": "https://bitcointalk.org/index.php?topic=293382.0",
+          "date": "2013-09-13",
+          "archived": null
+        },
+        {
+          "title": "boha, community bounty mirror (hash_collision.jsonc)",
+          "url": "https://github.com/oritwoen/boha",
+          "date": "2026-08-16",
+          "archived": null
+        },
+        {
+          "title": "The first collision for full SHA-1 (SHAttered)",
+          "url": "https://shattered.io",
+          "date": "2017-02-23",
+          "archived": null
+        },
+        {
+          "title": "mempool.space, SHA-1 bounty claiming transaction",
+          "url": "https://mempool.space/tx/9ec2a0db0c4c3423a6b2c3cb2a26fc626b037121b4b5f3f57b08916196ff14e0",
+          "date": "2023-02-22",
+          "archived": null
+        },
+        {
+          "title": "mempool.space, 4 live escrow addresses and the SHA-1 reference",
+          "url": "https://mempool.space/address/35Snmmy3uhaer2gTboc81ayCip4m9DT4ko",
+          "date": "2026-08-16",
+          "archived": null
+        }
+      ],
+      "third_party_material": "the redeem-script table and the quoted lines are Peter Todd's own puzzle material, quoted briefly with source and date; the SHAttered SHA-1 collision pair is a public academic research artifact (Stevens et al., 2017), read directly from the public blockchain rather than reproduced from the paper; no other third-party material is included",
+      "last_updated": "2026-10-24",
+      "folder": "1-big-prizes/peter-todd-hash-collision-bounties-0-59btc"
+    },
+    {
+      "schema_version": 1,
+      "slug": "ah-white-walking-banks-800ksats",
+      "title": "AH White: Walking Banks",
+      "tier": "mid",
+      "status": "open",
+      "dead_end_reason": null,
+      "series": null,
+      "author": {
+        "name": "AH White",
+        "handles": [
+          "nostr:npub1c2rvx6ue9uewl452kczcfxz9w242sfzn64ul8dv2afd3t5dpktzs0kmmvf",
+          "reddit:AH_W"
+        ],
+        "url": "https://walkingbanks.com"
+      },
+      "published": {
+        "date": "2025-05-01",
+        "url": "https://njump.me/npub1c2rvx6ue9uewl452kczcfxz9w242sfzn64ul8dv2afd3t5dpktzs0kmmvf"
+      },
+      "chain": "bitcoin",
+      "prize": {
+        "amount": 800000,
+        "asset": "sats",
+        "usd_estimate": 646,
+        "usd_snapshot": "2026-10-24",
+        "note": "split across two P2WPKH addresses derived from one published xpub, funded 2024-09-05"
+      },
+      "addresses": [
+        {
+          "address": "bc1qxy4tf0s4n7x9w24rawf9qsxh2hyljrmvyrhwzt",
+          "chain": "bitcoin",
+          "role": "escrow",
+          "label": "account 0, index 0",
+          "explorer": "https://mempool.space/address/bc1qxy4tf0s4n7x9w24rawf9qsxh2hyljrmvyrhwzt",
+          "expected": "100000 sats",
+          "verified_on": "2026-10-24",
+          "verified_state": "funded-unspent"
+        },
+        {
+          "address": "bc1q4qc24xk5cehc4t7vr264zldsms2kmxf86jqjau",
+          "chain": "bitcoin",
+          "role": "escrow",
+          "label": "account 0, index 1",
+          "explorer": "https://mempool.space/address/bc1q4qc24xk5cehc4t7vr264zldsms2kmxf86jqjau",
+          "expected": "700000 sats",
+          "verified_on": "2026-10-24",
+          "verified_state": "funded-unspent"
+        }
+      ],
+      "puzzle_type": [
+        "bip39-seed",
+        "book",
+        "text-cipher"
+      ],
+      "target_format": "BIP39 24 words (English), empty passphrase, account key matching the published xpub (native SegWit, BIP84)",
+      "derivation": {
+        "summary": "derive the account-0 extended key (BIP84/44/49/86, empty passphrase) for a candidate 24-word mnemonic and compare its compressed public key and chain code to the published xpub",
+        "oracle": "tools/oracle.py",
+        "oracle_certified": true,
+        "certified_against": "the published xpub's own derivation of the two known treasure addresses, plus the public 24-word BIP39 test vector (all-zero entropy, checksum word 'art')"
+      },
+      "difficulty_left": "external-info",
+      "difficulty_note": "the mechanism is fully understood and the published text has been mined exhaustively; only 1 of 6 organ-donor groups (4 of 24 words) is printed as a decodable block, and the other 5 are not present anywhere in the free PDF, the site text, or the audiobook narration, which argues the remaining words depend on hints the author has not yet published",
+      "tested_total": {
+        "candidates": 0,
+        "families": 9,
+        "certified": true
+      },
+      "leads": [
+        {
+          "rank": 1,
+          "title": "write to the author",
+          "cost": "needs-a-person",
+          "status": "open"
+        },
+        {
+          "rank": 2,
+          "title": "watch the Nostr feed for new hints",
+          "cost": "minutes",
+          "status": "open"
+        },
+        {
+          "rank": 3,
+          "title": "GPU completion of the last 4 words once 20 are known",
+          "cost": "hours",
+          "status": "open"
+        }
+      ],
+      "solutions": [],
+      "artifacts": [],
+      "sources": [
+        {
+          "title": "AH White, Nostr profile",
+          "url": "https://njump.me/npub1c2rvx6ue9uewl452kczcfxz9w242sfzn64ul8dv2afd3t5dpktzs0kmmvf",
+          "date": "2026-08-16",
+          "archived": null
+        },
+        {
+          "title": "Walking Banks, official site (Find the Treasure)",
+          "url": "https://walkingbanks.com",
+          "date": "2026-08-16",
+          "archived": null
+        }
+      ],
+      "third_party_material": "no book pages, OCR text, or audiobook audio/transcripts are included; the one chapter 11 passage quoted in clues/author-posts.md is the short excerpt that carries the puzzle's own decoding rule",
+      "last_updated": "2026-10-24",
+      "folder": "2-mid-prizes/ah-white-walking-banks-800ksats"
+    },
+    {
+      "schema_version": 1,
+      "slug": "arweave-puzzle-10-500ar",
+      "title": "Arweave Puzzle #10",
+      "tier": "mid",
+      "status": "open",
+      "dead_end_reason": null,
+      "series": "arweave-puzzles",
+      "author": {
+        "name": "Tiamat",
+        "handles": [
+          "twitter:@ArweaveP"
+        ],
+        "url": "https://twitter.com/arweavep"
+      },
+      "published": {
+        "date": "2020-04-14",
+        "url": "https://arweave.net/1fLPMP_smP6ipdIYbYUAZtFPwO4crdYr4kMVf5uTivg"
+      },
+      "chain": "arweave",
+      "prize": {
+        "amount": 500.02225493,
+        "asset": "AR",
+        "usd_estimate": 1735,
+        "usd_snapshot": "2026-10-24",
+        "note": ""
+      },
+      "addresses": [
+        {
+          "address": "bkjJGw3NLxs8OAyRxgTL-QFpiB3lBJqZ76kDhWdB-Rs",
+          "chain": "arweave",
+          "role": "escrow",
+          "label": "main",
+          "explorer": "https://viewblock.io/arweave/address/bkjJGw3NLxs8OAyRxgTL-QFpiB3lBJqZ76kDhWdB-Rs",
+          "expected": "500.02225493 AR",
+          "verified_on": "2026-10-24",
+          "verified_state": "funded-unspent"
+        }
+      ],
+      "puzzle_type": [
+        "word-selection",
+        "text-cipher"
+      ],
+      "target_format": "one free-text answer, case-sensitive, any length, SHA-512 applied 11,513 times, CryptoJS AES-OpenSSL decrypt (non-standard 1024-bit key, 38-round Rijndael), plaintext must contain the literal \"kty\":\"RSA\"",
+      "derivation": {
+        "summary": "read the torn-paper image's 5 drawn keys into a single concatenated case-sensitive answer string of unknown length, stretch with SHA-512 x11513, use the result as an EvpKDF/AES-OpenSSL password to decrypt the page's ciphertext into an Arweave RSA wallet keyfile",
+        "oracle": "tools/oracle.py",
+        "oracle_certified": true,
+        "certified_against": "solved sibling Arweave Puzzle Weave #8 (answer RasputinWilhelmAlekhine), reproduced byte-for-byte against the puzzle's own decrypt routine"
+      },
+      "difficulty_left": "insight",
+      "difficulty_note": "the author never published any length or charset constraint for this puzzle specifically; on the order of 8,000,000 candidates tested across every literal, pun, and genesis-block reading found so far, 0 matches; the block is one unguessed token, not a search problem",
+      "tested_total": {
+        "candidates": 8010190,
+        "families": 7,
+        "certified": true
+      },
+      "leads": [
+        {
+          "rank": 1,
+          "title": "the exact wording of Bible Genesis chapter 28 as a long word-series, patterned after solved sibling #7",
+          "cost": "hours",
+          "status": "open"
+        },
+        {
+          "rank": 2,
+          "title": "non-public channels: the author's Telegram group or a direct reply, for a hint never posted on Twitter",
+          "cost": "needs-a-person",
+          "status": "open"
+        }
+      ],
+      "solutions": [],
+      "artifacts": [
+        {
+          "path": "clues/puzzle-image.png",
+          "sha256": "a45193b008d7a7dbd1bef6f32bd8ec7529ffffd057218eccf57d9c0324baa3d9",
+          "source": "https://arweave.net/1fLPMP_smP6ipdIYbYUAZtFPwO4crdYr4kMVf5uTivg",
+          "archived": null
+        }
+      ],
+      "sources": [
+        {
+          "title": "Live puzzle page",
+          "url": "https://arweave.net/1fLPMP_smP6ipdIYbYUAZtFPwO4crdYr4kMVf5uTivg",
+          "date": "2020-04-14",
+          "archived": null
+        },
+        {
+          "title": "\"1,2,4,8 = solved / 3,5,7,9 = not solved yet\"",
+          "url": "https://twitter.com/arweavep/status/1250036746802298885",
+          "date": "2020-04-14",
+          "archived": null
+        },
+        {
+          "title": "@_LeFevre_ reply in the #10 announcement thread",
+          "url": "https://github.com/HomelessPhD/AR_Puzzles/tree/main/PZL10",
+          "date": "2020-04-22",
+          "archived": null
+        },
+        {
+          "title": "HomelessPhD/AR_Puzzles community repository, PZL10 entry",
+          "url": "https://github.com/HomelessPhD/AR_Puzzles/tree/main/PZL10",
+          "date": "2026-08-16",
+          "archived": null
+        },
+        {
+          "title": "Escrow wallet, viewblock.io",
+          "url": "https://viewblock.io/arweave/address/bkjJGw3NLxs8OAyRxgTL-QFpiB3lBJqZ76kDhWdB-Rs",
+          "date": "2026-08-16",
+          "archived": null
+        }
+      ],
+      "third_party_material": "the puzzle image is the author's own material, published on the Arweave permaweb page; one short quote from a named community member (the proven puzzle #13 solver) is reproduced from the public reply thread; no book, audio, or video material",
+      "last_updated": "2026-10-24",
+      "folder": "2-mid-prizes/arweave-puzzle-10-500ar"
+    },
+    {
+      "schema_version": 1,
+      "slug": "arweave-puzzle-11-1eth",
+      "title": "Arweave Puzzle #11",
+      "tier": "mid",
+      "status": "open",
+      "dead_end_reason": null,
+      "series": "arweave-puzzles",
+      "author": {
+        "name": "Tiamat",
+        "handles": [
+          "twitter:@arweavep"
+        ],
+        "url": "https://twitter.com/arweavep"
+      },
+      "published": {
+        "date": "2020-04-22",
+        "url": "https://twitter.com/arweavep/status/1252961944807641090"
+      },
+      "chain": "ethereum",
+      "prize": {
+        "amount": 1.0,
+        "asset": "ETH",
+        "usd_estimate": 2355,
+        "usd_snapshot": "2026-10-24",
+        "note": "1 ETH, address held as a plain EOA, never spent from since funding"
+      },
+      "addresses": [
+        {
+          "address": "0xFF2142E98E09b5344994F9bEB9C56C95506B9F17",
+          "chain": "ethereum",
+          "role": "escrow",
+          "label": "main",
+          "explorer": "https://etherscan.io/address/0xFF2142E98E09b5344994F9bEB9C56C95506B9F17",
+          "expected": "1 ETH",
+          "verified_on": "2026-10-24",
+          "verified_state": "funded-unspent"
+        }
+      ],
+      "puzzle_type": [
+        "image-stego",
+        "pixel-code",
+        "raw-private-key"
+      ],
+      "target_format": "raw 32-byte / 64-hex secp256k1 private key, standard ETH address derivation, no mnemonic, no keystore",
+      "derivation": {
+        "summary": "extract a 256-bit value from the pixel content of the published PNG (channel, order, and quantization not yet determined) and compare its ETH address to the escrow address",
+        "oracle": null,
+        "oracle_certified": false,
+        "certified_against": "the derivation primitives (SHA-256, Keccak-256, secp256k1, EIP-55) are checked against public test vectors, but no known-answer image-to-key pair exists for this specific puzzle, so no oracle is shipped"
+      },
+      "difficulty_left": "insight",
+      "difficulty_note": "the target format (raw private key, not a mnemonic) and the decoy (the address printed in the file's tEXt chunk) are both confirmed; close to 1,000 direct encodings of the measured geometry and the metadata anomaly have been tested, all negative; the exact pixel-level encoding is not yet known and no certified oracle exists to test one against, so the missing piece is either an unrecovered insight into the encoding or the never-delivered author hint",
+      "tested_total": {
+        "candidates": 1000,
+        "families": 4,
+        "certified": false
+      },
+      "leads": [
+        {
+          "rank": 1,
+          "title": "systematic LSB scan of the continuous grayscale and alpha channels",
+          "cost": "hours",
+          "status": "open"
+        },
+        {
+          "rank": 2,
+          "title": "join the community Telegram group and search first-hand for the promised hint",
+          "cost": "needs-a-person",
+          "status": "open"
+        },
+        {
+          "rank": 3,
+          "title": "puzzle #9's real solving method, if it ever surfaces",
+          "cost": "needs-new-information",
+          "status": "open"
+        }
+      ],
+      "solutions": [],
+      "artifacts": [
+        {
+          "path": "clues/arweave-puzzle-11.png",
+          "sha256": "c6ba4b50fd75181a325f28b620438f740120925a07a23b889dda597546db87e1",
+          "source": "https://viewblock.io/arweave/tx/CzITHnEIlkQw9SbaX5futCzFrKk1qe_NwvWnIBmP2fY",
+          "archived": null
+        }
+      ],
+      "sources": [
+        {
+          "title": "Tiamat, original announcement",
+          "url": "https://twitter.com/arweavep/status/1252961944807641090",
+          "date": "2020-04-22",
+          "archived": null
+        },
+        {
+          "title": "Tiamat, the $100 hint reply",
+          "url": "https://twitter.com/arweavep/status/1429846914028158977",
+          "date": "2021-08-23",
+          "archived": null
+        },
+        {
+          "title": "HomelessPhD, AR_Puzzles community repository, PZL11",
+          "url": "https://github.com/HomelessPhD/AR_Puzzles/tree/main/PZL11",
+          "date": "2026-08-16",
+          "archived": null
+        }
+      ],
+      "third_party_material": "the puzzle image in clues/ is the author's own published puzzle material, stored on Arweave; the author's quotes in clues/author-posts.md are reproduced from a community repository that itself mirrors the author's Twitter replies; no other third-party material is included",
+      "last_updated": "2026-10-24",
+      "folder": "2-mid-prizes/arweave-puzzle-11-1eth"
+    },
+    {
+      "schema_version": 1,
+      "slug": "arweave-puzzle-3-1000ar",
+      "title": "Arweave Puzzle #3",
+      "tier": "mid",
+      "status": "open",
+      "dead_end_reason": null,
+      "series": "arweave-puzzles",
+      "author": {
+        "name": "Tiamat",
+        "handles": [
+          "twitter:@ArweaveP"
+        ],
+        "url": "https://twitter.com/arweavep"
+      },
+      "published": {
+        "date": "2019-05-27",
+        "url": "https://twitter.com/arweavep/status/1132936723162378240"
+      },
+      "chain": "arweave",
+      "prize": {
+        "amount": 1000.165838006237,
+        "asset": "AR",
+        "usd_estimate": 3471,
+        "usd_snapshot": "2026-10-24",
+        "note": "balance drifts slightly above the original funding from unsolicited dust deposits over the years"
+      },
+      "addresses": [
+        {
+          "address": "wHP6OPG5GMF5dedo_CD8AAy6x8La-gfI5b5pk65Tx_0",
+          "chain": "arweave",
+          "role": "escrow",
+          "label": "main",
+          "explorer": "https://viewblock.io/arweave/address/wHP6OPG5GMF5dedo_CD8AAy6x8La-gfI5b5pk65Tx_0",
+          "expected": "1000.165838006237 AR",
+          "verified_on": "2026-10-24",
+          "verified_state": "funded-unspent"
+        }
+      ],
+      "puzzle_type": [
+        "word-selection",
+        "text-cipher"
+      ],
+      "target_format": "8 four-character answers, one per rebus image, concatenated in image order and lowercased, SHA-512 applied 11,513 times, CryptoJS AES-OpenSSL decrypt (non-standard 1024-bit key, 38-round Rijndael), plaintext must contain the literal \"kty\":\"RSA\"; derive base64url(SHA256(decoded JWK n)) and require exact escrow-address equality",
+      "derivation": {
+        "summary": "read 8 hand-drawn rebus images into 8 four-character tokens, concatenate in DOM order, lowercase, stretch with SHA-512 x11513, use the result as an EvpKDF/AES-OpenSSL password to decrypt the page's ciphertext into an Arweave RSA wallet keyfile",
+        "oracle": "tools/oracle.py",
+        "oracle_certified": true,
+        "certified_against": "Real solved sibling #8, positive and wrong-target controls; original #3 JavaScript encrypt/decrypt fixture with lowercase and whitespace checks, 2026-09-05"
+      },
+      "difficulty_left": "insight",
+      "difficulty_note": "Exact-address oracle and original-page controls pass. Historical searches lack per-run witnesses and do not prove the number of wrong image readings. Dated ecosystem sources and visual interpretation remain unresolved.",
+      "tested_total": {
+        "candidates": 1216,
+        "families": 4,
+        "certified": true
+      },
+      "leads": [
+        {
+          "rank": 1,
+          "title": "sharper visual/OSINT reading of slots 1 and 7, plus the slot 5 and slot 8 arbitration",
+          "cost": "hours",
+          "status": "open"
+        },
+        {
+          "rank": 2,
+          "title": "bounded 2-slot sweeps on the most-suspect pairs once a reading is fixed",
+          "cost": "minutes",
+          "status": "open"
+        }
+      ],
+      "solutions": [],
+      "artifacts": [
+        {
+          "path": "clues/slot-1.png",
+          "sha256": "e9170643219ed25cd844ce989212387f9a7e210adef6365e019d7dc910a20058",
+          "source": "https://kszeqgxezf5quhzld4nhpasyilhxphclq2peqi5mrn7utxmqhwga.arweave.net/VLJIGuTJewofKx8ad4JYQs93nEuGnkgjrIt_Sd2QPYw",
+          "archived": null
+        },
+        {
+          "path": "clues/slot-2.png",
+          "sha256": "22111bd95e8641f1da8eec5ab88d1cf19b6ce38b2377f33cb18a29092f8ff4cf",
+          "source": "https://kszeqgxezf5quhzld4nhpasyilhxphclq2peqi5mrn7utxmqhwga.arweave.net/VLJIGuTJewofKx8ad4JYQs93nEuGnkgjrIt_Sd2QPYw",
+          "archived": null
+        },
+        {
+          "path": "clues/slot-3.png",
+          "sha256": "7e61bafc1233e27d2234fc95d568b2edbd87f76ebe851c93ae732fc8d80a1bea",
+          "source": "https://kszeqgxezf5quhzld4nhpasyilhxphclq2peqi5mrn7utxmqhwga.arweave.net/VLJIGuTJewofKx8ad4JYQs93nEuGnkgjrIt_Sd2QPYw",
+          "archived": null
+        },
+        {
+          "path": "clues/slot-4.png",
+          "sha256": "6f3079ffeee00490ec16b9e07e80127cc633fe66f6b3b043ed80594a0888fa15",
+          "source": "https://kszeqgxezf5quhzld4nhpasyilhxphclq2peqi5mrn7utxmqhwga.arweave.net/VLJIGuTJewofKx8ad4JYQs93nEuGnkgjrIt_Sd2QPYw",
+          "archived": null
+        },
+        {
+          "path": "clues/slot-5.png",
+          "sha256": "a6c9095b4cfd9588858ca7cbccaabcf331e65dbbcd4bcc42cb099dfacfd95728",
+          "source": "https://kszeqgxezf5quhzld4nhpasyilhxphclq2peqi5mrn7utxmqhwga.arweave.net/VLJIGuTJewofKx8ad4JYQs93nEuGnkgjrIt_Sd2QPYw",
+          "archived": null
+        },
+        {
+          "path": "clues/slot-6.png",
+          "sha256": "9def747b31e0b86499954d37374153e39383fa9f77d608487da7be0bffa6bace",
+          "source": "https://kszeqgxezf5quhzld4nhpasyilhxphclq2peqi5mrn7utxmqhwga.arweave.net/VLJIGuTJewofKx8ad4JYQs93nEuGnkgjrIt_Sd2QPYw",
+          "archived": null
+        },
+        {
+          "path": "clues/slot-7.png",
+          "sha256": "f03c6812dd33bf72522a3ebc9a34d0b4d175bc7437b302ad3d3a224b72997ea7",
+          "source": "https://kszeqgxezf5quhzld4nhpasyilhxphclq2peqi5mrn7utxmqhwga.arweave.net/VLJIGuTJewofKx8ad4JYQs93nEuGnkgjrIt_Sd2QPYw",
+          "archived": null
+        },
+        {
+          "path": "clues/slot-8.png",
+          "sha256": "0c6f5ffe74acd2128a160dc0f727ee4d1febf54cb21ee27bc19bd6cac3b4bed6",
+          "source": "https://kszeqgxezf5quhzld4nhpasyilhxphclq2peqi5mrn7utxmqhwga.arweave.net/VLJIGuTJewofKx8ad4JYQs93nEuGnkgjrIt_Sd2QPYw",
+          "archived": null
+        },
+        {
+          "path": "clues/puzzle-composite.png",
+          "sha256": "57523cc2598d5c717d0f289e49075cf1e9b4522ca5dd36e46769d9fe8625340b",
+          "source": "https://kszeqgxezf5quhzld4nhpasyilhxphclq2peqi5mrn7utxmqhwga.arweave.net/VLJIGuTJewofKx8ad4JYQs93nEuGnkgjrIt_Sd2QPYw",
+          "archived": null
+        }
+      ],
+      "sources": [
+        {
+          "title": "Puzzle Weave 3 announcement",
+          "url": "https://twitter.com/arweavep/status/1132936723162378240",
+          "date": "2019-05-27",
+          "archived": null
+        },
+        {
+          "title": "Live puzzle page",
+          "url": "https://kszeqgxezf5quhzld4nhpasyilhxphclq2peqi5mrn7utxmqhwga.arweave.net/VLJIGuTJewofKx8ad4JYQs93nEuGnkgjrIt_Sd2QPYw",
+          "date": "2019-05-27",
+          "archived": null
+        },
+        {
+          "title": "\"With N.1.7.0.0 release, third pic became obsolete\"",
+          "url": "https://twitter.com/arweavep/status/1177235139035836417",
+          "date": "2019-09-26",
+          "archived": null
+        },
+        {
+          "title": "\"Did anybody count the dots?\"",
+          "url": "https://twitter.com/arweavep/status/1152887601529073665",
+          "date": "2019-07-21",
+          "archived": null
+        },
+        {
+          "title": "\"The list of unsolved Arweave puzzles ordered by difficulty probably looks like: 3, 9, 8, 5, 7\"",
+          "url": "https://twitter.com/arweavep/status/1235199397371277315",
+          "date": "2020-03-04",
+          "archived": null
+        },
+        {
+          "title": "HomelessPhD/AR_Puzzles community repository, PZL3 entry",
+          "url": "https://github.com/HomelessPhD/AR_Puzzles/tree/main/PZL3",
+          "date": "2026-08-16",
+          "archived": null
+        },
+        {
+          "title": "Escrow wallet, viewblock.io",
+          "url": "https://viewblock.io/arweave/address/wHP6OPG5GMF5dedo_CD8AAy6x8La-gfI5b5pk65Tx_0",
+          "date": "2026-08-16",
+          "archived": null
+        },
+        {
+          "title": "Community Spotlight: Meeting Tiamat",
+          "url": "https://arweave.medium.com/community-spotlight-meeting-tiamat-e484655b25e0",
+          "date": "2019-10-10",
+          "archived": null
+        },
+        {
+          "title": "Arweave Newsletter: May",
+          "url": "https://arweave.medium.com/arweave-newsletter-may-9de22fa3700e",
+          "date": "2019-05-27",
+          "archived": null
+        }
+      ],
+      "third_party_material": "the 8 rebus images and their composite are the author's own puzzle material, published on the Arweave permaweb page; no book, audio, or video material; no third-party community images shipped",
+      "last_updated": "2026-10-24",
+      "folder": "2-mid-prizes/arweave-puzzle-3-1000ar"
+    },
+    {
+      "schema_version": 1,
+      "slug": "corey-phillips-kitten-passphrase-1msats",
+      "title": "Corey Phillips: Kitten Passphrase Puzzle",
+      "tier": "mid",
+      "status": "open",
+      "dead_end_reason": null,
+      "series": null,
+      "author": {
+        "name": "Corey Phillips",
+        "handles": [
+          "medium:corey-lyle-phillips",
+          "github:coreyphillips",
+          "x:coreylphillips"
+        ],
+        "url": "https://corey-lyle-phillips.medium.com/"
+      },
+      "published": {
+        "date": "2019-07-09",
+        "url": "https://corey-lyle-phillips.medium.com/part-1-3-turn-your-photos-into-bitcoin-private-keys-addresses-57669771cf7a"
+      },
+      "chain": "bitcoin",
+      "prize": {
+        "amount": 1001900,
+        "asset": "sats",
+        "usd_estimate": 809,
+        "usd_snapshot": "2026-10-24",
+        "note": "2 funding UTXOs summing to 1,001,900 sats, 0 spent as of 2026-08-16"
+      },
+      "addresses": [
+        {
+          "address": "bc1qcyrndzgy036f6ax370g8zyvlw86ulawgt0246r",
+          "chain": "bitcoin",
+          "role": "escrow",
+          "label": "main",
+          "explorer": "https://mempool.space/address/bc1qcyrndzgy036f6ax370g8zyvlw86ulawgt0246r",
+          "expected": "1001900 sats",
+          "verified_on": "2026-10-24",
+          "verified_state": "funded-unspent"
+        },
+        {
+          "address": "bc1q57euh23y3qs2f9d5mtwpax5lqecfvrdkqce82a",
+          "chain": "bitcoin",
+          "role": "decoy",
+          "label": "sister (empty passphrase, oracle calibration only, not a target)",
+          "explorer": "https://mempool.space/address/bc1q57euh23y3qs2f9d5mtwpax5lqecfvrdkqce82a",
+          "expected": "n/a, not a prize address",
+          "verified_on": "2026-10-24",
+          "verified_state": "swept"
+        }
+      ],
+      "puzzle_type": [
+        "bip39-seed",
+        "brainwallet"
+      ],
+      "target_format": "BIP39 24 words (fixed, public), unknown passphrase, BIP84 m/84'/0'/0'/0/0",
+      "derivation": {
+        "summary": "hash the published image (base64 then SHA-256) to get fixed BIP39 entropy for a public 24-word mnemonic; the unknown passphrase plus the mnemonic derive the seed, then BIP84 m/84'/0'/0'/0/0 gives the P2WPKH address",
+        "oracle": "tools/oracle.py",
+        "oracle_certified": true,
+        "certified_against": "the sister address bc1q57euh23y3qs2f9d5mtwpax5lqecfvrdkqce82a for an empty passphrase, and sha256(base64(kitten.jpeg)) matching the author's own published value"
+      },
+      "difficulty_left": "external-info",
+      "difficulty_note": "the mnemonic and derivation are fully certified; about 1.16 billion passphrase candidates have been tested across curated, rule-mangled, and raw wordlist regions with 0 matches; the author states the puzzle is not meant to be solved, so the passphrase is a freely chosen secret with no confirmed public provenance",
+      "tested_total": {
+        "candidates": 1155064682,
+        "families": 11,
+        "certified": true
+      },
+      "leads": [
+        {
+          "rank": 1,
+          "title": "ask the author directly",
+          "cost": "needs-a-person",
+          "status": "open"
+        },
+        {
+          "rank": 2,
+          "title": "safety-net derivation on BIP44 and BIP49",
+          "cost": "minutes",
+          "status": "open"
+        },
+        {
+          "rank": 3,
+          "title": "three-word thematic combinator",
+          "cost": "hours",
+          "status": "open"
+        }
+      ],
+      "solutions": [],
+      "artifacts": [
+        {
+          "path": "clues/kitten.jpeg",
+          "sha256": "b988e0881a0211222e83f3e2a4bfac695c951bf96aa33ec112fab6992f5e7343",
+          "source": "https://corey-lyle-phillips.medium.com/part-1-3-turn-your-photos-into-bitcoin-private-keys-addresses-57669771cf7a",
+          "archived": null
+        }
+      ],
+      "sources": [
+        {
+          "title": "Part 1/3: Turn Your Photos Into Bitcoin Private Keys/Addresses",
+          "url": "https://corey-lyle-phillips.medium.com/part-1-3-turn-your-photos-into-bitcoin-private-keys-addresses-57669771cf7a",
+          "date": "2019-07-09",
+          "archived": null
+        },
+        {
+          "title": "A Bitcoin Audio Puzzle",
+          "url": "https://corey-lyle-phillips.medium.com/a-bitcoin-audio-puzzle-61174b9849ce",
+          "date": "2020-01-05",
+          "archived": null
+        },
+        {
+          "title": "BTC-Puzzle-by-Corey-Phillips (community hint repository)",
+          "url": "https://github.com/Schum-io/BTC-Puzzle-by-Corey-Phillips",
+          "date": "2026-08-16",
+          "archived": null
+        },
+        {
+          "title": "bitimage (author's tool)",
+          "url": "https://github.com/coreyphillips/bitimage",
+          "date": "2026-08-16",
+          "archived": null
+        }
+      ],
+      "third_party_material": "clues/kitten.jpeg is the author-published puzzle image, byte-identical to the original, sha256 recorded in artifacts[]; no wordlists or third-party bulk data included, only my own derived candidate counts",
+      "last_updated": "2026-10-24",
+      "folder": "2-mid-prizes/corey-phillips-kitten-passphrase-1msats"
+    },
+    {
+      "schema_version": 1,
+      "slug": "fe-lang-bountiful-compiler-bounty-1eth",
+      "title": "Bountiful: the Fe compiler bug bounty",
+      "tier": "mid",
+      "status": "open",
+      "dead_end_reason": null,
+      "series": "bountiful",
+      "author": {
+        "name": "Fe language team",
+        "handles": [
+          "github:fe-lang",
+          "github:cburgdorf",
+          "zulip:fe-lang.zulipchat.com"
+        ],
+        "url": "https://fe-lang.org"
+      },
+      "published": {
+        "date": "2026-05-04",
+        "url": "https://blog.fe-lang.org/posts/bountiful-reloaded/"
+      },
+      "chain": "ethereum",
+      "prize": {
+        "amount": 1.0,
+        "asset": "ETH",
+        "usd_estimate": 2355,
+        "usd_snapshot": "2026-10-24",
+        "note": "the registry holds 1 ETH and each of the 7 registered challenges carries a 0.25 ETH prize, so the pot pays the first 4 claims and the 5th would revert; the 1 ETH balance, not the 1.75 ETH nominal total, is what the chain can pay today"
+      },
+      "addresses": [
+        {
+          "address": "0x71fB6afcD98c5BD611712ad4b8D314EF729aa69D",
+          "chain": "ethereum",
+          "role": "escrow",
+          "label": "BountyRegistry, round 3",
+          "explorer": "https://etherscan.io/address/0x71fB6afcD98c5BD611712ad4b8D314EF729aa69D",
+          "expected": "1 ETH",
+          "verified_on": "2026-10-24",
+          "verified_state": "funded-unspent"
+        },
+        {
+          "address": "0x046a3a4968282BaA7ad6291723873C8275434623",
+          "chain": "ethereum",
+          "role": "contract",
+          "label": "Game",
+          "explorer": "https://etherscan.io/address/0x046a3a4968282BaA7ad6291723873C8275434623",
+          "expected": "0 ETH, prize held by the registry",
+          "verified_on": "2026-10-24",
+          "verified_state": "zero-balance-contract"
+        },
+        {
+          "address": "0xE959e7ecA1afCa6cf2Bf8b07e25Da355b6C8E8c7",
+          "chain": "ethereum",
+          "role": "contract",
+          "label": "Game2D",
+          "explorer": "https://etherscan.io/address/0xE959e7ecA1afCa6cf2Bf8b07e25Da355b6C8E8c7",
+          "expected": "0 ETH, prize held by the registry",
+          "verified_on": "2026-10-24",
+          "verified_state": "zero-balance-contract"
+        },
+        {
+          "address": "0xfb5423aDfBAC65ac675845Bb4FEBf8aeC128272E",
+          "chain": "ethereum",
+          "role": "contract",
+          "label": "GameEnum",
+          "explorer": "https://etherscan.io/address/0xfb5423aDfBAC65ac675845Bb4FEBf8aeC128272E",
+          "expected": "0 ETH, prize held by the registry",
+          "verified_on": "2026-10-24",
+          "verified_state": "zero-balance-contract"
+        },
+        {
+          "address": "0x5E987b6aADD4DFC2236D21edE6D07feb04350b06",
+          "chain": "ethereum",
+          "role": "contract",
+          "label": "GameBitboard",
+          "explorer": "https://etherscan.io/address/0x5E987b6aADD4DFC2236D21edE6D07feb04350b06",
+          "expected": "0 ETH, prize held by the registry",
+          "verified_on": "2026-10-24",
+          "verified_state": "zero-balance-contract"
+        },
+        {
+          "address": "0x86B7AEce1503242fED29E593FAEde3b7b00a5a1D",
+          "chain": "ethereum",
+          "role": "contract",
+          "label": "GameMonadic",
+          "explorer": "https://etherscan.io/address/0x86B7AEce1503242fED29E593FAEde3b7b00a5a1D",
+          "expected": "0 ETH, prize held by the registry",
+          "verified_on": "2026-10-24",
+          "verified_state": "zero-balance-contract"
+        },
+        {
+          "address": "0x3dF9789634995546B0126bC28B9F9FcBCB129F18",
+          "chain": "ethereum",
+          "role": "contract",
+          "label": "GameNested",
+          "explorer": "https://etherscan.io/address/0x3dF9789634995546B0126bC28B9F9FcBCB129F18",
+          "expected": "0 ETH, prize held by the registry",
+          "verified_on": "2026-10-24",
+          "verified_state": "zero-balance-contract"
+        },
+        {
+          "address": "0x85b4d0B32b8a285111c244E52524B642f1A5ccFE",
+          "chain": "ethereum",
+          "role": "contract",
+          "label": "GameTrait",
+          "explorer": "https://etherscan.io/address/0x85b4d0B32b8a285111c244E52524B642f1A5ccFE",
+          "expected": "0 ETH, prize held by the registry",
+          "verified_on": "2026-10-24",
+          "verified_state": "zero-balance-contract"
+        }
+      ],
+      "puzzle_type": [
+        "smart-contract",
+        "timelock"
+      ],
+      "target_format": "a reproducible transaction or calldata sequence against one current challenge or the registry that makes claim(challenge) succeed and transfer the prize; the normal flow requires an active lock, ordinary challenges expose moveField(uint256), Game2D exposes moveField(uint256,uint256), and an exploit may use raw calldata or bypass an expected registry condition",
+      "derivation": {
+        "summary": "the board starts with tiles 14 and 15 swapped, which puts it in the half of the state space the published move rules cannot leave; a successful claim therefore needs a defect in the Fe compiler, in the challenge contract, or in the registry that escapes or bypasses those rules",
+        "oracle": "tools/oracle.py",
+        "oracle_certified": false,
+        "certified_against": ""
+      },
+      "difficulty_left": "insight",
+      "difficulty_note": "the 7 contracts are small and their sources are published, so nothing here is compute bound; what is missing is a defect nobody has spotted yet, in a compiler at version 26.1.0 or in about 1,000 lines of hand-written Fe",
+      "tested_total": {
+        "candidates": 0,
+        "families": 5,
+        "certified": false
+      },
+      "leads": [
+        {
+          "rank": 1,
+          "title": "re-audit the hand-written data in each challenge: adjacency tables, index arithmetic, bit field offsets",
+          "cost": "hours",
+          "status": "open"
+        },
+        {
+          "rank": 2,
+          "title": "differential testing: run random move sequences against each compiled challenge and against a reference implementation, compare after every call",
+          "cost": "hours",
+          "status": "open"
+        },
+        {
+          "rank": 3,
+          "title": "GameBitboard and GameTrait are not verified on Sourcify: rebuild them with fe 26.1.0 and compare the runtime bytecode against the deployed code",
+          "cost": "hours",
+          "status": "open"
+        },
+        {
+          "rank": 4,
+          "title": "attack the registry rather than a game: claim() closes the challenge before the external isSolved() call and pays with a raw call forwarding all gas",
+          "cost": "hours",
+          "status": "open"
+        }
+      ],
+      "solutions": [],
+      "artifacts": [],
+      "sources": [
+        {
+          "title": "bountiful: reloaded",
+          "url": "https://blog.fe-lang.org/posts/bountiful-reloaded/",
+          "date": "2026-05-04",
+          "archived": null
+        },
+        {
+          "title": "bountiful: round #2",
+          "url": "https://blog.fe-lang.org/posts/bountiful-round-2/",
+          "date": "2023-01-11",
+          "archived": null
+        },
+        {
+          "title": "Bountiful platform website with the live challenge list",
+          "url": "https://bountiful.fe-lang.org/",
+          "date": "2026-08-17",
+          "archived": null
+        },
+        {
+          "title": "Bounty hunting guide, fe-lang/bountiful",
+          "url": "https://github.com/fe-lang/bountiful/blob/master/doc/bounty-hunting-guide.md",
+          "date": "2026-08-17",
+          "archived": null
+        },
+        {
+          "title": "Challenge and registry sources, fe-lang/bountiful",
+          "url": "https://github.com/fe-lang/bountiful",
+          "date": "2026-08-17",
+          "archived": null
+        },
+        {
+          "title": "Round 2 admin withdrawal of 3.1 ETH",
+          "url": "https://etherscan.io/tx/0xdd5188f6bb7a2fb5fab1b170213c3ad107dab20407e900128525adb92e36077e",
+          "date": "2025-11-04",
+          "archived": null
+        },
+        {
+          "title": "Sourcify verification of the Game challenge, compiler fe 26.1.0",
+          "url": "https://sourcify.dev/server/v2/contract/1/0x046a3a4968282BaA7ad6291723873C8275434623",
+          "date": "2026-08-17",
+          "archived": null
+        }
+      ],
+      "third_party_material": "no third-party articles or dumps; my own blog posts, repository sources and documentation, quoted in short excerpts with links, plus on-chain data I read directly from Ethereum mainnet",
+      "last_updated": "2026-10-24",
+      "folder": "2-mid-prizes/fe-lang-bountiful-compiler-bounty-1eth"
+    },
+    {
+      "schema_version": 1,
+      "slug": "keir-finlow-bates-blockchain-book-600ksats",
+      "title": "Keir Finlow-Bates: Move Over Brokers Treasure Hunt",
+      "tier": "mid",
+      "status": "open",
+      "dead_end_reason": null,
+      "series": "finlow-bates-blockchain-book",
+      "author": {
+        "name": "Keir Finlow-Bates",
+        "handles": [
+          "medium:kf106",
+          "github:kf106"
+        ],
+        "url": "https://kf106.medium.com/"
+      },
+      "published": {
+        "date": "2020-11-28",
+        "url": "https://www.amazon.com/Move-Over-Brokers-Comes-Blockchain-ebook/dp/B08QSH5X91"
+      },
+      "chain": "bitcoin",
+      "prize": {
+        "amount": 600000,
+        "asset": "sats",
+        "usd_estimate": 485,
+        "usd_snapshot": "2026-10-24",
+        "note": "3 of 12 lots still open, 200,000 sats each; 9 lots already solved and swept (4 by me, 5 by the community before I started; I have since recovered the answers of 3 of those 5)"
+      },
+      "addresses": [
+        {
+          "address": "14aFhno96fkt7knLWMDQ4j8yh8v5hBF4n1",
+          "chain": "bitcoin",
+          "role": "escrow",
+          "label": "EN_easy_1",
+          "explorer": "https://mempool.space/address/14aFhno96fkt7knLWMDQ4j8yh8v5hBF4n1",
+          "expected": "200000 sats",
+          "verified_on": "2026-10-24",
+          "verified_state": "swept"
+        },
+        {
+          "address": "14utGQn5GdfPvUrHNLAwTmmP99QpXm9mg6",
+          "chain": "bitcoin",
+          "role": "escrow",
+          "label": "EN_easy_2",
+          "explorer": "https://mempool.space/address/14utGQn5GdfPvUrHNLAwTmmP99QpXm9mg6",
+          "expected": "200000 sats",
+          "verified_on": "2026-10-24",
+          "verified_state": "swept"
+        },
+        {
+          "address": "1QFafw3weoWTRQhiLafRw2eyWbVmES6wfJ",
+          "chain": "bitcoin",
+          "role": "escrow",
+          "label": "EN_medium_s",
+          "explorer": "https://mempool.space/address/1QFafw3weoWTRQhiLafRw2eyWbVmES6wfJ",
+          "expected": "200000 sats",
+          "verified_on": "2026-10-24",
+          "verified_state": "swept"
+        },
+        {
+          "address": "17Y9czcbcCz433QXsy1SGQjwLb27BBtLLZ",
+          "chain": "bitcoin",
+          "role": "escrow",
+          "label": "EN_medium",
+          "explorer": "https://mempool.space/address/17Y9czcbcCz433QXsy1SGQjwLb27BBtLLZ",
+          "expected": "200000 sats",
+          "verified_on": "2026-10-24",
+          "verified_state": "funded-unspent"
+        },
+        {
+          "address": "181rPpfdUGFg4fVEdhDZEfDbBSqgigtoZR",
+          "chain": "bitcoin",
+          "role": "escrow",
+          "label": "EN_hard_1",
+          "explorer": "https://mempool.space/address/181rPpfdUGFg4fVEdhDZEfDbBSqgigtoZR",
+          "expected": "200000 sats",
+          "verified_on": "2026-10-24",
+          "verified_state": "swept"
+        },
+        {
+          "address": "161YgNX2NrCzGunWvoV1hN3DuzWeuovBK3",
+          "chain": "bitcoin",
+          "role": "escrow",
+          "label": "EN_hard_2",
+          "explorer": "https://mempool.space/address/161YgNX2NrCzGunWvoV1hN3DuzWeuovBK3",
+          "expected": "200000 sats",
+          "verified_on": "2026-10-24",
+          "verified_state": "swept"
+        },
+        {
+          "address": "1KZei2D5yz3UJ59LvXsC1Y9y4ktSgcnVwz",
+          "chain": "bitcoin",
+          "role": "escrow",
+          "label": "EN_veryhard_s",
+          "explorer": "https://mempool.space/address/1KZei2D5yz3UJ59LvXsC1Y9y4ktSgcnVwz",
+          "expected": "200000 sats",
+          "verified_on": "2026-10-24",
+          "verified_state": "swept"
+        },
+        {
+          "address": "1DZ5NbUwDgxeJkKhQLgYcUUX36PtYso1pm",
+          "chain": "bitcoin",
+          "role": "escrow",
+          "label": "EN_veryhard",
+          "explorer": "https://mempool.space/address/1DZ5NbUwDgxeJkKhQLgYcUUX36PtYso1pm",
+          "expected": "200000 sats",
+          "verified_on": "2026-10-24",
+          "verified_state": "funded-unspent"
+        },
+        {
+          "address": "1MEstvLAzc5DzJtvx7uyvKNNUCPN3ofWMK",
+          "chain": "bitcoin",
+          "role": "escrow",
+          "label": "IT_easy",
+          "explorer": "https://mempool.space/address/1MEstvLAzc5DzJtvx7uyvKNNUCPN3ofWMK",
+          "expected": "200000 sats",
+          "verified_on": "2026-10-24",
+          "verified_state": "swept"
+        },
+        {
+          "address": "1Q78hDeaHXQbuCSQxG1uPAc4V3jsuVUG9r",
+          "chain": "bitcoin",
+          "role": "escrow",
+          "label": "IT_medium",
+          "explorer": "https://mempool.space/address/1Q78hDeaHXQbuCSQxG1uPAc4V3jsuVUG9r",
+          "expected": "200000 sats",
+          "verified_on": "2026-10-24",
+          "verified_state": "swept"
+        },
+        {
+          "address": "1QExGvuieS9MvuKC3R1qjp6jGTVcqisTDj",
+          "chain": "bitcoin",
+          "role": "escrow",
+          "label": "IT_hard",
+          "explorer": "https://mempool.space/address/1QExGvuieS9MvuKC3R1qjp6jGTVcqisTDj",
+          "expected": "200000 sats",
+          "verified_on": "2026-10-24",
+          "verified_state": "swept"
+        },
+        {
+          "address": "19kkawFcg2U2s6vq368MXD7FJU9JZvRrjA",
+          "chain": "bitcoin",
+          "role": "escrow",
+          "label": "IT_veryhard",
+          "explorer": "https://mempool.space/address/19kkawFcg2U2s6vq368MXD7FJU9JZvRrjA",
+          "expected": "200000 sats",
+          "verified_on": "2026-10-24",
+          "verified_state": "funded-unspent"
+        },
+        {
+          "address": "bc1qax0hsnwnxl7393awtc3hsy0ftm6tg4tyk2nfja",
+          "chain": "bitcoin",
+          "role": "payout",
+          "label": "my wallet (destination of all 4 payouts)",
+          "explorer": "https://mempool.space/address/bc1qax0hsnwnxl7393awtc3hsy0ftm6tg4tyk2nfja",
+          "expected": "n/a",
+          "verified_on": "2026-10-24",
+          "verified_state": "unknown"
+        }
+      ],
+      "puzzle_type": [
+        "book",
+        "brainwallet",
+        "text-cipher"
+      ],
+      "target_format": "exact answer string, SHA-256 applied 3 times, 32-byte private key, uncompressed P2PKH, no BIP39, no passphrase",
+      "derivation": {
+        "summary": "deduce an exact answer string (the known answers are a street address, the paperback ISBN and a list of four city names) from a clue scattered across the book, hash it with SHA-256 three times to get a 32-byte private key, derive the uncompressed P2PKH address and compare to the lot escrow",
+        "oracle": "tools/oracle.py",
+        "oracle_certified": true,
+        "certified_against": "EN_easy_1 (answer '221B Baker Street'), EN_easy_2 (answer '9781688289970', the paperback ISBN) and IT_hard (answer 'Genova Firenze Bologna Brindisi'), all reproduced byte for byte; hex-string chaining with and without newline covered with a planted witness"
+      },
+      "difficulty_left": "human-action",
+      "difficulty_note": "the sha256x3 transform is confirmed on three lots; the ebook-accessible text and figures of both editions are exhausted across every mechanism tested (about 9,600 answer strings, 694,000 page-number forms, 800,800 ISBN add-on forms and 34.4e9 proof-of-work nonces, 0 match); the EN_easy_2 answer is the paperback ISBN, printed on the physical copyright page and nowhere in the ebook, and every print surface reachable through Amazon's public sample reader (4 editions) is null, so the missing element for the 3 open lots, if physical, sits in the unseen interior of the printed book",
+      "tested_total": {
+        "candidates": 9600,
+        "families": 16,
+        "certified": true
+      },
+      "leads": [
+        {
+          "rank": 1,
+          "title": "buy the physical books: KDP paperback 9781688289970, Lulu hardcover 9781716479724, Italian paperback",
+          "cost": "needs-a-person",
+          "status": "open"
+        },
+        {
+          "rank": 2,
+          "title": "crack IT_easy using its exposed public key as a free calibration oracle",
+          "cost": "hours",
+          "status": "open"
+        }
+      ],
+      "solutions": [
+        {
+          "lot": "EN_hard_1",
+          "date": "2026-06-17",
+          "answer": "carpet baby bicycle betray shift approve barrel phrase measure prevent image brain",
+          "key_material_disclosed": true,
+          "payout_txid": "b6e064aa8fde1153c342e2f7d98bce09e004bef5ac8db8f0138601289ceae69a",
+          "payout_amount": "199622 sats",
+          "payout_to": "bc1qax0hsnwnxl7393awtc3hsy0ftm6tg4tyk2nfja",
+          "explorer": "https://mempool.space/tx/b6e064aa8fde1153c342e2f7d98bce09e004bef5ac8db8f0138601289ceae69a"
+        },
+        {
+          "lot": "EN_hard_2",
+          "date": "2026-06-25",
+          "answer": "XOR of the 7 SHA-256 values printed in Figure 10",
+          "key_material_disclosed": true,
+          "payout_txid": "c46c70fb04a2faeebde24057b22a547da7b309fd33b74b3d77181943a02b45d0",
+          "payout_amount": "199600 sats",
+          "payout_to": "bc1qax0hsnwnxl7393awtc3hsy0ftm6tg4tyk2nfja",
+          "explorer": "https://mempool.space/tx/c46c70fb04a2faeebde24057b22a547da7b309fd33b74b3d77181943a02b45d0"
+        },
+        {
+          "lot": "IT_medium",
+          "date": "2026-07-01",
+          "answer": "orologio snervato mugnaio enzima scienza glutine spargere valletta diametro pianta totano civetta",
+          "key_material_disclosed": true,
+          "payout_txid": "914a825138f943fc357b5a026b607b3c62bf67d5997043761711aaeabf5cab49",
+          "payout_amount": "199600 sats",
+          "payout_to": "bc1qax0hsnwnxl7393awtc3hsy0ftm6tg4tyk2nfja",
+          "explorer": "https://mempool.space/tx/914a825138f943fc357b5a026b607b3c62bf67d5997043761711aaeabf5cab49"
+        },
+        {
+          "lot": "IT_hard",
+          "date": "2026-07-03",
+          "answer": "Genova Firenze Bologna Brindisi",
+          "key_material_disclosed": true,
+          "payout_txid": "ad999c5837e67b4d566516a70344b352c4c688e1a0781eed739be3aad3afb20c",
+          "payout_amount": "199600 sats",
+          "payout_to": "bc1qax0hsnwnxl7393awtc3hsy0ftm6tg4tyk2nfja",
+          "explorer": "https://mempool.space/tx/ad999c5837e67b4d566516a70344b352c4c688e1a0781eed739be3aad3afb20c"
+        }
+      ],
+      "artifacts": [],
+      "sources": [
+        {
+          "title": "Everyone Loves a Treasure Hunt",
+          "url": "https://kf106.medium.com/everyone-loves-a-treasure-hunt-93885ae8d80a",
+          "date": "2025-09-11",
+          "archived": null
+        },
+        {
+          "title": "Move Over Brokers, Here Comes The Blockchain (Kindle edition)",
+          "url": "https://www.amazon.com/Move-Over-Brokers-Comes-Blockchain-ebook/dp/B08QSH5X91",
+          "date": "2020-11-28",
+          "archived": null
+        },
+        {
+          "title": "EN escrow funding transaction",
+          "url": "https://mempool.space/tx/f26ecab737b701982a7a3d0f9b0ffb3c509225cbbefecc2a4fe2e73758ce8972",
+          "date": "2020-11-28",
+          "archived": null
+        },
+        {
+          "title": "IT escrow funding transaction",
+          "url": "https://mempool.space/tx/42919c00a64661e20b8af5719c64d58339e6e492ad21f07f4d38548768cbb23e",
+          "date": "2021-09-11",
+          "archived": null
+        },
+        {
+          "title": "EN_hard_1 payout transaction",
+          "url": "https://mempool.space/tx/b6e064aa8fde1153c342e2f7d98bce09e004bef5ac8db8f0138601289ceae69a",
+          "date": "2026-06-17",
+          "archived": null
+        },
+        {
+          "title": "EN_hard_2 payout transaction",
+          "url": "https://mempool.space/tx/c46c70fb04a2faeebde24057b22a547da7b309fd33b74b3d77181943a02b45d0",
+          "date": "2026-06-25",
+          "archived": null
+        },
+        {
+          "title": "IT_medium payout transaction",
+          "url": "https://mempool.space/tx/914a825138f943fc357b5a026b607b3c62bf67d5997043761711aaeabf5cab49",
+          "date": "2026-07-01",
+          "archived": null
+        },
+        {
+          "title": "IT_hard payout transaction",
+          "url": "https://mempool.space/tx/ad999c5837e67b4d566516a70344b352c4c688e1a0781eed739be3aad3afb20c",
+          "date": "2026-07-03",
+          "archived": null
+        }
+      ],
+      "third_party_material": "no book pages, ebook files, scans, OCR, or chapter text included; only page/figure numbers, short quotes (about 180 words total, well under the 300-word-per-book limit), and my own derived data (answer strings, hashes, solved-lot key material)",
+      "last_updated": "2026-10-24",
+      "folder": "2-mid-prizes/keir-finlow-bates-blockchain-book-600ksats"
+    },
+    {
+      "schema_version": 1,
+      "slug": "path-to-greatness-treasure-hunt-3ltc",
+      "title": "Path to Greatness: Treasure Hunt",
+      "tier": "mid",
+      "status": "open",
+      "dead_end_reason": null,
+      "series": null,
+      "author": {
+        "name": "Justin Patterson",
+        "handles": [
+          "jpatt94",
+          "jpatt194"
+        ],
+        "url": "https://p2gtreasure.com/"
+      },
+      "published": {
+        "date": "2021-07-25",
+        "url": "https://reddit.com/r/ARG/comments/orgh1k/i_made_a_treasure_hunt_with_a_crypto_prize/"
+      },
+      "chain": "litecoin",
+      "prize": {
+        "amount": 3.02608794,
+        "asset": "LTC",
+        "usd_estimate": 172,
+        "usd_snapshot": "2026-10-24",
+        "note": "302,608,794 litoshis. The pot is topped up by the public: the site invites donations straight into the prize address, which is why there are 8 incoming transactions. LTC was $54.17 when I read the price on 2026-09-12; the repository snapshot price of $54 is used here."
+      },
+      "addresses": [
+        {
+          "address": "LUtL7qnm3gzxKjHcfVLSjydqhhinTVmTmS",
+          "chain": "litecoin",
+          "role": "escrow",
+          "label": "prize",
+          "explorer": "https://litecoinspace.org/address/LUtL7qnm3gzxKjHcfVLSjydqhhinTVmTmS",
+          "expected": "302,608,794 litoshis received over 8 transactions, 0 spent",
+          "verified_on": "2026-10-24",
+          "verified_state": "funded-unspent"
+        }
+      ],
+      "puzzle_type": [
+        "raw-private-key",
+        "image-stego",
+        "audio",
+        "text-cipher"
+      ],
+      "target_format": "Litecoin WIF, version byte 0xB0 so the string starts with T (compressed) or 6 (uncompressed), encrypted with AES-256-CBC under a 32-byte super_key and the IV goodluck_havefun; the address is P2PKH version 0x30",
+      "derivation": {
+        "summary": "The author published the whole scheme on his own clue image computer_screen.jpg. The 8 clue answers concatenate to 128 ASCII characters, which are four AES-256 keys. The 32-byte super_key is cut into four 8-byte segments, each encrypted separately in AES-256-CBC under its own 16-character IV (an album track title), with the key being two clue answers concatenated. Each segment ciphertext is one block holding 8 useful bytes, so its plaintext must end with a PKCS7 padding of eight 0x08 bytes: that is an exact per-segment oracle with a false positive rate of 2^-64, and it needs nothing from the other six answers. The super_key then decrypts the 64-byte WIF blob, and the WIF gives the address through secp256k1, hash160 and base58check 0x30.",
+        "oracle": "tools/oracle.py",
+        "oracle_certified": true,
+        "certified_against": "the canonical secp256k1 and hash160 vectors for private key 1 (1BgGZ9tcN4rm9KBzDn7KprQz87SZ26SAMH and 1EHNa6Q4Jz2uvNExL497mE43ikXhwF6kZm), eight keys cross-checked between coincurve and the pure Python ecdsa package, the Litecoin version bytes and WIF encoder cross-checked against a third library, synthetic witnesses on both AES layers with 1,024 neighbouring keys rejected, three control negatives, and the author's own arithmetic (8 answer lengths summing to 128, four 16-character IVs, four 16-byte ciphertexts, a 64-byte WIF blob, base64 canonicity of the 22nd character)"
+      },
+      "difficulty_left": "insight",
+      "difficulty_note": "No compute step is missing. The four segments are independent and each has a perfect test, so one reading of one clue is settled in microseconds. What is missing is two of the eight readings: the writing convention for the 16 characters of clue 6 and what clue 1 asks to be written twice (segment 1), and the string the author drew out of the hidden image of clue 7 (segment 3).",
+      "tested_total": {
+        "candidates": 5690021893966,
+        "families": 37,
+        "certified": true
+      },
+      "leads": [
+        {
+          "rank": 1,
+          "title": "Segment 1: the 16th character of beach, and how imagine is written",
+          "cost": "minutes per convention, 0.2 s per run against all 10^8 repeated 8-digit blocks",
+          "status": "open"
+        },
+        {
+          "rank": 2,
+          "title": "Segment 1: imagine may not be a date, but the word the song replaced",
+          "cost": "minutes",
+          "status": "open"
+        },
+        {
+          "rank": 3,
+          "title": "Segment 3: the string the author drew out of the Titanic montage, as a description rather than a quotation",
+          "cost": "minutes per family, the left half is fully enumerable",
+          "status": "open"
+        },
+        {
+          "rank": 4,
+          "title": "Segment 4: the pairing rule between the 17 digits of clue 8 and the 13 album tracks",
+          "cost": "hours, the rule has to be found before it can be tested",
+          "status": "open"
+        },
+        {
+          "rank": 5,
+          "title": "Segment 2: identify the six pictograms of clue 5",
+          "cost": "needs a person who recognises the drawings",
+          "status": "open"
+        }
+      ],
+      "solutions": [],
+      "artifacts": [
+        {
+          "path": "clues/computer_screen.jpg",
+          "sha256": "f14bdfc2a1bf532cdb7a2da6b30034bdd6d96478b37f664658d5678fb2d800f2",
+          "source": "https://p2gtreasure.com/Clues/computer_screen.jpg",
+          "archived": "https://web.archive.org/web/20220420084754/http://p2gtreasure.com/Clues/computer_screen.jpg"
+        },
+        {
+          "path": "clues/clue1_imagine.jpg",
+          "sha256": "787861023f2d1ee6cc6d4ab21f9344f13b275cc6d0c2a03ea02a38c42724db5c",
+          "source": "https://p2gtreasure.com/Clues/clue1_imagine.jpg",
+          "archived": "https://web.archive.org/web/20220406031947/http://p2gtreasure.com/Clues/clue1_imagine.jpg"
+        },
+        {
+          "path": "clues/clue2_scramble.jpg",
+          "sha256": "c6e07d7a53faafa17f2d57ee0971462da80494d79d0fcf3ebb39b9630dc92e5e",
+          "source": "https://p2gtreasure.com/Clues/clue2_scramble.jpg",
+          "archived": "https://web.archive.org/web/20220309153614/http://p2gtreasure.com/Clues/clue2_scramble.jpg"
+        },
+        {
+          "path": "clues/clue3_wasd.jpg",
+          "sha256": "15c5fae68f242e2dc23f51100fac2ca574528c5284e737bda3cd59707a6e678b",
+          "source": "https://p2gtreasure.com/Clues/clue3_wasd.jpg",
+          "archived": "https://web.archive.org/web/20220403042134/http://p2gtreasure.com/Clues/clue3_wasd.jpg"
+        },
+        {
+          "path": "clues/clue4_chess.jpg",
+          "sha256": "6603d1c29220e64b744d34704ec57f90560a6490d152fdb0ce8cc03a6da6a359",
+          "source": "https://p2gtreasure.com/Clues/clue4_chess.jpg",
+          "archived": "https://web.archive.org/web/20220309152900/http://p2gtreasure.com/Clues/clue4_chess.jpg"
+        },
+        {
+          "path": "clues/clue5_wonders.jpg",
+          "sha256": "d348d9b36dc010e32c1b3689698c0d88793e031faf581214369fd229a793e119",
+          "source": "https://p2gtreasure.com/Clues/clue5_wonders.jpg",
+          "archived": "https://web.archive.org/web/20220502024511/http://p2gtreasure.com/Clues/clue5_wonders.jpg"
+        },
+        {
+          "path": "clues/00111111.jpg",
+          "sha256": "91dfcca1727e3361c3d090a9ff4d90d97667dba0b7cf53263a9316510542e744",
+          "source": "https://p2gtreasure.com/Clues/00111111.jpg",
+          "archived": "https://web.archive.org/web/20220318211629/http://p2gtreasure.com/Clues/00111111.jpg"
+        },
+        {
+          "path": "clues/qr1.jpg",
+          "sha256": "d5b6bd00e6c84f7d2c7b60de168db885fdf5e2e0d2ce964a62dd887460a162f4",
+          "source": "https://p2gtreasure.com/Clues/qr1.jpg",
+          "archived": "https://web.archive.org/web/20220417012026/http://p2gtreasure.com/Clues/qr1.jpg"
+        },
+        {
+          "path": "clues/qr2.jpg",
+          "sha256": "120d72fde754740493e42627bbb561d5e7176429a9e221f24eef268346c1c2e9",
+          "source": "https://p2gtreasure.com/Clues/qr2.jpg",
+          "archived": "https://web.archive.org/web/20220131185620/http://p2gtreasure.com/Clues/qr2.jpg"
+        },
+        {
+          "path": "clues/treasure_chest.png",
+          "sha256": "4c4e609812cffaba0e20a7849b9ec68d36e0373f530056e9ff1c3438be3eee4f",
+          "source": "https://p2gtreasure.com/treasure_chest.png",
+          "archived": "https://web.archive.org/web/20220309153049/http://p2gtreasure.com/treasure_chest.png"
+        },
+        {
+          "path": "clues/Beach.png",
+          "sha256": "8be6f026b78ac1bab8e8d7fbcd8b791445edfe5da4cc947e40b737554fce0683",
+          "source": "https://drive.google.com/file/d/1Z6hDNcfWfVwNkJJ1l4DvZm-MbuQD8Y6N/view (reached from the QR code clues/qr1.jpg through tinyurl.com/y6c6o3uj)",
+          "archived": null
+        },
+        {
+          "path": "clues/Ship.png",
+          "sha256": "585ed4ce7492d8a2aa1436fa5593c173ce1842edcdc0abaa7aef0b3676c4f8cc",
+          "source": "https://drive.google.com/file/d/1jzxIFQGmTnR3EB42bd-DPEJfe655XbhG/view (reached from the QR code clues/qr2.jpg through tinyurl.com/y28knqz3)",
+          "archived": null
+        }
+      ],
+      "sources": [
+        {
+          "title": "I made a treasure hunt with a crypto prize, r/ARG announcement",
+          "url": "https://reddit.com/r/ARG/comments/orgh1k/i_made_a_treasure_hunt_with_a_crypto_prize/",
+          "date": "2021-07-25",
+          "archived": null
+        },
+        {
+          "title": "p2gtreasure.com, clues, rules and donation address",
+          "url": "https://p2gtreasure.com/",
+          "date": "2026-09-09",
+          "archived": "https://web.archive.org/web/20211220074516/http://p2gtreasure.com/"
+        },
+        {
+          "title": "p2gtreasure.com/old/, the original site and its seven rules",
+          "url": "https://p2gtreasure.com/old/index.html",
+          "date": "2026-09-09",
+          "archived": "https://web.archive.org/web/20220323235950/http://p2gtreasure.com/old/index.html"
+        },
+        {
+          "title": "Escrow on litecoinspace, funded and unspent",
+          "url": "https://litecoinspace.org/address/LUtL7qnm3gzxKjHcfVLSjydqhhinTVmTmS",
+          "date": "2026-09-12",
+          "archived": null
+        },
+        {
+          "title": "P2G Treasure Hunt gameplay demo, Unity Windows build of 2021-02-04",
+          "url": "https://drive.google.com/file/d/15B7i1EU7OUpc1SXYmSccRLDku4199cSB/view",
+          "date": "2021-02-04",
+          "archived": null
+        },
+        {
+          "title": "Path to Greatness demo trailer, YouTube",
+          "url": "https://www.youtube.com/watch?v=T98D6Otefgs",
+          "date": "2021-02-05",
+          "archived": null
+        },
+        {
+          "title": "Seconds of Dream, Path to Greatness Soundtrack, YouTube, the monophonic opening used by clue 6",
+          "url": "https://www.youtube.com/watch?v=EojQgdZeTyM",
+          "date": "2019-03-18",
+          "archived": null
+        },
+        {
+          "title": "Seconds of Dream, album by Justin Patterson, 13 tracks, the source of the four IVs",
+          "url": "https://open.spotify.com/album/1pGpPWw8Dl0Uq7n77s4koK",
+          "date": "2021-01-07",
+          "archived": null
+        },
+        {
+          "title": "Seconds of Dream tracklist with durations, iTunes",
+          "url": "https://music.apple.com/us/album/seconds-of-dream/1548289299",
+          "date": "2021-01-07",
+          "archived": null
+        }
+      ],
+      "third_party_material": "Only the author's own published puzzle files are shipped here: the nine clue images served by p2gtreasure.com, the site banner, and the two lossless carriers Beach.png and Ship.png that his QR codes point at. Not shipped, and not to be added: the game demo p2g_demo.zip (134 MB, Google Drive, the author's own but far over the repository size limits), the album audio embedded in it or published on Spotify and iTunes, any frame or transcript of the 1997 film Titanic that the clue 7 montage is built from, and the audio of the author's YouTube video EojQgdZeTyM. All four are linked by URL instead. The clue poems are quoted in short excerpts only, in clues/author-posts.md.",
+      "last_updated": "2026-10-24",
+      "folder": "2-mid-prizes/path-to-greatness-treasure-hunt-3ltc"
+    },
+    {
+      "schema_version": 1,
+      "slug": "pindar-van-arman-cryptoartgan-nft",
+      "title": "Pindar Van Arman: cryptoArtGAN Act 1 Puzzle",
+      "tier": "mid",
+      "status": "open",
+      "dead_end_reason": null,
+      "series": "Van Arman's bitGANs / cryptoArtGAN wallet-puzzle system",
+      "author": {
+        "name": "Pindar Van Arman",
+        "handles": [
+          "x:@VanArman",
+          "web:bitgans.com"
+        ],
+        "url": "https://bitgans.com/"
+      },
+      "published": {
+        "date": "2022-02-05",
+        "url": "https://bitgans.com/news/cryptoartgans"
+      },
+      "chain": "ethereum",
+      "prize": {
+        "amount": 1,
+        "asset": "NFT",
+        "usd_estimate": null,
+        "usd_snapshot": "2026-10-24",
+        "note": "1 ERC-1155 NFT, \"Magic Internet moneyGAN\" (445/512); no market value recorded for this specific piece"
+      },
+      "addresses": [
+        {
+          "address": "0x18f87ec9c527aba1db44f715456bf28b0dae478d",
+          "chain": "ethereum",
+          "role": "escrow",
+          "label": "main",
+          "explorer": "https://etherscan.io/address/0x18f87ec9c527aba1db44f715456bf28b0dae478d",
+          "expected": "1 NFT (Magic Internet moneyGAN, 445/512)",
+          "verified_on": "2026-10-24",
+          "verified_state": "funded-unspent",
+          "token_contract": "0x495f947276749Ce646f68AC8c248420045cb7b5e",
+          "token_id": "38543999587180483086453667688708911953853707150137941511194370325563503017985",
+          "token_standard": "ERC-1155"
+        }
+      ],
+      "puzzle_type": [
+        "bip39-seed",
+        "word-selection"
+      ],
+      "target_format": "BIP39 12 words (English), standard Ethereum derivation, no passphrase stated",
+      "derivation": {
+        "summary": "11 words the artist calls 'glitches' plus a 12th checksum-constrained word form a 12-word BIP39 mnemonic, derived to an Ethereum address and compared to the escrow",
+        "oracle": null,
+        "oracle_certified": false,
+        "certified_against": ""
+      },
+      "difficulty_left": "insight",
+      "difficulty_note": "the derivation is standard and fully understood; what is unresolved is which 11 published words are the 'glitches' and their order. About 22.5 million addresses and 9 fully-ordered 11-word sets have been checked with zero matches",
+      "tested_total": {
+        "candidates": 22500000,
+        "families": 3,
+        "certified": false
+      },
+      "leads": [
+        {
+          "rank": 1,
+          "title": "frame-by-frame analysis of the artist's Act 1 - Review archive on Arweave",
+          "cost": "hours of work",
+          "status": "open"
+        },
+        {
+          "rank": 2,
+          "title": "finish the on-chain metadata sweep (about 132 token indices return 404)",
+          "cost": "bounded",
+          "status": "open"
+        },
+        {
+          "rank": 3,
+          "title": "a bounded 11! x 128 sweep once a specific 11-word set is argued for",
+          "cost": "about 59 hours on 24 CPU cores, reported",
+          "status": "open"
+        }
+      ],
+      "solutions": [],
+      "artifacts": [],
+      "sources": [
+        {
+          "title": "Pindar Van Arman, artist site",
+          "url": "https://bitgans.com/",
+          "date": "2026-08-16",
+          "archived": null
+        },
+        {
+          "title": "cryptoArtGAN announcement",
+          "url": "https://bitgans.com/news/cryptoartgans",
+          "date": "2022-02-05",
+          "archived": null
+        },
+        {
+          "title": "Restated on X",
+          "url": "https://x.com/VanArman/status/1562799956175757313",
+          "date": "2022-08-25",
+          "archived": null
+        },
+        {
+          "title": "\"BIP39 and bitGANs\" journal entry",
+          "url": "https://bitgans.com/journal/page014",
+          "date": "2022-01-01",
+          "archived": null
+        }
+      ],
+      "third_party_material": "",
+      "last_updated": "2026-10-24",
+      "folder": "2-mid-prizes/pindar-van-arman-cryptoartgan-nft"
+    },
+    {
+      "schema_version": 1,
+      "slug": "rushwallet-contest-30-1msats",
+      "title": "RushWallet Contest #30",
+      "tier": "mid",
+      "status": "open",
+      "dead_end_reason": null,
+      "series": "RushWallet/KryptoKit 30-brainwallet contest",
+      "author": {
+        "name": "RushWallet / KryptoKit",
+        "handles": [],
+        "url": "http://web.archive.org/web/20150208172337/https://rushwallet.com/contest"
+      },
+      "published": {
+        "date": "2015-02-08",
+        "url": "http://web.archive.org/web/20150208174448/https://rushwallet.com/js/contest.js"
+      },
+      "chain": "bitcoin",
+      "prize": {
+        "amount": 1000000,
+        "asset": "sats",
+        "usd_estimate": 808,
+        "usd_snapshot": "2026-10-24",
+        "note": "the escrow was funded 101,000,000 sats total: 100,000,000 sats on 2014-09-22 later returned to its own sender on 2015-03-25, and a separate 1,000,000 sats on 2015-04-24 that remains unspent; the 1,000,000 sats figure is the live prize"
+      },
+      "addresses": [
+        {
+          "address": "13Q8hJqagtd77ojTJcEZPjTz2sBFSsYxyj",
+          "chain": "bitcoin",
+          "role": "escrow",
+          "label": "main",
+          "explorer": "https://mempool.space/address/13Q8hJqagtd77ojTJcEZPjTz2sBFSsYxyj",
+          "expected": "1000000 sats",
+          "verified_on": "2026-10-24",
+          "verified_state": "partially-spent"
+        }
+      ],
+      "puzzle_type": [
+        "brainwallet",
+        "audio"
+      ],
+      "target_format": "unknown passphrase string, hashed verbatim (no trim, no case folding, no salt), SHA-256 as the 32-byte private key, uncompressed public key, P2PKH",
+      "derivation": {
+        "summary": "private_key = SHA256(utf8(passphrase)) taken verbatim, uncompressed secp256k1 public key, address = base58check(0x00 || RIPEMD160(SHA256(pubkey)))",
+        "oracle": "tools/oracle.py",
+        "oracle_certified": true,
+        "certified_against": "passphrases publicly claimed by other solvers for sibling brainwallets #17 and #28 of the same contest, plus the contest host's own address"
+      },
+      "difficulty_left": "external-info",
+      "difficulty_note": "the derivation is certified; about 95 million candidate passphrases across public wordlists have produced zero matches; the likely gate is a video source above the 720p footage currently available, not more computation",
+      "tested_total": {
+        "candidates": 95000000,
+        "families": 7,
+        "certified": false
+      },
+      "leads": [
+        {
+          "rank": 1,
+          "title": "a higher-fidelity copy of the original promotional video",
+          "cost": "needs new information",
+          "status": "open"
+        },
+        {
+          "rank": 2,
+          "title": "the Quotes-500K corpus, not yet ingested",
+          "cost": "minutes once prepared",
+          "status": "open"
+        },
+        {
+          "rank": 3,
+          "title": "the uncovered tail of the song-lyrics corpus (about 4.7 million songs)",
+          "cost": "hours, lower signal",
+          "status": "open"
+        }
+      ],
+      "solutions": [],
+      "artifacts": [],
+      "sources": [
+        {
+          "title": "RushWallet contest script (derivation)",
+          "url": "http://web.archive.org/web/20150208174448/https://rushwallet.com/js/contest.js",
+          "date": "2015-02-08",
+          "archived": "http://web.archive.org/web/20150208174448/https://rushwallet.com/js/contest.js"
+        },
+        {
+          "title": "RushWallet contest page",
+          "url": "http://web.archive.org/web/20150208172337/https://rushwallet.com/contest",
+          "date": "2015-02-08",
+          "archived": "http://web.archive.org/web/20150208172337/https://rushwallet.com/contest"
+        },
+        {
+          "title": "BitcoinTalk discussion thread",
+          "url": "https://bitcointalk.org/index.php?topic=793720.0",
+          "date": "2026-08-16",
+          "archived": null
+        },
+        {
+          "title": "Surviving video re-upload",
+          "url": "https://www.youtube.com/watch?v=x0LqsUOIw0M",
+          "date": "2026-08-16",
+          "archived": null
+        }
+      ],
+      "third_party_material": "the promotional video and its re-uploads are third-party/platform hosted and not mirrored here; only short quoted transcriptions and archived-page links are included",
+      "last_updated": "2026-10-24",
+      "folder": "2-mid-prizes/rushwallet-contest-30-1msats"
+    },
+    {
+      "schema_version": 1,
+      "slug": "school-of-bitcoin-1msats",
+      "title": "School of Bitcoin: 1 Million Sats In This Image",
+      "tier": "mid",
+      "status": "open",
+      "dead_end_reason": null,
+      "series": null,
+      "author": {
+        "name": "School of Bitcoin",
+        "handles": [
+          "x:@schoolofbitcoin"
+        ],
+        "url": "https://schoolofbitcoin.com/"
+      },
+      "published": {
+        "date": "2025-03-09",
+        "url": "https://stacker.news/items/908283"
+      },
+      "chain": "bitcoin",
+      "prize": {
+        "amount": 1000000,
+        "asset": "sats",
+        "usd_estimate": 808,
+        "usd_snapshot": "2026-10-24",
+        "note": "single funding transaction, 0.01 BTC"
+      },
+      "addresses": [
+        {
+          "address": "bc1qcsdfkaqgy9ux668vmzflzqsyg0qtspncymt5ed",
+          "chain": "bitcoin",
+          "role": "escrow",
+          "label": "main",
+          "explorer": "https://mempool.space/address/bc1qcsdfkaqgy9ux668vmzflzqsyg0qtspncymt5ed",
+          "expected": "1000000 sats",
+          "verified_on": "2026-10-24",
+          "verified_state": "funded-unspent"
+        }
+      ],
+      "puzzle_type": [
+        "bip39-seed",
+        "image-stego",
+        "password-pages"
+      ],
+      "target_format": "BIP39 12 words, word 1 = abstract, possible passphrase, BIP84 m/84'/0'/0'/0/0",
+      "derivation": {
+        "summary": "derive the first receiving address for a 12-word candidate (with optional passphrase) under BIP44/49/84, account 0, and compare to the escrow address",
+        "oracle": "tools/oracle.py",
+        "oracle_certified": true,
+        "certified_against": "the public BIP39/BIP84 test vector (mnemonic 'abandon' repeated 11 times plus 'about'), since no solved sibling exists for this puzzle"
+      },
+      "difficulty_left": "external-info",
+      "difficulty_note": "word 1 (abstract) is confirmed; the remaining 11 words are not found on the card or in any crawled course content, and the intended-path KeePass file was pulled from the live site before it was opened by anyone who has a copy, so the missing piece is external information rather than more search over known material",
+      "tested_total": {
+        "candidates": 178264,
+        "families": 6,
+        "certified": true
+      },
+      "leads": [
+        {
+          "rank": 1,
+          "title": "obtain the complete kdbx file and its passphrase",
+          "cost": "needs-a-person",
+          "status": "open"
+        },
+        {
+          "rank": 2,
+          "title": "a fresh reading of the remaining 11 seed words",
+          "cost": "needs-new-information",
+          "status": "open"
+        }
+      ],
+      "solutions": [],
+      "artifacts": [],
+      "sources": [
+        {
+          "title": "Puzzle announcement, stacker.news item 908283",
+          "url": "https://stacker.news/items/908283",
+          "date": "2025-03-09",
+          "archived": null
+        },
+        {
+          "title": "School of Bitcoin course site",
+          "url": "https://schoolofbitcoin.com/",
+          "date": "2026-08-16",
+          "archived": null
+        }
+      ],
+      "third_party_material": "the course video and slide content are copyrighted and not reproduced; only short decoded clue text (the binary overlay message, the Morse and Wingdings decodes) is quoted in clues/author-posts.md",
+      "last_updated": "2026-10-24",
+      "folder": "2-mid-prizes/school-of-bitcoin-1msats"
+    },
+    {
+      "schema_version": 1,
+      "slug": "teikhos-bipedaljoe-solver-bounties-2eth",
+      "title": "TeikhosBounty: Johan Nygren's Proof-of-Public-Key Puzzles",
+      "tier": "mid",
+      "status": "open",
+      "dead_end_reason": null,
+      "series": "teikhos",
+      "author": {
+        "name": "Johan Nygren",
+        "handles": [
+          "github:resilience-me",
+          "reddit:johanngr",
+          "steemit:johan-nygren",
+          "x:resilience_me",
+          "former:bipedaljoe"
+        ],
+        "url": "https://github.com/resilience-me"
+      },
+      "published": {
+        "date": "2018-02-25",
+        "url": "https://gist.github.com/resilience-me/be11a0ed3575dddca10df8263b53cc1d"
+      },
+      "chain": "ethereum",
+      "prize": {
+        "amount": 2.000006078,
+        "asset": "ETH",
+        "usd_estimate": 4710,
+        "usd_snapshot": "2026-10-24",
+        "note": "sum of the 3 open contracts: C1 1.000002026 ETH, C2 0.500002026 ETH, 9732 0.500002026 ETH, balance re-checked 2026-10-24; a 4th contract, AEC7, holds 1.000012 ETH with no payout path for anyone; a 5th, 735B, was solved by me for 0.5 ETH and is now drained"
+      },
+      "addresses": [
+        {
+          "address": "0x735ba26f91e1275fa4b504649b19ef74739fe7e7",
+          "chain": "ethereum",
+          "role": "contract",
+          "label": "735B",
+          "explorer": "https://etherscan.io/address/0x735ba26f91e1275fa4b504649b19ef74739fe7e7",
+          "expected": "0.5 ETH",
+          "verified_on": "2026-10-24",
+          "verified_state": "swept"
+        },
+        {
+          "address": "0x17e5e0910b9185b0ede564dcbf074ca910ad56a4",
+          "chain": "ethereum",
+          "role": "contract",
+          "label": "C1",
+          "explorer": "https://etherscan.io/address/0x17e5e0910b9185b0ede564dcbf074ca910ad56a4",
+          "expected": "1.000002 ETH",
+          "verified_on": "2026-10-24",
+          "verified_state": "contract-holds-funds"
+        },
+        {
+          "address": "0xd7c6d542f3dcdceda845112b8fd567b8f8655805",
+          "chain": "ethereum",
+          "role": "contract",
+          "label": "C2",
+          "explorer": "https://etherscan.io/address/0xd7c6d542f3dcdceda845112b8fd567b8f8655805",
+          "expected": "0.500002 ETH",
+          "verified_on": "2026-10-24",
+          "verified_state": "contract-holds-funds"
+        },
+        {
+          "address": "0x973c2178b09225d1de3ab037d40b3f24af696255",
+          "chain": "ethereum",
+          "role": "contract",
+          "label": "9732",
+          "explorer": "https://etherscan.io/address/0x973c2178b09225d1de3ab037d40b3f24af696255",
+          "expected": "0.500002 ETH",
+          "verified_on": "2026-10-24",
+          "verified_state": "contract-holds-funds"
+        },
+        {
+          "address": "0xaec7e8c221c3fd24e75c996e32289235fd899ebf",
+          "chain": "ethereum",
+          "role": "contract",
+          "label": "AEC7",
+          "explorer": "https://etherscan.io/address/0xaec7e8c221c3fd24e75c996e32289235fd899ebf",
+          "expected": "1.000012 ETH, no payout path exists",
+          "verified_on": "2026-10-24",
+          "verified_state": "contract-holds-funds"
+        },
+        {
+          "address": "0x83e4b2a5A464bDfCD83057Ac08447f533A595156",
+          "chain": "ethereum",
+          "role": "payout",
+          "label": "my wallet (735B payout destination)",
+          "explorer": "https://etherscan.io/address/0x83e4b2a5A464bDfCD83057Ac08447f533A595156",
+          "expected": "n/a",
+          "verified_on": "2026-10-24",
+          "verified_state": "unknown"
+        }
+      ],
+      "puzzle_type": [
+        "smart-contract",
+        "timelock"
+      ],
+      "target_format": "64-byte uncompressed public key (no 0x04 prefix), unmasked against the contract's stored proof and checked with ecrecover; no private key needed",
+      "derivation": {
+        "summary": "unmask the contract's stored proof with a candidate 64-byte public key to get (r, s), then check with ECDSA public-key recovery (both recovery ids) that it is a valid signature of a fixed message under address(keccak256(pubkey))",
+        "oracle": "tools/oracle.py",
+        "oracle_certified": true,
+        "certified_against": "the real public key I recovered and submitted to solve 735B, itself public on chain since the winning authenticate() transaction; a deliberately altered version of the same key is confirmed to fail"
+      },
+      "difficulty_left": "external-info",
+      "difficulty_note": "the cryptography is sound and confirmed working end to end by the 735B solve; C1, C2, and 9732 target public keys that have never appeared on chain or in any OSINT trace found so far, so the only realistic path in is information from the author",
+      "tested_total": {
+        "candidates": 2,
+        "families": 5,
+        "certified": false
+      },
+      "leads": [
+        {
+          "rank": 1,
+          "title": "ask Johan Nygren directly where the C1/C2/9732 public keys or a solution are published",
+          "cost": "the time to send one message",
+          "status": "open"
+        },
+        {
+          "rank": 2,
+          "title": "passive triggers: a testnet snapshot resurfaces, the author discloses a key, or a competitor submits a key to C1/C2 in public",
+          "cost": "no action until triggered",
+          "status": "open"
+        }
+      ],
+      "solutions": [
+        {
+          "lot": "735B",
+          "date": "2026-06-21",
+          "answer": "ca6a98ceec61e213d9a0a8fdc0a6d5d9ed7566f5f4cfd24871fb9316feb6e1eb2367489f54a0cd4111f4c5356eb744d299a7521296786223c70947c8c36940c6",
+          "key_material_disclosed": false,
+          "payout_txid": "0x4d2bfceb311bda8d265debab1c8ad23cb860922b876eca523327d0405ab97bff",
+          "payout_amount": "0.5 ETH",
+          "payout_to": "0x83e4b2a5A464bDfCD83057Ac08447f533A595156",
+          "explorer": "https://etherscan.io/tx/0x4d2bfceb311bda8d265debab1c8ad23cb860922b876eca523327d0405ab97bff"
+        }
+      ],
+      "artifacts": [],
+      "sources": [
+        {
+          "title": "Signature idea for use with account abstraction",
+          "url": "https://github.com/ethereum/EIPs/issues/935",
+          "date": "2018-03-19",
+          "archived": null
+        },
+        {
+          "title": "ProofOfSymmetricKey.sol",
+          "url": "https://gist.github.com/resilience-me/be11a0ed3575dddca10df8263b53cc1d",
+          "date": "2018-02-27",
+          "archived": null
+        },
+        {
+          "title": "C1 verified source",
+          "url": "https://etherscan.io/address/0x17e5e0910b9185b0ede564dcbf074ca910ad56a4#code",
+          "date": "2026-08-16",
+          "archived": null
+        },
+        {
+          "title": "The 2022 reverted attempt that leaked 735B's public key",
+          "url": "https://etherscan.io/tx/0x7e2596f9f202aad8a90e84cf93e32e7b3fb0ba244491d84542cedaf089a553c4",
+          "date": "2022-04-03",
+          "archived": null
+        },
+        {
+          "title": "735B payout transaction",
+          "url": "https://etherscan.io/tx/0x4d2bfceb311bda8d265debab1c8ad23cb860922b876eca523327d0405ab97bff",
+          "date": "2026-06-21",
+          "archived": null
+        }
+      ],
+      "third_party_material": "no third-party articles or dumps; only the author's own published GitHub issue and gist text (about 90 words quoted total), verified contract source, and on-chain transaction data",
+      "last_updated": "2026-10-24",
+      "folder": "2-mid-prizes/teikhos-bipedaljoe-solver-bounties-2eth"
+    },
+    {
+      "schema_version": 1,
+      "slug": "wealth-in-poetry-0-03btc",
+      "title": "Trithemius: Wealth in Poetry",
+      "tier": "mid",
+      "status": "open",
+      "dead_end_reason": null,
+      "series": null,
+      "author": {
+        "name": "Trithemius (pseudonym)",
+        "handles": [],
+        "url": "https://medium.com/coinmonks/securing-bitcoin-seed-phrases-in-stories-d8eb43a02254"
+      },
+      "published": {
+        "date": "2019-02-11",
+        "url": "https://medium.com/coinmonks/securing-bitcoin-seed-phrases-in-stories-d8eb43a02254"
+      },
+      "chain": "bitcoin",
+      "prize": {
+        "amount": 3124630,
+        "asset": "sats",
+        "usd_estimate": 2524,
+        "usd_snapshot": "2026-10-24",
+        "note": "0.0312463 BTC, 2 funding transactions, exact dates not recorded"
+      },
+      "addresses": [
+        {
+          "address": "1K4ezpLybootYF23TM4a8Y4NyP7auysnRo",
+          "chain": "bitcoin",
+          "role": "escrow",
+          "label": "main",
+          "explorer": "https://mempool.space/address/1K4ezpLybootYF23TM4a8Y4NyP7auysnRo",
+          "expected": "3124630 sats",
+          "verified_on": "2026-10-24",
+          "verified_state": "funded-unspent"
+        }
+      ],
+      "puzzle_type": [
+        "bip39-seed",
+        "text-cipher",
+        "brainwallet"
+      ],
+      "target_format": "BIP39 12 words, position selected by an author-specific numeric key applied to the article text; passphrase and derivation path not confirmed",
+      "derivation": {
+        "summary": "tokenize the article text, apply an unknown author-specific numeric key to select 12 word positions, then derive BIP44/49/84 or a raw BIP32 path and compare to the escrow address",
+        "oracle": null,
+        "oracle_certified": false,
+        "certified_against": ""
+      },
+      "difficulty_left": "insight",
+      "difficulty_note": "the mechanism is taught explicitly by the author; tokenization is calibrated against both worked examples; the real carrier text and numeric key are, by the article's own design, author-specific and not guessable from the article alone, consistent with a stylometric pass finding no detectable insertion fingerprint",
+      "tested_total": {
+        "candidates": 878000,
+        "families": 8,
+        "certified": false
+      },
+      "leads": [
+        {
+          "rank": 1,
+          "title": "read the cipher table on the embedded Steganographia photo",
+          "cost": "hours",
+          "status": "open"
+        },
+        {
+          "rank": 2,
+          "title": "rule out an old-Electrum (non-BIP39) wallet",
+          "cost": "hours",
+          "status": "open"
+        },
+        {
+          "rank": 3,
+          "title": "build a certified acceptance test for the derivation code",
+          "cost": "minutes",
+          "status": "open"
+        }
+      ],
+      "solutions": [],
+      "artifacts": [],
+      "sources": [
+        {
+          "title": "Trithemius, Securing Bitcoin Seed Phrases in Stories, Medium/Coinmonks",
+          "url": "https://medium.com/coinmonks/securing-bitcoin-seed-phrases-in-stories-d8eb43a02254",
+          "date": "2019-02-11",
+          "archived": null
+        },
+        {
+          "title": "Community tracker confirming the puzzle is unsolved",
+          "url": "https://privatekeys.pw/puzzles/0.03-btc-coinmonks-puzzle",
+          "date": "2026-08-16",
+          "archived": null
+        }
+      ],
+      "third_party_material": "the narrative text was written and published by the puzzle author himself as the vehicle for the puzzle; short excerpts are quoted in clues/author-posts.md; the embedded stock photography is third-party licensed illustration, referenced but not reproduced here",
+      "last_updated": "2026-10-24",
+      "folder": "2-mid-prizes/wealth-in-poetry-0-03btc"
+    },
+    {
+      "schema_version": 1,
+      "slug": "zden-haluska-halv-312ksats",
+      "title": "Zden Level HALV",
+      "tier": "mid",
+      "status": "open",
+      "dead_end_reason": null,
+      "series": "Zden's crypto.haluska.sk puzzle series",
+      "author": {
+        "name": "Zden (Zdenek Haluska)",
+        "handles": [
+          "x:@Zd3N"
+        ],
+        "url": "https://crypto.haluska.sk/"
+      },
+      "published": {
+        "date": "2024-04-20",
+        "url": "https://twitter.com/Zd3N/status/1781475361160663236"
+      },
+      "chain": "bitcoin",
+      "prize": {
+        "amount": 312500,
+        "asset": "sats",
+        "usd_estimate": 252,
+        "usd_snapshot": "2026-10-24",
+        "note": ""
+      },
+      "addresses": [
+        {
+          "address": "1crypto24HCr178iMcKd5iUi5D4rsg1nK",
+          "chain": "bitcoin",
+          "role": "escrow",
+          "label": "main",
+          "explorer": "https://mempool.space/address/1crypto24HCr178iMcKd5iUi5D4rsg1nK",
+          "expected": "312500 sats",
+          "verified_on": "2026-10-24",
+          "verified_state": "funded-unspent"
+        }
+      ],
+      "puzzle_type": [
+        "geometry",
+        "raw-private-key"
+      ],
+      "target_format": "256-bit private key as direct hex, P2PKH",
+      "derivation": {
+        "summary": "read the shape (circle or diamond) of each of 59 waveform lobes and any other channel needed, turn that reading into a 256-bit private key, derive P2PKH and compare to the escrow",
+        "oracle": "tools/oracle.py",
+        "oracle_certified": true,
+        "certified_against": "a standard public vector, private key 1 (the generator point); the puzzle's own waveform reading is not itself certified"
+      },
+      "difficulty_left": "external-info",
+      "difficulty_note": "the waveform geometry is stably measured across 3 independent passes; the measured information capacity of the image (about 118 bits) falls short of the 256 bits a private key needs, and no hint has been published for this specific puzzle, unlike every other long-open puzzle in the same series",
+      "tested_total": {
+        "candidates": 500000400,
+        "families": 5,
+        "certified": false
+      },
+      "leads": [
+        {
+          "rank": 1,
+          "title": "a hint published by the author (none exists yet for this puzzle)",
+          "cost": "needs a person",
+          "status": "open"
+        },
+        {
+          "rank": 2,
+          "title": "certify the oracle with a known-good vector",
+          "cost": "minutes, already done in this folder",
+          "status": "open"
+        }
+      ],
+      "solutions": [],
+      "artifacts": [
+        {
+          "path": "clues/cryptoHALV.png",
+          "sha256": "3a487ebaeb4801137f09159a2d533046936cd395f4e2f7d115ac554607790e95",
+          "source": "https://crypto.haluska.sk/",
+          "archived": null
+        }
+      ],
+      "sources": [
+        {
+          "title": "Zden, original announcement",
+          "url": "https://twitter.com/Zd3N/status/1781475361160663236",
+          "date": "2024-04-20",
+          "archived": null
+        },
+        {
+          "title": "Zden's puzzle site",
+          "url": "https://crypto.haluska.sk/",
+          "date": "2026-08-16",
+          "archived": null
+        }
+      ],
+      "third_party_material": "",
+      "last_updated": "2026-10-24",
+      "folder": "2-mid-prizes/zden-haluska-halv-312ksats"
+    },
+    {
+      "schema_version": 1,
+      "slug": "crypto-puzzles-2018-puzzle-2-0-05eth",
+      "title": "Crypto Puzzles 2018: Puzzle #2",
+      "tier": "small",
+      "status": "open",
+      "dead_end_reason": null,
+      "series": "Crypto Puzzles (2018 YouTube channel), same series as the solved Puzzle #1",
+      "author": {
+        "name": "unnamed, published under the YouTube channel \"Crypto Puzzles\"",
+        "handles": [
+          "youtube:UCR8-P07nNhxyEr6fwJXvjQQ"
+        ],
+        "url": "https://www.youtube.com/channel/UCR8-P07nNhxyEr6fwJXvjQQ"
+      },
+      "published": {
+        "date": "2018-08-06",
+        "url": "https://www.youtube.com/watch?v=TRUUTryah70"
+      },
+      "chain": "ethereum",
+      "prize": {
+        "amount": 0.05,
+        "asset": "ETH",
+        "usd_estimate": 118,
+        "usd_snapshot": "2026-10-24",
+        "note": "single externally-owned account, never signed a transaction (nonce 0); that this address is Puzzle #2's escrow is a strong inference from the funder and amount matching Puzzle #1, not stated directly by the author"
+      },
+      "addresses": [
+        {
+          "address": "0x1fa8Be9De5bBFE047C72dB8E8E3257128F7661ad",
+          "chain": "ethereum",
+          "role": "escrow",
+          "label": "main",
+          "explorer": "https://etherscan.io/address/0x1fa8Be9De5bBFE047C72dB8E8E3257128F7661ad",
+          "expected": "0.05 ETH",
+          "verified_on": "2026-10-24",
+          "verified_state": "funded-unspent"
+        }
+      ],
+      "puzzle_type": [
+        "raw-private-key",
+        "image-stego",
+        "video-series"
+      ],
+      "target_format": "64-character hex private key (32 bytes), secp256k1, Keccak-256 of the uncompressed public key to a 20-byte address, no BIP39, no passphrase, no derivation path",
+      "derivation": {
+        "summary": "read a 64-character hex private key hidden as composite glyphs across the two Puzzle #2 videos, then derive secp256k1 -> Keccak-256 -> last 20 bytes to an Ethereum address",
+        "oracle": "tools/oracle.py",
+        "oracle_certified": true,
+        "certified_against": "Puzzle #1's own published solution (64-hex answer read from its solution video), which derives to the address that received and was later spent from for that puzzle's own 0.05 ETH prize in 2018"
+      },
+      "difficulty_left": "external-info",
+      "difficulty_note": "the transform is certified; what remains is finishing a visual read of Puzzle #2's two videos, about 40 to 50 of 64 hex characters legible today",
+      "tested_total": {
+        "candidates": 1,
+        "families": 2,
+        "certified": true
+      },
+      "leads": [
+        {
+          "rank": 1,
+          "title": "Replay Puzzle #1 end to end to fix the reading grammar",
+          "cost": "minutes",
+          "status": "open"
+        },
+        {
+          "rank": 2,
+          "title": "Finish the planned template-matching pass against Puzzle #1's glyph shapes",
+          "cost": "hours",
+          "status": "open"
+        },
+        {
+          "rank": 3,
+          "title": "Bounded 16^8 sweep if a small gap remains after reading",
+          "cost": "minutes, conditional",
+          "status": "open"
+        }
+      ],
+      "solutions": [],
+      "sources": [
+        {
+          "title": "Crypto Puzzle 1, statement part 1",
+          "url": "https://www.youtube.com/watch?v=3l1jFa3Mw0s",
+          "date": "2018-07-19",
+          "archived": null
+        },
+        {
+          "title": "Crypto Puzzle 1, statement part 2",
+          "url": "https://www.youtube.com/watch?v=hX-pOBj8VsI",
+          "date": "2018-07-19",
+          "archived": null
+        },
+        {
+          "title": "Crypto Puzzle 1 Solved!",
+          "url": "https://www.youtube.com/watch?v=0jJ6XadOAWk",
+          "date": "2018-07-19",
+          "archived": null
+        },
+        {
+          "title": "Crypto Puzzle 2, part 1",
+          "url": "https://www.youtube.com/watch?v=TRUUTryah70",
+          "date": "2018-08-06",
+          "archived": null
+        },
+        {
+          "title": "Crypto Puzzle 2, part 2",
+          "url": "https://www.youtube.com/watch?v=U_0DtYHDPy0",
+          "date": "2018-08-06",
+          "archived": null
+        },
+        {
+          "title": "Channel: Crypto Puzzles",
+          "url": "https://www.youtube.com/channel/UCR8-P07nNhxyEr6fwJXvjQQ",
+          "date": "2026-08-16",
+          "archived": null
+        }
+      ],
+      "third_party_material": "No video frames, screenshots, or video files are included; both puzzles are linked by video ID only. The certification vector (Puzzle #1's already-solved private key) is drawn from the author's own public solution video for a prize claimed and spent by an unrelated third party in 2018.",
+      "last_updated": "2026-10-24",
+      "folder": "3-small-prizes/crypto-puzzles-2018-puzzle-2-0-05eth"
+    },
+    {
+      "schema_version": 1,
+      "slug": "exitonly-challenge-14-30ksats",
+      "title": "Exitonly Bitcoin Challenge 14",
+      "tier": "small",
+      "status": "open",
+      "dead_end_reason": null,
+      "series": "Exitonly \"Bitcoin Challenge\", 16 numbered episodes, 15 already spent",
+      "author": {
+        "name": "Exitonly",
+        "handles": [
+          "youtube:UCRLx2BwF7wNHGoduOZE4QVw"
+        ],
+        "url": "https://www.youtube.com/channel/UCRLx2BwF7wNHGoduOZE4QVw"
+      },
+      "published": {
+        "date": "2024-10-03",
+        "url": "https://www.youtube.com/watch?v=jMRoWtsfCuY"
+      },
+      "chain": "bitcoin",
+      "prize": {
+        "amount": 30000,
+        "asset": "sats",
+        "usd_estimate": 24,
+        "usd_snapshot": "2026-10-24",
+        "note": "single P2WPKH escrow, one funding transaction"
+      },
+      "addresses": [
+        {
+          "address": "bc1q5rjy2cdfy4n4dkk4r6pxtwqlm8tgjcc2dj0ee9",
+          "chain": "bitcoin",
+          "role": "escrow",
+          "label": "main",
+          "explorer": "https://mempool.space/address/bc1q5rjy2cdfy4n4dkk4r6pxtwqlm8tgjcc2dj0ee9",
+          "expected": "30000 sats",
+          "verified_on": "2026-10-24",
+          "verified_state": "funded-unspent"
+        }
+      ],
+      "puzzle_type": [
+        "bip39-seed",
+        "word-selection"
+      ],
+      "target_format": "BIP39 12 words (English), 7 given in clear, 5 missing, most likely BIP84 m/84'/0'/0'/0/0 (script type v0_p2wpkh), no passphrase stated, positions and order of the missing words not confirmed by the author",
+      "derivation": {
+        "summary": "combine the 7 published words with 5 unknown words into a checksum-valid BIP39 mnemonic and derive it to a Bitcoin address",
+        "oracle": "tools/oracle.py",
+        "oracle_certified": true,
+        "certified_against": "the public BIP39/BIP84 test vectors, since no episode of this series has a publicly known solved seed"
+      },
+      "difficulty_left": "uneconomic",
+      "difficulty_note": "the brute-force space with known word positions is 2048^4 x 128 = 2,251,799,813,685,248 candidates; at an assumed 1,000,000 to 5,000,000 derivations/second on a rented GPU the cost is roughly $31,000 to $156,000 against an $18.90 prize, about 1,600 to 8,300 times over",
+      "tested_total": {
+        "candidates": 0,
+        "families": 1,
+        "certified": true
+      },
+      "leads": [
+        {
+          "rank": 1,
+          "title": "Solve episode #12 and compare its seed to #13 to test for a weak or correlated random source",
+          "cost": "about 10 minutes of GPU time, low prior",
+          "status": "open"
+        },
+        {
+          "rank": 2,
+          "title": "Recover the complete solved seeds of episodes #11-#13, currently not recorded",
+          "cost": "needs external information",
+          "status": "open"
+        }
+      ],
+      "solutions": [],
+      "sources": [
+        {
+          "title": "Bitcoin Challenge 14 video",
+          "url": "https://www.youtube.com/watch?v=jMRoWtsfCuY",
+          "date": "2024-10-03",
+          "archived": null
+        },
+        {
+          "title": "Channel Exitonly",
+          "url": "https://www.youtube.com/channel/UCRLx2BwF7wNHGoduOZE4QVw",
+          "date": "2026-08-16",
+          "archived": null
+        }
+      ],
+      "third_party_material": "The challenge video, its frames, and its audio are not included, since they are the author's copyrighted YouTube content; the video is linked by ID only. The 7 published seed words and short quotes from the description and comments are the author's own public material, reproduced in clues/author-posts.md.",
+      "last_updated": "2026-10-24",
+      "folder": "3-small-prizes/exitonly-challenge-14-30ksats"
+    }
+  ]
+}

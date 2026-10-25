@@ -1,0 +1,11 @@
+{
+  "_comment": "Stage labels for the BIP38 EC-multiply derivation pipeline figure, confirmed by tools/oracle.py --selftest against the solved sibling card AA007448.",
+  "stages": [
+    {"label": "encrypted WIF\n6P... (printed)"},
+    {"label": "passphrase\nXXXX-XXXX-XXXX-XXXX-XXXX", "edge": "+ ownerentropy\n(8 bytes, public)"},
+    {"label": "passfactor", "edge": "scrypt\nN=16384 r=8 p=8"},
+    {"label": "private key", "edge": "x factorb\n(from seedb\nin the 6P... blob)"},
+    {"label": "public key", "edge": "secp256k1"},
+    {"label": "P2PKH address", "edge": "HASH160\n+ Base58Check"}
+  ]
+}

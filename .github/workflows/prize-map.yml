@@ -1,0 +1,39 @@
+name: prize map
+
+on:
+  schedule:
+    - cron: "17 6 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ["puzzles.json", "tools/fig_prize_bars.py"]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: prize-map
+  cancel-in-progress: false
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Render the prize map at live prices
+        run: python3 tools/fig_prize_bars.py
+      - name: Commit if the picture changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet -- assets/prize-map.svg; then
+            echo "no change"
+          else
+            git add assets/prize-map.svg
+            git commit -m "assets: prize map refreshed at live prices"
+            git pull --rebase origin main
+            git push
+          fi

@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "slug": "exitonly-challenge-14-30ksats",
+  "title": "Exitonly Bitcoin Challenge 14",
+  "tier": "small",
+  "status": "open",
+  "dead_end_reason": null,
+  "series": "Exitonly \"Bitcoin Challenge\", 16 numbered episodes, 15 already spent",
+  "author": {
+    "name": "Exitonly",
+    "handles": [
+      "youtube:UCRLx2BwF7wNHGoduOZE4QVw"
+    ],
+    "url": "https://www.youtube.com/channel/UCRLx2BwF7wNHGoduOZE4QVw"
+  },
+  "published": {
+    "date": "2024-10-03",
+    "url": "https://www.youtube.com/watch?v=jMRoWtsfCuY"
+  },
+  "chain": "bitcoin",
+  "prize": {
+    "amount": 30000,
+    "asset": "sats",
+    "usd_estimate": 24,
+    "usd_snapshot": "2026-10-24",
+    "note": "single P2WPKH escrow, one funding transaction"
+  },
+  "addresses": [
+    {
+      "address": "bc1q5rjy2cdfy4n4dkk4r6pxtwqlm8tgjcc2dj0ee9",
+      "chain": "bitcoin",
+      "role": "escrow",
+      "label": "main",
+      "explorer": "https://mempool.space/address/bc1q5rjy2cdfy4n4dkk4r6pxtwqlm8tgjcc2dj0ee9",
+      "expected": "30000 sats",
+      "verified_on": "2026-10-24",
+      "verified_state": "funded-unspent"
+    }
+  ],
+  "puzzle_type": [
+    "bip39-seed",
+    "word-selection"
+  ],
+  "target_format": "BIP39 12 words (English), 7 given in clear, 5 missing, most likely BIP84 m/84'/0'/0'/0/0 (script type v0_p2wpkh), no passphrase stated, positions and order of the missing words not confirmed by the author",
+  "derivation": {
+    "summary": "combine the 7 published words with 5 unknown words into a checksum-valid BIP39 mnemonic and derive it to a Bitcoin address",
+    "oracle": "tools/oracle.py",
+    "oracle_certified": true,
+    "certified_against": "the public BIP39/BIP84 test vectors, since no episode of this series has a publicly known solved seed"
+  },
+  "difficulty_left": "uneconomic",
+  "difficulty_note": "the brute-force space with known word positions is 2048^4 x 128 = 2,251,799,813,685,248 candidates; at an assumed 1,000,000 to 5,000,000 derivations/second on a rented GPU the cost is roughly $31,000 to $156,000 against an $18.90 prize, about 1,600 to 8,300 times over",
+  "tested_total": {
+    "candidates": 0,
+    "families": 1,
+    "certified": true
+  },
+  "leads": [
+    {
+      "rank": 1,
+      "title": "Solve episode #12 and compare its seed to #13 to test for a weak or correlated random source",
+      "cost": "about 10 minutes of GPU time, low prior",
+      "status": "open"
+    },
+    {
+      "rank": 2,
+      "title": "Recover the complete solved seeds of episodes #11-#13, currently not recorded",
+      "cost": "needs external information",
+      "status": "open"
+    }
+  ],
+  "solutions": [],
+  "sources": [
+    {
+      "title": "Bitcoin Challenge 14 video",
+      "url": "https://www.youtube.com/watch?v=jMRoWtsfCuY",
+      "date": "2024-10-03",
+      "archived": null
+    },
+    {
+      "title": "Channel Exitonly",
+      "url": "https://www.youtube.com/channel/UCRLx2BwF7wNHGoduOZE4QVw",
+      "date": "2026-08-16",
+      "archived": null
+    }
+  ],
+  "third_party_material": "The challenge video, its frames, and its audio are not included, since they are the author's copyrighted YouTube content; the video is linked by ID only. The 7 published seed words and short quotes from the description and comments are the author's own public material, reproduced in clues/author-posts.md.",
+  "last_updated": "2026-10-24"
+}

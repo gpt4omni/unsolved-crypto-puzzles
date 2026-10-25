@@ -1,0 +1,10 @@
+# The 5 hash-collision bounty scripts: address, redeem script hex, generic collision cost,
+# and balance as checked on mempool.space, 2026-08-16. HASH160 = RIPEMD160(SHA256(x)),
+# HASH256 = SHA256(SHA256(x)). generic_collision_cost_log2 is the birthday-bound cost in
+# bits (half the digest size) with no known shortcut for the full, unmodified function.
+# hash_function,address,redeem_hex,digest_bits,generic_collision_cost_log2,balance_btc,spent,checked_date
+sha256,35Snmmy3uhaer2gTboc81ayCip4m9DT4ko,6e879169a87ca887,256,128,0.27734251,false,2026-08-16
+ripemd160,3KyiQEGqqdb4nqfhUzGKN6KPhXmQsLNpay,6e879169a67ca687,160,80,0.11576888,false,2026-08-16
+hash160,39VXyuoc6SXYKp9TcAhoiN1mb4ns6z3Yu6,6e879169a97ca987,160,80,0.10026873,false,2026-08-16
+hash256,3DUQQvz4t57Jy7jxE86kyFcNpKtURNf1VW,6e879169aa7caa87,256,128,0.10026873,false,2026-08-16
+sha1,37k7toV1Nv4DfmQbmZ8KuZDQCYK9x5KpzP,6e879169a77ca787,160,80,0.0,true,2026-08-16

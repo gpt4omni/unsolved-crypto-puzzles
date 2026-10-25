@@ -1,0 +1,1975 @@
+WARC/1.0
+WARC-Type: response
+WARC-Date: 2020-07-04T17:31:10Z
+WARC-Record-ID: <urn:uuid:ed0276f9-999a-4fcb-b94e-4654aa445d5a>
+Content-Length: 120929
+Content-Type: application/http; msgtype=response
+WARC-Warcinfo-ID: <urn:uuid:fedb0d74-a844-4f62-a632-f2ff612ed439>
+WARC-Concurrent-To: <urn:uuid:32953dab-c00f-4bd5-9363-9d0970ab9097>
+WARC-IP-Address: 178.128.255.179
+WARC-Target-URI: https://bitaps.com/mnemonic?language=ru
+WARC-Payload-Digest: sha1:J7IVBCNKLJXBJP2CEDVZ3M7KWZVQ6WJN
+WARC-Block-Digest: sha1:EOZN6A6HVMOFS3Q5M3OUDTHO3Q7IAFNN
+WARC-Identified-Payload-Type: text/html
+
+HTTP/1.1 200 OK
+Server: openresty
+Date: Sat, 04 Jul 2020 17:31:10 GMT
+Content-Type: text/html; charset=utf-8
+X-Crawler-Transfer-Encoding: chunked
+Connection: keep-alive
+SET-COOKIE: language=ru; Domain=.bitaps.com; Path=/
+SET-COOKIE: hide_dashboard=0
+Strict-Transport-Security: max-age=31536000
+X-Frame-Options: DENY
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Bitcoin: because fuck the banks
+X-Crawler-Content-Encoding: gzip
+Content-Length: 120444
+
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="yandex-verification" content="ad5e21acab336cca"/>
+    <meta name="format-detection" content="telephone=no">
+    <meta data-n-head="true" name="keywords"
+          content="bitcoins, transactions, blocks, address,blockchain, bitcoin, litecoin, blockchain search engine, blockchain explorer, block explorer, bitcoin explorer,  litecoin explorer, blockchain analytics, bitcoin block explorer, btc explorer">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="/static/css/bootstrap.min.css" crossorigin="anonymous">
+    <link href="/static/img/favicon.png" rel="shortcut icon">
+    
+        <meta id="theme-color" name="theme-color" content="#f1f1f1">
+        <meta id="msapplication-navbutton-color" name="msapplication-navbutton-color" content="#f1f1f1">
+        <meta id="apple-mobile-web-app-status-bar-style" name="apple-mobile-web-app-status-bar-style" content="#f1f1f1">
+
+    
+    
+    <title>Bitcoin mnemonic code tools</title>
+
+    <meta data-n-head="true" name="twitter:card" content="Mnemonic tools"/>
+    <meta data-n-head="true" name="twitter:site" content="@bitaps_com"/>
+    <meta data-n-head="true" name="twitter:image"
+          content="https://btc.bitaps.com/static/img/bitcoin_logo_avatar.png"/>
+    <meta data-n-head="true" property="og:type" content="website"/>
+    <meta data-n-head="true" property="og:image"
+          content="https://btc.bitaps.com/static/img/bitcoin_logo_avatar.png"/>
+    <meta data-n-head="true" data-hid="description" name="description"
+          content="Bitcoin mnemonic code tools"/>
+    <meta data-n-head="true" name="twitter:title" content="Bitcoin mnemonic code tools"/>
+    <meta data-n-head="true" name="twitter:description"
+          content="Bitcoin mnemonic code tools"/>
+    <meta data-n-head="true" property="og:title" content="Bitcoin mnemonic code tools"/>
+    <meta data-n-head="true" property="og:description"
+          content="Bitcoin mnemonic code tools"/>
+
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="/static/css/style.css?1593882461821">
+    <link rel="stylesheet" href="/static/css/font-awesome.css">
+    
+    <link rel="stylesheet" href="/static/css/mnemonic.css?11593882461821">
+
+</head>
+
+<body>
+<div class="content">
+    
+        <script src="/static/js/highcharts.js?1593882461821"></script>
+        <div id="header-top" class="header header-top">
+            <div class="container-fluid col-xl-11">
+                <!-- Top fast access menu -->
+                <div class="d-flex pt-2  flex-row justify-content-between align-items-start" id="top-menu">
+                    <div class="btn-group ">
+                        <div data-toggle="dropdown" role="navigation" aria-expanded="false">
+                            <div>
+                                <a class="pt-2 pb-3 d-flex flex-row justify-content-center" style="cursor:pointer;">
+                                    
+                                        <div class="bitcoin-logo"></div>
+                                        <div class="ml-1 pt-2">
+                                            <small>
+                                                <span class="fa fa-lg fa-angle-down"></span>
+                                            </small>
+                                        </div>
+                                    
+                                </a>
+                            </div>
+                        </div>
+                        <div class="dropdown-menu   " id="collapse-menu-net">
+
+                            <a class="dropdown-item bitcoin-logo-menu" href="https://btc.bitaps.com">
+                                <div class="bitcoin-logo-gray "></div>
+                            </a>
+                            <a class="dropdown-item litecoin-logo-menu" href="https://ltc.bitaps.com">
+                                <div class="litecoin-logo-gray "></div>
+                            </a>
+                            <a class="dropdown-item ethereum-logo-menu" href="https://eth.bitaps.com">
+                                <div class="ethereum-logo-gray "></div>
+                            </a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item  bitcoin-testnet-logo-menu  " href="https://tbtc.bitaps.com">
+                                <div class="bitcoin-testnet-logo-gray bitcoin-testnet-logo-menu"></div>
+                            </a>
+                            <a class="dropdown-item  litecoin-testnet-logo-menu  " href="https://tltc.bitaps.com">
+                                <div class="litecoin-testnet-logo-gray litecoin-testnet-logo-menu"></div>
+                            </a>
+                            <a class="dropdown-item ethereum-testnet-logo-menu" href="https://teth.bitaps.com">
+                                <div class="ethereum-testnet-logo-gray ethereum-testnet-logo-menu"></div>
+                            </a>
+                        </div>
+
+                        <div class="top-stat"
+                                
+                             style="display: block;"
+                                >
+
+                            <div class=" d-flex pt-3   flex-row align-items-end ml-3" >
+                                <h6 class="text-right pr-1 mb-0 pb-0"><b><span
+                                        id="last_block_top">637 697</span></b></h6>
+                                <small>
+                                    <small class="top-stat-helper"
+                                           id="tx-count-top">866</small>
+                                </small>
+                            </div>
+                        </div>
+
+
+                        <div class="top-stat"
+                                
+                             style="display: block;"
+                                >
+
+                            <div class="top-stat d-flex pt-3    flex-row align-items-end ml-3">
+
+
+                                <h6 class="text-right pr-1 mb-0 pb-0" id="average_last_top">
+                                    <small>$</small>
+                                    <b><span id="average_last_dollars_top">9 077</span>.
+                                        <small id="average_last_cents_top">67</small>
+                                    </b></h6>
+                                <span class="bold text-right   smaller">
+                                                       <span id="average_ticker_change_percent_top"
+                                                               
+                                                             class="text-red top-stat-helper" >
+                                                           <span id="average_ticker_change_percent_direction_top">-</span>
+                                                           <span id="average_ticker_change_percent_dollars_top">0</span><span>.</span><small
+                                                               id="average_ticker_change_percent_cents_top"
+                                                               class="bold">15</small><span> %</span>
+
+
+                                                       </span>
+                                                   </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="    d-none d-md-block   dashboard-layout fast-menu mr-4" id="fast-menu">
+                        <ul class="list-inline">
+                            <li class="list-inline-item"><a class="nav-link"
+                                                            href="/blocks">Блоки</a></li>
+                            <li class="list-inline-item"><a class="nav-link"
+                                                            href="/tools">Инструменты</a></li>
+                            <li class="list-inline-item"><a class="nav-link"
+                                                            href="/statistics">Статистика</a>
+                            </li>
+                            <li class="list-inline-item"><a class="nav-link"
+                                                            href="https://developer.bitaps.com">Разработчикам</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+
+                <!-- Dashboard -->
+                
+                    
+                    
+                    <div class="  d-flex flex-column flex-md-row   justify-content-around  dashboard "
+                            
+                         style="height: 0em;display: none;"
+                            
+                         id="net-dashboard">
+                        <div class="   mb-3   d-flex flex-column    align-items-center dashboard-card "
+                             id="last_block_header" style=" width: 100%; max-width:30em;min-width: 22.6em">
+                            <div class="p-4  dashboard-layout  d-flex flex-column    align-items-center"
+                                 style=" height:100%;">
+                                <p class="lattolight" style=" ">Последний блок</p>
+                                <h1 id="header_last_block_height"
+                                    class="lattobold pl-1 pr-1">637 697</h1>
+                                <p class="lattolight pb-1">Время после блока</p>
+                                <div id="block_age">
+                                    <div class="countdown-section"><b>00</b>
+                                        <span>часов</span></div>
+                                    <div class="countdown-section"><b>03</b>
+                                        <span>минут</span></div>
+                                    <div class="countdown-section"><b>13</b>
+                                        <span>секунд</span></div>
+                                </div>
+                                <div class="lattolight pb-1 pt-3 d-flex flex-row justify-content-around align-items-end w-100">
+                                    <div class="d-flex flex-column align-items-center">
+                                        <h5 id="unconfirmed_tx_count"
+                                                
+                                                    
+                                                
+                                            class=" pl-1 pr-1 bold d-block ">866</h5>
+                                        <small>Новых транзакий</small>
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center">
+                                        <div class="d-flex flex-row align-items-center">
+                                            <span id="header_fee"
+                                                  style="padding-bottom: 0.3em;"
+                                                  class=" pl-1 pr-1 bold ">1</span>
+                                            <div class="small">
+                                                <small> ś<b>/vByte</b></small>
+                                            </div>
+                                        </div>
+                                        <small>Лучшая комиссия</small>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="d-flex flex-column   align-items-center dashboard-card  " id="market-dashboard"
+                             style="width: 100%;">
+                            <div id="htop-left-wrapper"
+                                 class="  d-flex ml-0 mr-4 pl-0 pr-4  flex-column   align-items-center    w-100"
+                                 style=" height:100%;">
+                                
+                                <div id="htop-left" class="d-flex flex-row  justify-content-around w-100" style="">
+
+
+                                    <!-- USD tickers -->
+                                    <div id="price-header">
+
+                                        <div class="pt-2 ">
+                                            <div id="average_ticker">
+                                                <div class="   ">BTC/USD Last 24 hours
+
+                                                </div>
+
+                                                <h2 class="text-right pr-1 mb-0 pb-0" id="average_price">
+                                                    <small>$</small>
+                                                    <b><span id="average_last_dollars">9 077</span>.
+                                                        <small id="average_last_cents">67</small>
+                                                    </b></h2>
+                                                <div class="d-flex flex-row justify-content-around p-1 ">
+                                                    <div id="average_ticker_hl" class="bold text-left w-100 ">
+                                                        <div class="d-flex flex-row ">
+                                                            <div style="width: 1.5em;">O</div>
+                                                            <div>
+                                                                <span id="average_ticker_open_dollars">9 091</span><span>.</span>
+                                                                <small class="bold"
+                                                                       id="average_ticker_open_cents">43</small>
+                                                            </div>
+                                                        </div>
+                                                        <div id="average_ticker_high" class="d-flex flex-row ">
+                                                            <div style="width: 1.5em;">H</div>
+                                                            <div>
+                                                                <span id="average_ticker_high_dollars">9 101</span><span>.</span>
+                                                                <small class="bold"
+                                                                       id="average_ticker_high_cents">30</small>
+                                                            </div>
+                                                        </div>
+                                                        <div id="average_ticker_low" class="d-flex flex-row">
+                                                            <div style="width: 1.5em;">L</div>
+                                                            <div>
+                                                                <span id="average_ticker_low_dollars">9 049</span><span>.</span>
+                                                                <small id="average_ticker_low_cents"
+                                                                       class="bold">34</small>
+                                                            </div>
+                                                        </div>
+                                                        <div id="average_ticker_vol" class="d-flex flex-row">
+                                                            <div style="width: 1.5em;">V</div>
+                                                            <div>
+                                                                <span id="average_ticker_vol_dollars">17 404</span><span>.</span>
+                                                                <small id="average_ticker_vol_cents"
+                                                                       class="bold">13</small>
+                                                            </div>
+                                                        </div>
+
+                                                    </div>
+                                                    <div id="average_ticker_change" class="bold text-left w-100">
+                                                        <div class="bold text-right w-100   smaller">
+                                                            <div id="average_ticker_change_amount"
+                                                                    
+                                                                 class="text-red" >
+                                                                <span id="average_ticker_change_amount_direction">-</span>
+                                                                <span id="average_ticker_change_amount_dollars">13</span><span>.</span>
+                                                                <small class="bold"
+                                                                       id="average_ticker_change_amount_cents">75</small>
+                                                            </div>
+                                                        </div>
+                                                        <div class="bold text-right w-100  smaller">
+                                                            <div id="average_ticker_change_percent"
+                                                                    
+                                                                 class="text-red" >
+                                                                <span id="average_ticker_change_percent_direction">-</span>
+                                                                <span id="average_ticker_change_percent_dollars">0</span><span>.</span>
+                                                                <small id="average_ticker_change_percent_cents"
+                                                                       class="bold">15</small>
+                                                                <span> %</span>
+                                                            </div>
+                                                        </div>
+
+                                                    </div>
+
+                                                </div>
+
+                                            </div>
+                                            <div id="dashboard-chart" style=""></div>
+                                        </div>
+
+                                        <div class="d-flex flex-row  justify-content-around small">
+                                            <div class="  d-sm-block" id="usd_markets">
+
+
+                                                <a target="_blank" rel="noopener noreferrer"
+                                                   href="https://bitfinex.com">
+                                                    <div class="row market bottom-line bold d-flex flex-row justify-content-between align-items-center">
+                                                        <div>Bitfinex</div>
+                                                        <div  
+                                                            class="text-green"  >
+                                                            <div class="d-flex flex-row align-items-end pr-1 pl-1"
+                                                                 id="BITFINEX_last">
+                                                                <small class="bold"></small>
+                                                                <span>9 086</span>
+                                                                <small class="bold">.</small>
+                                                                <small class="bold">50</small>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </a>
+
+                                                <a target="_blank" rel="noopener noreferrer"
+                                                   href="https://pro.coinbase.com">
+                                                    <div class="row market bottom-line bold d-flex flex-row justify-content-between align-items-center">
+                                                        <div>Coinbase Pro</div>
+                                                        <div   class="text-red"  >
+                                                            <div class="d-flex flex-row align-items-end pr-1 pl-1"
+                                                                 id="COINBASEPRO_last">
+                                                                <small class="bold"></small>
+                                                                <span>9 076</span>
+                                                                <small class="bold">.</small>
+                                                                <small class="bold">11</small>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </a>
+
+                                                <a target="_blank" rel="noopener noreferrer"
+                                                   href="https://bitstamp.com">
+                                                    <div class="row market bottom-line bold d-flex flex-row justify-content-between align-items-center">
+                                                        <div>Bitstamp</div>
+                                                        <div  
+                                                            class="text-green"  >
+                                                            <div class="d-flex flex-row align-items-end pr-1 pl-1"
+                                                                 id="BITSTAMP_last">
+                                                                <small class="bold"></small>
+                                                                <span>9 076</span>
+                                                                <small class="bold">.</small>
+                                                                <small class="bold">12</small>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </a>
+
+
+                                            </div>
+                                            <!-- USDT tickers -->
+                                            <div class="  d-sm-none d-md-block" id="usdt_markets">
+
+                                                <a target="_blank" rel="noopener noreferrer" href="https://gemini.com">
+                                                    <div class="row market bottom-line bold d-flex flex-row justify-content-between align-items-center">
+                                                        <div>Gemini</div>
+                                                        <div  
+                                                            class="text-green"  >
+                                                            <div class="d-flex flex-row align-items-end pr-1 pl-1"
+                                                                 id="GEMINI_last">
+                                                                <small class="bold"></small>
+                                                                <span>9 080</span>
+                                                                <small class="bold">.</small>
+                                                                <small class="bold">39</small>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </a>
+
+                                                <a target="_blank" rel="noopener noreferrer" href="https://kraken.com">
+                                                    <div class="row market bottom-line bold d-flex flex-row justify-content-between align-items-center">
+                                                        <div>Kraken</div>
+                                                        <div  
+                                                            class="text-green"  >
+                                                            <div class="d-flex flex-row align-items-end pr-1 pl-1"
+                                                                 id="KRAKEN_last">
+                                                                <small class="bold"></small>
+                                                                <span>9 078</span>
+                                                                <small class="bold">.</small>
+                                                                <small class="bold">50</small>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </a>
+
+                                                <a target="_blank" rel="noopener noreferrer" href="https://hitbtc.com">
+                                                    <div class="row market bottom-line bold d-flex flex-row justify-content-between align-items-center">
+                                                        <div>HitBTC</div>
+                                                        <div  
+                                                            class="text-green"  >
+                                                            <div class="d-flex flex-row align-items-end pr-1 pl-1"
+                                                                 id="HITBTC_last">
+                                                                <small class="bold"></small>
+                                                                <span>9 075</span>
+                                                                <small class="bold">.</small>
+                                                                <small class="bold">47</small>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </a>
+
+
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <a
+                                    class="arrow-container hide-dashboard
+                                        
+                                     show-dashboard
+                             ">
+                                <div class="arrowx"></div>
+                                <div class="arrowx"></div>
+                                <div class="arrowx"></div>
+                            </a>
+                        </div>
+                    </div>
+                
+            </div>
+        </div>
+        <nav id="sticky" class="header header-sticky sticky-top search-container flex-column">
+            <div class="container-fluid col-xl-11 " role="navigation">
+                <div class="row justify-content-between align-items-center">
+                    <div class="col logo-wrap ">
+                        <a href="/">
+                            <div class=" navbar-brand logo  slow_spin align-top"></div>
+                        </a>
+                    </div>
+                    <div class="col search-box-wrap">
+                        <div class="  ">
+                            <div class="pr-3" style="display:flex;position:relative;">
+                                <input type="text" id="search-box" class=" input-box"
+                                       autocomplete="off" autocapitalize="off" spellcheck="false"
+                                       placeholder="Искать блок, транзакцию или адрес ..."
+                                       onkeydown="check_pointer(this);" onkeyup="check_pointer(this)"
+                                       onpaste="check_pointer(this)">
+                                <span class="fa fa-search   search_icon"
+                                      onclick="window.location.href='/'+document.getElementById('search-box').value;">
+                                    </span>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="scan-qr" onclick="searchBarScanQrCode();">
+                    </div>
+                    <div class="col menu-picto-wrap moon">
+                        <i class="fa fa-lg theme ml-1"></i>
+                    </div>
+                    <div class="col menu-picto-wrap">
+                        <div id="rmenu" data-toggle="collapse" data-target="#collapse-menu" role="navigation"
+                             aria-expanded="false" aria-controls="collapse-menu"
+                             class="mobilemenu-toggle d-flex flex-column justify-content-around collapsed  ">
+                            <div class="icon-bar top-bar"></div>
+                            <div class="icon-bar middle-bar"></div>
+                            <div class="icon-bar bottom-bar"></div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="collapse " id="collapse-menu">
+                <div class=" pt-1 pl-4 pr-4 pb-4">
+                    <div class="row" style="cursor: default;">
+                        <div class="col-lg-3 col-md-4 col-sm-4 col-xs-6   pt-4 pl-4">
+                            <div class="inbox-item m-b-10 pb-2">Блокчейн</div>
+                            <div class="inbox-item m-l-10"><a class=""
+                                                              href="/blocks">Блоки</a>
+                            </div>
+                            
+                            <div class="inbox-item m-l-10"><a class=""
+                                                              href="/statistics">Статистика</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6  pt-4 pl-4">
+                            <div class="inbox-item m-b-10 pb-2">Разработчикам</div>
+                            <div class="inbox-item m-l-10"><a class=""
+                                                              href="https://developer.bitaps.com">Портал разработчиков</a>
+                            </div>
+                            <div class="inbox-item m-l-10"><a class=""
+                                                              href="https://developer.bitaps.com/blockchain">Блокчейн API</a>
+                            </div>
+                            <div class="inbox-item m-l-10"><a class=""
+                                                              href="https://developer.bitaps.com/market">Рыночное API</a>
+                            </div>
+                            <div class="inbox-item m-l-10"><a class=""
+                                                              href="https://developer.bitaps.com/native">Оригинальное API</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6   pt-4 pl-4">
+                            <div class="inbox-item m-b-10 pb-2">Инструменты</div>
+                            <div class="inbox-item m-l-10"><a class="" href="/bip32">BIP32 calculator</a></div>
+                            <div class="inbox-item m-l-10"><a class="" href="/mnemonic">Mnemonic</a></div>
+                            <div class="inbox-item m-l-10">
+                                <a class="" href="/broadcast">Опубликовать транзакцию</a>
+                            </div>
+
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6   pt-4 pl-4">
+                            <div class="inbox-item m-b-10 pb-2">Прием платежей</div>
+                            
+                            <div class="inbox-item m-l-10"><a class=""
+                                                              href="https://developer.bitaps.com/forwarding">Форвард платежей</a>
+                            </div>
+                            
+                            
+
+                        </div>
+
+                    </div>
+                    <div class="row   " style="cursor: default;">
+                        <div class="col-lg-3 col-md-2 col-sm-4 col-xs-6   pt-4 pl-4">
+                            <div class="inbox-item m-b-10 pb-2">Сеть</div>
+                            <div class="inbox-item m-l-10"><a
+                                    href="http://btc.bitaps.com">Биткоин</a></div>
+                            <div class="inbox-item m-l-10"><a href="http://ltc.bitaps.com">Litecoin</a></div>
+                            <div class="inbox-item m-l-10"><a href="http://eth.bitaps.com">Ethereum </a></div>
+
+                            <div class="inbox-item m-l-10"><a
+                                    href="http://tbtc.bitaps.com">Биткоин тестовая</a>
+                            </div>
+                            <div class="inbox-item m-l-10"><a href="http://tltc.bitaps.com">Litecoin testnet</a></div>
+                            <div class="inbox-item m-l-10"><a href="http://teth.bitaps.com">Ethereum testnet</a></div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6   pt-4 pl-4">
+                            <div class="inbox-item m-b-10 pb-2">Дополнительные ссылки</div>
+                            <div class="inbox-item m-l-10"><a class=""
+                                                              href="/bitcoin">О биткоине</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6   pt-4 pl-4">
+                            <div class="inbox-item m-b-10 pb-2">Компания</div>
+                            <div class="inbox-item m-l-10"><a class=""
+                                                              href="/vision">Наше видение</a>
+                            </div>
+                            <div class="inbox-item m-l-10"><a class=""
+                                                              href="https://medium.com/@bitaps.com">Блог</a>
+                            </div>
+                            <div class="inbox-item m-l-10">
+                                <a class="" href="/privacy">Privacy policy</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-2 col-sm-3 col-xs-6  pt-4 pl-4">
+                            <div class="inbox-item m-b-10 pb-2">Язык</div>
+
+                            
+                                <div class="inbox-item m-l-10"><a onclick="return change_language('en');"
+                                                                  href="https://bitaps.com/mnemonic?language=ru&language=en">English(US)</a>
+                                </div>
+                                <div class="inbox-item m-l-10"><a onclick="return change_language('ru');"
+                                                                  href="https://bitaps.com/mnemonic?language=ru&language=ru">Русский(RU)</a>
+                                </div>
+                            
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+        </nav>
+
+        <div id="search-bar-qr-scanner" class="" style="display: none;">
+            <div id="search-bar-camera-loading-message" class="mt-4 text-center w-100 p-name ">
+                🎥 Unable to access video stream (please make sure you have a webcam enabled)
+            </div>
+            <div class="d-flex justify-content-center mt-4 ">
+                <div class="position-relative pb-2">
+                    <canvas id="search-bar-canvas" hidden style="width: 30em;max-width: 100%!important;"></canvas>
+                    <div id="search-bar-camera-close" class="x-btn position-absolute"
+                         onclick="searchBarCloseCamera();" hidden style="right: 0.3em;top:0.7em;"></div>
+                </div>
+            </div>
+        </div>
+    
+    
+    
+
+    
+
+
+    <div id="content-wrapper" class="container-fluid col-xl-11 pt-2 pb-4 mb-4 d-flex flex-column w-100 smaller"
+         style="flex: auto;">
+
+
+        <!-- first screen  create/load mnemonic -->
+        <div id="gen-tools-wrap">
+            <div class="d-flex justify-content-end">
+                <div class="d-flex justify-content-end small pt-1 pb-1 mr-4">
+                    <a href="/mnemonic/challenge" class="d-flex align-items-center">
+                        <span>1 BTC challenge</span>
+                        <div class="hacker-logo  ml-1"></div>
+                    </a>
+
+                </div>
+                <div class="d-flex justify-content-end small pt-1 pb-1 mr-3">
+                    <a href="/mnemonic/offline" class="d-flex align-items-center">
+                        <span>Offline version</span>
+                        <div class="offline-logo  ml-1"></div>
+                    </a>
+
+                </div>
+
+            </div>
+
+            <!-- JS Generator -->
+            <div id="auto-tools" class="container-fluid col-xl-11 pb-2 d-flex flex-row zoom-out w-100"
+                 style="margin-top: -1em">
+
+
+                <div id="d-flex flex-row " class="card-wrapper  w-100">
+                    <div class="card-title">Generator/Loader</div>
+                    <div class="card-body pb-4" style="overflow: initial;   ">
+
+                        <div id="address-div" class="d-flex   flex-row ">
+                            <h4>
+                                <small class="p-name">Mnemonic code</small>
+                            </h4>
+                        </div>
+
+                        <div id="mnemonic-info" class="d-flex  pt-2 flex-row   justify-content-between ">
+
+
+                            <div id="load-code" class=" d-flex   flex-column  justify-content-between w-100 mt-2 mb-2 ">
+
+                                <div id="mnemonic-info-qr-scanner" style="display: none;">
+                                    <div id="mnemonic-info-qr-scanner-message" class=" text-center w-100 p-name">
+                                        🎥 Unable to access video stream (please make sure you have a webcam enabled)
+                                    </div>
+                                    <div class="d-flex justify-content-center ">
+                                        <div class="position-relative pb-2">
+                                            <canvas id="mnemonic-info-qr-scanner-canvas" hidden
+                                                    style="width: 20em;max-width: 100%!important;">
+                                            </canvas>
+                                            <div id="mnemonic-info-qr-scanner-close" class=" x-btn position-absolute"
+                                                 onclick="closeCamera();" hidden
+                                                 style="right: 0.3em;top:0.7em;"></div>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+
+
+                                <div style="font-size: 1em;"
+                                     class="w-100 d-flex flex-row justify-content-end pr-2 mb-2">
+                                    <div class="scan-qr"
+                                         data-toggle="tooltip" data-placement="top" title="Scan qr-code"
+                                         onclick="scanQrCode('mnemonic-info-qr-scanner', 'mnemonic-input');"></div>
+
+                                    <div class="btn-copy copy ml-4"
+                                         data-toggle="tooltip" data-placement="top" title="Copy"
+                                         onclick="copyDivClipboard(this, '#mnemonic-input');"></div>
+                                    <div class="show-qr ml-4"
+                                         data-toggle="tooltip" data-placement="top" title="Show qr-code"
+                                         onclick="showQrcode('#mnemonic-input', '#mnemonic-input-qr');"></div>
+                                </div>
+
+                                <div class="position-relative">
+                                    <div id="mnemonic-input"
+                                         status="#load-code-status"
+                                         class="w-100 textarea mnemonic-code" name="load-mnemonic" maxlength="216"
+
+                                         spellcheck="false"></div>
+                                    <div class="x-btn position-absolute"
+                                         onclick="deleteAreaContent(this, '#load-code-status');"
+                                         style="right: 0.3em;top:0.7em; display: none;"></div>
+                                    <div class="w-100 d-flex flex-row justify-content-center">
+                                        <canvas id="mnemonic-input-qr" class="qrcode mt-2 mb-2"
+                                                style="width: 20em; height: 20em;display: none;"></canvas>
+                                    </div>
+                                </div>
+
+                                <div id="load-code-control"
+                                     class="d-flex flex-row justify-content-end  align-items-center pt-4">
+                                    <div class="w-100 mr-2 bold">
+                                        <div id="load-code-status"></div>
+                                    </div>
+                                    <div class="d-flex flex-row justify-content-end  align-items-center">
+
+                                        <button id="adjust-code-btn" type="button" onclick="adjust_checksum();"
+                                                class="btn btn-warning mr-2" style="display: none;">Adjust checksum
+                                        </button>
+                                        <button id="split-code-btn" type="button" disabled onclick="split_mnemonic();"
+                                                class="btn btn-outline-secondary mr-2">Split
+                                        </button>
+                                        <button id="load-code-btn" type="button" disabled onclick="load_mnemonic();"
+                                                class="btn btn-primary">Load
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- generator -->
+                            <div id="js-generator"
+                                 class=" d-flex mt-2  flex-column  justify-content-end align-items-bottom w-100">
+                                <div id="count-selector"
+                                     class=" d-flex   flex-row  align-items-center justify-content-center  w-100 mb-4">
+                                    <div><h6 class="mr-4   align-items-center">Words count:</h6></div>
+                                    <div style="font-size: 1.1em;">
+                                        <div class="radio-group mr-2 d-inline-block">
+
+                                            <input type="radio" id="option-12" name="selector_12"
+                                                   onclick="switch_words('12');">
+                                            <label for="option-12">12</label>
+                                            <input type="radio" id="option-15" name="selector_15"
+                                                   onclick="switch_words('15');">
+                                            <label for="option-15">15</label>
+                                            <input type="radio" id="option-18" name="selector_18"
+                                                   onclick="switch_words('18');">
+                                            <label for="option-18">18</label>
+                                            <input type="radio" id="option-21" name="selector_21"
+                                                   onclick="switch_words('21');">
+                                            <label for="option-21">21</label>
+                                            <input type="radio" id="option-24" checked="checked" name="selector_24"
+                                                   onclick="switch_words('24');">
+                                            <label for="option-24">24</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="text-center smaller">
+                                    JavaScript safe generation with NIST randomness tests.
+                                </div>
+                                <div class="d-flex flex-row justify-content-center   pt-4">
+                                    <button id="gen-mnemonic-btn" type="button" disabled onclick="generate_mnemonic();"
+                                            class="btn btn-primary">
+                                        Generate new
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Split tool -->
+            <div id="split-shamir-tools" style="display: none;">
+                <div class="container-fluid col-xl-11 pt-2 pb-2 d-flex flex-row zoom-out w-100">
+                    <div id="d-flex flex-row " class="card-wrapper  w-100">
+                        <div class="card-title">Mnemonic split</div>
+                        <div class="card-body pb-4" style="overflow: initial;   ">
+
+                            <div id="address-div" class="d-flex   flex-row ">
+                                <h4>
+                                    <small class="p-name">Split to shares</small>
+                                </h4>
+                            </div>
+
+                            <div id="mnemonic-split" class="textarea textarea-disabled w-100 mt-4 mb-4"
+
+                                 spellcheck="false"
+                                 disabled
+                                 onpaste="textAreaAdjust(this,'#load-code-status');"
+                                 onkeyup="textAreaAdjust(this,'#load-code-status');"
+                                 onchange="textAreaAdjust(this,'#load-code-status');"></div>
+
+                            <div class="d-flex flex-row justify-content-center">
+                                <div class="d-flex flex-row justify-content-center align-items-center">
+                                    Mnemonic secret sharing schema threshold
+                                    <input id="share-threshold" class="share-index m-2" value="2"> of
+                                    <input id="share-total" class="share-index m-2" value="3"> shares.
+                                </div>
+                            </div>
+                            <div class="d-flex flex-column  justify-content-center mt-3 mb-2">
+                                <div id="calc-status"
+                                     style="min-height: 1em; min-width: 20em;text-align: center;"></div>
+                                <div class="text-center mt-3">
+                                    <button id="calc-shares-btn" type="button" onclick="calc_shares();"
+                                            class="btn btn-primary ">Calculate
+                                    </button>
+                                </div>
+                                <div id="shares-wrap" class="mt-4" style="display: none;">
+                                    <div class="d-flex flex-row  justify-content-start align-items-center w-100 ">
+                                        <h6 class="m-1 text-center" style="flex-grow: 1;">Mnemonic secret share</h6>
+                                    </div>
+                                    <div id="splitted-shares" class="d-flex flex-column justify-content-between w-100">
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Restore tool -->
+            <div id="auto-shamir-tools" class="container-fluid col-xl-11 pt-2 pb-2 d-flex flex-row zoom-out w-100">
+                <div id="d-flex flex-row " class="card-wrapper  w-100">
+                    <div class="card-title">Mnemonic restore</div>
+                    <div class="card-body pb-4" style="overflow: initial;   ">
+                        <div id="address-div" class="d-flex   flex-row ">
+                            <h4>
+                                <small class="p-name">Restore from shares</small>
+                            </h4>
+                        </div>
+
+                        <div id="mnemonic-shares" class="d-flex    flex-row   justify-content-between w-100">
+                            <div id="restore-code"
+                                 class=" d-flex   flex-row  justify-content-around align-items-end w-100 pl-2 pr-2   pb-2 "
+                                 style="flex-flow: row wrap;">
+                                <div class="d-flex flex-row  justify-content-start align-items-center w-100 mt-3 ">
+                                    <h6 class="m-1 text-center" style="flex-grow: 1;">Mnemonic share</h6>
+                                </div>
+                                <div id="shares" class=" d-flex   flex-column justify-content-between w-100 mt-2">
+                                    <!-- first share -->
+                                    <div id="share-1" class="share-div d-flex flex-row align-items-top w-100 mt-2">
+
+                                        <div class="w-100">
+                                            <div id="share-1-qr-scanner" style="display: none;">
+                                                <div id="share-1-qr-scanner-message"
+                                                     class=" text-center w-100 p-name">
+                                                    🎥 Unable to access video stream (please make sure you have a webcam
+                                                    enabled)
+                                                </div>
+                                                <div class="d-flex justify-content-center ">
+                                                    <div class="position-relative pb-2">
+                                                        <canvas id="share-1-qr-scanner-canvas" hidden
+                                                                style="width: 20em;max-width: 100%!important;">
+                                                        </canvas>
+                                                        <div id="share-1-qr-scanner-close"
+                                                             class=" x-btn position-absolute"
+                                                             onclick="closeCamera();" hidden
+                                                             style="right: 0.3em;top:0.7em;"></div>
+                                                    </div>
+                                                </div>
+
+
+                                            </div>
+
+                                            <div style="font-size: 1em;"
+                                                 class="w-100 d-flex flex-row justify-content-end pr-2 mb-2">
+                                                <div class="scan-qr"
+                                                     data-toggle="tooltip" data-placement="top" title="Scan qr-code"
+                                                     onclick="scanQrCode('share-1-qr-scanner', 'share-input-1');"></div>
+
+                                                <div class="btn-copy copy ml-4"
+                                                     data-toggle="tooltip" data-placement="top" title="Copy"
+                                                     onclick="copyDivClipboard(this, '#share-input-1');"></div>
+                                                <div class="show-qr ml-4"
+                                                     data-toggle="tooltip" data-placement="top" title="Show qr-code"
+                                                     onclick="showQrcode('#share-input-1', '#share-input-1-qr');"></div>
+                                            </div>
+                                            <div class="position-relative w-100 ">
+
+                                                <div id="share-input-1" class="mnemonic-code textarea share-div  w-100"
+                                                     maxlength="216" status="#restore-status" spellcheck="false"></div>
+                                                <div class="x-btn position-absolute"
+                                                     onclick="deleteAreaContent(this, '#restore-status');"
+                                                     style="right: 0.3em;top:0.7em; display: none;"></div>
+
+                                                <div class="w-100 d-flex flex-row justify-content-center">
+                                                    <canvas id="share-input-1-qr" class="qrcode mt-2 mb-2"
+                                                            style="width: 20em; height: 20em;display: none;"></canvas>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+
+                                    <!-- second share -->
+                                    <div id="share-2" class="share-div d-flex flex-row align-items-top w-100 mt-2">
+
+                                        <div class="w-100">
+                                            <div id="share-2-qr-scanner" style="display: none;">
+                                                <div id="share-2-qr-scanner-message"
+                                                     class=" text-center w-100 p-name">
+                                                    🎥 Unable to access video stream (please make sure you have a webcam
+                                                    enabled)
+                                                </div>
+                                                <div class="d-flex justify-content-center ">
+                                                    <div class="position-relative pb-2">
+                                                        <canvas id="share-2-qr-scanner-canvas" hidden
+                                                                style="width: 20em;max-width: 100%!important;">
+                                                        </canvas>
+                                                        <div id="share-2-qr-scanner-close"
+                                                             class=" x-btn position-absolute"
+                                                             onclick="closeCamera();" hidden
+                                                             style="right: 0.3em;top:0.7em;"></div>
+                                                    </div>
+                                                </div>
+
+
+                                            </div>
+
+                                            <div style="font-size: 1em;"
+                                                 class="w-100 d-flex flex-row justify-content-end pr-2 mb-2">
+                                                <div class="scan-qr"
+                                                     data-toggle="tooltip" data-placement="top" title="Scan qr-code"
+                                                     onclick="scanQrCode('share-2-qr-scanner', 'share-input-2');"></div>
+
+                                                <div class="btn-copy copy ml-4"
+                                                     data-toggle="tooltip" data-placement="top" title="Copy"
+                                                     onclick="copyDivClipboard(this, '#share-input-2');"></div>
+                                                <div class="show-qr ml-4"
+                                                     data-toggle="tooltip" data-placement="top" title="Show qr-code"
+                                                     onclick="showQrcode('#share-input-2', '#share-input-2-qr');"></div>
+                                            </div>
+                                            <div class="position-relative w-100 ">
+
+                                                <div id="share-input-2" class="mnemonic-code textarea share-div  w-100"
+                                                     maxlength="216" status="#restore-status" spellcheck="false"></div>
+                                                <div class="x-btn position-absolute"
+                                                     onclick="deleteAreaContent(this, '#restore-status');"
+                                                     style="right: 0.3em;top:0.7em; display: none;"></div>
+                                                <div class="w-100 d-flex flex-row justify-content-center">
+                                                    <canvas id="share-input-2-qr" class="qrcode mt-2 mb-2"
+                                                            style="width: 20em; height: 20em;display: none;"></canvas>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+
+                                <div class="d-flex flex-row justify-content-end align-items-center    w-100"
+                                     style="margin-top: 2.2em;margin-right: 2.7em;">
+                                    <div class="text-left w-100">
+                                        <div id="restore-status"></div>
+                                    </div>
+                                    <button type="button" onclick="add_share();"
+                                            class="btn ml-2 btn-outline-secondary  ">+
+                                        add share
+                                    </button>
+                                    <button id="restore-btn" type="button" disabled onclick="restore();"
+                                            class="btn btn-primary ml-2  ">Restore
+                                    </button>
+                                </div>
+                            </div>
+
+                            <div id="load-restored-code"
+                                 class=" d-flex   flex-column  justify-content-between  w-100 mt-4 ml-4 ">
+                                <div>
+                                    To recover the mnemonic code, it is necessary to use the minimum number of secret
+                                    shares in accordance with the threshold secret sharing schema.
+                                </div>
+                                <div>
+                                    <div class="position-relative">
+                                        <div id="restored-result" class="textarea textarea-disabled w-100"
+                                             name="load-mnemonic"
+                                             maxlength="216"
+                                             placeholder=""
+
+                                             spellcheck="false"
+                                             disabled
+                                             onpaste="textAreaAdjust(this,'#load-code-status');"
+                                             onkeyup="textAreaAdjust(this,'#load-code-status');"
+                                             onchange="textAreaAdjust(this,'#load-code-status');"></div>
+
+                                    </div>
+
+                                    <div id="load-restored-code-control"
+                                         class="d-flex flex-row justify-content-end  align-items-center pt-4 mt-3">
+                                        <div class="w-100 mr-2 bold">
+                                            <div id="load-restored-code-status" class="text-left"></div>
+                                        </div>
+                                        <div class="d-flex flex-row justify-content-end  align-items-center">
+
+                                            <button id="load-restored-code-btn" type="button" disabled
+                                                    onclick="load_restored_mnemonic();"
+                                                    class="btn btn-primary">Load
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+
+            <!-- Dice wordlist -->
+            <div id="address" class="container-fluid col-xl-11 pt-2 pb-2 d-flex flex-row zoom-out w-100">
+                <div id="d-flex flex-row " class="card-wrapper  w-100">
+                    <div class="card-title">Offline generation</div>
+                    <div class="card-body pb-4" style="word-break:  keep-all !important;overflow: initial;   ">
+                        <div id="address-div" class="d-flex   flex-row ">
+                            <div class="dice dices mr-3" style="font-size: 1.5em;"></div>
+                            <h4>
+                                <small class="p-name">Dice generation</small>
+                            </h4>
+                        </div>
+                        <div id="mnemonic-dice" class="d-flex  pt-2 flex-row   justify-content-between mt-2">
+                            <div class=" d-flex   flex-column  justify-content-between w-100">
+                                <p class="justify-content-between">
+                                    If you do not trust any software random number generator due to possible bugs or
+                                    backdoors, you can generate a mnemonic code using dice yourself.
+                                    <u>Critical to security</u> is the use of random numbers.
+                                    Do not try to select words from the mnemonic dictionary in other ways. Even if it
+                                    seems to you that you are unpredictably doing this, <u>most likely you are
+                                    mistaken</u>.
+                                </p>
+                                <p>
+                                    In the proposed generation scheme, it is most convenient to use 5 cubes at a time.
+                                    If you have only 1 die, you should make 5 consecutive throws to generate 1 word.
+                                    With manual code
+                                    generation, it is not possible
+                                    to calculate the checksum, which is written at the end in accordance with BIP39. If
+                                    the
+                                    wallet in which you plan
+                                    to use your mnemonic code requires the correct code checksum, then you should adjust
+                                    last word to correct
+                                    checksum with mnemonic code loader tool.
+
+
+                                </p>
+                                <p>You should select 12 / 15 / 18 / 21 or 24
+                                    <small>(recommended)</small>
+                                    words using dice rolls and dice wordlist. If your
+                                    throw result is not on the list, just ignore and continue. Some combinations are
+                                    excluded for the uniform probability distribution.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="d-flex flex-row justify-content-center m-2">
+                            <button id="show-dice-map-button" type="button" onclick="show_dice_list();"
+                                    class="btn btn-primary  ">
+                                Show dice wordlist
+                            </button>
+                            <button id="hide-dice-map-button" type="button" onclick="hide_dice_list();"
+                                    class="btn btn-secondary  " style="display:none;">
+                                Hide dice wordlist
+                            </button>
+                        </div>
+                        <div id="dice-map" style="display: none;overflow: hidden;">
+                            <div class="d-flex flex-row align-items-center">
+                                <h4 class="mt-2">
+                                    <small id="dll" class="p-name">BIP39 dice wordlist</small>
+                                </h4>
+                                <div id="fswl" class="full-screen ml-3"
+                                     data-toggle="tooltip" data-placement="top" title="Full screen"></div>
+
+                            </div>
+                            <div id="dice-map-wrapper"
+                                 class="d-flex flex-column w-100 justify-content-center align-content-center mt-3 "
+                                 style="flex-flow: column wrap;">
+
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+        </div>
+
+        <div id="derive-tools-wrap" style="display: none;">
+            <div id="mnemonic-data" class="container-fluid col-xl-11 pt-2 pb-2 d-flex flex-row zoom-out w-100">
+                <div id="d-flex flex-row " class="card-wrapper  w-100">
+                    <div class="card-title">Mnemonic code</div>
+                    <div class="card-body pb-4" style="overflow: initial;   ">
+
+                        <div class="d-flex   flex-row justify-content-between align-items-end">
+
+                            <div id="address-div" class="d-flex   flex-row ">
+                                <h4>
+                                    <small class="p-name">Mnemonic code derivation</small>
+                                </h4>
+                            </div>
+
+
+                            <div id="mnemonicpp" class="d-flex  flex-row   justify-content-between">
+                                <button id="load-code-btn" type="button" onclick="mnemonic_generator();"
+                                        class="btn btn-secondary" style="font-size: 0.9em;">
+                                    <i class="fa fa-chevron-left mr-1 zoom-out"></i>Back to generation tools
+                                </button>
+
+                            </div>
+
+                        </div>
+                        <div style="font-size: 1em;"
+                             class="w-100 d-flex flex-row justify-content-end mt-4 pr-2 mb-2">
+
+                            <div class="btn-copy copy ml-4"
+                                 data-toggle="tooltip" data-placement="top" title="Copy"
+                                 onclick="copyDivClipboard(this, '#mnemonic-derive');"></div>
+                            <div class="show-qr ml-4"
+                                 data-toggle="tooltip" data-placement="top" title="Show qr-code"
+                                 onclick="showQrcode('#mnemonic-derive', '#mnemonic-derive-qr');"></div>
+                        </div>
+                        <div id="mnemonic-derive"
+                             class="textarea textare-disabled   w-100  mb-2 pr-2 text-justify"></div>
+                        <div class="w-100 d-flex flex-row justify-content-center">
+                            <canvas id="mnemonic-derive-qr" class="qrcode mt-2 mb-2"
+                                    style="width: 20em; height: 20em;display: none;"></canvas>
+                        </div>
+                        <div id="mnemonic-option" class="mt-4 d-inline-block smaller pb-4">
+                            <div class=" items d-flex  flex-row  align-items-center">
+                                <div style="width:14em;font-size: 1.2em">Passphrase (optional)</div>
+                                <div id="passphrase"
+                                     onkeyup="pass_changed();"
+                                     onpaste="pass_changed();"
+                                     oninput="pass_changed();"
+                                     contenteditable="true"
+                                     type="password"
+                                     onchange="pass_changed();" class="textarea textarea-disabled w-100 mt-2 mb-2"
+                                     style="height: 2.45em;"></div>
+                                <div class="items-btn ml-4 ">
+
+
+                                    <button type="button" id="pass-btn" disabled onclick="apply_pass();"
+                                            class=" btn btn-outline-secondary  ">Apply
+                                    </button>
+                                </div>
+                            </div>
+
+
+                            <div class="  w-100 items d-flex  flex-row  align-items-center">
+                                <div style="width:12.5em;font-size: 1.2em">Seed</div>
+                                <div class="d-flex flex-column  w-100  mt-2 mb-2 ">
+                                    <div style="font-size: 1em;"
+                                         class="  d-flex flex-row justify-content-end mt-4 pr-2 mb-2">
+
+                                        <div class="btn-copy copy ml-4"
+                                             data-toggle="tooltip" data-placement="top" title="Copy"
+                                             onclick="copyDivClipboard(this, '#seed');"></div>
+                                        <div class="show-qr ml-4"
+                                             data-toggle="tooltip" data-placement="top" title="Show qr-code"
+                                             onclick="showQrcode('#seed', '#seed-qr');"></div>
+                                    </div>
+                                    <div id="seed" class="textarea textarea-disabled  "
+                                         style="overflow-wrap: anywhere;"></div>
+                                    <div class="  d-flex flex-row justify-content-center">
+                                        <canvas id="seed-qr" class="qrcode mt-2 mb-2"
+                                                style="width: 20em; height: 20em;display: none;"></canvas>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class=" w-100 items d-flex  flex-row  align-items-center">
+                                <div style="width:12.5em;font-size: 1.2em">BIP32 Root Key</div>
+                                <div class="d-flex flex-column   w-100   mb-2 ">
+                                    <div style="font-size: 1em;"
+                                         class="  d-flex flex-row justify-content-end mt-4 pr-2 mb-2">
+
+                                        <div class="btn-copy copy ml-4"
+                                             data-toggle="tooltip" data-placement="top" title="Copy"
+                                             onclick="copyDivClipboard(this, '#root');"></div>
+                                        <div class="show-qr ml-4"
+                                             data-toggle="tooltip" data-placement="top" title="Show qr-code"
+                                             onclick="showQrcode('#root', '#root-qr');"></div>
+                                    </div>
+                                    <div id="root" class="textarea textarea-disabled  "
+                                         style="overflow-wrap: anywhere;"></div>
+                                    <div class="  d-flex flex-row justify-content-center">
+                                        <canvas id="root-qr" class="qrcode mt-2 mb-2"
+                                                style="width: 20em; height: 20em;display: none;"></canvas>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+
+                        <div class="d-flex flex-row justify-content-center p-4">
+                            <div class="radio-group mr-2 d-inline-block">
+
+
+                                <input type="radio" id="option-BIP32"
+                                       onclick="switch_path('BIP32');">
+                                <label for="option-BIP32">BIP32</label>
+
+                                <input type="radio" id="option-BIP44"
+                                       onclick="switch_path('BIP44');">
+                                <label for="option-BIP44">BIP44</label>
+
+                                <input type="radio" id="option-BIP49"
+                                       onclick="switch_path('BIP49');">
+                                <label for="option-BIP49">BIP49</label>
+
+                                <input type="radio" id="option-BIP84"
+                                       checked="checked"
+                                       onclick="switch_path('BIP84');">
+                                <label for="option-BIP84">BIP84</label>
+                            </div>
+                        </div>
+
+                        <div id="mnemonic-account-option" class="mt-4 smalle ">
+                            <div id="bip32-path" class="mb-4">
+
+                                <div class="items d-flex  flex-row  align-items-center mb-1">
+                                    <div style="width:15em;font-size: 1.2em">BIP32 Path</div>
+                                    <div id="bip32-path-input-w" class="d-flex flex-row align-items-center">
+                                        <div id="bip32-path-input-wrap">
+
+                                            <input id="bip32-path-input" style="width:15em;"
+                                                   onchange="bip32_path_change();"
+                                                   onkeyup="bip32_path_change();"
+                                                   onpaste="bip32_path_change();"
+
+                                                   class="share-index text-left m-2"
+                                                   type="text"
+                                                   value="m/0">
+                                        </div>
+
+
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="p-3">*<b>Bitcoin core</b> wallet use <b>m/0'/0'</b> with hardened
+                                        addresses.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div id="path-standard">
+
+                                <div class="items dvp-1 d-flex  flex-row  align-items-center mb-4">
+                                    <div class="" style="width:20em;font-size: 1.2em">Derivation Path</div>
+                                    <div id="derive-path-wrap" class="  dvp-2 d-flex flex-row align-items-center">
+                                        <div id="derive-path-w">
+
+                                <span id="derive-path" style="padding: 0.75em !important;"
+                                      class="share-index m-2  mr-4 mb-2 span-label">
+                                    m/84'/0'/0'/0</span>
+                                        </div>
+                                        <span class="derive-acc-label">Account</span>
+                                        <input id="account" style="width:4em;"
+                                               class="share-index m-2"
+                                               onchange="change_account();"
+                                               onkeyup="change_account();"
+                                               onpaste="change_account();"
+                                               value="0">
+                                        <div class="d-inline-block">
+
+                                            <div id="chain-label"
+                                                 class="d-flex flex-column justify-content-center pl-2 align-items-center">
+                                                <span>Chain</span>
+                                                <span><small>External / Internal</small></span>
+                                            </div>
+                                        </div>
+                                        <input id="external-internal" style="width:4em;"
+                                               class="share-index m-2"
+                                               onchange="change_chain();"
+                                               onkeyup="change_chain();"
+                                               onpaste="change_chain();"
+                                               value="0">
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div id="acc-priv-wrap">
+                                <div class=" w-100 items d-flex  flex-row  align-items-center">
+                                    <div style="width:12.5em;font-size: 1.2em">Account Private Key</div>
+                                    <div class="d-flex flex-column   w-100   mb-2 ">
+                                        <div style="font-size: 1em;"
+                                             class="  d-flex flex-row justify-content-end mt-4 pr-2 mb-2">
+
+                                            <div class="btn-copy copy ml-4"
+                                                 data-toggle="tooltip" data-placement="top" title="Copy"
+                                                 onclick="copyDivClipboard(this, '#acc-priv');"></div>
+                                            <div class="show-qr ml-4"
+                                                 data-toggle="tooltip" data-placement="top" title="Show qr-code"
+                                                 onclick="showQrcode('#acc-priv', '#acc-priv-qr');"></div>
+                                        </div>
+                                        <div id="acc-priv" class="textarea textarea-disabled  "
+                                             style="overflow-wrap: anywhere;"></div>
+                                        <div class="  d-flex flex-row justify-content-center">
+                                            <canvas id="acc-priv-qr" class="qrcode mt-2 mb-2"
+                                                    style="width: 20em; height: 20em;display: none;"></canvas>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div id="acc-pub-wrap">
+                                <div class=" w-100 items d-flex  flex-row  align-items-center">
+                                    <div style="width:12.5em;font-size: 1.2em">Account Public Key</div>
+                                    <div class="d-flex flex-column   w-100   mb-2 ">
+                                        <div style="font-size: 1em;"
+                                             class="  d-flex flex-row justify-content-end mt-4 pr-2 mb-2">
+
+                                            <div class="btn-copy copy ml-4"
+                                                 data-toggle="tooltip" data-placement="top" title="Copy"
+                                                 onclick="copyDivClipboard(this, '#acc-pub');"></div>
+                                            <div class="show-qr ml-4"
+                                                 data-toggle="tooltip" data-placement="top" title="Show qr-code"
+                                                 onclick="showQrcode('#acc-pub', '#acc-pub-qr');"></div>
+                                        </div>
+                                        <div id="acc-pub" class="textarea textarea-disabled  "
+                                             style="overflow-wrap: anywhere;"></div>
+                                        <div class="  d-flex flex-row justify-content-center">
+                                            <canvas id="acc-pub-qr" class="qrcode mt-2 mb-2"
+                                                    style="width: 20em; height: 20em;display: none;"></canvas>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div id="ext-priv-wrap">
+                                <div class=" w-100 items d-flex  flex-row  align-items-center">
+                                    <div style="width:12.5em;font-size: 1.2em">Extended Private Key</div>
+                                    <div class="d-flex flex-column   w-100   mb-2 ">
+                                        <div style="font-size: 1em;"
+                                             class="  d-flex flex-row justify-content-end mt-4 pr-2 mb-2">
+
+                                            <div class="btn-copy copy ml-4"
+                                                 data-toggle="tooltip" data-placement="top" title="Copy"
+                                                 onclick="copyDivClipboard(this, '#ext-priv');"></div>
+                                            <div class="show-qr ml-4"
+                                                 data-toggle="tooltip" data-placement="top" title="Show qr-code"
+                                                 onclick="showQrcode('#ext-priv', '#ext-priv-qr');"></div>
+                                        </div>
+                                        <div id="ext-priv" class="textarea textarea-disabled  "
+                                             style="overflow-wrap: anywhere;"></div>
+                                        <div class="  d-flex flex-row justify-content-center">
+                                            <canvas id="ext-priv-qr" class="qrcode mt-2 mb-2"
+                                                    style="width: 20em; height: 20em;display: none;"></canvas>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div id="ext-pub-wrap">
+
+                                <div class=" w-100 items d-flex  flex-row  align-items-center">
+                                    <div style="width:12.5em;font-size: 1.2em">Extended Public Key</div>
+                                    <div class="d-flex flex-column   w-100   mb-2 ">
+                                        <div style="font-size: 1em;"
+                                             class="  d-flex flex-row justify-content-end mt-4 pr-2 mb-2">
+
+                                            <div class="btn-copy copy ml-4"
+                                                 data-toggle="tooltip" data-placement="top" title="Copy"
+                                                 onclick="copyDivClipboard(this, '#ext-pub');"></div>
+                                            <div class="show-qr ml-4"
+                                                 data-toggle="tooltip" data-placement="top" title="Show qr-code"
+                                                 onclick="showQrcode('#ext-pub', '#ext-pub-qr');"></div>
+                                        </div>
+                                        <div id="ext-pub" class="textarea textarea-disabled  "
+                                             style="overflow-wrap: anywhere;"></div>
+                                        <div class="  d-flex flex-row justify-content-center">
+                                            <canvas id="ext-pub-qr" class="qrcode mt-2 mb-2"
+                                                    style="width: 20em; height: 20em;display: none;"></canvas>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+
+
+                        </div>
+
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+            <div id="derived-addresses">
+                <div class="container-fluid col-xl-11 pt-2 pb-2 d-flex flex-row zoom-out w-100  ">
+                    <div id="d-flex flex-row " class="card-wrapper  w-100">
+                        <div class="card-title">Addresses</div>
+                        <div class="card-body pb-4" style="overflow: initial;   ">
+                            <div class="d-flex   flex-row justify-content-between align-items-end ">
+                                <div id="address-div" class="d-flex   flex-row justify-content-between  w-100">
+                                    <h4>
+                                        <small class="p-name">Derived Addresses</small>
+                                        <span class="ml-2" style="font-size: 0.6em;" id="total-btc"></span>
+                                    </h4>
+                                    <div id="addr-opt" class="d-flex flex-row">
+                                        <div id="lbl">
+                                            <div class="radio-group  d-flex mr-2"
+                                                 style="font-size: 1em; height: 2em;  ">
+                                                <input type="radio" id="option-silent"
+                                                       name="option-silent"
+                                                       checked="checked"
+                                                       onclick="load_balances_switch('silent');">
+                                                <label for="option-silent" class="p-1 pr-2  pl-2">Silent</label>
+                                                <input type="radio" id="option-load-balances"
+                                                       name="option-load-balances"
+                                                       onclick="load_balances_switch('load-balances');">
+                                                <label for="option-load-balances"
+                                                       class="p-1 pr-2 pl-2">Load balances</label>
+                                            </div>
+                                        </div>
+
+
+                                        <div id="address-format" style="display: none;">
+                                            <div class="radio-group mr-2 "
+                                                 style="font-size: 1em; height: 2em; width: 18.05em;">
+                                                <input type="radio" id="option-address-p2pkh"
+                                                       name="option-address-p2pkh" checked
+                                                       onclick="switch_address_format('p2pkh');">
+                                                <label for="option-address-p2pkh" class="p-1 pr-2  pl-2">P2PKH</label>
+                                                <input type="radio" id="option-address-p2sh-p2wpkh"
+                                                       name="option-address-p2sh-p2wpkh"
+                                                       onclick="switch_address_format('p2sh-p2wpkh');">
+                                                <label for="option-address-p2sh-p2wpkh"
+                                                       class="p-1 pr-2 pl-2">P2SH-P2WPKH</label>
+                                                <input type="radio" id="option-address-p2wpkh"
+                                                       name="option-address-p2wpkh"
+                                                       onclick="switch_address_format('p2wpkh');">
+                                                <label for="option-address-p2wpkh"
+                                                       class="p-1 pr-2 pl-2">P2WPKH</label>
+                                            </div>
+                                        </div>
+                                        <div id="hrd">
+                                            <div class="radio-group  "
+                                                 style="font-size: 1em; height: 2em; width: 10em;">
+                                                <input type="radio" id="option-address-normal"
+                                                       name="option-address-normal"
+                                                       checked="checked"
+                                                       onclick="switch_addresses_derivation('normal');">
+                                                <label for="option-address-normal" class="p-1 pr-2  pl-2">Normal</label>
+                                                <input type="radio" id="option-address-hardened"
+                                                       name="option-address-hardened"
+                                                       onclick="switch_addresses_derivation('hardened');">
+                                                <label for="option-address-hardened"
+                                                       class="p-1 pr-2 pl-2">Hardened</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="h-d-addr d-flex flex-row justify-content-between w-100  mt-2"
+                                 style="font-size: 1.3em">
+                                <div style="width: 8em;padding-right: 2em;margin-left: 2em;text-align: center;">Path
+                                </div>
+                                <div class="h-d-addr-1 d-flex flex-row justify-content-around w-100">
+                                    <div class=" text-center" style="width: 27em">Address</div>
+                                    <div class="h-d-keys w-100 text-center">Keys</div>
+                                </div>
+                            </div>
+
+                            <div id="addresses"></div>
+                            <div class="load-more d-flex flex-row justify-content-center w-100">
+                                <a class="load-more" onclick="derive_addresses();">
+                                    <i class="fa  fa-chevron-down ml-1"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+    <footer id="footer" class=" footer  ">
+        <div class=" container-fluid lattolight pt-1 pl-4 pr-4 pb-4">
+            <div class="row " style="cursor: default;">
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3  pt-4 pl-4">
+                    <div class="inbox-item m-b-10 pb-2">bitaps.com</div>
+                    <div class="inbox-item m-l-10"><a
+                            href="/vision">Наш видение</a>
+                    </div>
+                    <div class="inbox-item m-l-10"><a
+                            href="https://medium.com/@bitaps.com">Блог</a>
+                    </div>
+                    <div class="inbox-item m-l-10"><a
+                            href="/privacy">Privacy policy</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3   pt-4 pl-4">
+                    <div class="inbox-item m-b-10 pb-2">Сервисы</div>
+                    <div class="inbox-item m-l-10"><a
+                            href="https://developer.bitaps.com/forwarding">Прием платежей</a>
+                    </div>
+                    <div class="inbox-item m-l-10"><a
+                            href="/">Блок экcплорер</a></div>
+
+
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3   pt-4 pl-4">
+                    <div class="inbox-item m-b-10 pb-2">Язык</div>
+
+                    
+                    
+                        <div>
+                            <a onclick="return change_language('en');"
+                               href="https://bitaps.com/mnemonic?language=en">English(US)</a>
+                        </div>
+                        <div>
+                            <a onclick="return change_language('ru');"
+                               href="https://bitaps.com/mnemonic?language=ru">Русский(RU)</a>
+                        </div>
+                    
+
+
+                </div>
+
+
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3   pt-4 pl-4">
+                    <div class="inbox-item m-b-10 pb-2">Социальные сети</div>
+                    <div class="inbox-item m-l-10"><a href="https://twitter.com/bitaps_com">Twitter</a></div>
+                    <div class="inbox-item m-l-10"><a href="https://t.me/bitapscom">Telegram</a>
+                    </div>
+
+                </div>
+
+            </div>
+            <div>
+                <div class="d-flex flex-row pt-3  pb-2 justify-content-end align-items-end  ">
+                    <div style="color: white;font-size: 0.8em;"> Powered by</div>
+                    <a href="https://github.com/bitaps-com/jsbtc"><span class="powered jsbtc"></span></a>
+                    <a href="https://pybtc.readthedocs.io"><span class="powered pybtc"></span></a>
+                    <a href="https://github.com/bitaps-com/btcapiserver"><span class="powered btcapi"></span></a>
+                    <a href="https://postgrespro.com"><span class="powered postgress"></span></a>
+
+                </div>
+            </div>
+            <hr class="mt-1 mb-1" style="border-color: var(--footer-line-color);">
+
+            <small style="font-size: 0.9em;color:white;"> © 2014 - 2020 bitaps.com</small>
+
+        </div>
+    </footer>
+
+    <div onclick="topFunction()" id="upBtn" class="upBtn-wrap">
+        <div class="arrow-container upBtn">
+            <div class="arrowx"></div>
+            <div class="arrowx"></div>
+            <div class="arrowx"></div>
+        </div>
+    </div>
+
+
+
+
+<script src="/static/js/jquery-3.3.1.min.js?1593882461821"></script>
+
+<script src="/static/js/poper.js?1593882461821"></script>
+
+<script src="/static/js/bootstrap.min.js?1593882461821" crossorigin="anonymous"></script>
+
+<script src="/static/js/tether.min.js?1593882461821"
+        integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
+        crossorigin="anonymous"></script>
+
+
+<script>
+    "use strict";
+
+    function set_cookie(name, value, exp_y, exp_m, exp_d, path, domain, secure) {
+        var cookie_string = name + "=" + escape(value);
+        if (exp_y) {
+            var expires = new Date(exp_y, exp_m, exp_d);
+            cookie_string += "; expires=" + expires.toGMTString();
+        }
+        if (path)
+            cookie_string += "; path=" + escape(path);
+        if (domain)
+            cookie_string += "; domain=" + escape(domain);
+        if (secure)
+            cookie_string += "; secure";
+        document.cookie = cookie_string;
+    }
+
+    // fix input scroll on chrome for sticky header
+    $('#search-box').on('input ', function () {
+
+        var p = $('<div style="font-size:1.2em"></div>').attr('id', 'tmp_search2')
+            .html(this.value.replace(/[&\/\\#,+()$~%.'":*?<>{}]/g, 'A') + 'AAAA')
+            .css({
+                'display': 'inline'
+            })
+            .appendTo('#sticky');
+        if (p[0].innerHTML.length > 4)
+            $(this).css({'max-width': (p[0].offsetWidth) + 'px'});
+        else
+            $(this).css({'max-width': '30rem'});
+        p.remove();
+        var wpe = $(this).data("wpe");
+        if (wpe == undefined) wpe = false;
+        if (!wpe) {
+            $(this).data("wpy", window.pageYOffset);
+            $(this).data("wpx", window.pageXOffset);
+            $(this).data("wpe", true);
+        }
+    });
+
+    $(window).on('scroll', function () {
+
+        var el = $(document.activeElement);
+        if (el[0].id == "search-box") {
+            var wpy = $(el[0]).data("wpy");
+            var wpx = $(el[0]).data("wpx");
+            var wpe = $(el[0]).data("wpe");
+            if (wpe == true) {
+                if (wpy != window.pageYOffset) {
+                    window.scrollTo(wpx, wpy);
+                    $(el[0]).data("wpe", false);
+                }
+            }
+        }
+        var sticky = $('#sticky');
+        var offset = $('#header-top').outerHeight();
+        var htop = $('#header-top');
+        if (offset < $(document).scrollTop()) {
+            
+        }
+        else {
+            sticky.css({position: "sticky", top: 0});
+            
+        }
+
+        $('#rmenu').on('click touch', function () {
+            var offset = $('#header-top').outerHeight();
+            var sticky = $('#sticky');
+            var apr = sticky.data("apr");
+            if (offset >= $(document).scrollTop() + 1) {
+
+                if (wpe != true) {
+                    sticky.data("apr", true);
+
+                    var body = $("html, body");
+                    body.stop().animate({scrollTop: offset}, 500, 'linear', function () {
+                        sticky.data("apr", false);
+
+                    });
+
+                }
+            }
+
+        });
+    })
+</script>
+
+
+<script>
+
+    var options = {
+        "chart": {
+            "type": "area",
+            "polar": false,
+            "backgroundColor": "rgba(0, 0, 0, 0.1)",
+            "parallelAxes": {"visible": false},
+            "resetZoomButton": {"position": {"align": "", "verticalAlign": ""}, "relativeTo": ""}
+        },
+
+        "title": {"text": ""},
+        "subtitle": {"text": ""},
+        "series": [{
+            "name": "A",
+            "turboThreshold": 0,
+            "marker": "",
+            "color": "#28a745",
+            "fillColor": "rgba(60, 120, 60, 0.4)",
+            "negativeColor": "rgba(225, 20, 20)",
+            "negativeFillColor": "rgba(225, 20, 20, 0.4)",
+            "animation": {"duration": 0},
+            "allAreas": true,
+            "data": [0.04, -0.25, -0.74, -1.9, -3.12, -4.07, -4.55, -1.9, -1.7, -0.35, 1.1, 1.06, 1.27, 1.19, 0.66, 3.7, 3.66, 4.27, 3.43, 3.41, 2.37, -0.65, -1.56, -1.39, -2.07, -1.95, -1.33, -1.47, -1.43, -1.4, -5.16, -7.43, -8.14, -5.76, -6.16, -4.95, -5.08, -9.56, -13.59, -15.45, -17.25, -13.04, -14.44, -14.9, -9.63, -9.34, -13.23, -13.15, -13.28, -12.39, -11.47, -7.29, -8.92, -8.68, -7.38, -7.63, -8.91, -9.01, -9.7, -9.51, -9.24, -9.86, -10.44, -6.51, -4.36, 0.21, -0.5, 0.18, -1.7, -1.66, -2.62, -1.93, -2.02, -2.69, -3.86, -5.33, -1.79, -0.49, -4.09, -3.39, -7.34, -7.1, -8.08, -7.41, -8.49, -9.19, -9.27, -9.61, -12.79, -12.35, -12.9, -13.87, -13.52, -13.66, -16.11, -15.11, -14.3, -13.7, -15.49, -16.22, -18.12, -17.27, -17.25, -19.2, -17.72, -16.29, -15.03, -12.8, -13.68, -12.74, -12.75, -12.08, -10.49, -8.92, -8.98, -8.18, -12.03, -13.3, -16.29, -18.38, -17.5, -16.99, -16.26, -16.79, -18.97, -19.37, -15.09, -11.37, -12.53, -10.01, -9.44, -9.63, -9.33, -10.23, -10.52, -9.55, -9.13, -9.6, -8.77, -8.84, -8.66, -4.16, -6.22, -5.46, -5.61, -5.21, -5.12, -4.29, -9.95, -12.55, -14.13, -15.04, -14.56, -14.55, -13.92, -15.41, -14.01, -13.88, -15.46, -16.63, -16.73, -18.36, -17.53, -16.97, -17.17, -15.53, -15.62, -13.34, -11.92, -11.14, -9.83, -10.65, -10.34, -10.31, -10.49, -10.74, -10.42, -10.12, -13.18, -13.53, -13.1, -12.64, -12.63, -12.81, -12.11, -12.33, -12.98, -12.51, -12.35, -12.62, -12.52, -12.92, -13.59, -13.35, -7.04, -6.54, -2.25, -0.05, 1.08, 1.65, -0.85, -0.59, -1.3, -3.11, -3.4, -2.71, -2.43, -2.74, -0.93, 0.18, 0.03, 0.12, 1.48, 1.16, 0.83, 1.12, 0.84, 1.42, 1.05, 2.57, 2.86, 2.62, 0.92, -0.47, -1.73, -2.7, -4.07, -4.59, -4.34, -4.98, -4.28, -4.45, -5.48, -4.93, -5.77, -4.94, -5.46, -5.3, -5.78, -4.84, -5.36, -4.83, -4.6, -4.66, -4.34, -3.78, -4.28, -3.99, -3.9, -4.66, -3.28, -1.78, -1.69, -0.52, -1.11, -0.17, 0.22, 0.5, 1.43, 1.79, 3.16, 2.58, 2.71, 2.94, 4.4, 5.83, 5.37, 5.16, 4.39, 4.22, 2.26, 5.48, 4.92, 5.85, 5.54, 5.82, 5.77, 6.6, 5.24, 4.38, 2.61, 2.4, 1.13, 2.39, 1.88, 8.85, 7.54, 8.23, 7.29, 9.88, 7.61, 6.86, 9.71, 3.76, 1.16, -0.37, 0.17, 1.45, 0.92, 0.6, 0.52, 0.56, 0.44, -1.51, -2.64, -4.98, -3.09, -3.61, -2.54, -3.13, -3.93, -4.1, -3.86, -4.27, -4.82, -4.08, -3.78, -4.13, -1.59, -1.62, 0.0, 0.61, -0.6, -1.56, -2.95, -5.13, -5.31, -5.33, -6.21, -10.25, -18.22, -15.65, -18.09, -20.48, -16.73, -15.52, -15.46, -19.51, -22.18, -24.86, -14.97, -17.69, -14.61, -16.37, -18.79, -20.67, -21.9, -19.28, -21.64, -17.21, -16.72, -17.16, -15.16, -15.22, -15.79, -18.31, -14.97, -14.66, -18.72, -22.35, -22.53, -24.14, -23.34, -23.18, -23.0, -23.91, -27.75, -32.92, -36.32, -39.29, -37.36, -37.22, -23.9, -27.53, -25.03, -19.06, -21.89, -21.38, -21.52, -26.7, -29.41, -25.59, -27.49, -27.26, -18.68, -16.36, -17.45, -25.87, -32.66, -39.19, -42.09, -40.13, -38.54, -39.22, -38.59, -37.45, -32.68, -32.77, -28.69, -26.77, -28.19, -27.71, -28.97, -28.58, -30.06, -31.32, -30.01, -30.44, -33.95, -26.89, -24.42, -25.46, -23.16, -23.75, -23.22, -19.65, -20.89, -22.36, -17.89, -19.11, -16.79, -16.06, -15.18, -15.48, -20.87, -19.35, -21.9, -21.72, -16.18, -19.92, -14.01, -15.38, -17.84, -17.35, -18.5, -18.22, -16.47, -12.98, -19.51, -17.84, -20.24, -21.23, -23.58, -22.03, -24.06, -23.9, -22.63, -20.24, -21.22, -20.26, -20.75, -24.59, -32.42, -32.72, -34.18, -31.61, -31.5, -31.36, -32.16, -32.14, -27.81, -26.59, -28.14, -29.98, -27.0, -26.29, -25.39, -23.87, -25.83, -26.01, -26.5, -24.76, -24.07, -24.42, -24.07, -24.34, -22.08, -25.7, -25.06, -25.8, -22.94, -23.82, -20.72, -16.81, -15.91, -17.24, -16.14, -16.96, -16.78, -17.17, -18.71, -19.24, -20.92, -21.2, -19.1, -18.44, -18.51, -20.21, -21.36, -18.89, -16.97, -19.07, -17.23, -16.72, -17.55, -17.03, -18.2, -17.98, -20.17, -20.6, -21.81, -21.12, -22.31, -13.52, -14.68, -10.67, -7.6, -4.77, -7.19, -4.06, -5.62, -6.87, -5.9, -3.86, 0.04, 1.58, 0.37, 0.26, -0.11, 0.3, -0.23, -2.95, -2.89, -3.34, -3.68, -3.15, -1.78, -2.23, -2.61, -1.66, -4.5, -3.93, -2.06, -5.28, -6.92, -6.28, -6.64, -6.16, -6.38, -2.39, 1.32, -4.08, -3.29, 0.42, -0.62, -3.41, -4.2, -3.93, -7.43, -6.84, -6.98, -6.69, -8.37, -7.68, -3.54, -6.12, -6.72, -6.67, -5.43, 3.52, 5.16, 3.78, 2.68, 3.25, 1.47, 3.18, 1.3, 0.56, -0.64, -4.39, -4.21, -4.6, -4.74, -4.8, -4.69, -6.71, -8.04, -7.97, -8.82, -9.07, -9.89, -10.06, -10.04, -8.69, -7.08, -8.39, -7.46, -7.48, -9.5, -9.49, -12.36, -11.31, -8.1, -8.39, -8.44, -10.8, -11.4, -11.24, -10.74, -8.15, -8.28, -7.04, -6.66, -6.69, -6.92, -7.25, -6.88, -6.79, -7.2, -7.24, -6.82, -5.76, -4.83, -8.34, -7.59, -7.39, -7.45, -7.77, -6.5, -7.38, -7.85, -7.51, -7.32, -6.87, -7.02, -5.98, -3.18, -2.88, -4.1, -2.86, -5.15, -5.42, -4.9, -5.74, -5.94, -7.17, -7.31, -6.97, -7.38, -7.69, -10.03, -6.04, -6.68, -6.18, -5.15, -6.91, -8.03, -8.05, -4.61, -4.69, -3.68, -1.08, -1.29, -0.75, -2.36, -1.66, -1.79, -1.28, -1.76, -1.32, -1.58, -1.66, -2.29, -1.53, -1.28, -1.44, -1.86, -3.42, -2.82, -4.07, -4.79, -5.71, -6.17, -6.88, -6.62, -5.18, -5.33, -5.76, -5.7, -6.0, -5.91, -6.47, -6.2, -5.85, -6.59, -2.92, -2.58, -1.46, -1.31, -1.9, -1.95, -1.28, -0.11, -3.66, -4.99, -6.29, -6.11, -6.94, -6.64, -6.21, -4.69, -9.8, -8.39, -7.85, -9.09, -9.14, -9.21, -10.29, -11.46, -10.75, -10.24, -11.48, -11.07, -11.61, -9.31, -8.18, -8.74, -7.39, -7.81, -8.69, -5.95, -4.8, -4.23, -3.97, -4.13, -4.0, -3.06, -2.75, -5.04, -6.13, -5.19, -3.98, -3.2, -1.74, -1.91, -2.32, -1.52, -1.0, -0.37, -3.27, -3.45, -3.3, -3.6, -4.4, -4.31, -4.75, -4.98, -4.16, -4.12, -3.66, -2.99, -4.14, -4.94, -6.41, -6.32, -7.52, -7.5, -7.38, -8.2, -7.36, -7.09, -6.39, -6.06, -6.81, -8.15, -7.68, -7.45, -7.89, -7.66, -7.85, -7.32, -7.71, -7.47, -7.39, -7.51, -7.54, -10.14, -13.3, -13.94, -16.12, -16.84, -18.06, -18.65, -17.82, -16.02, -13.93, -13.5, -12.84, -12.8, -13.08, -12.81, -12.97, -12.47, -12.29, -14.74, -15.71, -15.5, -14.49, -14.43, -13.52, -12.0, -12.15, -12.53, -12.29, -11.93, -12.23, -9.26, -8.55, -8.41, -7.72, -8.1, -8.48, -7.92, -7.57, -7.85, -7.8, -7.75, -8.53, -8.93, -10.33, -12.92, -13.55, -14.18, -13.76, -13.94, -13.71, -14.28, -13.22, -13.99, -12.84, -12.64, -13.58, -13.18, -13.8, -13.48, -14.05, -14.93, -16.09, -16.75, -16.92, -15.27, -14.68, -15.31, -16.31, -16.71, -17.75, -17.87, -19.56, -19.59, -19.52, -19.97, -19.41, -19.64, -19.19, -19.33, -18.12, -18.89, -17.33, -17.74, -18.01, -17.99, -17.45, -17.9, -17.38, -18.4, -18.2, -17.76, -17.32, -17.63, -16.73, -15.6, -15.7, -13.4, -10.5, -10.07, -9.56, -9.56, -9.04, -9.31, -8.84, -9.72, -9.12, -8.69, -7.86, -7.64, -7.85, -8.6, -8.08, -7.09, -8.78, -8.67, -9.29, -8.62, -7.92, -7.94, -8.28, -9.01, -8.49, -9.05, -8.54, -11.1, -11.96, -13.61, -13.47, -13.23, -14.75, -15.03, -15.13, -15.56, -15.21, -15.34, -14.71, -13.59, -12.34, -12.54, -12.27, -12.42, -12.43, -12.2, -12.63, -13.23, -14.22, -18.13, -18.89, -19.61, -17.81, -18.55, -17.28, -17.0, -16.64, -16.82, -16.69, -16.25, -17.91, -17.16, -18.38, -18.17, -17.11, -17.92, -17.04, -17.72, -17.4, -18.19, -18.6, -18.24, -18.7, -19.24, -18.72, -19.56, -19.04, -19.84, -18.95, -18.38, -18.99, -18.97, -18.98, -19.13, -19.1, -17.14, -16.34, -14.65, -15.23, -14.54, -14.7, -15.68, -16.96, -17.15, -17.64, -17.68, -18.68, -19.18, -19.36, -19.59, -19.32, -19.66, -19.14, -17.39, -17.29, -17.52, -17.69, -17.86, -19.36, -19.94, -20.4, -20.74, -22.08, -22.04, -22.52, -23.29, -20.26, -21.62, -22.37, -20.74, -21.12, -21.58, -21.93, -22.33, -20.63, -21.2, -20.69, -21.22, -22.8, -22.42, -22.48, -23.41, -24.99, -25.16, -26.42, -27.1, -28.8, -25.5, -25.45, -24.43, -23.57, -22.78, -25.17, -25.13, -26.44, -26.23, -26.62, -25.58, -24.81, -25.13, -25.87, -26.18, -25.91, -26.39, -26.07, -25.31, -26.23, -26.33, -27.21, -28.88, -29.39, -30.11, -29.68, -27.87, -27.31, -27.68, -29.33, -29.65, -30.01, -31.32, -30.63, -31.53, -31.19, -30.33, -26.19, -27.65, -26.01, -24.2, -23.47, -22.65, -21.7, -19.95, -20.44, -16.12, -18.56, -16.42, -18.93, -19.58, -19.74, -20.08, -20.58, -21.51, -21.65, -22.37, -22.24, -23.02, -23.22, -22.48, -22.8, -23.56, -23.87, -23.4, -24.29, -23.96, -25.05, -25.59, -27.53, -27.73, -28.7, -30.95, -30.44, -30.82, -32.1, -31.68, -33.42, -30.38, -29.75, -28.07, -29.29, -28.98, -28.54, -27.3, -26.88, -28.13, -29.69, -29.93, -31.91, -31.74, -34.6, -42.02, -36.34, -33.17, -29.9, -26.55, -24.49, -25.51, -23.28, -24.65, -24.15, -23.85, -24.09, -23.15, -23.94, -23.87, -25.58, -24.4, -24.99, -22.95, -20.4, -19.56, -19.6, -19.82, -20.87, -20.76, -21.0, -20.01, -19.88, -18.43, -16.27, -14.8, -15.25, -18.13, -19.19, -19.84, -20.58, -20.68, -20.14, -20.47, -19.64, -19.83, -19.44, -18.93, -18.5, -18.87, -21.38, -21.78, -22.24, -22.32, -24.91, -23.69, -24.51, -24.65, -22.24, -22.31, -20.86, -19.53, -19.21, -19.28, -19.39, -19.97, -20.99, -21.62, -21.44, -21.23, -20.96, -20.61, -20.6, -21.44, -18.58, -19.32, -18.98, -20.12, -19.44, -19.0, -19.19, -18.87, -18.49, -18.94, -17.84, -15.19, -17.12, -15.48, -15.76, -17.36, -17.97, -17.59, -15.67, -16.9, -16.03, -16.47, -15.9, -15.91, -16.78, -15.87, -15.59, -15.95, -16.13, -14.47, -14.79, -14.08, -14.94, -14.01, -15.21, -14.17, -13.47, -13.49, -11.83, -10.17, -10.83, -8.23, -7.88, -8.0, -10.05, -11.64, -11.48, -10.19, -10.09, -9.25, -10.32, -10.46, -12.53, -13.59, -14.78, -15.61, -18.01, -18.18, -13.22, -10.78, -15.01, -14.39, -14.46, -14.63, -15.15, -13.7, -13.12, -12.78, -15.69, -16.96, -17.37, -18.74, -19.04, -18.07, -19.26, -18.38, -18.94, -18.3, -17.48, -17.3, -17.39, -16.89, -17.32, -17.0, -17.15, -15.89, -15.43, -16.36, -16.28, -15.8, -16.78, -16.67, -15.9, -15.32, -16.01, -15.57, -15.53, -15.32, -15.07, -17.66, -19.0, -20.69, -20.17, -19.88, -20.42, -20.77, -20.29, -19.6, -19.23, -19.17, -19.69, -19.54, -19.96, -21.02, -21.76, -21.84, -23.39, -25.73, -27.78, -31.3, -32.67, -30.52, -31.51, -29.53, -29.58, -30.3, -28.73, -28.78, -28.21, -29.29, -29.2, -29.46, -28.91, -30.27, -32.5, -33.77, -34.5, -37.56, -37.2, -32.36, -34.02, -30.86, -30.07, -29.81, -29.09, -28.98, -30.51, -30.71, -32.27, -33.15, -32.21, -28.86, -31.07, -29.44, -29.76, -28.67, -29.16, -28.2, -27.53, -27.68, -26.65, -27.1, -27.15, -26.73, -25.65, -25.9, -25.58, -23.53, -23.0, -24.32, -25.36, -27.75, -27.05, -26.65, -24.9, -24.16, -19.71, -20.35, -19.32, -21.75, -21.05, -25.06, -25.34, -27.1, -25.41, -24.8, -23.05, -23.33, -21.16, -21.16, -22.69, -23.14, -23.31, -20.61, -20.38, -19.83, -19.41, -18.72, -19.34, -20.72, -21.81, -23.64, -21.6, -22.93, -21.01, -20.23, -19.5, -19.81, -19.07, -19.56, -17.93, -20.45, -21.95, -23.37, -23.88, -23.94, -23.07, -21.06, -20.58, -20.44, -19.53, -19.42, -19.78, -19.12, -19.15, -18.39, -17.58, -17.19, -18.21, -18.33, -15.89, -14.82, -12.89, -12.08, -13.54, -12.92, -13.48, -13.99, -15.02, -16.3, -16.06, -15.98, -14.1, -12.44, -14.27, -14.37, -15.03, -14.93, -14.88, -15.29, -14.81, -14.08, -13.52, -13.68, -13.23, -12.2, -13.62, -14.02, -14.02],
+            "lineWidth": 1
+        }
+        ],
+        "data": {
+            "googleSpreadsheetKey": false,
+            "googleSpreadsheetWorksheet": false
+        },
+        "colors": [],
+        "tooltip": {"enabled": false},
+        "plotOptions": {"series": {"enableMouseTracking": false}},
+        "pane": {"background": []},
+        "responsive": {"rules": []},
+        "annotations": [{"visible": false}],
+        "colorAxis": {"visible": false},
+        "legend": {"enabled": false},
+        "exporting": {"enabled": false},
+        "credits": {"enabled": false},
+        "xAxis": [{
+            "visible": false,
+            "tickWidth": 0,
+            "lineColor": "rgba(255,255,255,1.3)",
+            "gridLineWidth": 0,
+            "labels": {"enabled": false}
+        }],
+        "yAxis": [{
+            "visible": false,
+            "lineColor": "rgba(255,255,255,0.3)",
+            "lineWidth": 0,
+
+            "gridLineWidth": 0,
+            "title": {"text": ""},
+            "labels": {"enabled": false}
+        }]
+    };
+
+
+    var timestamp = 1593883870728;
+    var update_options = [];
+    var last_update = {};
+    var content_update = undefined;
+
+    function close_warning(warning, obj) {
+        let d = $(obj.parentElement.parentElement.parentElement);
+        d.hide();
+        cookies.set("testnet_warning_close", "1");
+    }
+
+
+    function switch_theme() {
+        let a = $(document.documentElement).attr('data-theme');
+        if (a === 'dark') {
+            $(document.documentElement).attr("data-theme", "light");
+            cookies.set("theme", "light", {path: '/', domain: '.bitaps.com'});
+            try {
+                theme_light();
+            } catch (e) {
+            }
+
+            $('#theme-color').attr('content', "#f1f1f1");
+            $('#msapplication-navbutton-color').attr('content', "#f1f1f1");
+            $('#apple-mobile-web-app-status-bar-style').attr('content', "#f1f1f1");
+        }
+        else {
+            $(document.documentElement).attr("data-theme", "dark");
+            cookies.set("theme", "dark", {path: '/', domain: '.bitaps.com'});
+            try {
+                theme_dark();
+            } catch (e) {
+            }
+            $('#theme-color').attr('content', "#10171e");
+            $('#msapplication-navbutton-color').attr('content', "#10171e");
+            $('#apple-mobile-web-app-status-bar-style').attr('content', "#10171e");
+        }
+
+    }
+
+    function hide_dashboard() {
+        if (dsh_bussy) return;
+        dsh_bussy = 1;
+        if (dsh_status === 1) {
+            dsh_status = 0;
+            cookies.set(dsh_cookie, "0");
+            $("#net-dashboard").animate({height: "0px"}, {
+                easing: 'swing',
+                duration: 200,
+                complete: function () {
+                    $('body').scrollTop(0);
+                    $('html').scrollTop(0);
+                    $(".top-stat").show();
+                    $(".hide-dashboard").addClass("show-dashboard");
+                    dsh_bussy = 0;
+                }
+            });
+        }
+        else {
+            dsh_status = 1;
+            cookies.set(dsh_cookie, "1");
+            let d = $("#net-dashboard");
+            let auto = d.css('height', 'auto').height();
+            d.height("0em").animate({height: auto}, {
+                easing: 'swing',
+                duration: 200,
+                complete: function () {
+                    $('body').scrollTop(0);
+                    $('html').scrollTop(0);
+                    $("#net-dashboard").height("auto");
+                    $(".top-stat").hide();
+                    $(".hide-dashboard").removeClass("show-dashboard");
+                    dsh_bussy = 0;
+
+                }
+            });
+
+
+        }
+
+    }
+
+
+    $('.hide-dashboard').on('click tap', function () {
+        hide_dashboard()
+    });
+    $('.moon').on('click tap', function () {
+        switch_theme()
+    });
+    var dsh_status =  0 ;
+    var dsh_bussy = 0;
+    var dsh_cookie =  "hide_dashboard" ;
+
+    $('#collapse-menu').on('show.bs.collapse', function () {
+
+        $('#collapse-menu').css('max-height', $(window).height() + 20 + "px");
+
+        window.onresize = function () {
+            $('#collapse-menu').css('max-height', $(window).height() + 20 + "px");
+            console.log($('#collapse-menu').first().height());
+            if ($('#collapse-menu').first().height() >= $(window).height() - 90) {
+                $('#collapse-menu').css('overflow-y', "scroll");
+            }
+            else {
+                $('#collapse-menu').css('overflow-y', "hidden");
+            }
+        }
+
+    });
+
+    $('#collapse-menu').on('shown.bs.collapse', function () {
+        if ($('#collapse-menu').height() >= $(window).height()) {
+            $('#collapse-menu').css('overflow-y', "scroll");
+        }
+        else {
+            $('#collapse-menu').css('overflow-y', "hidden");
+        }
+
+    });
+
+    $('#collapse-menu').on('hidden.bs.collapse', function () {
+        window.onresize = function () {
+        };
+    });
+
+    var average_chart = new Highcharts.Chart("dashboard-chart", options);
+
+    window.onscroll = function () {
+        scrollFunction()
+    };
+
+    function scrollFunction() {
+        if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+            document.getElementById("upBtn").style.display = "block";
+        } else {
+            document.getElementById("upBtn").style.display = "none";
+        }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+        $('html,body').animate({scrollTop: 0}, 'slow');
+    }
+
+
+    $.getScript("/static/js/jsQR.js?1593882461821", function () {
+       $(".scan-qr").show();
+       qrScannerLoaded = true;
+    });
+
+    var qrScannerLoaded = false;
+
+    function drawLine(canvas, begin, end, color) {
+        canvas.beginPath();
+        canvas.moveTo(begin.x, begin.y);
+        canvas.lineTo(end.x, end.y);
+        canvas.lineWidth = 4;
+        canvas.strokeStyle = color;
+        canvas.stroke();
+    }
+
+
+    var searchBarCameraActive = false;
+    var searchBarVideo = document.createElement("video");
+    var searchBarCanvasElement = document.getElementById("search-bar-canvas");
+    var searchBarCanvas = searchBarCanvasElement.getContext("2d");
+    var searchBarLoadingMessage = document.getElementById("search-bar-camera-loading-message");
+    var searchBarCameraClose = document.getElementById("search-bar-camera-close");
+
+    function stick() {
+        if (!searchBarCameraActive) {
+
+            searchBarCameraClose.hidden = true;
+            searchBarVideo.pause();
+            searchBarVideo.src = "";
+            searchBarVideo.srcObject.getTracks()[0].stop();
+            searchBarCanvasElement.hidden = true;
+            $("#search-bar-qr-scanner").hide();
+            return;
+        }
+        searchBarLoadingMessage.innerText = "Loading video...";
+        if (searchBarVideo.readyState === searchBarVideo.HAVE_ENOUGH_DATA) {
+            searchBarCameraClose.hidden = false;
+
+            searchBarLoadingMessage.hidden = true;
+            searchBarCanvasElement.hidden = false;
+
+            searchBarCanvasElement.height = searchBarVideo.videoHeight;
+            searchBarCanvasElement.width = searchBarVideo.videoWidth;
+            searchBarCanvas.drawImage(searchBarVideo, 0, 0, searchBarCanvasElement.width, searchBarCanvasElement.height);
+            var imageData = searchBarCanvas.getImageData(0, 0, searchBarCanvasElement.width, searchBarCanvasElement.height);
+            var code = jsQR(imageData.data, imageData.width, imageData.height, {
+                inversionAttempts: "dontInvert",
+            });
+            if ((code)&&(code.data.length>0)) {
+
+                drawLine(searchBarCanvas, code.location.topLeftCorner, code.location.topRightCorner, "#FF3B58");
+                drawLine(searchBarCanvas, code.location.topRightCorner, code.location.bottomRightCorner, "#FF3B58");
+                drawLine(searchBarCanvas, code.location.bottomRightCorner, code.location.bottomLeftCorner, "#FF3B58");
+                drawLine(searchBarCanvas, code.location.bottomLeftCorner, code.location.topLeftCorner, "#FF3B58");
+                $("#search-box")[0].value = code.data;
+                if (check_pointer($("#search-box")[0]))
+                    window.location.href='/'+document.getElementById('search-box').value;
+
+                searchBarCameraActive = false;
+            }
+        }
+        requestAnimationFrame(stick);
+    }
+
+
+    function searchBarScanQrCode() {
+        $("#search-bar-qr-scanner").show();
+        searchBarCameraActive = true;
+        navigator.mediaDevices.getUserMedia({video: {facingMode: "environment"}}).then(function (stream) {
+            searchBarVideo.srcObject = stream;
+            searchBarVideo.setAttribute("playsinline", true);
+            searchBarVideo.play();
+            requestAnimationFrame(stick);
+        });
+    }
+
+    function searchBarCloseCamera() {searchBarCameraActive = false;}
+
+</script>
+
+
+<script src="/static/js/lib.js?1593882461821"></script>
+
+    <script src="/static/js/jsbtc.web.min.js?1593882461821"></script>
+    <script src="/static/js/qrious.min.js?1593882461821"></script>
+    <script src="/static/js/mnemonic.js?1593882461821"></script>
+
+
+<script src="/static/js/core.js?1593882461821"></script>
+</body>
+</html>
+

@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1423" height="280" viewBox="0 0 1423 280" font-family="DejaVu Sans">
+<rect x="0" y="0" width="1423" height="280" fill="#FFFFFF"/>
+<rect x="30" y="120" width="150" height="60" rx="8" fill="#1F5FBF" stroke="#14406e" stroke-width="1.5"/>
+<text x="105.0" y="141.0" text-anchor="middle" font-size="11" fill="#FFFFFF">source text</text>
+<text x="105.0" y="155.0" text-anchor="middle" font-size="11" fill="#FFFFFF">(case-flip rule on</text>
+<text x="105.0" y="169.0" text-anchor="middle" font-size="11" fill="#FFFFFF">some paragraphs)</text>
+<rect x="270" y="120" width="150" height="60" rx="8" fill="#1F5FBF" stroke="#14406e" stroke-width="1.5"/>
+<text x="345.0" y="148.0" text-anchor="middle" font-size="11" fill="#FFFFFF">128-bit</text>
+<text x="345.0" y="162.0" text-anchor="middle" font-size="11" fill="#FFFFFF">entropy</text>
+<rect x="514" y="120" width="150" height="60" rx="8" fill="#1F5FBF" stroke="#14406e" stroke-width="1.5"/>
+<text x="589.0" y="148.0" text-anchor="middle" font-size="11" fill="#FFFFFF">BIP39</text>
+<text x="589.0" y="162.0" text-anchor="middle" font-size="11" fill="#FFFFFF">mnemonic</text>
+<rect x="754" y="120" width="150" height="60" rx="8" fill="#1F5FBF" stroke="#14406e" stroke-width="1.5"/>
+<text x="829.0" y="155.0" text-anchor="middle" font-size="11" fill="#FFFFFF">seed</text>
+<rect x="1003" y="120" width="150" height="60" rx="8" fill="#1F5FBF" stroke="#14406e" stroke-width="1.5"/>
+<text x="1078.0" y="155.0" text-anchor="middle" font-size="11" fill="#FFFFFF">private key</text>
+<rect x="1243" y="120" width="150" height="60" rx="8" fill="#1F5FBF" stroke="#14406e" stroke-width="1.5"/>
+<text x="1318.0" y="148.0" text-anchor="middle" font-size="11" fill="#FFFFFF">P2PKH</text>
+<text x="1318.0" y="162.0" text-anchor="middle" font-size="11" fill="#FFFFFF">address</text>
+<line x1="180" y1="150.0" x2="262" y2="150.0" stroke="#333333" stroke-width="1.5" marker-end="url(#arrow)"/>
+<text x="225.0" y="118.0" text-anchor="middle" font-size="9" fill="#333333">MD5</text>
+<text x="225.0" y="130.0" text-anchor="middle" font-size="9" fill="#333333">(UTF-8 bytes)</text>
+<line x1="420" y1="150.0" x2="506" y2="150.0" stroke="#333333" stroke-width="1.5" marker-end="url(#arrow)"/>
+<text x="467.0" y="118.0" text-anchor="middle" font-size="9" fill="#333333">entropy to</text>
+<text x="467.0" y="130.0" text-anchor="middle" font-size="9" fill="#333333">mnemonic words</text>
+<line x1="664" y1="150.0" x2="746" y2="150.0" stroke="#333333" stroke-width="1.5" marker-end="url(#arrow)"/>
+<text x="709.0" y="118.0" text-anchor="middle" font-size="9" fill="#333333">PBKDF2</text>
+<text x="709.0" y="130.0" text-anchor="middle" font-size="9" fill="#333333">(BIP39)</text>
+<line x1="904" y1="150.0" x2="995" y2="150.0" stroke="#333333" stroke-width="1.5" marker-end="url(#arrow)"/>
+<text x="953.5" y="118.0" text-anchor="middle" font-size="9" fill="#333333">BIP44</text>
+<text x="953.5" y="130.0" text-anchor="middle" font-size="9" fill="#333333">m/44'/0'/0'/0/i</text>
+<line x1="1153" y1="150.0" x2="1235" y2="150.0" stroke="#333333" stroke-width="1.5" marker-end="url(#arrow)"/>
+<text x="1198.0" y="118.0" text-anchor="middle" font-size="9" fill="#333333">secp256k1</text>
+<text x="1198.0" y="130.0" text-anchor="middle" font-size="9" fill="#333333">+ HASH160</text>
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#333333"/></marker></defs>
+</svg>

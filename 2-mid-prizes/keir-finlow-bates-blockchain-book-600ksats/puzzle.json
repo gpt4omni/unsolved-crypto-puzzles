@@ -1,0 +1,289 @@
+{
+  "schema_version": 1,
+  "slug": "keir-finlow-bates-blockchain-book-600ksats",
+  "title": "Keir Finlow-Bates: Move Over Brokers Treasure Hunt",
+  "tier": "mid",
+  "status": "open",
+  "dead_end_reason": null,
+  "series": "finlow-bates-blockchain-book",
+  "author": {
+    "name": "Keir Finlow-Bates",
+    "handles": [
+      "medium:kf106",
+      "github:kf106"
+    ],
+    "url": "https://kf106.medium.com/"
+  },
+  "published": {
+    "date": "2020-11-28",
+    "url": "https://www.amazon.com/Move-Over-Brokers-Comes-Blockchain-ebook/dp/B08QSH5X91"
+  },
+  "chain": "bitcoin",
+  "prize": {
+    "amount": 600000,
+    "asset": "sats",
+    "usd_estimate": 485,
+    "usd_snapshot": "2026-10-24",
+    "note": "3 of 12 lots still open, 200,000 sats each; 9 lots already solved and swept (4 by me, 5 by the community before I started; I have since recovered the answers of 3 of those 5)"
+  },
+  "addresses": [
+    {
+      "address": "14aFhno96fkt7knLWMDQ4j8yh8v5hBF4n1",
+      "chain": "bitcoin",
+      "role": "escrow",
+      "label": "EN_easy_1",
+      "explorer": "https://mempool.space/address/14aFhno96fkt7knLWMDQ4j8yh8v5hBF4n1",
+      "expected": "200000 sats",
+      "verified_on": "2026-10-24",
+      "verified_state": "swept"
+    },
+    {
+      "address": "14utGQn5GdfPvUrHNLAwTmmP99QpXm9mg6",
+      "chain": "bitcoin",
+      "role": "escrow",
+      "label": "EN_easy_2",
+      "explorer": "https://mempool.space/address/14utGQn5GdfPvUrHNLAwTmmP99QpXm9mg6",
+      "expected": "200000 sats",
+      "verified_on": "2026-10-24",
+      "verified_state": "swept"
+    },
+    {
+      "address": "1QFafw3weoWTRQhiLafRw2eyWbVmES6wfJ",
+      "chain": "bitcoin",
+      "role": "escrow",
+      "label": "EN_medium_s",
+      "explorer": "https://mempool.space/address/1QFafw3weoWTRQhiLafRw2eyWbVmES6wfJ",
+      "expected": "200000 sats",
+      "verified_on": "2026-10-24",
+      "verified_state": "swept"
+    },
+    {
+      "address": "17Y9czcbcCz433QXsy1SGQjwLb27BBtLLZ",
+      "chain": "bitcoin",
+      "role": "escrow",
+      "label": "EN_medium",
+      "explorer": "https://mempool.space/address/17Y9czcbcCz433QXsy1SGQjwLb27BBtLLZ",
+      "expected": "200000 sats",
+      "verified_on": "2026-10-24",
+      "verified_state": "funded-unspent"
+    },
+    {
+      "address": "181rPpfdUGFg4fVEdhDZEfDbBSqgigtoZR",
+      "chain": "bitcoin",
+      "role": "escrow",
+      "label": "EN_hard_1",
+      "explorer": "https://mempool.space/address/181rPpfdUGFg4fVEdhDZEfDbBSqgigtoZR",
+      "expected": "200000 sats",
+      "verified_on": "2026-10-24",
+      "verified_state": "swept"
+    },
+    {
+      "address": "161YgNX2NrCzGunWvoV1hN3DuzWeuovBK3",
+      "chain": "bitcoin",
+      "role": "escrow",
+      "label": "EN_hard_2",
+      "explorer": "https://mempool.space/address/161YgNX2NrCzGunWvoV1hN3DuzWeuovBK3",
+      "expected": "200000 sats",
+      "verified_on": "2026-10-24",
+      "verified_state": "swept"
+    },
+    {
+      "address": "1KZei2D5yz3UJ59LvXsC1Y9y4ktSgcnVwz",
+      "chain": "bitcoin",
+      "role": "escrow",
+      "label": "EN_veryhard_s",
+      "explorer": "https://mempool.space/address/1KZei2D5yz3UJ59LvXsC1Y9y4ktSgcnVwz",
+      "expected": "200000 sats",
+      "verified_on": "2026-10-24",
+      "verified_state": "swept"
+    },
+    {
+      "address": "1DZ5NbUwDgxeJkKhQLgYcUUX36PtYso1pm",
+      "chain": "bitcoin",
+      "role": "escrow",
+      "label": "EN_veryhard",
+      "explorer": "https://mempool.space/address/1DZ5NbUwDgxeJkKhQLgYcUUX36PtYso1pm",
+      "expected": "200000 sats",
+      "verified_on": "2026-10-24",
+      "verified_state": "funded-unspent"
+    },
+    {
+      "address": "1MEstvLAzc5DzJtvx7uyvKNNUCPN3ofWMK",
+      "chain": "bitcoin",
+      "role": "escrow",
+      "label": "IT_easy",
+      "explorer": "https://mempool.space/address/1MEstvLAzc5DzJtvx7uyvKNNUCPN3ofWMK",
+      "expected": "200000 sats",
+      "verified_on": "2026-10-24",
+      "verified_state": "swept"
+    },
+    {
+      "address": "1Q78hDeaHXQbuCSQxG1uPAc4V3jsuVUG9r",
+      "chain": "bitcoin",
+      "role": "escrow",
+      "label": "IT_medium",
+      "explorer": "https://mempool.space/address/1Q78hDeaHXQbuCSQxG1uPAc4V3jsuVUG9r",
+      "expected": "200000 sats",
+      "verified_on": "2026-10-24",
+      "verified_state": "swept"
+    },
+    {
+      "address": "1QExGvuieS9MvuKC3R1qjp6jGTVcqisTDj",
+      "chain": "bitcoin",
+      "role": "escrow",
+      "label": "IT_hard",
+      "explorer": "https://mempool.space/address/1QExGvuieS9MvuKC3R1qjp6jGTVcqisTDj",
+      "expected": "200000 sats",
+      "verified_on": "2026-10-24",
+      "verified_state": "swept"
+    },
+    {
+      "address": "19kkawFcg2U2s6vq368MXD7FJU9JZvRrjA",
+      "chain": "bitcoin",
+      "role": "escrow",
+      "label": "IT_veryhard",
+      "explorer": "https://mempool.space/address/19kkawFcg2U2s6vq368MXD7FJU9JZvRrjA",
+      "expected": "200000 sats",
+      "verified_on": "2026-10-24",
+      "verified_state": "funded-unspent"
+    },
+    {
+      "address": "bc1qax0hsnwnxl7393awtc3hsy0ftm6tg4tyk2nfja",
+      "chain": "bitcoin",
+      "role": "payout",
+      "label": "my wallet (destination of all 4 payouts)",
+      "explorer": "https://mempool.space/address/bc1qax0hsnwnxl7393awtc3hsy0ftm6tg4tyk2nfja",
+      "expected": "n/a",
+      "verified_on": "2026-10-24",
+      "verified_state": "unknown"
+    }
+  ],
+  "puzzle_type": [
+    "book",
+    "brainwallet",
+    "text-cipher"
+  ],
+  "target_format": "exact answer string, SHA-256 applied 3 times, 32-byte private key, uncompressed P2PKH, no BIP39, no passphrase",
+  "derivation": {
+    "summary": "deduce an exact answer string (the known answers are a street address, the paperback ISBN and a list of four city names) from a clue scattered across the book, hash it with SHA-256 three times to get a 32-byte private key, derive the uncompressed P2PKH address and compare to the lot escrow",
+    "oracle": "tools/oracle.py",
+    "oracle_certified": true,
+    "certified_against": "EN_easy_1 (answer '221B Baker Street'), EN_easy_2 (answer '9781688289970', the paperback ISBN) and IT_hard (answer 'Genova Firenze Bologna Brindisi'), all reproduced byte for byte; hex-string chaining with and without newline covered with a planted witness"
+  },
+  "difficulty_left": "human-action",
+  "difficulty_note": "the sha256x3 transform is confirmed on three lots; the ebook-accessible text and figures of both editions are exhausted across every mechanism tested (about 9,600 answer strings, 694,000 page-number forms, 800,800 ISBN add-on forms and 34.4e9 proof-of-work nonces, 0 match); the EN_easy_2 answer is the paperback ISBN, printed on the physical copyright page and nowhere in the ebook, and every print surface reachable through Amazon's public sample reader (4 editions) is null, so the missing element for the 3 open lots, if physical, sits in the unseen interior of the printed book",
+  "tested_total": {
+    "candidates": 9600,
+    "families": 16,
+    "certified": true
+  },
+  "leads": [
+    {
+      "rank": 1,
+      "title": "buy the physical books: KDP paperback 9781688289970, Lulu hardcover 9781716479724, Italian paperback",
+      "cost": "needs-a-person",
+      "status": "open"
+    },
+    {
+      "rank": 2,
+      "title": "crack IT_easy using its exposed public key as a free calibration oracle",
+      "cost": "hours",
+      "status": "open"
+    }
+  ],
+  "solutions": [
+    {
+      "lot": "EN_hard_1",
+      "date": "2026-06-17",
+      "answer": "carpet baby bicycle betray shift approve barrel phrase measure prevent image brain",
+      "key_material_disclosed": true,
+      "payout_txid": "b6e064aa8fde1153c342e2f7d98bce09e004bef5ac8db8f0138601289ceae69a",
+      "payout_amount": "199622 sats",
+      "payout_to": "bc1qax0hsnwnxl7393awtc3hsy0ftm6tg4tyk2nfja",
+      "explorer": "https://mempool.space/tx/b6e064aa8fde1153c342e2f7d98bce09e004bef5ac8db8f0138601289ceae69a"
+    },
+    {
+      "lot": "EN_hard_2",
+      "date": "2026-06-25",
+      "answer": "XOR of the 7 SHA-256 values printed in Figure 10",
+      "key_material_disclosed": true,
+      "payout_txid": "c46c70fb04a2faeebde24057b22a547da7b309fd33b74b3d77181943a02b45d0",
+      "payout_amount": "199600 sats",
+      "payout_to": "bc1qax0hsnwnxl7393awtc3hsy0ftm6tg4tyk2nfja",
+      "explorer": "https://mempool.space/tx/c46c70fb04a2faeebde24057b22a547da7b309fd33b74b3d77181943a02b45d0"
+    },
+    {
+      "lot": "IT_medium",
+      "date": "2026-07-01",
+      "answer": "orologio snervato mugnaio enzima scienza glutine spargere valletta diametro pianta totano civetta",
+      "key_material_disclosed": true,
+      "payout_txid": "914a825138f943fc357b5a026b607b3c62bf67d5997043761711aaeabf5cab49",
+      "payout_amount": "199600 sats",
+      "payout_to": "bc1qax0hsnwnxl7393awtc3hsy0ftm6tg4tyk2nfja",
+      "explorer": "https://mempool.space/tx/914a825138f943fc357b5a026b607b3c62bf67d5997043761711aaeabf5cab49"
+    },
+    {
+      "lot": "IT_hard",
+      "date": "2026-07-03",
+      "answer": "Genova Firenze Bologna Brindisi",
+      "key_material_disclosed": true,
+      "payout_txid": "ad999c5837e67b4d566516a70344b352c4c688e1a0781eed739be3aad3afb20c",
+      "payout_amount": "199600 sats",
+      "payout_to": "bc1qax0hsnwnxl7393awtc3hsy0ftm6tg4tyk2nfja",
+      "explorer": "https://mempool.space/tx/ad999c5837e67b4d566516a70344b352c4c688e1a0781eed739be3aad3afb20c"
+    }
+  ],
+  "artifacts": [],
+  "sources": [
+    {
+      "title": "Everyone Loves a Treasure Hunt",
+      "url": "https://kf106.medium.com/everyone-loves-a-treasure-hunt-93885ae8d80a",
+      "date": "2025-09-11",
+      "archived": null
+    },
+    {
+      "title": "Move Over Brokers, Here Comes The Blockchain (Kindle edition)",
+      "url": "https://www.amazon.com/Move-Over-Brokers-Comes-Blockchain-ebook/dp/B08QSH5X91",
+      "date": "2020-11-28",
+      "archived": null
+    },
+    {
+      "title": "EN escrow funding transaction",
+      "url": "https://mempool.space/tx/f26ecab737b701982a7a3d0f9b0ffb3c509225cbbefecc2a4fe2e73758ce8972",
+      "date": "2020-11-28",
+      "archived": null
+    },
+    {
+      "title": "IT escrow funding transaction",
+      "url": "https://mempool.space/tx/42919c00a64661e20b8af5719c64d58339e6e492ad21f07f4d38548768cbb23e",
+      "date": "2021-09-11",
+      "archived": null
+    },
+    {
+      "title": "EN_hard_1 payout transaction",
+      "url": "https://mempool.space/tx/b6e064aa8fde1153c342e2f7d98bce09e004bef5ac8db8f0138601289ceae69a",
+      "date": "2026-06-17",
+      "archived": null
+    },
+    {
+      "title": "EN_hard_2 payout transaction",
+      "url": "https://mempool.space/tx/c46c70fb04a2faeebde24057b22a547da7b309fd33b74b3d77181943a02b45d0",
+      "date": "2026-06-25",
+      "archived": null
+    },
+    {
+      "title": "IT_medium payout transaction",
+      "url": "https://mempool.space/tx/914a825138f943fc357b5a026b607b3c62bf67d5997043761711aaeabf5cab49",
+      "date": "2026-07-01",
+      "archived": null
+    },
+    {
+      "title": "IT_hard payout transaction",
+      "url": "https://mempool.space/tx/ad999c5837e67b4d566516a70344b352c4c688e1a0781eed739be3aad3afb20c",
+      "date": "2026-07-03",
+      "archived": null
+    }
+  ],
+  "third_party_material": "no book pages, ebook files, scans, OCR, or chapter text included; only page/figure numbers, short quotes (about 180 words total, well under the 300-word-per-book limit), and my own derived data (answer strings, hashes, solved-lot key material)",
+  "last_updated": "2026-10-24"
+}

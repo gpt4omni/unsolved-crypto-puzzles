@@ -1,0 +1,23 @@
+{
+  "_comment": "Pixel regions of clues/welcome-to-the-brave-new-world.png (1600x1200) that carry candidate seed signal. Boxes are [x0, y0, x1, y1] in the original image's pixel coordinates. The clock box matches the crop used to measure the dial rotation; the rune-column and monument boxes match the crops used to transcribe the geometric-rune script and the 13th Amendment engraving. Produced by measuring the source image directly, not inherited from any third-party claim.",
+  "image": "clues/welcome-to-the-brave-new-world.png",
+  "image_size": [1600, 1200],
+  "regions": [
+    {
+      "name": "dial",
+      "box": [265, 729, 685, 1140],
+      "label": "rotated dial, two labeled pointers (MOON, TOWER)",
+      "note": "rotation measured at about -73 degrees from vertical, not a multiple of 30 degrees; digits 5 and 6 are not legible"
+    },
+    {
+      "name": "monument",
+      "box": [1184, 416, 1450, 1100],
+      "label": "pedestal engraving (13th Amendment text, SUBJECT underlined)"
+    },
+    {
+      "name": "rune column",
+      "box": [1470, 20, 1560, 1160],
+      "label": "right-edge rune column (deciphers as Russian prose by substitution)"
+    }
+  ]
+}

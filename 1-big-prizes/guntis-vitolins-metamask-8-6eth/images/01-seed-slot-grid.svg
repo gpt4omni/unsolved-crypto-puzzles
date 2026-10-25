@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1274" height="260" viewBox="0 0 1274 260" font-family="DejaVu Sans">
+<rect x="0" y="0" width="1274" height="260" fill="#FFFFFF"/>
+<text x="30" y="24" font-size="13" font-weight="bold" fill="#1a1a1a">12-word seed, position by position</text>
+<rect x="30" y="40" width="92" height="70" rx="8" fill="#1F5FBF" stroke="#222222" stroke-width="1.2"/>
+<text x="76.0" y="56" text-anchor="middle" font-size="10" fill="#FFFFFF" opacity="0.85">pos 1</text>
+<text x="76.0" y="83.0" text-anchor="middle" font-size="12" fill="#FFFFFF">dutch</text>
+<rect x="132" y="40" width="92" height="70" rx="8" fill="#9A9A9A" stroke="#222222" stroke-width="1.2"/>
+<text x="178.0" y="56" text-anchor="middle" font-size="10" fill="#FFFFFF" opacity="0.85">pos 2</text>
+<text x="178.0" y="83.0" text-anchor="middle" font-size="12" fill="#FFFFFF">?</text>
+<rect x="234" y="40" width="92" height="70" rx="8" fill="#9A9A9A" stroke="#222222" stroke-width="1.2"/>
+<text x="280.0" y="56" text-anchor="middle" font-size="10" fill="#FFFFFF" opacity="0.85">pos 3</text>
+<text x="280.0" y="83.0" text-anchor="middle" font-size="12" fill="#FFFFFF">?</text>
+<rect x="336" y="40" width="92" height="70" rx="8" fill="#9A9A9A" stroke="#222222" stroke-width="1.2"/>
+<text x="382.0" y="56" text-anchor="middle" font-size="10" fill="#FFFFFF" opacity="0.85">pos 4</text>
+<text x="382.0" y="83.0" text-anchor="middle" font-size="12" fill="#FFFFFF">?</text>
+<rect x="438" y="40" width="92" height="70" rx="8" fill="#1F5FBF" stroke="#222222" stroke-width="1.2"/>
+<text x="484.0" y="56" text-anchor="middle" font-size="10" fill="#FFFFFF" opacity="0.85">pos 5</text>
+<text x="484.0" y="76.0" text-anchor="middle" font-size="12" fill="#FFFFFF">fog</text>
+<text x="484.0" y="90.0" text-anchor="middle" font-size="12" fill="#FFFFFF">cloud</text>
+<rect x="540" y="40" width="92" height="70" rx="8" fill="#9A9A9A" stroke="#222222" stroke-width="1.2"/>
+<text x="586.0" y="56" text-anchor="middle" font-size="10" fill="#FFFFFF" opacity="0.85">pos 6</text>
+<text x="586.0" y="83.0" text-anchor="middle" font-size="12" fill="#FFFFFF">?</text>
+<rect x="642" y="40" width="92" height="70" rx="8" fill="#9A9A9A" stroke="#222222" stroke-width="1.2"/>
+<text x="688.0" y="56" text-anchor="middle" font-size="10" fill="#FFFFFF" opacity="0.85">pos 7</text>
+<text x="688.0" y="83.0" text-anchor="middle" font-size="12" fill="#FFFFFF">?</text>
+<rect x="744" y="40" width="92" height="70" rx="8" fill="#9A9A9A" stroke="#222222" stroke-width="1.2"/>
+<text x="790.0" y="56" text-anchor="middle" font-size="10" fill="#FFFFFF" opacity="0.85">pos 8</text>
+<text x="790.0" y="83.0" text-anchor="middle" font-size="12" fill="#FFFFFF">?</text>
+<rect x="846" y="40" width="92" height="70" rx="8" fill="#9A9A9A" stroke="#222222" stroke-width="1.2"/>
+<text x="892.0" y="56" text-anchor="middle" font-size="10" fill="#FFFFFF" opacity="0.85">pos 9</text>
+<text x="892.0" y="83.0" text-anchor="middle" font-size="12" fill="#FFFFFF">?</text>
+<rect x="948" y="40" width="92" height="70" rx="8" fill="#9A9A9A" stroke="#222222" stroke-width="1.2"/>
+<text x="994.0" y="56" text-anchor="middle" font-size="10" fill="#FFFFFF" opacity="0.85">pos 10</text>
+<text x="994.0" y="83.0" text-anchor="middle" font-size="12" fill="#FFFFFF">?</text>
+<rect x="1050" y="40" width="92" height="70" rx="8" fill="#9A9A9A" stroke="#222222" stroke-width="1.2"/>
+<text x="1096.0" y="56" text-anchor="middle" font-size="10" fill="#FFFFFF" opacity="0.85">pos 11</text>
+<text x="1096.0" y="83.0" text-anchor="middle" font-size="12" fill="#FFFFFF">?</text>
+<rect x="1152" y="40" width="92" height="70" rx="8" fill="#1F5FBF" stroke="#222222" stroke-width="1.2"/>
+<text x="1198.0" y="56" text-anchor="middle" font-size="10" fill="#FFFFFF" opacity="0.85">pos 12</text>
+<text x="1198.0" y="83.0" text-anchor="middle" font-size="12" fill="#FFFFFF">parrot</text>
+<text x="30" y="140" font-size="12" fill="#1a1a1a">confirmed list members, position unknown:</text>
+<rect x="30" y="154" width="80" height="34" rx="6" fill="#E07A1F" stroke="#222222" stroke-width="1.2"/>
+<text x="70.0" y="175" text-anchor="middle" font-size="12" fill="#FFFFFF">fiber</text>
+<rect x="122" y="154" width="80" height="34" rx="6" fill="#E07A1F" stroke="#222222" stroke-width="1.2"/>
+<text x="162.0" y="175" text-anchor="middle" font-size="12" fill="#FFFFFF">fork</text>
+<rect x="30" y="236" width="14" height="14" fill="#1F5FBF"/>
+<text x="50" y="247" font-size="10" fill="#1a1a1a">confirmed (word + position)</text>
+<rect x="286" y="236" width="14" height="14" fill="#E07A1F"/>
+<text x="306" y="247" font-size="10" fill="#1a1a1a">candidate (word, position free)</text>
+<rect x="574" y="236" width="14" height="14" fill="#9A9A9A"/>
+<text x="594" y="247" font-size="10" fill="#1a1a1a">unknown</text>
+</svg>

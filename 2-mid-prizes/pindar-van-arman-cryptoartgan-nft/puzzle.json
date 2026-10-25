@@ -1,0 +1,112 @@
+{
+  "schema_version": 1,
+  "slug": "pindar-van-arman-cryptoartgan-nft",
+  "title": "Pindar Van Arman: cryptoArtGAN Act 1 Puzzle",
+  "tier": "mid",
+  "status": "open",
+  "dead_end_reason": null,
+  "series": "Van Arman's bitGANs / cryptoArtGAN wallet-puzzle system",
+  "author": {
+    "name": "Pindar Van Arman",
+    "handles": [
+      "x:@VanArman",
+      "web:bitgans.com"
+    ],
+    "url": "https://bitgans.com/"
+  },
+  "published": {
+    "date": "2022-02-05",
+    "url": "https://bitgans.com/news/cryptoartgans"
+  },
+  "chain": "ethereum",
+  "prize": {
+    "amount": 1,
+    "asset": "NFT",
+    "usd_estimate": null,
+    "usd_snapshot": "2026-10-24",
+    "note": "1 ERC-1155 NFT, \"Magic Internet moneyGAN\" (445/512); no market value recorded for this specific piece"
+  },
+  "addresses": [
+    {
+      "address": "0x18f87ec9c527aba1db44f715456bf28b0dae478d",
+      "chain": "ethereum",
+      "role": "escrow",
+      "label": "main",
+      "explorer": "https://etherscan.io/address/0x18f87ec9c527aba1db44f715456bf28b0dae478d",
+      "expected": "1 NFT (Magic Internet moneyGAN, 445/512)",
+      "verified_on": "2026-10-24",
+      "verified_state": "funded-unspent",
+      "token_contract": "0x495f947276749Ce646f68AC8c248420045cb7b5e",
+      "token_id": "38543999587180483086453667688708911953853707150137941511194370325563503017985",
+      "token_standard": "ERC-1155"
+    }
+  ],
+  "puzzle_type": [
+    "bip39-seed",
+    "word-selection"
+  ],
+  "target_format": "BIP39 12 words (English), standard Ethereum derivation, no passphrase stated",
+  "derivation": {
+    "summary": "11 words the artist calls 'glitches' plus a 12th checksum-constrained word form a 12-word BIP39 mnemonic, derived to an Ethereum address and compared to the escrow",
+    "oracle": null,
+    "oracle_certified": false,
+    "certified_against": ""
+  },
+  "difficulty_left": "insight",
+  "difficulty_note": "the derivation is standard and fully understood; what is unresolved is which 11 published words are the 'glitches' and their order. About 22.5 million addresses and 9 fully-ordered 11-word sets have been checked with zero matches",
+  "tested_total": {
+    "candidates": 22500000,
+    "families": 3,
+    "certified": false
+  },
+  "leads": [
+    {
+      "rank": 1,
+      "title": "frame-by-frame analysis of the artist's Act 1 - Review archive on Arweave",
+      "cost": "hours of work",
+      "status": "open"
+    },
+    {
+      "rank": 2,
+      "title": "finish the on-chain metadata sweep (about 132 token indices return 404)",
+      "cost": "bounded",
+      "status": "open"
+    },
+    {
+      "rank": 3,
+      "title": "a bounded 11! x 128 sweep once a specific 11-word set is argued for",
+      "cost": "about 59 hours on 24 CPU cores, reported",
+      "status": "open"
+    }
+  ],
+  "solutions": [],
+  "artifacts": [],
+  "sources": [
+    {
+      "title": "Pindar Van Arman, artist site",
+      "url": "https://bitgans.com/",
+      "date": "2026-08-16",
+      "archived": null
+    },
+    {
+      "title": "cryptoArtGAN announcement",
+      "url": "https://bitgans.com/news/cryptoartgans",
+      "date": "2022-02-05",
+      "archived": null
+    },
+    {
+      "title": "Restated on X",
+      "url": "https://x.com/VanArman/status/1562799956175757313",
+      "date": "2022-08-25",
+      "archived": null
+    },
+    {
+      "title": "\"BIP39 and bitGANs\" journal entry",
+      "url": "https://bitgans.com/journal/page014",
+      "date": "2022-01-01",
+      "archived": null
+    }
+  ],
+  "third_party_material": "",
+  "last_updated": "2026-10-24"
+}

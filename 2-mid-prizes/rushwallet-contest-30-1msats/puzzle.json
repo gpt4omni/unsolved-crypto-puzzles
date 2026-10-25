@@ -1,0 +1,106 @@
+{
+  "schema_version": 1,
+  "slug": "rushwallet-contest-30-1msats",
+  "title": "RushWallet Contest #30",
+  "tier": "mid",
+  "status": "open",
+  "dead_end_reason": null,
+  "series": "RushWallet/KryptoKit 30-brainwallet contest",
+  "author": {
+    "name": "RushWallet / KryptoKit",
+    "handles": [],
+    "url": "http://web.archive.org/web/20150208172337/https://rushwallet.com/contest"
+  },
+  "published": {
+    "date": "2015-02-08",
+    "url": "http://web.archive.org/web/20150208174448/https://rushwallet.com/js/contest.js"
+  },
+  "chain": "bitcoin",
+  "prize": {
+    "amount": 1000000,
+    "asset": "sats",
+    "usd_estimate": 808,
+    "usd_snapshot": "2026-10-24",
+    "note": "the escrow was funded 101,000,000 sats total: 100,000,000 sats on 2014-09-22 later returned to its own sender on 2015-03-25, and a separate 1,000,000 sats on 2015-04-24 that remains unspent; the 1,000,000 sats figure is the live prize"
+  },
+  "addresses": [
+    {
+      "address": "13Q8hJqagtd77ojTJcEZPjTz2sBFSsYxyj",
+      "chain": "bitcoin",
+      "role": "escrow",
+      "label": "main",
+      "explorer": "https://mempool.space/address/13Q8hJqagtd77ojTJcEZPjTz2sBFSsYxyj",
+      "expected": "1000000 sats",
+      "verified_on": "2026-10-24",
+      "verified_state": "partially-spent"
+    }
+  ],
+  "puzzle_type": [
+    "brainwallet",
+    "audio"
+  ],
+  "target_format": "unknown passphrase string, hashed verbatim (no trim, no case folding, no salt), SHA-256 as the 32-byte private key, uncompressed public key, P2PKH",
+  "derivation": {
+    "summary": "private_key = SHA256(utf8(passphrase)) taken verbatim, uncompressed secp256k1 public key, address = base58check(0x00 || RIPEMD160(SHA256(pubkey)))",
+    "oracle": "tools/oracle.py",
+    "oracle_certified": true,
+    "certified_against": "passphrases publicly claimed by other solvers for sibling brainwallets #17 and #28 of the same contest, plus the contest host's own address"
+  },
+  "difficulty_left": "external-info",
+  "difficulty_note": "the derivation is certified; about 95 million candidate passphrases across public wordlists have produced zero matches; the likely gate is a video source above the 720p footage currently available, not more computation",
+  "tested_total": {
+    "candidates": 95000000,
+    "families": 7,
+    "certified": false
+  },
+  "leads": [
+    {
+      "rank": 1,
+      "title": "a higher-fidelity copy of the original promotional video",
+      "cost": "needs new information",
+      "status": "open"
+    },
+    {
+      "rank": 2,
+      "title": "the Quotes-500K corpus, not yet ingested",
+      "cost": "minutes once prepared",
+      "status": "open"
+    },
+    {
+      "rank": 3,
+      "title": "the uncovered tail of the song-lyrics corpus (about 4.7 million songs)",
+      "cost": "hours, lower signal",
+      "status": "open"
+    }
+  ],
+  "solutions": [],
+  "artifacts": [],
+  "sources": [
+    {
+      "title": "RushWallet contest script (derivation)",
+      "url": "http://web.archive.org/web/20150208174448/https://rushwallet.com/js/contest.js",
+      "date": "2015-02-08",
+      "archived": "http://web.archive.org/web/20150208174448/https://rushwallet.com/js/contest.js"
+    },
+    {
+      "title": "RushWallet contest page",
+      "url": "http://web.archive.org/web/20150208172337/https://rushwallet.com/contest",
+      "date": "2015-02-08",
+      "archived": "http://web.archive.org/web/20150208172337/https://rushwallet.com/contest"
+    },
+    {
+      "title": "BitcoinTalk discussion thread",
+      "url": "https://bitcointalk.org/index.php?topic=793720.0",
+      "date": "2026-08-16",
+      "archived": null
+    },
+    {
+      "title": "Surviving video re-upload",
+      "url": "https://www.youtube.com/watch?v=x0LqsUOIw0M",
+      "date": "2026-08-16",
+      "archived": null
+    }
+  ],
+  "third_party_material": "the promotional video and its re-uploads are third-party/platform hosted and not mirrored here; only short quoted transcriptions and archived-page links are included",
+  "last_updated": "2026-10-24"
+}
