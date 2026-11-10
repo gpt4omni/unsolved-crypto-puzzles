@@ -1,0 +1,4571 @@
+{
+  "schema_version": 1,
+  "source": "https://github.com/agntn/puzzles",
+  "package": "@agntn/puzzles",
+  "boha_version": "0.31.0",
+  "boha_data_version": "a747e6ab583e",
+  "generated_on": "2026-11-10",
+  "counts": {
+    "all_records": 558,
+    "collections": 51,
+    "unsolved": 113
+  },
+  "puzzles": [
+    {
+      "id": "9vw04",
+      "collection": "9vw04",
+      "author": "GemfinderOfX",
+      "chain": "bitcoin",
+      "address": "bc1qr5mssp6snmduqp9enx4dzmcxvk7qw83lceyy2v",
+      "address_kind": "p2wpkh",
+      "status": "unsolved",
+      "prize": 0.0202076,
+      "prize_asset": "BTC",
+      "start_date": "2024-12-21",
+      "source_url": "https://x.com/GemfinderOfX/status/1870319691295764655",
+      "techniques": null,
+      "pubkey": {
+        "value": "039d7ce87733444acfde33960964344d8201d2d92ccdad0f5045e40fdcf963475b",
+        "format": "compressed"
+      },
+      "pre_genesis": true,
+      "hints": [
+        {
+          "kind": "official",
+          "text": "Today I wanted to do something special. I\u2019ve been in Bitcoin for many years now. And I\u2019ve loved it. I want to have you all the chance to win 0.02 bitcoin \u2248 $2,000.00 best of luck to you all. Everything for the private key can be found within this message.",
+          "source": "https://x.com/GemfinderOfX/status/1870319691295764655",
+          "date": "2024-12-21"
+        },
+        {
+          "kind": "official",
+          "text": "Address\u2b07\ufe0f showing proof of funds. 9vw04",
+          "source": "https://x.com/GemfinderOfX/status/1870319691295764655",
+          "date": "2024-12-21"
+        },
+        {
+          "kind": "official",
+          "text": "I don\u2019t really like rainbows.",
+          "source": "https://x.com/GemfinderOfX/status/1870866790752141328",
+          "date": "2024-12-22"
+        },
+        {
+          "kind": "official",
+          "text": "All the clues are in the post\u2026 you just aren\u2019t looking hard enough.",
+          "source": "https://x.com/GemfinderOfX/status/1874575103230652759",
+          "date": "2025-01-01"
+        },
+        {
+          "kind": "official",
+          "text": "All 5 of these numbers and letters appear 2 times in the private key example",
+          "source": "https://x.com/GemfinderOfX/status/1874632897459871930",
+          "date": "2025-01-02"
+        },
+        {
+          "kind": "official",
+          "text": "******9vw04********************9vw04",
+          "source": "https://x.com/GemfinderOfX/status/1874632897459871930",
+          "date": "2025-01-02"
+        },
+        {
+          "kind": "official",
+          "text": "Remember everything and I mean everything. Every word is a clue sometimes you just need to look in the mirror",
+          "source": "https://x.com/GemfinderOfX/status/1875410257754882121",
+          "date": "2025-01-04"
+        },
+        {
+          "kind": "official",
+          "text": "It\u2019s there you just need to find the small thing everybody has overlooked so far",
+          "source": "https://x.com/GemfinderOfX/status/1875737695177339343",
+          "date": "2025-01-05"
+        },
+        {
+          "kind": "official",
+          "text": "WIF",
+          "source": "https://x.com/GemfinderOfX/status/1875982446598181044",
+          "date": "2025-01-05"
+        },
+        {
+          "kind": "official",
+          "text": "Nope just your Brian and everything in the post",
+          "source": "https://x.com/GemfinderOfX/status/1877378647050338548",
+          "date": "2025-01-09"
+        },
+        {
+          "kind": "official",
+          "text": "Some additional hints for you guys. Yes it is a WIF and it may not seem possible but I can assure you that it is 100% possible.",
+          "source": "https://x.com/GemfinderOfX/status/1878634169410203733",
+          "date": "2025-01-13"
+        },
+        {
+          "kind": "official",
+          "text": "I don\u2019t like rainbows is a hit",
+          "source": "https://x.com/GemfinderOfX/status/1878634169410203733",
+          "date": "2025-01-13"
+        },
+        {
+          "kind": "official",
+          "text": "And another hit was a imagine of Daniel shanks the creator of \u201cbaby step giant step\u201d and trust me that\u2019s very important here",
+          "source": "https://x.com/GemfinderOfX/status/1878634169410203733",
+          "date": "2025-01-13"
+        },
+        {
+          "kind": "official",
+          "text": "Also the last hint.  the spelling is incorrect on purpose \ud83d\ude09",
+          "source": "https://x.com/GemfinderOfX/status/1878635172754788512",
+          "date": "2025-01-13"
+        },
+        {
+          "kind": "official",
+          "text": "Every Nth character has something to say there could be a fixed interval skip cipher hidden in the sequence",
+          "source": "https://x.com/GemfinderOfX/status/2027938957112279215",
+          "date": "2026-03-01"
+        }
+      ],
+      "assets": {
+        "puzzle": "puzzle.jpg",
+        "source_url": "https://pbs.twimg.com/media/GfS12G-WUAE_Lt2.jpg?name=orig",
+        "digests": [
+          {
+            "file": "puzzle.jpg",
+            "sha256": "bbcc87598a9a01227b0168ff59ee78544b0481d96805c518c84cc04098adadb4",
+            "bytes": 337346,
+            "url": "https://pbs.twimg.com/media/GfS12G-WUAE_Lt2.jpg?name=orig",
+            "archive": "https://web.archive.org/web/20250303015335id_/https://pbs.twimg.com/media/GfS12G-WUAE_Lt2?format=jpg&name=orig"
+          }
+        ]
+      },
+      "stages": [],
+      "hint_count": 15,
+      "tx_count": 4,
+      "checked": {
+        "state": "funded-unspent",
+        "balance": 2020760,
+        "unit": "sats",
+        "source": "explorer",
+        "on": "2026-11-10"
+      }
+    },
+    {
+      "id": "ballet/AA009926",
+      "collection": "ballet",
+      "author": "Bobby Lee",
+      "chain": "bitcoin",
+      "address": "1JxWyNrkgYvgsHu8hVQZqTXEB9RftRGP5m",
+      "address_kind": "p2pkh",
+      "status": "unsolved",
+      "prize": 1.00003481,
+      "prize_asset": "BTC",
+      "start_date": "2020-07-24",
+      "source_url": "https://x.com/bobbyclee/status/1289004702122643456",
+      "techniques": null,
+      "pubkey": null,
+      "pre_genesis": false,
+      "hints": [],
+      "assets": {
+        "puzzle": "AA009926/puzzle.jpg",
+        "hints": [
+          "AA009926/revealed.jpg"
+        ],
+        "source_url": "https://x.com/bobbyclee/status/1289004702122643456",
+        "digests": [
+          {
+            "file": "AA009926/puzzle.jpg",
+            "sha256": "574c68aebff7673fa29024d0765056b8b204d27ff8d4bfc22aabd42bc7977560",
+            "bytes": 1566737,
+            "url": "https://pbs.twimg.com/media/EeNwTlWU8AAYeMl.jpg?name=orig"
+          },
+          {
+            "file": "AA009926/revealed.jpg",
+            "sha256": "78d4c2b748d66e68c2d6226ecf8df338d6b15fb2141f4d57fe74424de44eb859",
+            "bytes": 217605,
+            "url": "https://pbs.twimg.com/media/EeNyXh-UwAAToEr.jpg",
+            "archive": "https://web.archive.org/web/20210506201027id_/https://pbs.twimg.com/media/EeNyXh-UwAAToEr.jpg"
+          }
+        ]
+      },
+      "stages": [],
+      "hint_count": 0,
+      "tx_count": 3,
+      "checked": {
+        "state": "funded-unspent",
+        "balance": 100003481,
+        "unit": "sats",
+        "source": "explorer",
+        "on": "2026-11-10"
+      }
+    },
+    {
+      "id": "ballet/AA012381",
+      "collection": "ballet",
+      "author": "Bobby Lee",
+      "chain": "bitcoin",
+      "address": "1QGtbKxx6FKDD66LwnrzHCAHmyZ7mDHqC4",
+      "address_kind": "p2pkh",
+      "status": "unsolved",
+      "prize": 1.00003877,
+      "prize_asset": "BTC",
+      "start_date": "2020-07-24",
+      "source_url": "https://x.com/bobbyclee/status/1289004702122643456",
+      "techniques": null,
+      "pubkey": null,
+      "pre_genesis": false,
+      "hints": [],
+      "assets": {
+        "puzzle": "AA012381/puzzle.jpg",
+        "source_url": "https://x.com/bobbyclee/status/1289004702122643456",
+        "digests": [
+          {
+            "file": "AA012381/puzzle.jpg",
+            "sha256": "c625162197b5bc59a796949dba3816f0e532a97d0a199ca492b5f5445584d320",
+            "bytes": 1372247,
+            "url": "https://pbs.twimg.com/media/EeNzYosU8AIj1h6.jpg?name=orig"
+          }
+        ]
+      },
+      "stages": [],
+      "hint_count": 0,
+      "tx_count": 3,
+      "checked": {
+        "state": "funded-unspent",
+        "balance": 100003877,
+        "unit": "sats",
+        "source": "explorer",
+        "on": "2026-11-10"
+      }
+    },
+    {
+      "id": "bitaddress",
+      "collection": "bitaddress",
+      "author": "q",
+      "chain": "bitcoin",
+      "address": "1J7BVeP8JK4op2X3GN3Hy7xkTnGnQTMpou",
+      "address_kind": "p2pkh",
+      "status": "unsolved",
+      "prize": 0.005297,
+      "prize_asset": "BTC",
+      "start_date": "2023-10-06",
+      "source_url": "https://stacker.news/items/275973",
+      "techniques": [
+        {
+          "name": "bip38",
+          "source": "https://stacker.news/items/275973"
+        }
+      ],
+      "pubkey": {
+        "value": "04f7af13c4fda2f920dbd8ebc8d2cc87cdc6674a7beda95a402ab83dd7e952597aeebdb76b2b4bc15771c57eb48568b2a8fa83219f9fa53519aaef5cd75bac30ac",
+        "format": "uncompressed"
+      },
+      "pre_genesis": false,
+      "hints": [
+        {
+          "kind": "official",
+          "text": "I suspect the passphrase is not more than 30 characters.",
+          "source": "https://stacker.news/items/275973",
+          "date": "2023-10-06"
+        },
+        {
+          "kind": "official",
+          "text": "Which i generated on this site https://www.bitaddress.org/",
+          "source": "https://stacker.news/items/275973",
+          "date": "2023-10-06"
+        },
+        {
+          "kind": "official",
+          "text": "I don't remember, I have tested my passwords I used during that time, so probably it is not with special characters",
+          "source": "https://stacker.news/items/276117",
+          "date": "2023-10-06"
+        },
+        {
+          "kind": "official",
+          "text": "Most likely I did not use a passphrase of the length 30. But I remeber that I used to combine 3 different passwords to secure wallets which is about that length. I have withdrawn funds from the wallet once so it cannot be an imposible passpharse and most likely I did not used a password manager for it.",
+          "source": "https://stacker.news/items/276305",
+          "date": "2023-10-06"
+        },
+        {
+          "kind": "community",
+          "text": "The private key starts with '6Pf', though. That gives you some indication of the encryption algorithm used: EC multiply, no compression, no lot/sequence numbers, according to BIP38.",
+          "source": "https://stacker.news/items/276026",
+          "date": "2023-10-06"
+        }
+      ],
+      "assets": {
+        "puzzle": "puzzle.png",
+        "source_url": "https://i.imgur.com/3RSb8MH.png",
+        "digests": [
+          {
+            "file": "puzzle.png",
+            "sha256": "07d729b09d2757cefff0a2f104ed3d7fc7e60d43822dc86038b122a68c81cc64",
+            "bytes": 215666,
+            "url": "https://i.imgur.com/3RSb8MH.png"
+          }
+        ]
+      },
+      "stages": [],
+      "hint_count": 5,
+      "tx_count": 3,
+      "checked": {
+        "state": "funded-unspent",
+        "balance": 529700,
+        "unit": "sats",
+        "source": "explorer",
+        "on": "2026-11-10"
+      }
+    },
+    {
+      "id": "bitaps",
+      "collection": "bitaps",
+      "author": "Bitaps",
+      "chain": "bitcoin",
+      "address": "bc1qyjwa0tf0en4x09magpuwmt2smpsrlaxwn85lh6",
+      "address_kind": "p2wpkh",
+      "status": "unsolved",
+      "prize": 1.00016775,
+      "prize_asset": "BTC",
+      "start_date": "2020-06-19",
+      "source_url": "https://bitaps.com/mnemonic/challenge",
+      "techniques": [
+        {
+          "name": "shamir-shares",
+          "source": "https://bitaps.com/mnemonic/challenge"
+        }
+      ],
+      "pubkey": {
+        "value": "0385a3a591451ed7ed6c90dae882db918107d6f906d270cf4728d168126e0e89aa",
+        "format": "compressed"
+      },
+      "pre_genesis": false,
+      "hints": [],
+      "assets": {},
+      "stages": [],
+      "hint_count": 0,
+      "tx_count": 5,
+      "checked": {
+        "state": "funded-unspent",
+        "balance": 100016775,
+        "unit": "sats",
+        "source": "explorer",
+        "on": "2026-11-10"
+      }
+    },
+    {
+      "id": "bitimage/kitten-passphrase",
+      "collection": "bitimage",
+      "author": "Corey Phillips",
+      "chain": "bitcoin",
+      "address": "bc1qcyrndzgy036f6ax370g8zyvlw86ulawgt0246r",
+      "address_kind": "p2wpkh",
+      "status": "unsolved",
+      "prize": 0.010019,
+      "prize_asset": "BTC",
+      "start_date": "2019-06-28",
+      "source_url": "https://corey-lyle-phillips.medium.com/part-1-3-turn-your-photos-into-bitcoin-private-keys-addresses-57669771cf7a",
+      "techniques": [
+        {
+          "name": "sha256-to-bip39-entropy",
+          "source": "https://corey-lyle-phillips.medium.com/part-1-3-turn-your-photos-into-bitcoin-private-keys-addresses-57669771cf7a"
+        }
+      ],
+      "pubkey": null,
+      "pre_genesis": false,
+      "hints": [],
+      "assets": {
+        "puzzle": "kitten-passphrase/puzzle.jpg",
+        "source_url": "https://twitter.com/aantonop/status/603701870482300928",
+        "digests": [
+          {
+            "file": "kitten-passphrase/puzzle.jpg",
+            "sha256": "b988e0881a0211222e83f3e2a4bfac695c951bf96aa33ec112fab6992f5e7343",
+            "bytes": 265456,
+            "url": "https://pbs.twimg.com/media/CGDHoYiU0AEQXze.jpg",
+            "archive": "https://web.archive.org/web/20210520115853id_/https://pbs.twimg.com/media/CGDHoYiU0AEQXze.jpg"
+          }
+        ]
+      },
+      "stages": [],
+      "hint_count": 0,
+      "tx_count": 2,
+      "checked": {
+        "state": "funded-unspent",
+        "balance": 1001900,
+        "unit": "sats",
+        "source": "explorer",
+        "on": "2026-11-10"
+      }
+    },
+    {
+      "id": "bits/71",
+      "collection": "bits",
+      "author": "saatoshi_rising",
+      "chain": "bitcoin",
+      "address": "1PWo3JeB9jrGwfHDNpdGK54CRas7fsVzXU",
+      "address_kind": "p2pkh",
+      "status": "unsolved",
+      "prize": 7.10195986,
+      "prize_asset": "BTC",
+      "start_date": "2015-01-15",
+      "source_url": "https://bitcointalk.org/index.php?topic=5218972",
+      "techniques": null,
+      "pubkey": null,
+      "pre_genesis": false,
+      "hints": [],
+      "assets": {},
+      "stages": [],
+      "hint_count": 0,
+      "tx_count": 72,
+      "checked": {
+        "state": "funded-unspent",
+        "balance": 710195986,
+        "unit": "sats",
+        "source": "explorer",
+        "on": "2026-11-10"
+      }
+    },
+    {
+      "id": "bits/72",
+      "collection": "bits",
+      "author": "saatoshi_rising",
+      "chain": "bitcoin",
+      "address": "1JTK7s9YVYywfm5XUH7RNhHJH1LshCaRFR",
+      "address_kind": "p2pkh",
+      "status": "unsolved",
+      "prize": 7.20014379,
+      "prize_asset": "BTC",
+      "start_date": "2015-01-15",
+      "source_url": "https://bitcointalk.org/index.php?topic=5218972",
+      "techniques": null,
+      "pubkey": null,
+      "pre_genesis": false,
+      "hints": [],
+      "assets": {},
+      "stages": [],
+      "hint_count": 0,
+      "tx_count": 6,
+      "checked": {
+        "state": "funded-unspent",
+        "balance": 720014379,
+        "unit": "sats",
+        "source": "explorer",
+        "on": "2026-11-10"
+      }
+    },
+    {
+      "id": "bits/73",
+      "collection": "bits",
+      "author": "saatoshi_rising",
+      "chain": "bitcoin",
+      "address": "12VVRNPi4SJqUTsp6FmqDqY5sGosDtysn4",
+      "address_kind": "p2pkh",
+      "status": "unsolved",
+      "prize": 7.30013849,
+      "prize_asset": "BTC",
+      "start_date": "2015-01-15",
+      "source_url": "https://bitcointalk.org/index.php?topic=5218972",
+      "techniques": null,
+      "pubkey": null,
+      "pre_genesis": false,
+      "hints": [],
+      "assets": {},
+      "stages": [],
+      "hint_count": 0,
+      "tx_count": 6,
+      "checked": {
+        "state": "funded-unspent",
+        "balance": 730013849,
+        "unit": "sats",
+        "source": "explorer",
+        "on": "2026-11-10"
+      }
+    },
+    {
+      "id": "bits/74",
+      "collection": "bits",
+      "author": "saatoshi_rising",
+      "chain": "bitcoin",
+      "address": "1FWGcVDK3JGzCC3WtkYetULPszMaK2Jksv",
+      "address_kind": "p2pkh",
+      "status": "unsolved",
+      "prize": 7.40004977,
+      "prize_asset": "BTC",
+      "start_date": "2015-01-15",
+      "source_url": "https://bitcointalk.org/index.php?topic=5218972",
+      "techniques": null,
+      "pubkey": null,
+      "pre_genesis": false,
+      "hints": [],
+      "assets": {},
+      "stages": [],
+      "hint_count": 0,
+      "tx_count": 6,
+      "checked": {
+        "state": "funded-unspent",
+        "balance": 740004977,
+        "unit": "sats",
+        "source": "explorer",
+        "on": "2026-11-10"
+      }
+    },
+    {
+      "id": "bits/76",
+      "collection": "bits",
+      "author": "saatoshi_rising",
+      "chain": "bitcoin",
+      "address": "1DJh2eHFYQfACPmrvpyWc8MSTYKh7w9eRF",
+      "address_kind": "p2pkh",
+      "status": "unsolved",
+      "prize": 7.6,
+      "prize_asset": "BTC",
+      "start_date": "2015-01-15",
+      "source_url": "https://bitcointalk.org/index.php?topic=5218972",
+      "techniques": null,
+      "pubkey": null,
+      "pre_genesis": false,
+      "hints": [],
+      "assets": {},
+      "stages": [],
+      "hint_count": 0,
+      "tx_count": 3,
+      "checked": {
+        "state": "funded-unspent",
+        "balance": 760000000,
+        "unit": "sats",
+        "source": "explorer",
+        "on": "2026-11-10"
+      }
+    },
+    {
+      "id": "bits/77",
+      "collection": "bits",
+      "author": "saatoshi_rising",
+      "chain": "bitcoin",
+      "address": "1Bxk4CQdqL9p22JEtDfdXMsng1XacifUtE",
+      "address_kind": "p2pkh",
+      "status": "unsolved",
+      "prize": 7.70002426,
+      "prize_asset": "BTC",
+      "start_date": "2015-01-15",
+      "source_url": "https://bitcointalk.org/index.php?topic=5218972",
+      "techniques": null,
+      "pubkey": null,
+      "pre_genesis": false,
+      "hints": [],
+      "assets": {},
+      "stages": [],
+      "hint_count": 0,
+      "tx_count": 5,
+      "checked": {
+        "state": "funded-unspent",
+        "balance": 770002426,
+        "unit": "sats",
+        "source": "explorer",
+        "on": "2026-11-10"
+      }
+    },
+    {
+      "id": "bits/78",
+      "collection": "bits",
+      "author": "saatoshi_rising",
+      "chain": "bitcoin",
+      "address": "15qF6X51huDjqTmF9BJgxXdt1xcj46Jmhb",
+      "address_kind": "p2pkh",
+      "status": "unsolved",
+      "prize": 7.8,
+      "prize_asset": "BTC",
+      "start_date": "2015-01-15",
+      "source_url": "https://bitcointalk.org/index.php?topic=5218972",
+      "techniques": null,
+      "pubkey": null,
+      "pre_genesis": false,
+      "hints": [],
+      "assets": {},
+      "stages": [],
+      "hint_count": 0,
+      "tx_count": 3,
+      "checked": {
+        "state": "funded-unspent",
+        "balance": 780000000,
+        "unit": "sats",
+        "source": "explorer",
+        "on": "2026-11-10"
+      }
+    },
+    {
+      "id": "bits/79",
+      "collection": "bits",
+      "author": "saatoshi_rising",
+      "chain": "bitcoin",
+      "address": "1ARk8HWJMn8js8tQmGUJeQHjSE7KRkn2t8",
+      "address_kind": "p2pkh",
+      "status": "unsolved",
+      "prize": 7.9,
+      "prize_asset": "BTC",
+      "start_date": "2015-01-15",
+      "source_url": "https://bitcointalk.org/index.php?topic=5218972",
+      "techniques": null,
+      "pubkey": null,
+      "pre_genesis": false,
+      "hints": [],
+      "assets": {},
+      "stages": [],
+      "hint_count": 0,
+      "tx_count": 3,
+      "checked": {
+        "state": "funded-unspent",
+        "balance": 790000000,
+        "unit": "sats",
+        "source": "explorer",
+        "on": "2026-11-10"
+      }
+    },
+    {
+      "id": "bits/81",
+      "collection": "bits",
+      "author": "saatoshi_rising",
+      "chain": "bitcoin",
+      "address": "15qsCm78whspNQFydGJQk5rexzxTQopnHZ",
+      "address_kind": "p2pkh",
+      "status": "unsolved",
+      "prize": 8.100015,
+      "prize_asset": "BTC",
+      "start_date": "2015-01-15",
+      "source_url": "https://bitcointalk.org/index.php?topic=5218972",
+      "techniques": null,
+      "pubkey": null,
+      "pre_genesis": false,
+      "hints": [],
+      "assets": {},
+      "stages": [],
+      "hint_count": 0,
+      "tx_count": 4,
+      "checked": {
+        "state": "funded-unspent",
+        "balance": 810001500,
+        "unit": "sats",
+        "source": "explorer",
+        "on": "2026-11-10"
+      }
+    },
+    {
+      "id": "bits/82",
+      "collection": "bits",
+      "author": "saatoshi_rising",
+      "chain": "bitcoin",
+      "address": "13zYrYhhJxp6Ui1VV7pqa5WDhNWM45ARAC",
+      "address_kind": "p2pkh",
+      "status": "unsolved",
+      "prize": 8.2,
+      "prize_asset": "BTC",
+      "start_date": "2015-01-15",
+      "source_url": "https://bitcointalk.org/index.php?topic=5218972",
+      "techniques": null,
+      "pubkey": null,
+      "pre_genesis": false,
+      "hints": [],
+      "assets": {},
+      "stages": [],
+      "hint_count": 0,
+      "tx_count": 3,
+      "checked": {
+        "state": "funded-unspent",
+        "balance": 820000000,
+        "unit": "sats",
+        "source": "explorer",
+        "on": "2026-11-10"
+      }
+    },
+    {
+      "id": "bits/83",
+      "collection": "bits",
+      "author": "saatoshi_rising",
+      "chain": "bitcoin",
+      "address": "14MdEb4eFcT3MVG5sPFG4jGLuHJSnt1Dk2",
+      "address_kind": "p2pkh",
+      "status": "unsolved",
+      "prize": 8.30002046,
+      "prize_asset": "BTC",
+      "start_date": "2015-01-15",
+      "source_url": "https://bitcointalk.org/index.php?topic=5218972",
+      "techniques": null,
+      "pubkey": null,
+      "pre_genesis": false,
+      "hints": [],
+      "assets": {},
+      "stages": [],
+      "hint_count": 0,
+      "tx_count": 5,
+      "checked": {
+        "state": "funded-unspent",
+        "balance": 830002046,
+        "unit": "sats",
+        "source": "explorer",
+        "on": "2026-11-10"
+      }
+    },
+    {
+      "id": "bits/84",
+      "collection": "bits",
+      "author": "saatoshi_rising",
+      "chain": "bitcoin",
+      "address": "1CMq3SvFcVEcpLMuuH8PUcNiqsK1oicG2D",
+      "address_kind": "p2pkh",
+      "status": "unsolved",
+      "prize": 8.400015,
+      "prize_asset": "BTC",
+      "start_date": "2015-01-15",
+      "source_url": "https://bitcointalk.org/index.php?topic=5218972",
+      "techniques": null,
+      "pubkey": null,
+      "pre_genesis": false,
+      "hints": [],
+      "assets": {},
+      "stages": [],
+      "hint_count": 0,
+      "tx_count": 4,
+      "checked": {
+        "state": "funded-unspent",
+        "balance": 840001500,
+        "unit": "sats",
+        "source": "explorer",
+        "on": "2026-11-10"
+      }
+    },
+    {
+      "id": "bits/86",
+      "collection": "bits",
+      "author": "saatoshi_rising",
+      "chain": "bitcoin",
+      "address": "1K3x5L6G57Y494fDqBfrojD28UJv4s5JcK",
+      "address_kind": "p2pkh",
+      "status": "unsolved",
+      "prize": 8.6,
+      "prize_asset": "BTC",
+      "start_date": "2015-01-15",
+      "source_url": "https://bitcointalk.org/index.php?topic=5218972",
+      "techniques": null,
+      "pubkey": null,
+      "pre_genesis": false,
+      "hints": [],
+      "assets": {},
+      "stages": [],
+      "hint_count": 0,
+      "tx_count": 3,
+      "checked": {
+        "state": "funded-unspent",
+        "balance": 860000000,
+        "unit": "sats",
+        "source": "explorer",
+        "on": "2026-11-10"
+      }
+    },
+    {
+      "id": "bits/87",
+      "collection": "bits",
+      "author": "saatoshi_rising",
+      "chain": "bitcoin",
+      "address": "1PxH3K1Shdjb7gSEoTX7UPDZ6SH4qGPrvq",
+      "address_kind": "p2pkh",
+      "status": "unsolved",
+      "prize": 8.7,
+      "prize_asset": "BTC",
+      "start_date": "2015-01-15",
+      "source_url": "https://bitcointalk.org/index.php?topic=5218972",
+      "techniques": null,
+      "pubkey": null,
+      "pre_genesis": false,
+      "hints": [],
+      "assets": {},
+      "stages": [],
+      "hint_count": 0,
+      "tx_count": 3,
+      "checked": {
+        "state": "funded-unspent",
+        "balance": 870000000,
+        "unit": "sats",
+        "source": "explorer",
+        "on": "2026-11-10"
+      }
+    },
+    {
+      "id": "bits/88",
+      "collection": "bits",
+      "author": "saatoshi_rising",
+      "chain": "bitcoin",
+      "address": "16AbnZjZZipwHMkYKBSfswGWKDmXHjEpSf",
+      "address_kind": "p2pkh",
+      "status": "unsolved",
+      "prize": 8.8,
+      "prize_asset": "BTC",
+      "start_date": "2015-01-15",
+      "source_url": "https://bitcointalk.org/index.php?topic=5218972",
+      "techniques": null,
+      "pubkey": null,
+      "pre_genesis": false,
+      "hints": [],
+      "assets": {},
+      "stages": [],
+      "hint_count": 0,
+      "tx_count": 3,
+      "checked": {
+        "state": "funded-unspent",
+        "balance": 880000000,
+        "unit": "sats",
+        "source": "explorer",
+        "on": "2026-11-10"
+      }
+    },
+    {
+      "id": "bits/89",
+      "collection": "bits",
+      "author": "saatoshi_rising",
+      "chain": "bitcoin",
+      "address": "19QciEHbGVNY4hrhfKXmcBBCrJSBZ6TaVt",
+      "address_kind": "p2pkh",
+      "status": "unsolved",
+      "prize": 8.9,
+      "prize_asset": "BTC",
+      "start_date": "2015-01-15",
+      "source_url": "https://bitcointalk.org/index.php?topic=5218972",
+      "techniques": null,
+      "pubkey": null,
+      "pre_genesis": false,
+      "hints": [],
+      "assets": {},
+      "stages": [],
+      "hint_count": 0,
+      "tx_count": 3,
+      "checked": {
+        "state": "funded-unspent",
+        "balance": 890000000,
+        "unit": "sats",
+        "source": "explorer",
+        "on": "2026-11-10"
+      }
+    },
+    {
+      "id": "bits/91",
+      "collection": "bits",
+      "author": "saatoshi_rising",
+      "chain": "bitcoin",
+      "address": "1EzVHtmbN4fs4MiNk3ppEnKKhsmXYJ4s74",
+      "address_kind": "p2pkh",
+      "status": "unsolved",
+      "prize": 9.1,
+      "prize_asset": "BTC",
+      "start_date": "2015-01-15",
+      "source_url": "https://bitcointalk.org/index.php?topic=5218972",
+      "techniques": null,
+      "pubkey": null,
+      "pre_genesis": false,
+      "hints": [],
+      "assets": {},
+      "stages": [],
+      "hint_count": 0,
+      "tx_count": 3,
+      "checked": {
+        "state": "funded-unspent",
+        "balance": 910000000,
+        "unit": "sats",
+        "source": "explorer",
+        "on": "2026-11-10"
+      }
+    },
+    {
+      "id": "bits/92",
+      "collection": "bits",
+      "author": "saatoshi_rising",
+      "chain": "bitcoin",
+      "address": "1AE8NzzgKE7Yhz7BWtAcAAxiFMbPo82NB5",
+      "address_kind": "p2pkh",
+      "status": "unsolved",
+      "prize": 9.2,
+      "prize_asset": "BTC",
+      "start_date": "2015-01-15",
+      "source_url": "https://bitcointalk.org/index.php?topic=5218972",
+      "techniques": null,
+      "pubkey": null,
+      "pre_genesis": false,
+      "hints": [],
+      "assets": {},
+      "stages": [],
+      "hint_count": 0,
+      "tx_count": 3,
+      "checked": {
+        "state": "funded-unspent",
+        "balance": 920000000,
+        "unit": "sats",
+        "source": "explorer",
+        "on": "2026-11-10"
+      }
+    },
+    {
+      "id": "bits/93",
+      "collection": "bits",
+      "author": "saatoshi_rising",
+      "chain": "bitcoin",
+      "address": "17Q7tuG2JwFFU9rXVj3uZqRtioH3mx2Jad",
+      "address_kind": "p2pkh",
+      "status": "unsolved",
+      "prize": 9.3,
+      "prize_asset": "BTC",
+      "start_date": "2015-01-15",
+      "source_url": "https://bitcointalk.org/index.php?topic=5218972",
+      "techniques": null,
+      "pubkey": null,
+      "pre_genesis": false,
+      "hints": [],
+      "assets": {},
+      "stages": [],
+      "hint_count": 0,
+      "tx_count": 3,
+      "checked": {
+        "state": "funded-unspent",
+        "balance": 930000000,
+        "unit": "sats",
+        "source": "explorer",
+        "on": "2026-11-10"
+      }
+    },
+    {
+      "id": "bits/94",
+      "collection": "bits",
+      "author": "saatoshi_rising",
+      "chain": "bitcoin",
+      "address": "1K6xGMUbs6ZTXBnhw1pippqwK6wjBWtNpL",
+      "address_kind": "p2pkh",
+      "status": "unsolved",
+      "prize": 9.4,
+      "prize_asset": "BTC",
+      "start_date": "2015-01-15",
+      "source_url": "https://bitcointalk.org/index.php?topic=5218972",
+      "techniques": null,
+      "pubkey": null,
+      "pre_genesis": false,
+      "hints": [],
+      "assets": {},
+      "stages": [],
+      "hint_count": 0,
+      "tx_count": 3,
+      "checked": {
+        "state": "funded-unspent",
+        "balance": 940000000,
+        "unit": "sats",
+        "source": "explorer",
+        "on": "2026-11-10"
+      }
+    },
+    {
+      "id": "bits/96",
+      "collection": "bits",
+      "author": "saatoshi_rising",
+      "chain": "bitcoin",
+      "address": "15ANYzzCp5BFHcCnVFzXqyibpzgPLWaD8b",
+      "address_kind": "p2pkh",
+      "status": "unsolved",
+      "prize": 9.600006,
+      "prize_asset": "BTC",
+      "start_date": "2015-01-15",
+      "source_url": "https://bitcointalk.org/index.php?topic=5218972",
+      "techniques": null,
+      "pubkey": null,
+      "pre_genesis": false,
+      "hints": [],
+      "assets": {},
+      "stages": [],
+      "hint_count": 0,
+      "tx_count": 4,
+      "checked": {
+        "state": "funded-unspent",
+        "balance": 960000600,
+        "unit": "sats",
+        "source": "explorer",
+        "on": "2026-11-10"
+      }
+    },
+    {
+      "id": "bits/97",
+      "collection": "bits",
+      "author": "saatoshi_rising",
+      "chain": "bitcoin",
+      "address": "18ywPwj39nGjqBrQJSzZVq2izR12MDpDr8",
+      "address_kind": "p2pkh",
+      "status": "unsolved",
+      "prize": 9.70002613,
+      "prize_asset": "BTC",
+      "start_date": "2015-01-15",
+      "source_url": "https://bitcointalk.org/index.php?topic=5218972",
+      "techniques": null,
+      "pubkey": null,
+      "pre_genesis": false,
+      "hints": [],
+      "assets": {},
+      "stages": [],
+      "hint_count": 0,
+      "tx_count": 4,
+      "checked": {
+        "state": "funded-unspent",
+        "balance": 970002613,
+        "unit": "sats",
+        "source": "explorer",
+        "on": "2026-11-10"
+      }
+    },
+    {
+      "id": "bits/98",
+      "collection": "bits",
+      "author": "saatoshi_rising",
+      "chain": "bitcoin",
+      "address": "1CaBVPrwUxbQYYswu32w7Mj4HR4maNoJSX",
+      "address_kind": "p2pkh",
+      "status": "unsolved",
+      "prize": 9.8,
+      "prize_asset": "BTC",
+      "start_date": "2015-01-15",
+      "source_url": "https://bitcointalk.org/index.php?topic=5218972",
+      "techniques": null,
+      "pubkey": null,
+      "pre_genesis": false,
+      "hints": [],
+      "assets": {},
+      "stages": [],
+      "hint_count": 0,
+      "tx_count": 3,
+      "checked": {
+        "state": "funded-unspent",
+        "balance": 980000000,
+        "unit": "sats",
+        "source": "explorer",
+        "on": "2026-11-10"
+      }
+    },
+    {
+      "id": "bits/99",
+      "collection": "bits",
+      "author": "saatoshi_rising",
+      "chain": "bitcoin",
+      "address": "1JWnE6p6UN7ZJBN7TtcbNDoRcjFtuDWoNL",
+      "address_kind": "p2pkh",
+      "status": "unsolved",
+      "prize": 9.91257338,
+      "prize_asset": "BTC",
+      "start_date": "2015-01-15",
+      "source_url": "https://bitcointalk.org/index.php?topic=5218972",
+      "techniques": null,
+      "pubkey": null,
+      "pre_genesis": false,
+      "hints": [],
+      "assets": {},
+      "stages": [],
+      "hint_count": 0,
+      "tx_count": 7,
+      "checked": {
+        "state": "funded-unspent",
+        "balance": 991257338,
+        "unit": "sats",
+        "source": "explorer",
+        "on": "2026-11-10"
+      }
+    },
+    {
+      "id": "bits/101",
+      "collection": "bits",
+      "author": "saatoshi_rising",
+      "chain": "bitcoin",
+      "address": "1CKCVdbDJasYmhswB6HKZHEAnNaDpK7W4n",
+      "address_kind": "p2pkh",
+      "status": "unsolved",
+      "prize": 10.1,
+      "prize_asset": "BTC",
+      "start_date": "2015-01-15",
+      "source_url": "https://bitcointalk.org/index.php?topic=5218972",
+      "techniques": null,
+      "pubkey": null,
+      "pre_genesis": false,
+      "hints": [],
+      "assets": {},
+      "stages": [],
+      "hint_count": 0,
+      "tx_count": 3,
+      "checked": {
+        "state": "funded-unspent",
+        "balance": 1010000000,
+        "unit": "sats",
+        "source": "explorer",
+        "on": "2026-11-10"
+      }
+    },
+    {
+      "id": "bits/102",
+      "collection": "bits",
+      "author": "saatoshi_rising",
+      "chain": "bitcoin",
+      "address": "1PXv28YxmYMaB8zxrKeZBW8dt2HK7RkRPX",
+      "address_kind": "p2pkh",
+      "status": "unsolved",
+      "prize": 10.2,
+      "prize_asset": "BTC",
+      "start_date": "2015-01-15",
+      "source_url": "https://bitcointalk.org/index.php?topic=5218972",
+      "techniques": null,
+      "pubkey": null,
+      "pre_genesis": false,
+      "hints": [],
+      "assets": {},
+      "stages": [],
+      "hint_count": 0,
+      "tx_count": 3,
+      "checked": {
+        "state": "funded-unspent",
+        "balance": 1020000000,
+        "unit": "sats",
+        "source": "explorer",
+        "on": "2026-11-10"
+      }
+    },
+    {
+      "id": "bits/103",
+      "collection": "bits",
+      "author": "saatoshi_rising",
+      "chain": "bitcoin",
+      "address": "1AcAmB6jmtU6AiEcXkmiNE9TNVPsj9DULf",
+      "address_kind": "p2pkh",
+      "status": "unsolved",
+      "prize": 10.3,
+      "prize_asset": "BTC",
+      "start_date": "2015-01-15",
+      "source_url": "https://bitcointalk.org/index.php?topic=5218972",
+      "techniques": null,
+      "pubkey": null,
+      "pre_genesis": false,
+      "hints": [],
+      "assets": {},
+      "stages": [],
+      "hint_count": 0,
+      "tx_count": 3,
+      "checked": {
+        "state": "funded-unspent",
+        "balance": 1030000000,
+        "unit": "sats",
+        "source": "explorer",
+        "on": "2026-11-10"
+      }
+    },
+    {
+      "id": "bits/104",
+      "collection": "bits",
+      "author": "saatoshi_rising",
+      "chain": "bitcoin",
+      "address": "1EQJvpsmhazYCcKX5Au6AZmZKRnzarMVZu",
+      "address_kind": "p2pkh",
+      "status": "unsolved",
+      "prize": 10.400016,
+      "prize_asset": "BTC",
+      "start_date": "2015-01-15",
+      "source_url": "https://bitcointalk.org/index.php?topic=5218972",
+      "techniques": null,
+      "pubkey": null,
+      "pre_genesis": false,
+      "hints": [],
+      "assets": {},
+      "stages": [],
+      "hint_count": 0,
+      "tx_count": 5,
+      "checked": {
+        "state": "funded-unspent",
+        "balance": 1040001600,
+        "unit": "sats",
+        "source": "explorer",
+        "on": "2026-11-10"
+      }
+    },
+    {
+      "id": "bits/106",
+      "collection": "bits",
+      "author": "saatoshi_rising",
+      "chain": "bitcoin",
+      "address": "18KsfuHuzQaBTNLASyj15hy4LuqPUo1FNB",
+      "address_kind": "p2pkh",
+      "status": "unsolved",
+      "prize": 10.6,
+      "prize_asset": "BTC",
+      "start_date": "2015-01-15",
+      "source_url": "https://bitcointalk.org/index.php?topic=5218972",
+      "techniques": null,
+      "pubkey": null,
+      "pre_genesis": false,
+      "hints": [],
+      "assets": {},
+      "stages": [],
+      "hint_count": 0,
+      "tx_count": 3,
+      "checked": {
+        "state": "funded-unspent",
+        "balance": 1060000000,
+        "unit": "sats",
+        "source": "explorer",
+        "on": "2026-11-10"
+      }
+    },
+    {
+      "id": "bits/107",
+      "collection": "bits",
+      "author": "saatoshi_rising",
+      "chain": "bitcoin",
+      "address": "15EJFC5ZTs9nhsdvSUeBXjLAuYq3SWaxTc",
+      "address_kind": "p2pkh",
+      "status": "unsolved",
+      "prize": 10.7,
+      "prize_asset": "BTC",
+      "start_date": "2015-01-15",
+      "source_url": "https://bitcointalk.org/index.php?topic=5218972",
+      "techniques": null,
+      "pubkey": null,
+      "pre_genesis": false,
+      "hints": [],
+      "assets": {},
+      "stages": [],
+      "hint_count": 0,
+      "tx_count": 3,
+      "checked": {
+        "state": "funded-unspent",
+        "balance": 1070000000,
+        "unit": "sats",
+        "source": "explorer",
+        "on": "2026-11-10"
+      }
+    },
+    {
+      "id": "bits/108",
+      "collection": "bits",
+      "author": "saatoshi_rising",
+      "chain": "bitcoin",
+      "address": "1HB1iKUqeffnVsvQsbpC6dNi1XKbyNuqao",
+      "address_kind": "p2pkh",
+      "status": "unsolved",
+      "prize": 10.8,
+      "prize_asset": "BTC",
+      "start_date": "2015-01-15",
+      "source_url": "https://bitcointalk.org/index.php?topic=5218972",
+      "techniques": null,
+      "pubkey": null,
+      "pre_genesis": false,
+      "hints": [],
+      "assets": {},
+      "stages": [],
+      "hint_count": 0,
+      "tx_count": 3,
+      "checked": {
+        "state": "funded-unspent",
+        "balance": 1080000000,
+        "unit": "sats",
+        "source": "explorer",
+        "on": "2026-11-10"
+      }
+    },
+    {
+      "id": "bits/109",
+      "collection": "bits",
+      "author": "saatoshi_rising",
+      "chain": "bitcoin",
+      "address": "1GvgAXVCbA8FBjXfWiAms4ytFeJcKsoyhL",
+      "address_kind": "p2pkh",
+      "status": "unsolved",
+      "prize": 10.900105,
+      "prize_asset": "BTC",
+      "start_date": "2015-01-15",
+      "source_url": "https://bitcointalk.org/index.php?topic=5218972",
+      "techniques": null,
+      "pubkey": null,
+      "pre_genesis": false,
+      "hints": [],
+      "assets": {},
+      "stages": [],
+      "hint_count": 0,
+      "tx_count": 4,
+      "checked": {
+        "state": "funded-unspent",
+        "balance": 1090010500,
+        "unit": "sats",
+        "source": "explorer",
+        "on": "2026-11-10"
+      }
+    },
+    {
+      "id": "bits/111",
+      "collection": "bits",
+      "author": "saatoshi_rising",
+      "chain": "bitcoin",
+      "address": "1824ZJQ7nKJ9QFTRBqn7z7dHV5EGpzUpH3",
+      "address_kind": "p2pkh",
+      "status": "unsolved",
+      "prize": 11.1001,
+      "prize_asset": "BTC",
+      "start_date": "2015-01-15",
+      "source_url": "https://bitcointalk.org/index.php?topic=5218972",
+      "techniques": null,
+      "pubkey": null,
+      "pre_genesis": false,
+      "hints": [],
+      "assets": {},
+      "stages": [],
+      "hint_count": 0,
+      "tx_count": 4,
+      "checked": {
+        "state": "funded-unspent",
+        "balance": 1110010000,
+        "unit": "sats",
+        "source": "explorer",
+        "on": "2026-11-10"
+      }
+    },
+    {
+      "id": "bits/112",
+      "collection": "bits",
+      "author": "saatoshi_rising",
+      "chain": "bitcoin",
+      "address": "18A7NA9FTsnJxWgkoFfPAFbQzuQxpRtCos",
+      "address_kind": "p2pkh",
+      "status": "unsolved",
+      "prize": 11.2,
+      "prize_asset": "BTC",
+      "start_date": "2015-01-15",
+      "source_url": "https://bitcointalk.org/index.php?topic=5218972",
+      "techniques": null,
+      "pubkey": null,
+      "pre_genesis": false,
+      "hints": [],
+      "assets": {},
+      "stages": [],
+      "hint_count": 0,
+      "tx_count": 3,
+      "checked": {
+        "state": "funded-unspent",
+        "balance": 1120000000,
+        "unit": "sats",
+        "source": "explorer",
+        "on": "2026-11-10"
+      }
+    },
+    {
+      "id": "bits/113",
+      "collection": "bits",
+      "author": "saatoshi_rising",
+      "chain": "bitcoin",
+      "address": "1NeGn21dUDDeqFQ63xb2SpgUuXuBLA4WT4",
+      "address_kind": "p2pkh",
+      "status": "unsolved",
+      "prize": 11.3,
+      "prize_asset": "BTC",
+      "start_date": "2015-01-15",
+      "source_url": "https://bitcointalk.org/index.php?topic=5218972",
+      "techniques": null,
+      "pubkey": null,
+      "pre_genesis": false,
+      "hints": [],
+      "assets": {},
+      "stages": [],
+      "hint_count": 0,
+      "tx_count": 3,
+      "checked": {
+        "state": "funded-unspent",
+        "balance": 1130000000,
+        "unit": "sats",
+        "source": "explorer",
+        "on": "2026-11-10"
+      }
+    },
+    {
+      "id": "bits/114",
+      "collection": "bits",
+      "author": "saatoshi_rising",
+      "chain": "bitcoin",
+      "address": "174SNxfqpdMGYy5YQcfLbSTK3MRNZEePoy",
+      "address_kind": "p2pkh",
+      "status": "unsolved",
+      "prize": 11.4,
+      "prize_asset": "BTC",
+      "start_date": "2015-01-15",
+      "source_url": "https://bitcointalk.org/index.php?topic=5218972",
+      "techniques": null,
+      "pubkey": null,
+      "pre_genesis": false,
+      "hints": [],
+      "assets": {},
+      "stages": [],
+      "hint_count": 0,
+      "tx_count": 3,
+      "checked": {
+        "state": "funded-unspent",
+        "balance": 1140000000,
+        "unit": "sats",
+        "source": "explorer",
+        "on": "2026-11-10"
+      }
+    },
+    {
+      "id": "bits/116",
+      "collection": "bits",
+      "author": "saatoshi_rising",
+      "chain": "bitcoin",
+      "address": "1MnJ6hdhvK37VLmqcdEwqC3iFxyWH2PHUV",
+      "address_kind": "p2pkh",
+      "status": "unsolved",
+      "prize": 11.6000121,
+      "prize_asset": "BTC",
+      "start_date": "2015-01-15",
+      "source_url": "https://bitcointalk.org/index.php?topic=5218972",
+      "techniques": null,
+      "pubkey": null,
+      "pre_genesis": false,
+      "hints": [],
+      "assets": {},
+      "stages": [],
+      "hint_count": 0,
+      "tx_count": 4,
+      "checked": {
+        "state": "funded-unspent",
+        "balance": 1160001210,
+        "unit": "sats",
+        "source": "explorer",
+        "on": "2026-11-10"
+      }
+    },
+    {
+      "id": "bits/117",
+      "collection": "bits",
+      "author": "saatoshi_rising",
+      "chain": "bitcoin",
+      "address": "1KNRfGWw7Q9Rmwsc6NT5zsdvEb9M2Wkj5Z",
+      "address_kind": "p2pkh",
+      "status": "unsolved",
+      "prize": 11.7,
+      "prize_asset": "BTC",
+      "start_date": "2015-01-15",
+      "source_url": "https://bitcointalk.org/index.php?topic=5218972",
+      "techniques": null,
+      "pubkey": null,
+      "pre_genesis": false,
+      "hints": [],
+      "assets": {},
+      "stages": [],
+      "hint_count": 0,
+      "tx_count": 3,
+      "checked": {
+        "state": "funded-unspent",
+        "balance": 1170000000,
+        "unit": "sats",
+        "source": "explorer",
+        "on": "2026-11-10"
+      }
+    },
+    {
+      "id": "bits/118",
+      "collection": "bits",
+      "author": "saatoshi_rising",
+      "chain": "bitcoin",
+      "address": "1PJZPzvGX19a7twf5HyD2VvNiPdHLzm9F6",
+      "address_kind": "p2pkh",
+      "status": "unsolved",
+      "prize": 11.80000661,
+      "prize_asset": "BTC",
+      "start_date": "2015-01-15",
+      "source_url": "https://bitcointalk.org/index.php?topic=5218972",
+      "techniques": null,
+      "pubkey": null,
+      "pre_genesis": false,
+      "hints": [],
+      "assets": {},
+      "stages": [],
+      "hint_count": 0,
+      "tx_count": 4,
+      "checked": {
+        "state": "funded-unspent",
+        "balance": 1180000661,
+        "unit": "sats",
+        "source": "explorer",
+        "on": "2026-11-10"
+      }
+    },
+    {
+      "id": "bits/119",
+      "collection": "bits",
+      "author": "saatoshi_rising",
+      "chain": "bitcoin",
+      "address": "1GuBBhf61rnvRe4K8zu8vdQB3kHzwFqSy7",
+      "address_kind": "p2pkh",
+      "status": "unsolved",
+      "prize": 11.9,
+      "prize_asset": "BTC",
+      "start_date": "2015-01-15",
+      "source_url": "https://bitcointalk.org/index.php?topic=5218972",
+      "techniques": null,
+      "pubkey": null,
+      "pre_genesis": false,
+      "hints": [],
+      "assets": {},
+      "stages": [],
+      "hint_count": 0,
+      "tx_count": 3,
+      "checked": {
+        "state": "funded-unspent",
+        "balance": 1190000000,
+        "unit": "sats",
+        "source": "explorer",
+        "on": "2026-11-10"
+      }
+    },
+    {
+      "id": "bits/121",
+      "collection": "bits",
+      "author": "saatoshi_rising",
+      "chain": "bitcoin",
+      "address": "1GDSuiThEV64c166LUFC9uDcVdGjqkxKyh",
+      "address_kind": "p2pkh",
+      "status": "unsolved",
+      "prize": 12.1,
+      "prize_asset": "BTC",
+      "start_date": "2015-01-15",
+      "source_url": "https://bitcointalk.org/index.php?topic=5218972",
+      "techniques": null,
+      "pubkey": null,
+      "pre_genesis": false,
+      "hints": [],
+      "assets": {},
+      "stages": [],
+      "hint_count": 0,
+      "tx_count": 3,
+      "checked": {
+        "state": "funded-unspent",
+        "balance": 1210000000,
+        "unit": "sats",
+        "source": "explorer",
+        "on": "2026-11-10"
+      }
+    },
+    {
+      "id": "bits/122",
+      "collection": "bits",
+      "author": "saatoshi_rising",
+      "chain": "bitcoin",
+      "address": "1Me3ASYt5JCTAK2XaC32RMeH34PdprrfDx",
+      "address_kind": "p2pkh",
+      "status": "unsolved",
+      "prize": 12.2,
+      "prize_asset": "BTC",
+      "start_date": "2015-01-15",
+      "source_url": "https://bitcointalk.org/index.php?topic=5218972",
+      "techniques": null,
+      "pubkey": null,
+      "pre_genesis": false,
+      "hints": [],
+      "assets": {},
+      "stages": [],
+      "hint_count": 0,
+      "tx_count": 3,
+      "checked": {
+        "state": "funded-unspent",
+        "balance": 1220000000,
+        "unit": "sats",
+        "source": "explorer",
+        "on": "2026-11-10"
+      }
+    },
+    {
+      "id": "bits/123",
+      "collection": "bits",
+      "author": "saatoshi_rising",
+      "chain": "bitcoin",
+      "address": "1CdufMQL892A69KXgv6UNBD17ywWqYpKut",
+      "address_kind": "p2pkh",
+      "status": "unsolved",
+      "prize": 12.3,
+      "prize_asset": "BTC",
+      "start_date": "2015-01-15",
+      "source_url": "https://bitcointalk.org/index.php?topic=5218972",
+      "techniques": null,
+      "pubkey": null,
+      "pre_genesis": false,
+      "hints": [],
+      "assets": {},
+      "stages": [],
+      "hint_count": 0,
+      "tx_count": 3,
+      "checked": {
+        "state": "funded-unspent",
+        "balance": 1230000000,
+        "unit": "sats",
+        "source": "explorer",
+        "on": "2026-11-10"
+      }
+    },
+    {
+      "id": "bits/124",
+      "collection": "bits",
+      "author": "saatoshi_rising",
+      "chain": "bitcoin",
+      "address": "1BkkGsX9ZM6iwL3zbqs7HWBV7SvosR6m8N",
+      "address_kind": "p2pkh",
+      "status": "unsolved",
+      "prize": 12.4,
+      "prize_asset": "BTC",
+      "start_date": "2015-01-15",
+      "source_url": "https://bitcointalk.org/index.php?topic=5218972",
+      "techniques": null,
+      "pubkey": null,
+      "pre_genesis": false,
+      "hints": [],
+      "assets": {},
+      "stages": [],
+      "hint_count": 0,
+      "tx_count": 3,
+      "checked": {
+        "state": "funded-unspent",
+        "balance": 1240000000,
+        "unit": "sats",
+        "source": "explorer",
+        "on": "2026-11-10"
+      }
+    },
+    {
+      "id": "bits/126",
+      "collection": "bits",
+      "author": "saatoshi_rising",
+      "chain": "bitcoin",
+      "address": "1AWCLZAjKbV1P7AHvaPNCKiB7ZWVDMxFiz",
+      "address_kind": "p2pkh",
+      "status": "unsolved",
+      "prize": 12.6,
+      "prize_asset": "BTC",
+      "start_date": "2015-01-15",
+      "source_url": "https://bitcointalk.org/index.php?topic=5218972",
+      "techniques": null,
+      "pubkey": null,
+      "pre_genesis": false,
+      "hints": [],
+      "assets": {},
+      "stages": [],
+      "hint_count": 0,
+      "tx_count": 3,
+      "checked": {
+        "state": "funded-unspent",
+        "balance": 1260000000,
+        "unit": "sats",
+        "source": "explorer",
+        "on": "2026-11-10"
+      }
+    },
+    {
+      "id": "bits/127",
+      "collection": "bits",
+      "author": "saatoshi_rising",
+      "chain": "bitcoin",
+      "address": "1G6EFyBRU86sThN3SSt3GrHu1sA7w7nzi4",
+      "address_kind": "p2pkh",
+      "status": "unsolved",
+      "prize": 12.7,
+      "prize_asset": "BTC",
+      "start_date": "2015-01-15",
+      "source_url": "https://bitcointalk.org/index.php?topic=5218972",
+      "techniques": null,
+      "pubkey": null,
+      "pre_genesis": false,
+      "hints": [],
+      "assets": {},
+      "stages": [],
+      "hint_count": 0,
+      "tx_count": 3,
+      "checked": {
+        "state": "funded-unspent",
+        "balance": 1270000000,
+        "unit": "sats",
+        "source": "explorer",
+        "on": "2026-11-10"
+      }
+    },
+    {
+      "id": "bits/128",
+      "collection": "bits",
+      "author": "saatoshi_rising",
+      "chain": "bitcoin",
+      "address": "1MZ2L1gFrCtkkn6DnTT2e4PFUTHw9gNwaj",
+      "address_kind": "p2pkh",
+      "status": "unsolved",
+      "prize": 12.8,
+      "prize_asset": "BTC",
+      "start_date": "2015-01-15",
+      "source_url": "https://bitcointalk.org/index.php?topic=5218972",
+      "techniques": null,
+      "pubkey": null,
+      "pre_genesis": false,
+      "hints": [],
+      "assets": {},
+      "stages": [],
+      "hint_count": 0,
+      "tx_count": 3,
+      "checked": {
+        "state": "funded-unspent",
+        "balance": 1280000000,
+        "unit": "sats",
+        "source": "explorer",
+        "on": "2026-11-10"
+      }
+    },
+    {
+      "id": "bits/129",
+      "collection": "bits",
+      "author": "saatoshi_rising",
+      "chain": "bitcoin",
+      "address": "1Hz3uv3nNZzBVMXLGadCucgjiCs5W9vaGz",
+      "address_kind": "p2pkh",
+      "status": "unsolved",
+      "prize": 12.9,
+      "prize_asset": "BTC",
+      "start_date": "2015-01-15",
+      "source_url": "https://bitcointalk.org/index.php?topic=5218972",
+      "techniques": null,
+      "pubkey": null,
+      "pre_genesis": false,
+      "hints": [],
+      "assets": {},
+      "stages": [],
+      "hint_count": 0,
+      "tx_count": 3,
+      "checked": {
+        "state": "funded-unspent",
+        "balance": 1290000000,
+        "unit": "sats",
+        "source": "explorer",
+        "on": "2026-11-10"
+      }
+    },
+    {
+      "id": "bits/131",
+      "collection": "bits",
+      "author": "saatoshi_rising",
+      "chain": "bitcoin",
+      "address": "16zRPnT8znwq42q7XeMkZUhb1bKqgRogyy",
+      "address_kind": "p2pkh",
+      "status": "unsolved",
+      "prize": 13.1,
+      "prize_asset": "BTC",
+      "start_date": "2015-01-15",
+      "source_url": "https://bitcointalk.org/index.php?topic=5218972",
+      "techniques": null,
+      "pubkey": null,
+      "pre_genesis": false,
+      "hints": [],
+      "assets": {},
+      "stages": [],
+      "hint_count": 0,
+      "tx_count": 3,
+      "checked": {
+        "state": "funded-unspent",
+        "balance": 1310000000,
+        "unit": "sats",
+        "source": "explorer",
+        "on": "2026-11-10"
+      }
+    },
+    {
+      "id": "bits/132",
+      "collection": "bits",
+      "author": "saatoshi_rising",
+      "chain": "bitcoin",
+      "address": "1KrU4dHE5WrW8rhWDsTRjR21r8t3dsrS3R",
+      "address_kind": "p2pkh",
+      "status": "unsolved",
+      "prize": 13.2,
+      "prize_asset": "BTC",
+      "start_date": "2015-01-15",
+      "source_url": "https://bitcointalk.org/index.php?topic=5218972",
+      "techniques": null,
+      "pubkey": null,
+      "pre_genesis": false,
+      "hints": [],
+      "assets": {},
+      "stages": [],
+      "hint_count": 0,
+      "tx_count": 3,
+      "checked": {
+        "state": "funded-unspent",
+        "balance": 1320000000,
+        "unit": "sats",
+        "source": "explorer",
+        "on": "2026-11-10"
+      }
+    },
+    {
+      "id": "bits/133",
+      "collection": "bits",
+      "author": "saatoshi_rising",
+      "chain": "bitcoin",
+      "address": "17uDfp5r4n441xkgLFmhNoSW1KWp6xVLD",
+      "address_kind": "p2pkh",
+      "status": "unsolved",
+      "prize": 13.3,
+      "prize_asset": "BTC",
+      "start_date": "2015-01-15",
+      "source_url": "https://bitcointalk.org/index.php?topic=5218972",
+      "techniques": null,
+      "pubkey": null,
+      "pre_genesis": false,
+      "hints": [],
+      "assets": {},
+      "stages": [],
+      "hint_count": 0,
+      "tx_count": 3,
+      "checked": {
+        "state": "funded-unspent",
+        "balance": 1330000000,
+        "unit": "sats",
+        "source": "explorer",
+        "on": "2026-11-10"
+      }
+    },
+    {
+      "id": "bits/134",
+      "collection": "bits",
+      "author": "saatoshi_rising",
+      "chain": "bitcoin",
+      "address": "13A3JrvXmvg5w9XGvyyR4JEJqiLz8ZySY3",
+      "address_kind": "p2pkh",
+      "status": "unsolved",
+      "prize": 13.4,
+      "prize_asset": "BTC",
+      "start_date": "2015-01-15",
+      "source_url": "https://bitcointalk.org/index.php?topic=5218972",
+      "techniques": null,
+      "pubkey": null,
+      "pre_genesis": false,
+      "hints": [],
+      "assets": {},
+      "stages": [],
+      "hint_count": 0,
+      "tx_count": 3,
+      "checked": {
+        "state": "funded-unspent",
+        "balance": 1340000000,
+        "unit": "sats",
+        "source": "explorer",
+        "on": "2026-11-10"
+      }
+    },
+    {
+      "id": "bits/136",
+      "collection": "bits",
+      "author": "saatoshi_rising",
+      "chain": "bitcoin",
+      "address": "1UDHPdovvR985NrWSkdWQDEQ1xuRiTALq",
+      "address_kind": "p2pkh",
+      "status": "unsolved",
+      "prize": 13.6,
+      "prize_asset": "BTC",
+      "start_date": "2015-01-15",
+      "source_url": "https://bitcointalk.org/index.php?topic=5218972",
+      "techniques": null,
+      "pubkey": null,
+      "pre_genesis": false,
+      "hints": [],
+      "assets": {},
+      "stages": [],
+      "hint_count": 0,
+      "tx_count": 3,
+      "checked": {
+        "state": "funded-unspent",
+        "balance": 1360000000,
+        "unit": "sats",
+        "source": "explorer",
+        "on": "2026-11-10"
+      }
+    },
+    {
+      "id": "bits/137",
+      "collection": "bits",
+      "author": "saatoshi_rising",
+      "chain": "bitcoin",
+      "address": "15nf31J46iLuK1ZkTnqHo7WgN5cARFK3RA",
+      "address_kind": "p2pkh",
+      "status": "unsolved",
+      "prize": 13.7,
+      "prize_asset": "BTC",
+      "start_date": "2015-01-15",
+      "source_url": "https://bitcointalk.org/index.php?topic=5218972",
+      "techniques": null,
+      "pubkey": null,
+      "pre_genesis": false,
+      "hints": [],
+      "assets": {},
+      "stages": [],
+      "hint_count": 0,
+      "tx_count": 3,
+      "checked": {
+        "state": "funded-unspent",
+        "balance": 1370000000,
+        "unit": "sats",
+        "source": "explorer",
+        "on": "2026-11-10"
+      }
+    },
+    {
+      "id": "bits/138",
+      "collection": "bits",
+      "author": "saatoshi_rising",
+      "chain": "bitcoin",
+      "address": "1Ab4vzG6wEQBDNQM1B2bvUz4fqXXdFk2WT",
+      "address_kind": "p2pkh",
+      "status": "unsolved",
+      "prize": 13.8,
+      "prize_asset": "BTC",
+      "start_date": "2015-01-15",
+      "source_url": "https://bitcointalk.org/index.php?topic=5218972",
+      "techniques": null,
+      "pubkey": null,
+      "pre_genesis": false,
+      "hints": [],
+      "assets": {},
+      "stages": [],
+      "hint_count": 0,
+      "tx_count": 3,
+      "checked": {
+        "state": "funded-unspent",
+        "balance": 1380000000,
+        "unit": "sats",
+        "source": "explorer",
+        "on": "2026-11-10"
+      }
+    },
+    {
+      "id": "bits/139",
+      "collection": "bits",
+      "author": "saatoshi_rising",
+      "chain": "bitcoin",
+      "address": "1Fz63c775VV9fNyj25d9Xfw3YHE6sKCxbt",
+      "address_kind": "p2pkh",
+      "status": "unsolved",
+      "prize": 13.9,
+      "prize_asset": "BTC",
+      "start_date": "2015-01-15",
+      "source_url": "https://bitcointalk.org/index.php?topic=5218972",
+      "techniques": null,
+      "pubkey": null,
+      "pre_genesis": false,
+      "hints": [],
+      "assets": {},
+      "stages": [],
+      "hint_count": 0,
+      "tx_count": 3,
+      "checked": {
+        "state": "funded-unspent",
+        "balance": 1390000000,
+        "unit": "sats",
+        "source": "explorer",
+        "on": "2026-11-10"
+      }
+    },
+    {
+      "id": "bits/140",
+      "collection": "bits",
+      "author": "saatoshi_rising",
+      "chain": "bitcoin",
+      "address": "1QKBaU6WAeycb3DbKbLBkX7vJiaS8r42Xo",
+      "address_kind": "p2pkh",
+      "status": "unsolved",
+      "prize": 14.0000224,
+      "prize_asset": "BTC",
+      "start_date": "2015-01-15",
+      "source_url": "https://bitcointalk.org/index.php?topic=5218972",
+      "techniques": null,
+      "pubkey": {
+        "value": "031f6a332d3c5c4f2de2378c012f429cd109ba07d69690c6c701b6bb87860d6640",
+        "format": "compressed"
+      },
+      "pre_genesis": false,
+      "hints": [],
+      "assets": {},
+      "stages": [],
+      "hint_count": 0,
+      "tx_count": 8,
+      "checked": {
+        "state": "funded-unspent",
+        "balance": 1400002240,
+        "unit": "sats",
+        "source": "explorer",
+        "on": "2026-11-10"
+      }
+    },
+    {
+      "id": "bits/141",
+      "collection": "bits",
+      "author": "saatoshi_rising",
+      "chain": "bitcoin",
+      "address": "1CD91Vm97mLQvXhrnoMChhJx4TP9MaQkJo",
+      "address_kind": "p2pkh",
+      "status": "unsolved",
+      "prize": 14.10014846,
+      "prize_asset": "BTC",
+      "start_date": "2015-01-15",
+      "source_url": "https://bitcointalk.org/index.php?topic=5218972",
+      "techniques": null,
+      "pubkey": null,
+      "pre_genesis": false,
+      "hints": [],
+      "assets": {},
+      "stages": [],
+      "hint_count": 0,
+      "tx_count": 5,
+      "checked": {
+        "state": "funded-unspent",
+        "balance": 1410014846,
+        "unit": "sats",
+        "source": "explorer",
+        "on": "2026-11-10"
+      }
+    },
+    {
+      "id": "bits/142",
+      "collection": "bits",
+      "author": "saatoshi_rising",
+      "chain": "bitcoin",
+      "address": "15MnK2jXPqTMURX4xC3h4mAZxyCcaWWEDD",
+      "address_kind": "p2pkh",
+      "status": "unsolved",
+      "prize": 14.2,
+      "prize_asset": "BTC",
+      "start_date": "2015-01-15",
+      "source_url": "https://bitcointalk.org/index.php?topic=5218972",
+      "techniques": null,
+      "pubkey": null,
+      "pre_genesis": false,
+      "hints": [],
+      "assets": {},
+      "stages": [],
+      "hint_count": 0,
+      "tx_count": 3,
+      "checked": {
+        "state": "funded-unspent",
+        "balance": 1420000000,
+        "unit": "sats",
+        "source": "explorer",
+        "on": "2026-11-10"
+      }
+    },
+    {
+      "id": "bits/143",
+      "collection": "bits",
+      "author": "saatoshi_rising",
+      "chain": "bitcoin",
+      "address": "13N66gCzWWHEZBxhVxG18P8wyjEWF9Yoi1",
+      "address_kind": "p2pkh",
+      "status": "unsolved",
+      "prize": 14.3,
+      "prize_asset": "BTC",
+      "start_date": "2015-01-15",
+      "source_url": "https://bitcointalk.org/index.php?topic=5218972",
+      "techniques": null,
+      "pubkey": null,
+      "pre_genesis": false,
+      "hints": [],
+      "assets": {},
+      "stages": [],
+      "hint_count": 0,
+      "tx_count": 3,
+      "checked": {
+        "state": "funded-unspent",
+        "balance": 1430000000,
+        "unit": "sats",
+        "source": "explorer",
+        "on": "2026-11-10"
+      }
+    },
+    {
+      "id": "bits/144",
+      "collection": "bits",
+      "author": "saatoshi_rising",
+      "chain": "bitcoin",
+      "address": "1NevxKDYuDcCh1ZMMi6ftmWwGrZKC6j7Ux",
+      "address_kind": "p2pkh",
+      "status": "unsolved",
+      "prize": 14.4,
+      "prize_asset": "BTC",
+      "start_date": "2015-01-15",
+      "source_url": "https://bitcointalk.org/index.php?topic=5218972",
+      "techniques": null,
+      "pubkey": null,
+      "pre_genesis": false,
+      "hints": [],
+      "assets": {},
+      "stages": [],
+      "hint_count": 0,
+      "tx_count": 3,
+      "checked": {
+        "state": "funded-unspent",
+        "balance": 1440000000,
+        "unit": "sats",
+        "source": "explorer",
+        "on": "2026-11-10"
+      }
+    },
+    {
+      "id": "bits/145",
+      "collection": "bits",
+      "author": "saatoshi_rising",
+      "chain": "bitcoin",
+      "address": "19GpszRNUej5yYqxXoLnbZWKew3KdVLkXg",
+      "address_kind": "p2pkh",
+      "status": "unsolved",
+      "prize": 14.500006,
+      "prize_asset": "BTC",
+      "start_date": "2015-01-15",
+      "source_url": "https://bitcointalk.org/index.php?topic=5218972",
+      "techniques": null,
+      "pubkey": {
+        "value": "03afdda497369e219a2c1c369954a930e4d3740968e5e4352475bcffce3140dae5",
+        "format": "compressed"
+      },
+      "pre_genesis": false,
+      "hints": [],
+      "assets": {},
+      "stages": [],
+      "hint_count": 0,
+      "tx_count": 6,
+      "checked": {
+        "state": "funded-unspent",
+        "balance": 1450000600,
+        "unit": "sats",
+        "source": "explorer",
+        "on": "2026-11-10"
+      }
+    },
+    {
+      "id": "bits/146",
+      "collection": "bits",
+      "author": "saatoshi_rising",
+      "chain": "bitcoin",
+      "address": "1M7ipcdYHey2Y5RZM34MBbpugghmjaV89P",
+      "address_kind": "p2pkh",
+      "status": "unsolved",
+      "prize": 14.6,
+      "prize_asset": "BTC",
+      "start_date": "2015-01-15",
+      "source_url": "https://bitcointalk.org/index.php?topic=5218972",
+      "techniques": null,
+      "pubkey": null,
+      "pre_genesis": false,
+      "hints": [],
+      "assets": {},
+      "stages": [],
+      "hint_count": 0,
+      "tx_count": 3,
+      "checked": {
+        "state": "funded-unspent",
+        "balance": 1460000000,
+        "unit": "sats",
+        "source": "explorer",
+        "on": "2026-11-10"
+      }
+    },
+    {
+      "id": "bits/147",
+      "collection": "bits",
+      "author": "saatoshi_rising",
+      "chain": "bitcoin",
+      "address": "18aNhurEAJsw6BAgtANpexk5ob1aGTwSeL",
+      "address_kind": "p2pkh",
+      "status": "unsolved",
+      "prize": 14.7,
+      "prize_asset": "BTC",
+      "start_date": "2015-01-15",
+      "source_url": "https://bitcointalk.org/index.php?topic=5218972",
+      "techniques": null,
+      "pubkey": null,
+      "pre_genesis": false,
+      "hints": [],
+      "assets": {},
+      "stages": [],
+      "hint_count": 0,
+      "tx_count": 3,
+      "checked": {
+        "state": "funded-unspent",
+        "balance": 1470000000,
+        "unit": "sats",
+        "source": "explorer",
+        "on": "2026-11-10"
+      }
+    },
+    {
+      "id": "bits/148",
+      "collection": "bits",
+      "author": "saatoshi_rising",
+      "chain": "bitcoin",
+      "address": "1FwZXt6EpRT7Fkndzv6K4b4DFoT4trbMrV",
+      "address_kind": "p2pkh",
+      "status": "unsolved",
+      "prize": 14.8,
+      "prize_asset": "BTC",
+      "start_date": "2015-01-15",
+      "source_url": "https://bitcointalk.org/index.php?topic=5218972",
+      "techniques": null,
+      "pubkey": null,
+      "pre_genesis": false,
+      "hints": [],
+      "assets": {},
+      "stages": [],
+      "hint_count": 0,
+      "tx_count": 3,
+      "checked": {
+        "state": "funded-unspent",
+        "balance": 1480000000,
+        "unit": "sats",
+        "source": "explorer",
+        "on": "2026-11-10"
+      }
+    },
+    {
+      "id": "bits/149",
+      "collection": "bits",
+      "author": "saatoshi_rising",
+      "chain": "bitcoin",
+      "address": "1CXvTzR6qv8wJ7eprzUKeWxyGcHwDYP1i2",
+      "address_kind": "p2pkh",
+      "status": "unsolved",
+      "prize": 14.90001,
+      "prize_asset": "BTC",
+      "start_date": "2015-01-15",
+      "source_url": "https://bitcointalk.org/index.php?topic=5218972",
+      "techniques": null,
+      "pubkey": null,
+      "pre_genesis": false,
+      "hints": [],
+      "assets": {},
+      "stages": [],
+      "hint_count": 0,
+      "tx_count": 4,
+      "checked": {
+        "state": "funded-unspent",
+        "balance": 1490001000,
+        "unit": "sats",
+        "source": "explorer",
+        "on": "2026-11-10"
+      }
+    },
+    {
+      "id": "bits/150",
+      "collection": "bits",
+      "author": "saatoshi_rising",
+      "chain": "bitcoin",
+      "address": "1MUJSJYtGPVGkBCTqGspnxyHahpt5Te8jy",
+      "address_kind": "p2pkh",
+      "status": "unsolved",
+      "prize": 15.000016,
+      "prize_asset": "BTC",
+      "start_date": "2015-01-15",
+      "source_url": "https://bitcointalk.org/index.php?topic=5218972",
+      "techniques": null,
+      "pubkey": {
+        "value": "03137807790ea7dc6e97901c2bc87411f45ed74a5629315c4e4b03a0a102250c49",
+        "format": "compressed"
+      },
+      "pre_genesis": false,
+      "hints": [],
+      "assets": {},
+      "stages": [],
+      "hint_count": 0,
+      "tx_count": 7,
+      "checked": {
+        "state": "funded-unspent",
+        "balance": 1500001600,
+        "unit": "sats",
+        "source": "explorer",
+        "on": "2026-11-10"
+      }
+    },
+    {
+      "id": "bits/151",
+      "collection": "bits",
+      "author": "saatoshi_rising",
+      "chain": "bitcoin",
+      "address": "13Q84TNNvgcL3HJiqQPvyBb9m4hxjS3jkV",
+      "address_kind": "p2pkh",
+      "status": "unsolved",
+      "prize": 15.10001,
+      "prize_asset": "BTC",
+      "start_date": "2015-01-15",
+      "source_url": "https://bitcointalk.org/index.php?topic=5218972",
+      "techniques": null,
+      "pubkey": null,
+      "pre_genesis": false,
+      "hints": [],
+      "assets": {},
+      "stages": [],
+      "hint_count": 0,
+      "tx_count": 4,
+      "checked": {
+        "state": "funded-unspent",
+        "balance": 1510001000,
+        "unit": "sats",
+        "source": "explorer",
+        "on": "2026-11-10"
+      }
+    },
+    {
+      "id": "bits/152",
+      "collection": "bits",
+      "author": "saatoshi_rising",
+      "chain": "bitcoin",
+      "address": "1LuUHyrQr8PKSvbcY1v1PiuGuqFjWpDumN",
+      "address_kind": "p2pkh",
+      "status": "unsolved",
+      "prize": 15.20001,
+      "prize_asset": "BTC",
+      "start_date": "2015-01-15",
+      "source_url": "https://bitcointalk.org/index.php?topic=5218972",
+      "techniques": null,
+      "pubkey": null,
+      "pre_genesis": false,
+      "hints": [],
+      "assets": {},
+      "stages": [],
+      "hint_count": 0,
+      "tx_count": 4,
+      "checked": {
+        "state": "funded-unspent",
+        "balance": 1520001000,
+        "unit": "sats",
+        "source": "explorer",
+        "on": "2026-11-10"
+      }
+    },
+    {
+      "id": "bits/153",
+      "collection": "bits",
+      "author": "saatoshi_rising",
+      "chain": "bitcoin",
+      "address": "18192XpzzdDi2K11QVHR7td2HcPS6Qs5vg",
+      "address_kind": "p2pkh",
+      "status": "unsolved",
+      "prize": 15.30001,
+      "prize_asset": "BTC",
+      "start_date": "2015-01-15",
+      "source_url": "https://bitcointalk.org/index.php?topic=5218972",
+      "techniques": null,
+      "pubkey": null,
+      "pre_genesis": false,
+      "hints": [],
+      "assets": {},
+      "stages": [],
+      "hint_count": 0,
+      "tx_count": 4,
+      "checked": {
+        "state": "funded-unspent",
+        "balance": 1530001000,
+        "unit": "sats",
+        "source": "explorer",
+        "on": "2026-11-10"
+      }
+    },
+    {
+      "id": "bits/154",
+      "collection": "bits",
+      "author": "saatoshi_rising",
+      "chain": "bitcoin",
+      "address": "1NgVmsCCJaKLzGyKLFJfVequnFW9ZvnMLN",
+      "address_kind": "p2pkh",
+      "status": "unsolved",
+      "prize": 15.40001,
+      "prize_asset": "BTC",
+      "start_date": "2015-01-15",
+      "source_url": "https://bitcointalk.org/index.php?topic=5218972",
+      "techniques": null,
+      "pubkey": null,
+      "pre_genesis": false,
+      "hints": [],
+      "assets": {},
+      "stages": [],
+      "hint_count": 0,
+      "tx_count": 4,
+      "checked": {
+        "state": "funded-unspent",
+        "balance": 1540001000,
+        "unit": "sats",
+        "source": "explorer",
+        "on": "2026-11-10"
+      }
+    },
+    {
+      "id": "bits/155",
+      "collection": "bits",
+      "author": "saatoshi_rising",
+      "chain": "bitcoin",
+      "address": "1AoeP37TmHdFh8uN72fu9AqgtLrUwcv2wJ",
+      "address_kind": "p2pkh",
+      "status": "unsolved",
+      "prize": 15.500116,
+      "prize_asset": "BTC",
+      "start_date": "2015-01-15",
+      "source_url": "https://bitcointalk.org/index.php?topic=5218972",
+      "techniques": null,
+      "pubkey": {
+        "value": "035cd1854cae45391ca4ec428cc7e6c7d9984424b954209a8eea197b9e364c05f6",
+        "format": "compressed"
+      },
+      "pre_genesis": false,
+      "hints": [],
+      "assets": {},
+      "stages": [],
+      "hint_count": 0,
+      "tx_count": 8,
+      "checked": {
+        "state": "funded-unspent",
+        "balance": 1550011600,
+        "unit": "sats",
+        "source": "explorer",
+        "on": "2026-11-10"
+      }
+    },
+    {
+      "id": "bits/156",
+      "collection": "bits",
+      "author": "saatoshi_rising",
+      "chain": "bitcoin",
+      "address": "1FTpAbQa4h8trvhQXjXnmNhqdiGBd1oraE",
+      "address_kind": "p2pkh",
+      "status": "unsolved",
+      "prize": 15.60001,
+      "prize_asset": "BTC",
+      "start_date": "2015-01-15",
+      "source_url": "https://bitcointalk.org/index.php?topic=5218972",
+      "techniques": null,
+      "pubkey": null,
+      "pre_genesis": false,
+      "hints": [],
+      "assets": {},
+      "stages": [],
+      "hint_count": 0,
+      "tx_count": 4,
+      "checked": {
+        "state": "funded-unspent",
+        "balance": 1560001000,
+        "unit": "sats",
+        "source": "explorer",
+        "on": "2026-11-10"
+      }
+    },
+    {
+      "id": "bits/157",
+      "collection": "bits",
+      "author": "saatoshi_rising",
+      "chain": "bitcoin",
+      "address": "14JHoRAdmJg3XR4RjMDh6Wed6ft6hzbQe9",
+      "address_kind": "p2pkh",
+      "status": "unsolved",
+      "prize": 15.70001,
+      "prize_asset": "BTC",
+      "start_date": "2015-01-15",
+      "source_url": "https://bitcointalk.org/index.php?topic=5218972",
+      "techniques": null,
+      "pubkey": null,
+      "pre_genesis": false,
+      "hints": [],
+      "assets": {},
+      "stages": [],
+      "hint_count": 0,
+      "tx_count": 4,
+      "checked": {
+        "state": "funded-unspent",
+        "balance": 1570001000,
+        "unit": "sats",
+        "source": "explorer",
+        "on": "2026-11-10"
+      }
+    },
+    {
+      "id": "bits/158",
+      "collection": "bits",
+      "author": "saatoshi_rising",
+      "chain": "bitcoin",
+      "address": "19z6waranEf8CcP8FqNgdwUe1QRxvUNKBG",
+      "address_kind": "p2pkh",
+      "status": "unsolved",
+      "prize": 15.80001,
+      "prize_asset": "BTC",
+      "start_date": "2015-01-15",
+      "source_url": "https://bitcointalk.org/index.php?topic=5218972",
+      "techniques": null,
+      "pubkey": null,
+      "pre_genesis": false,
+      "hints": [],
+      "assets": {},
+      "stages": [],
+      "hint_count": 0,
+      "tx_count": 4,
+      "checked": {
+        "state": "funded-unspent",
+        "balance": 1580001000,
+        "unit": "sats",
+        "source": "explorer",
+        "on": "2026-11-10"
+      }
+    },
+    {
+      "id": "bits/159",
+      "collection": "bits",
+      "author": "saatoshi_rising",
+      "chain": "bitcoin",
+      "address": "14u4nA5sugaswb6SZgn5av2vuChdMnD9E5",
+      "address_kind": "p2pkh",
+      "status": "unsolved",
+      "prize": 15.900026,
+      "prize_asset": "BTC",
+      "start_date": "2015-01-15",
+      "source_url": "https://bitcointalk.org/index.php?topic=5218972",
+      "techniques": null,
+      "pubkey": null,
+      "pre_genesis": false,
+      "hints": [],
+      "assets": {},
+      "stages": [],
+      "hint_count": 0,
+      "tx_count": 6,
+      "checked": {
+        "state": "funded-unspent",
+        "balance": 1590002600,
+        "unit": "sats",
+        "source": "explorer",
+        "on": "2026-11-10"
+      }
+    },
+    {
+      "id": "bits/160",
+      "collection": "bits",
+      "author": "saatoshi_rising",
+      "chain": "bitcoin",
+      "address": "1NBC8uXJy1GiJ6drkiZa1WuKn51ps7EPTv",
+      "address_kind": "p2pkh",
+      "status": "unsolved",
+      "prize": 16.00123082,
+      "prize_asset": "BTC",
+      "start_date": "2015-01-15",
+      "source_url": "https://bitcointalk.org/index.php?topic=5218972",
+      "techniques": null,
+      "pubkey": {
+        "value": "02e0a8b039282faf6fe0fd769cfbc4b6b4cf8758ba68220eac420e32b91ddfa673",
+        "format": "compressed"
+      },
+      "pre_genesis": false,
+      "hints": [],
+      "assets": {},
+      "stages": [],
+      "hint_count": 0,
+      "tx_count": 15,
+      "checked": {
+        "state": "funded-unspent",
+        "balance": 1600123082,
+        "unit": "sats",
+        "source": "explorer",
+        "on": "2026-11-10"
+      }
+    },
+    {
+      "id": "brave-new-world",
+      "collection": "brave-new-world",
+      "author": "stsh_n",
+      "chain": "bitcoin",
+      "address": "1KfZGvwZxsvSmemoCmEV75uqcNzYBHjkHZ",
+      "address_kind": "p2pkh",
+      "status": "unsolved",
+      "prize": 0.20107284,
+      "prize_asset": "BTC",
+      "start_date": "2020-10-08",
+      "source_url": "https://www.reddit.com/user/stsh_n/comments/j79zvj/bitcoin_puzzle_2000/",
+      "techniques": [
+        {
+          "name": "hidden-seed-words",
+          "source": "https://www.reddit.com/user/stsh_n/comments/j79zvj/bitcoin_puzzle_2000/"
+        }
+      ],
+      "pubkey": null,
+      "pre_genesis": false,
+      "hints": [],
+      "assets": {
+        "puzzle": "puzzle.png",
+        "source_url": "https://i.redd.it/n1x7g8ceaur51.png",
+        "digests": [
+          {
+            "file": "puzzle.png",
+            "sha256": "d0b04378f75d63997b8034ec2ef1bdd108178e4546de78237bd35abf4189a782",
+            "bytes": 2383395,
+            "url": "https://i.redd.it/n1x7g8ceaur51.png",
+            "archive": "https://web.archive.org/web/20230620034345id_/https://i.redd.it/n1x7g8ceaur51.png"
+          }
+        ]
+      },
+      "stages": [],
+      "hint_count": 0,
+      "tx_count": 5,
+      "checked": {
+        "state": "funded-unspent",
+        "balance": 20107284,
+        "unit": "sats",
+        "source": "explorer",
+        "on": "2026-11-10"
+      }
+    },
+    {
+      "id": "crypto-puzzles/2",
+      "collection": "crypto-puzzles",
+      "author": "Crypto Puzzles",
+      "chain": "ethereum",
+      "address": "0x1fa8Be9De5bBFE047C72dB8E8E3257128F7661ad",
+      "address_kind": "standard",
+      "status": "unsolved",
+      "prize": 0.05,
+      "prize_asset": "ETH",
+      "start_date": "2018-08-06",
+      "source_url": "https://www.youtube.com/watch?v=TRUUTryah70",
+      "techniques": null,
+      "pubkey": null,
+      "pre_genesis": false,
+      "hints": [
+        {
+          "kind": "official",
+          "text": "Do you have the intellience to solve the Crypto Puzzle? 0.05ETH is waiting for the best puzzler solver. Is it you?",
+          "source": "https://www.youtube.com/watch?v=TRUUTryah70",
+          "date": "2018-08-06"
+        },
+        {
+          "kind": "official",
+          "text": "The first puzzle was solved in hours, so our second is decidely trickier.  Are you smart enough?",
+          "source": "https://www.youtube.com/watch?v=U_0DtYHDPy0",
+          "date": "2018-08-27"
+        }
+      ],
+      "assets": {},
+      "stages": [],
+      "hint_count": 2,
+      "tx_count": 1,
+      "checked": {
+        "state": "funded-unspent",
+        "balance": 50000000000000000,
+        "unit": "wei",
+        "source": "rpc",
+        "on": "2026-11-10"
+      }
+    },
+    {
+      "id": "great-riddle",
+      "collection": "great-riddle",
+      "author": "The Great Print",
+      "chain": "bitcoin",
+      "address": "bc1qm3ayuhn7wppuqxaywu8ea0lggs8myy7543fekk",
+      "address_kind": "p2wpkh",
+      "status": "unsolved",
+      "prize": 0.00423871,
+      "prize_asset": "BTC",
+      "start_date": "2024-02-26",
+      "source_url": "https://www.thegreatprint.net/riddle",
+      "techniques": [
+        {
+          "name": "hidden-seed-words",
+          "source": "https://www.thegreatprint.net/riddle"
+        }
+      ],
+      "pubkey": null,
+      "pre_genesis": true,
+      "hints": [
+        {
+          "kind": "official",
+          "text": "Find the 24 hidden words of my bitcoin donation address and you can keep all the satoshis.",
+          "source": "https://www.thegreatprint.net/riddle",
+          "confirmation": {
+            "url": "https://web.archive.org/web/20240526060211/https://www.thegreatprint.net/riddle",
+            "description": "Wayback capture of the riddle page from May 2024"
+          },
+          "date": "2024-02-26"
+        },
+        {
+          "kind": "official",
+          "text": "Find the 24 hidden words of my Bitcoin wallet's recovery phrase, and the entire balance is yours.",
+          "source": "https://www.thegreatprint.net/riddle",
+          "confirmation": {
+            "url": "https://web.archive.org/web/20241203055908/https://www.thegreatprint.net/riddle",
+            "description": "Wayback capture of the riddle page from December 2024"
+          }
+        },
+        {
+          "kind": "official",
+          "text": "Every single word to the private key of this address: bc1qm3ayuhn7wppuqxaywu8ea0lggs8myy7543fekk is implemented on each original artwork of my Genesis Collection.",
+          "source": "https://www.thegreatprint.net/riddle",
+          "confirmation": {
+            "url": "https://web.archive.org/web/20240526060211/https://www.thegreatprint.net/riddle",
+            "description": "Wayback capture of the riddle page from May 2024"
+          },
+          "date": "2024-02-26"
+        },
+        {
+          "kind": "official",
+          "text": "Each original drawing has 1 well hidden word implemented into the artwork.",
+          "source": "https://www.thegreatprint.net/riddle",
+          "confirmation": {
+            "url": "https://web.archive.org/web/20240526060211/https://www.thegreatprint.net/riddle",
+            "description": "Wayback capture of the riddle page from May 2024"
+          },
+          "date": "2024-02-26"
+        },
+        {
+          "kind": "official",
+          "text": "Each original drawing has 1 (or more) well hidden word(s) implemented into the artwork. You can only find the words on the original artworks. (Important! My printed artworks do not have any hidden words intigrated!)",
+          "source": "https://www.thegreatprint.net/riddle",
+          "confirmation": {
+            "url": "https://web.archive.org/web/20251010060719/https://www.thegreatprint.net/riddle",
+            "description": "Wayback capture of the riddle page from October 2025"
+          }
+        },
+        {
+          "kind": "official",
+          "text": "The first person to send me this 24 words (in any particular order) will get the 25th word for accessing the address.",
+          "source": "https://www.thegreatprint.net/riddle",
+          "confirmation": {
+            "url": "https://web.archive.org/web/20240526060211/https://www.thegreatprint.net/riddle",
+            "description": "Wayback capture of the riddle page from May 2024"
+          },
+          "date": "2024-02-26"
+        },
+        {
+          "kind": "official",
+          "text": "Please note that with today's block time 927970 only 3 artworks are publicly visible/finished and therefore only 4 words can be found so far.",
+          "source": "https://www.thegreatprint.net/riddle",
+          "confirmation": {
+            "url": "https://web.archive.org/web/20260123202427/https://www.thegreatprint.net/riddle",
+            "description": "Wayback capture of the riddle page from January 2026"
+          },
+          "date": "2025-12-15"
+        },
+        {
+          "kind": "official",
+          "text": "Owners of a limited edition print or an original work of mine will receive all 100,000 blocks, all current words, via email, Twitter, or Telegram.",
+          "source": "https://www.thegreatprint.net/riddle",
+          "confirmation": {
+            "url": "https://web.archive.org/web/20251010060719/https://www.thegreatprint.net/riddle",
+            "description": "Wayback capture of the riddle page from October 2025"
+          }
+        },
+        {
+          "kind": "official",
+          "text": "The original images of my Genesis Collection have hidden seed phrases that lead to a Bitcoin wallet that I created. With 24 images you are able to find the 24 phrases and get access to the Bitcoin wallet. I have named the search game The Great Riddle.",
+          "source": "https://www.thegreatprint.net/bhoenix"
+        },
+        {
+          "kind": "official",
+          "text": "Two words from The Great Riddle Bitcoin wallet are hidden inside this artwork. Can you uncover them?",
+          "source": "https://www.thegreatprint.net/honeybadger"
+        },
+        {
+          "kind": "official",
+          "text": "My fourth artwork in the Genesis Series is now complete. This also means that the fourth word for my The Great Riddle Bitcoin wallet is now hidden within the artwork and publicly discoverable.",
+          "source": "https://www.thegreatprint.net/honeybadger"
+        },
+        {
+          "kind": "official",
+          "text": "As with other works in my Genesis series, this piece also contains a hidden word from one of my Bitcoin wallets.",
+          "source": "https://www.thegreatprint.net/greattree"
+        }
+      ],
+      "assets": {},
+      "stages": [
+        {
+          "name": "words",
+          "about": "Find the 24 words hidden in the original drawings of the Genesis Collection. The printed copies carry none, so the originals have to be seen in the studio in Basel or at an exhibition.",
+          "artifacts": [
+            {
+              "name": "riddle page",
+              "url": "https://www.thegreatprint.net/riddle"
+            },
+            {
+              "name": "Genesis Collection",
+              "url": "https://www.thegreatprint.net/shop?Kategorie=Genesis+Collection&Art+%26+Fashion=Genesis%2520Collection"
+            }
+          ]
+        },
+        {
+          "name": "25th word",
+          "about": "Send the 24 words, in any order, to the author. The first sender gets the 25th word that opens the address.",
+          "artifacts": [
+            {
+              "name": "riddle page",
+              "url": "https://www.thegreatprint.net/riddle"
+            }
+          ]
+        }
+      ],
+      "hint_count": 12,
+      "tx_count": 23,
+      "checked": {
+        "state": "funded-unspent",
+        "balance": 423871,
+        "unit": "sats",
+        "source": "explorer",
+        "on": "2026-11-10"
+      }
+    },
+    {
+      "id": "gsmg",
+      "collection": "gsmg",
+      "author": "GSMG.io",
+      "chain": "bitcoin",
+      "address": "1GSMG1JC9wtdSwfwApgj2xcmJPAwx7prBe",
+      "address_kind": "p2pkh",
+      "status": "unsolved",
+      "prize": 1.25649674,
+      "prize_asset": "BTC",
+      "start_date": "2019-04-13",
+      "source_url": "https://gsmg.io/puzzle",
+      "techniques": null,
+      "pubkey": {
+        "value": "04f4d1bbd91e65e2a019566a17574e97dae908b784b388891848007e4f55d5a4649c73d25fc5ed8fd7227cab0be4e576c0c6404db5aa546286563e4be12bf33559",
+        "format": "uncompressed"
+      },
+      "pre_genesis": false,
+      "hints": [],
+      "assets": {
+        "puzzle": "puzzle.png",
+        "hints": [
+          "follow-the-white-rabbit.png"
+        ],
+        "source_url": "https://gsmg.io/puzzle",
+        "digests": [
+          {
+            "file": "puzzle.png",
+            "sha256": "38125bbdf1ea58b9b30b075bc6bf71e4089d04bba37098317e47097e2f2a1830",
+            "bytes": 29931,
+            "url": "https://gsmg.io/puzzle",
+            "archive": "https://web.archive.org/web/20201112011308id_/https://gsmg.io/puzzle"
+          },
+          {
+            "file": "follow-the-white-rabbit.png",
+            "sha256": "5e8d84b88f8f829428df5d2a8bf36c7268346f169b799ac7570b6223990d204f",
+            "bytes": 1958,
+            "url": "https://gsmg.io/img/follow_the_white_rabbit.png",
+            "archive": "https://web.archive.org/web/20201115074715id_/https://gsmg.io/img/follow_the_white_rabbit.png"
+          },
+          {
+            "file": "phase2.txt",
+            "sha256": "5e583d5b8626aa80f8a1ae61e7ad62fb2640bedb73fcc12ba68fa13b15dfa94d",
+            "bytes": 910
+          },
+          {
+            "file": "phase3.txt",
+            "sha256": "d6767b282515485b6a52df4599e7b06e1428469596155ca18e4f5634ac2118ad",
+            "bytes": 5570
+          },
+          {
+            "file": "salphaseion.txt",
+            "sha256": "cc1bffaeebe34e79128617b41db5a5f14e29650ae53a16d8bd371a113fa93602",
+            "bytes": 2150
+          },
+          {
+            "file": "cosmic-duality.txt",
+            "sha256": "9a8172dd327273459f602517539ea30bbfa318d9d4338820f16d6c033260edf7",
+            "bytes": 1820
+          }
+        ]
+      },
+      "stages": [
+        {
+          "name": "phase 1",
+          "about": "A 14 by 14 grid of black, white, blue and yellow squares with a pixel rabbit in the middle. The one real QR code sits at the bottom and only opens the address on blockchain.com, so no, that's not the shortcut. Read the grid right and you land on a page with eight pictures, a password form hidden with display: none and a comment in the source wishing luck to the little bunny hunter.",
+          "artifacts": [
+            {
+              "name": "puzzle image",
+              "url": "https://gsmg.io/puzzle",
+              "file": "puzzle.png"
+            },
+            {
+              "name": "the seed is planted",
+              "url": "https://gsmg.io/theseedisplanted"
+            }
+          ],
+          "answer": {
+            "text": "The grid read as bits, black and blue 1, white and yellow 0, counterclockwise in a spiral from the top left, spells gsmg.io/theseedisplanted, and the hidden form there takes theflowerblossomsthroughwhatseemstobeaconcretesurface.",
+            "source": "https://github.com/puzzlehunt/gsmgio-5btc-puzzle/blob/fb92dd15487c6e2d275adb8c923698b7166c328e/README.md#1-httpsgsmgiopuzzle",
+            "date": "2020-04-26"
+          },
+          "techniques": [
+            {
+              "name": "binary",
+              "source": "https://github.com/puzzlehunt/gsmgio-5btc-puzzle/blob/fb92dd15487c6e2d275adb8c923698b7166c328e/README.md#1-httpsgsmgiopuzzle"
+            }
+          ]
+        },
+        {
+          "name": "phase 2",
+          "about": "The page opens with someone asking if you're looking for the private keymaker, then drops a base64 AES blob on you. After that it gets weird: a riddle about an electrical network theorem, a chancellor waiting for banks to be bailed out, a chess position in FEN and a buddhist who is forced to move.",
+          "artifacts": [
+            {
+              "name": "ciphertext",
+              "url": "https://gsmg.io/choiceisanillusioncreatedbetweenthosewithpowerandthosewithoutaveryspecialdessertiwroteitmyself",
+              "file": "phase2.txt"
+            }
+          ],
+          "answer": {
+            "text": "causality, from the Merovingian in The Matrix Reloaded. Its SHA-256 in lowercase hex, eb3efb5151e6255994711fe8f2264427ceeebf88109e1d7fad5b0a8b6d07e5bf, is the OpenSSL password.",
+            "source": "https://github.com/puzzlehunt/gsmgio-5btc-puzzle/blob/fb92dd15487c6e2d275adb8c923698b7166c328e/README.md#3-httpsgsmgiochoiceisanillusioncreatedbetweenthosewithpowerandthosewithoutaveryspecialdessertiwroteitmyself",
+            "date": "2020-04-26"
+          },
+          "techniques": [
+            {
+              "name": "openssl-salted-sha256",
+              "source": "https://github.com/puzzlehunt/gsmgio-5btc-puzzle/blob/fb92dd15487c6e2d275adb8c923698b7166c328e/README.md#3-httpsgsmgiochoiceisanillusioncreatedbetweenthosewithpowerandthosewithoutaveryspecialdessertiwroteitmyself"
+            }
+          ]
+        },
+        {
+          "name": "phase 3",
+          "about": "A second blob on the same page, about six times the first one. This time the author says how to open it: parts 1 to 7 go through sha-256 and the digest is the password. Same aes-256-cbc as before, so at least the lock is familiar.",
+          "artifacts": [
+            {
+              "name": "ciphertext",
+              "url": "https://gsmg.io/choiceisanillusioncreatedbetweenthosewithpowerandthosewithoutaveryspecialdessertiwroteitmyself",
+              "file": "phase3.txt"
+            }
+          ],
+          "answer": {
+            "text": "causality, Safenet, Luna, HSM, 11110, 0x736B6E616220726F662074756F6C69616220646E6F63657320666F206B6E697262206E6F20726F6C6C65636E61684320393030322F6E614A2F33302073656D695420656854 and B5KR/1r5B/2R5/2b1p1p1/2P1k1P1/1p2P2p/1P2P2P/3N1N2 b - - 0 1, joined and hashed: 1a57c572caf3cf722e41f5f9cf99ffacff06728a43032dd44c481c77d2ec30d5. Inside is phase 3.1 and one more blob, phase 3.2, that opens with the SHA-256 of jacquefrescogiveitjustonesecondheisenbergsuncertaintyprinciple.",
+            "source": "https://github.com/puzzlehunt/gsmgio-5btc-puzzle/blob/fb92dd15487c6e2d275adb8c923698b7166c328e/README.md#3-httpsgsmgiochoiceisanillusioncreatedbetweenthosewithpowerandthosewithoutaveryspecialdessertiwroteitmyself",
+            "date": "2020-04-26"
+          },
+          "techniques": [
+            {
+              "name": "openssl-salted-sha256",
+              "source": "https://github.com/puzzlehunt/gsmgio-5btc-puzzle/blob/fb92dd15487c6e2d275adb8c923698b7166c328e/README.md#3-httpsgsmgiochoiceisanillusioncreatedbetweenthosewithpowerandthosewithoutaveryspecialdessertiwroteitmyself"
+            }
+          ]
+        },
+        {
+          "name": "phase 3.2.1",
+          "about": "Inside phase 3.2 the Architect has been waiting for you. He's designed you a beautiful strategic position, one for one, four for one, and under that sits a line of 1539 box drawing characters. No key, no cipher name, just boxes.",
+          "artifacts": [
+            {
+              "name": "ciphertext",
+              "url": "https://gsmg.io/choiceisanillusioncreatedbetweenthosewithpowerandthosewithoutaveryspecialdessertiwroteitmyself",
+              "file": "phase3.txt"
+            }
+          ],
+          "answer": {
+            "text": "The boxes convert to 1539 letters, vtkvplmepphluwahtzmjp and on, and Beaufort with the key THEMATRIXHASYOU turns them into the Architect's speech: YOUR LIFE IS THE SUM OF A REMAINDER OF AN UNBALANCED EQUATION INHERENT TO THE PROGRAMMING OF THIS PUZZLE, down to I REALLY HOPE YOURE THE ONE CIAO BELLA O.",
+            "source": "https://github.com/puzzlehunt/gsmgio-5btc-puzzle/blob/fb92dd15487c6e2d275adb8c923698b7166c328e/README.md#3-httpsgsmgiochoiceisanillusioncreatedbetweenthosewithpowerandthosewithoutaveryspecialdessertiwroteitmyself",
+            "date": "2020-04-26"
+          },
+          "techniques": [
+            {
+              "name": "beaufort",
+              "source": "https://github.com/puzzlehunt/gsmgio-5btc-puzzle/blob/fb92dd15487c6e2d275adb8c923698b7166c328e/README.md#3-httpsgsmgiochoiceisanillusioncreatedbetweenthosewithpowerandthosewithoutaveryspecialdessertiwroteitmyself"
+            }
+          ]
+        },
+        {
+          "name": "phase 3.2.2",
+          "about": "Right after the boxes, a 149 digit number and one sentence to go with it: a fubcd-king & oracle-queen, thingky mvps, on a sad board but as wide as the first one seen.",
+          "artifacts": [
+            {
+              "name": "ciphertext",
+              "url": "https://gsmg.io/choiceisanillusioncreatedbetweenthosewithpowerandthosewithoutaveryspecialdessertiwroteitmyself",
+              "file": "phase3.txt"
+            }
+          ],
+          "answer": {
+            "text": "A VIC straddling checkerboard with 1 and 4 as the blank digits, then a substitution solver over its letters, turns the number into IN CASE YOU MANAGE TO CRACK THIS THE PRIVATE KEYS BELONG TO HALF AND BETTER HALF AND THEY ALSO NEED FUNDS TO LIVE.",
+            "source": "https://github.com/puzzlehunt/gsmgio-5btc-puzzle/blob/fb92dd15487c6e2d275adb8c923698b7166c328e/README.md#3-httpsgsmgiochoiceisanillusioncreatedbetweenthosewithpowerandthosewithoutaveryspecialdessertiwroteitmyself",
+            "date": "2020-04-26"
+          },
+          "techniques": [
+            {
+              "name": "straddling-checkerboard",
+              "source": "https://github.com/puzzlehunt/gsmgio-5btc-puzzle/blob/fb92dd15487c6e2d275adb8c923698b7166c328e/README.md#3-httpsgsmgiochoiceisanillusioncreatedbetweenthosewithpowerandthosewithoutaveryspecialdessertiwroteitmyself"
+            }
+          ]
+        },
+        {
+          "name": "SalPhaseIon",
+          "about": "A back door in the first image. The page path is the SHA-256 of the text printed under the grid, and behind it sits one long line of mostly the letters a to i, with a few words mixed in and a base64 blob split into single characters. The blob opens with Salted__, which says OpenSSL made it, not which cipher or key derivation. Parts of the letters decode. The writeup has no password for the blob.",
+          "artifacts": [
+            {
+              "name": "letters and blob",
+              "url": "https://gsmg.io/89727c598b9cd1cf8873f27cb7057f050645ddb6a7a157a110239ac0152f6a32",
+              "file": "salphaseion.txt"
+            }
+          ]
+        },
+        {
+          "name": "Cosmic Duality",
+          "about": "Same page, second heading. A clean 28 line base64 blob with the same Salted__ header and not one word about its cipher or password. The writeup stops here and has no password for it.",
+          "artifacts": [
+            {
+              "name": "ciphertext",
+              "url": "https://gsmg.io/89727c598b9cd1cf8873f27cb7057f050645ddb6a7a157a110239ac0152f6a32",
+              "file": "cosmic-duality.txt"
+            }
+          ]
+        }
+      ],
+      "hint_count": 0,
+      "tx_count": 129,
+      "checked": {
+        "state": "funded-unspent",
+        "balance": 125649674,
+        "unit": "sats",
+        "source": "explorer",
+        "on": "2026-11-10"
+      }
+    },
+    {
+      "id": "hash-collision/sha256",
+      "collection": "hash-collision",
+      "author": "Peter Todd",
+      "chain": "bitcoin",
+      "address": "35Snmmy3uhaer2gTboc81ayCip4m9DT4ko",
+      "address_kind": "p2sh",
+      "status": "unsolved",
+      "prize": 0.27734251,
+      "prize_asset": "BTC",
+      "start_date": "2013-09-13",
+      "source_url": "https://bitcointalk.org/index.php?topic=293382.0",
+      "techniques": [
+        {
+          "name": "hash-collision",
+          "source": "https://bitcointalk.org/index.php?topic=293382.0"
+        }
+      ],
+      "pubkey": null,
+      "pre_genesis": false,
+      "hints": [],
+      "assets": {},
+      "stages": [],
+      "hint_count": 0,
+      "tx_count": 10,
+      "checked": {
+        "state": "funded-unspent",
+        "balance": 27734251,
+        "unit": "sats",
+        "source": "explorer",
+        "on": "2026-11-10"
+      }
+    },
+    {
+      "id": "hash-collision/ripemd160",
+      "collection": "hash-collision",
+      "author": "Peter Todd",
+      "chain": "bitcoin",
+      "address": "3KyiQEGqqdb4nqfhUzGKN6KPhXmQsLNpay",
+      "address_kind": "p2sh",
+      "status": "unsolved",
+      "prize": 0.11576888,
+      "prize_asset": "BTC",
+      "start_date": "2013-09-13",
+      "source_url": "https://bitcointalk.org/index.php?topic=293382.0",
+      "techniques": [
+        {
+          "name": "hash-collision",
+          "source": "https://bitcointalk.org/index.php?topic=293382.0"
+        }
+      ],
+      "pubkey": null,
+      "pre_genesis": false,
+      "hints": [],
+      "assets": {},
+      "stages": [],
+      "hint_count": 0,
+      "tx_count": 5,
+      "checked": {
+        "state": "funded-unspent",
+        "balance": 11576888,
+        "unit": "sats",
+        "source": "explorer",
+        "on": "2026-11-10"
+      }
+    },
+    {
+      "id": "hash-collision/hash160",
+      "collection": "hash-collision",
+      "author": "Peter Todd",
+      "chain": "bitcoin",
+      "address": "39VXyuoc6SXYKp9TcAhoiN1mb4ns6z3Yu6",
+      "address_kind": "p2sh",
+      "status": "unsolved",
+      "prize": 0.10026873,
+      "prize_asset": "BTC",
+      "start_date": "2013-09-13",
+      "source_url": "https://bitcointalk.org/index.php?topic=293382.0",
+      "techniques": [
+        {
+          "name": "hash-collision",
+          "source": "https://bitcointalk.org/index.php?topic=293382.0"
+        }
+      ],
+      "pubkey": null,
+      "pre_genesis": false,
+      "hints": [],
+      "assets": {},
+      "stages": [],
+      "hint_count": 0,
+      "tx_count": 2,
+      "checked": {
+        "state": "funded-unspent",
+        "balance": 10026873,
+        "unit": "sats",
+        "source": "explorer",
+        "on": "2026-11-10"
+      }
+    },
+    {
+      "id": "hash-collision/hash256",
+      "collection": "hash-collision",
+      "author": "Peter Todd",
+      "chain": "bitcoin",
+      "address": "3DUQQvz4t57Jy7jxE86kyFcNpKtURNf1VW",
+      "address_kind": "p2sh",
+      "status": "unsolved",
+      "prize": 0.10026873,
+      "prize_asset": "BTC",
+      "start_date": "2013-09-13",
+      "source_url": "https://bitcointalk.org/index.php?topic=293382.0",
+      "techniques": [
+        {
+          "name": "hash-collision",
+          "source": "https://bitcointalk.org/index.php?topic=293382.0"
+        }
+      ],
+      "pubkey": null,
+      "pre_genesis": false,
+      "hints": [],
+      "assets": {},
+      "stages": [],
+      "hint_count": 0,
+      "tx_count": 2,
+      "checked": {
+        "state": "funded-unspent",
+        "balance": 10026873,
+        "unit": "sats",
+        "source": "explorer",
+        "on": "2026-11-10"
+      }
+    },
+    {
+      "id": "luckylurker/vault-2",
+      "collection": "luckylurker",
+      "author": "Paul Jones",
+      "chain": "bitcoin",
+      "address": "bc1qnepv9pcnqvndux9h9mcaxvk6u993rc0lew9fpp",
+      "address_kind": "p2wpkh",
+      "status": "unsolved",
+      "prize": 1,
+      "prize_asset": "BTC",
+      "start_date": "2026-09-11",
+      "source_url": "https://luckylurker.com/bitcoin-vault-2/",
+      "techniques": [
+        {
+          "name": "hidden-seed-words",
+          "source": "https://luckylurker.com/bitcoin-vault-2/"
+        }
+      ],
+      "pubkey": null,
+      "pre_genesis": false,
+      "hints": [
+        {
+          "kind": "official",
+          "text": "Hints will be published gradually from 12 October 2026. They will not simply reveal the seed phrase one word at a time.",
+          "source": "https://luckylurker.com/bitcoin-vault-2/",
+          "confirmation": {
+            "url": "https://luckylurker.com/bitcoin-vault-2-is-live-1-btc-prize/",
+            "description": "The launch announcement confirms the schedule and warns that clues may need combining."
+          }
+        }
+      ],
+      "assets": {},
+      "stages": [],
+      "hint_count": 1,
+      "tx_count": 1,
+      "checked": {
+        "state": "funded-unspent",
+        "balance": 100000000,
+        "unit": "sats",
+        "source": "explorer",
+        "on": "2026-11-10"
+      }
+    },
+    {
+      "id": "mineshop",
+      "collection": "mineshop",
+      "author": "Guntis Vitolins",
+      "chain": "ethereum",
+      "address": "0x9C2F44EFAd0c1E852a09dF9939e6DaF061140CaF",
+      "address_kind": "standard",
+      "status": "unsolved",
+      "prize": 8.61254155426562,
+      "prize_asset": "ETH",
+      "start_date": "2020-02-12",
+      "source_url": "https://www.youtube.com/watch?v=w4mpiuBP_aY",
+      "techniques": [
+        {
+          "name": "hidden-seed-words",
+          "source": "https://www.youtube.com/watch?v=w4mpiuBP_aY"
+        }
+      ],
+      "pubkey": {
+        "value": "04e1a30fe567710a3592a56eb479d251fe7456e1f0791c39bf54691a50edab08b44904515ff30c07f354815bb2a45d83576ee8e320ab52058b35e715611fbc4f9d",
+        "format": "uncompressed"
+      },
+      "pre_genesis": false,
+      "hints": [
+        {
+          "kind": "official",
+          "text": "12 wallet seed words- 6 are hidden in this video (description, tags, title,video basically could be anywhere in this video) 6.words are hidden in original post. This task will unlock wallet to claim 10 eth.",
+          "source": "https://www.youtube.com/watch?v=w4mpiuBP_aY",
+          "confirmation": {
+            "url": "https://mineshop.eu/blog/mineshop-blog-tutorials/crypto-pumping-hardcore-research-portfolio-update-how-are-we-doing",
+            "description": "The companion post states the same split: six words in the video, six in the post."
+          },
+          "date": "2020-02-12"
+        }
+      ],
+      "assets": {},
+      "stages": [],
+      "hint_count": 1,
+      "tx_count": 13,
+      "checked": {
+        "state": "funded-unspent",
+        "balance": 8612541554265619929,
+        "unit": "wei",
+        "source": "rpc",
+        "on": "2026-11-10"
+      }
+    },
+    {
+      "id": "move-over-brokers/en-medium-1",
+      "collection": "move-over-brokers",
+      "author": "Keir Finlow-Bates",
+      "chain": "bitcoin",
+      "address": "17Y9czcbcCz433QXsy1SGQjwLb27BBtLLZ",
+      "address_kind": "p2pkh",
+      "status": "unsolved",
+      "prize": 0.002,
+      "prize_asset": "BTC",
+      "start_date": "2020-11-28",
+      "source_url": "https://kf106.medium.com/everyone-loves-a-treasure-hunt-93885ae8d80a",
+      "techniques": null,
+      "pubkey": null,
+      "pre_genesis": false,
+      "hints": [
+        {
+          "kind": "official",
+          "text": "You hold the source of each and every key in your hands... as long as you have a physical copy, that is. Note that there are plenty of red herrings too.",
+          "source": "https://github.com/floflo777/open-crypto-puzzles/blob/main/2-mid-prizes/keir-finlow-bates-blockchain-book-600ksats/clues/author-posts.md"
+        },
+        {
+          "kind": "official",
+          "text": "In many cases, you'll have to hash the answer three times.",
+          "source": "https://github.com/floflo777/open-crypto-puzzles/blob/main/2-mid-prizes/keir-finlow-bates-blockchain-book-600ksats/clues/author-posts.md"
+        }
+      ],
+      "assets": {},
+      "stages": [],
+      "hint_count": 2,
+      "tx_count": 1,
+      "checked": {
+        "state": "funded-unspent",
+        "balance": 200000,
+        "unit": "sats",
+        "source": "explorer",
+        "on": "2026-11-10"
+      }
+    },
+    {
+      "id": "move-over-brokers/en-very-hard-2",
+      "collection": "move-over-brokers",
+      "author": "Keir Finlow-Bates",
+      "chain": "bitcoin",
+      "address": "1DZ5NbUwDgxeJkKhQLgYcUUX36PtYso1pm",
+      "address_kind": "p2pkh",
+      "status": "unsolved",
+      "prize": 0.002,
+      "prize_asset": "BTC",
+      "start_date": "2020-11-28",
+      "source_url": "https://kf106.medium.com/everyone-loves-a-treasure-hunt-93885ae8d80a",
+      "techniques": null,
+      "pubkey": null,
+      "pre_genesis": false,
+      "hints": [
+        {
+          "kind": "official",
+          "text": "You hold the source of each and every key in your hands... as long as you have a physical copy, that is. Note that there are plenty of red herrings too.",
+          "source": "https://github.com/floflo777/open-crypto-puzzles/blob/main/2-mid-prizes/keir-finlow-bates-blockchain-book-600ksats/clues/author-posts.md"
+        },
+        {
+          "kind": "official",
+          "text": "In many cases, you'll have to hash the answer three times.",
+          "source": "https://github.com/floflo777/open-crypto-puzzles/blob/main/2-mid-prizes/keir-finlow-bates-blockchain-book-600ksats/clues/author-posts.md"
+        }
+      ],
+      "assets": {},
+      "stages": [],
+      "hint_count": 2,
+      "tx_count": 1,
+      "checked": {
+        "state": "funded-unspent",
+        "balance": 200000,
+        "unit": "sats",
+        "source": "explorer",
+        "on": "2026-11-10"
+      }
+    },
+    {
+      "id": "move-over-brokers/it-very-hard",
+      "collection": "move-over-brokers",
+      "author": "Keir Finlow-Bates",
+      "chain": "bitcoin",
+      "address": "19kkawFcg2U2s6vq368MXD7FJU9JZvRrjA",
+      "address_kind": "p2pkh",
+      "status": "unsolved",
+      "prize": 0.002,
+      "prize_asset": "BTC",
+      "start_date": "2021-09-11",
+      "source_url": "https://kf106.medium.com/everyone-loves-a-treasure-hunt-93885ae8d80a",
+      "techniques": null,
+      "pubkey": null,
+      "pre_genesis": false,
+      "hints": [],
+      "assets": {},
+      "stages": [],
+      "hint_count": 0,
+      "tx_count": 1,
+      "checked": {
+        "state": "funded-unspent",
+        "balance": 200000,
+        "unit": "sats",
+        "source": "explorer",
+        "on": "2026-11-10"
+      }
+    },
+    {
+      "id": "path-to-greatness",
+      "collection": "path-to-greatness",
+      "author": "Justin Patterson",
+      "chain": "litecoin",
+      "address": "LUtL7qnm3gzxKjHcfVLSjydqhhinTVmTmS",
+      "address_kind": "p2pkh",
+      "status": "unsolved",
+      "prize": 3.02608794,
+      "prize_asset": "LTC",
+      "start_date": "2021-02-05",
+      "source_url": "https://p2gtreasure.com/",
+      "techniques": [
+        {
+          "name": "aes",
+          "source": "https://p2gtreasure.com/Clues/computer_screen.jpg"
+        }
+      ],
+      "pubkey": null,
+      "pre_genesis": false,
+      "hints": [
+        {
+          "kind": "official",
+          "text": "Clues can be found inside the demo, and will lead you to a Litecoin wallet's private key.",
+          "source": "https://p2gtreasure.com/old/index.html",
+          "confirmation": {
+            "url": "https://web.archive.org/web/20210205193730/https://www.p2gtreasure.com/",
+            "description": "Wayback capture of the first site, February 2021"
+          }
+        },
+        {
+          "kind": "official",
+          "text": "The first and last steps are the only steps I will ever provide.",
+          "source": "https://p2gtreasure.com/old/rules.html"
+        },
+        {
+          "kind": "official",
+          "text": "The clues above will lead to a Litecoin wallet's private key.",
+          "source": "https://p2gtreasure.com/",
+          "confirmation": {
+            "url": "https://web.archive.org/web/20210516142206/https://www.p2gtreasure.com/",
+            "description": "Wayback capture of the site with the clue images, May 2021"
+          }
+        }
+      ],
+      "assets": {
+        "puzzle": "computer-screen.jpg",
+        "hints": [
+          "clue1-imagine.jpg",
+          "clue2-scramble.jpg",
+          "clue3-wasd.jpg",
+          "clue4-chess.jpg",
+          "clue5-wonders.jpg",
+          "00111111.jpg",
+          "qr1.jpg",
+          "qr2.jpg"
+        ],
+        "source_url": "https://p2gtreasure.com/Clues/p2g_clues.zip",
+        "digests": [
+          {
+            "file": "computer-screen.jpg",
+            "sha256": "f14bdfc2a1bf532cdb7a2da6b30034bdd6d96478b37f664658d5678fb2d800f2",
+            "bytes": 478546,
+            "url": "https://p2gtreasure.com/Clues/computer_screen.jpg",
+            "archive": "https://web.archive.org/web/20220420084754id_/http://p2gtreasure.com/Clues/computer_screen.jpg"
+          },
+          {
+            "file": "clue1-imagine.jpg",
+            "sha256": "787861023f2d1ee6cc6d4ab21f9344f13b275cc6d0c2a03ea02a38c42724db5c",
+            "bytes": 564308,
+            "url": "https://p2gtreasure.com/Clues/clue1_imagine.jpg",
+            "archive": "https://web.archive.org/web/20220406031947id_/http://p2gtreasure.com/Clues/clue1_imagine.jpg"
+          },
+          {
+            "file": "clue2-scramble.jpg",
+            "sha256": "c6e07d7a53faafa17f2d57ee0971462da80494d79d0fcf3ebb39b9630dc92e5e",
+            "bytes": 537001,
+            "url": "https://p2gtreasure.com/Clues/clue2_scramble.jpg",
+            "archive": "https://web.archive.org/web/20220309153614id_/http://p2gtreasure.com/Clues/clue2_scramble.jpg"
+          },
+          {
+            "file": "clue3-wasd.jpg",
+            "sha256": "15c5fae68f242e2dc23f51100fac2ca574528c5284e737bda3cd59707a6e678b",
+            "bytes": 556777,
+            "url": "https://p2gtreasure.com/Clues/clue3_wasd.jpg",
+            "archive": "https://web.archive.org/web/20220403042134id_/http://p2gtreasure.com/Clues/clue3_wasd.jpg"
+          },
+          {
+            "file": "clue4-chess.jpg",
+            "sha256": "6603d1c29220e64b744d34704ec57f90560a6490d152fdb0ce8cc03a6da6a359",
+            "bytes": 575085,
+            "url": "https://p2gtreasure.com/Clues/clue4_chess.jpg",
+            "archive": "https://web.archive.org/web/20220309152900id_/http://p2gtreasure.com/Clues/clue4_chess.jpg"
+          },
+          {
+            "file": "clue5-wonders.jpg",
+            "sha256": "d348d9b36dc010e32c1b3689698c0d88793e031faf581214369fd229a793e119",
+            "bytes": 609035,
+            "url": "https://p2gtreasure.com/Clues/clue5_wonders.jpg",
+            "archive": "https://web.archive.org/web/20220502024511id_/http://p2gtreasure.com/Clues/clue5_wonders.jpg"
+          },
+          {
+            "file": "00111111.jpg",
+            "sha256": "91dfcca1727e3361c3d090a9ff4d90d97667dba0b7cf53263a9316510542e744",
+            "bytes": 506238,
+            "url": "https://p2gtreasure.com/Clues/00111111.jpg",
+            "archive": "https://web.archive.org/web/20220318211629id_/http://p2gtreasure.com/Clues/00111111.jpg"
+          },
+          {
+            "file": "qr1.jpg",
+            "sha256": "d5b6bd00e6c84f7d2c7b60de168db885fdf5e2e0d2ce964a62dd887460a162f4",
+            "bytes": 13569,
+            "url": "https://p2gtreasure.com/Clues/qr1.jpg",
+            "archive": "https://web.archive.org/web/20220417012026id_/http://p2gtreasure.com/Clues/qr1.jpg"
+          },
+          {
+            "file": "qr2.jpg",
+            "sha256": "120d72fde754740493e42627bbb561d5e7176429a9e221f24eef268346c1c2e9",
+            "bytes": 14009,
+            "url": "https://p2gtreasure.com/Clues/qr2.jpg",
+            "archive": "https://web.archive.org/web/20220131185620id_/http://p2gtreasure.com/Clues/qr2.jpg"
+          }
+        ]
+      },
+      "stages": [],
+      "hint_count": 3,
+      "tx_count": 8,
+      "checked": {
+        "state": "funded-unspent",
+        "balance": 302608794,
+        "unit": "litoshis",
+        "source": "electrum",
+        "on": "2026-11-10"
+      }
+    },
+    {
+      "id": "phy",
+      "collection": "phy",
+      "author": "kTimesG",
+      "chain": "bitcoin",
+      "address": "bc1qrpn28qa82uyjg37dvsz3w7wpm3kpdea957nm9p",
+      "address_kind": "p2wpkh",
+      "status": "unsolved",
+      "prize": 0.008,
+      "prize_asset": "BTC",
+      "start_date": "2026-06-05",
+      "source_url": "https://bitcointalk.org/index.php?topic=5584952.msg66802369#msg66802369",
+      "techniques": null,
+      "pubkey": {
+        "value": "02425afdd1716149faf414b6fdb96d5e7afc8ce42496042f4df559c80a7c6650eb",
+        "format": "compressed"
+      },
+      "pre_genesis": false,
+      "hints": [
+        {
+          "kind": "official",
+          "text": "looks bad this bearish cycle around and no end is in sight, so here's a puzzle for everyone, no loose ends, no hashing.",
+          "source": "https://bitcointalk.org/index.php?topic=5584952.msg66802369#msg66802369",
+          "confirmation": {
+            "url": "https://web.archive.org/web/20260629174249/https://bitcointalk.org/index.php?topic=5584952.0",
+            "description": "Wayback capture of the first page from June 2026, signature still one character short"
+          },
+          "date": "2026-06-05"
+        },
+        {
+          "kind": "official",
+          "text": "There is currently a missing char in the second code of the first post. I will fix it after/if someone figures it out.",
+          "source": "https://bitcointalk.org/index.php?topic=5584952.msg66860784#msg66860784",
+          "confirmation": {
+            "url": "https://web.archive.org/web/20260629174249/https://bitcointalk.org/index.php?topic=5584952.0",
+            "description": "Wayback capture of the first page from June 2026, signature still one character short"
+          },
+          "date": "2026-06-21",
+          "answer": {
+            "text": "J",
+            "source": "https://bitcointalk.org/index.php?topic=5584952.msg66990855#msg66990855",
+            "date": "2026-07-29"
+          }
+        },
+        {
+          "kind": "official",
+          "text": "The rest of the provided parts are all correct and complete, and there is a prize (as of today). If you reach a state where you believe \"this cannot be solved\", it means you are missing the direct and indirect clues along the way.",
+          "source": "https://bitcointalk.org/index.php?topic=5584952.msg66860784#msg66860784",
+          "confirmation": {
+            "url": "https://web.archive.org/web/20260629174249/https://bitcointalk.org/index.php?topic=5584952.0",
+            "description": "Wayback capture of the first page from June 2026, signature still one character short"
+          },
+          "date": "2026-06-21"
+        },
+        {
+          "kind": "official",
+          "text": "A final useful sign (the password's already mentioned). -----BEGIN PGP MESSAGE----- jA0ECQMKVwglgSLxlRn/0jcBn0f9h3kbilK/NDDWZCkuONpev7JZbbw+l6uVZC0N aJFXTLG6sbLXr6t0z3scptSM3vWBCmOU =D+ub -----END PGP MESSAGE-----",
+          "source": "https://bitcointalk.org/index.php?topic=5584952.msg66860784#msg66860784",
+          "confirmation": {
+            "url": "https://web.archive.org/web/20260629174249/https://bitcointalk.org/index.php?topic=5584952.0",
+            "description": "Wayback capture of the first page from June 2026, signature still one character short"
+          },
+          "date": "2026-06-21"
+        },
+        {
+          "kind": "official",
+          "text": "Congrats on decoding the puzzle hint. But it's not the missing char.",
+          "source": "https://bitcointalk.org/index.php?topic=5584952.msg66888088#msg66888088",
+          "date": "2026-06-29"
+        },
+        {
+          "kind": "official",
+          "text": "I don't know what to hint at, when the hints are already inside-out, and everyone seems to be stuck at the ASCII 8 cat incident, or don't want to share what they found.",
+          "source": "https://bitcointalk.org/index.php?topic=5584952.msg66971742#msg66971742",
+          "date": "2026-07-23"
+        },
+        {
+          "kind": "official",
+          "text": "To progress before wasting any compute power, the data speaks for itself, which creates some immediate conclusions, so no idea where it was ever hinted anything about using Kangaroo.",
+          "source": "https://bitcointalk.org/index.php?topic=5584952.msg66991304#msg66991304",
+          "date": "2026-07-29"
+        },
+        {
+          "kind": "official",
+          "text": "Why would you think the address is wrong, since the signature verifies?",
+          "source": "https://bitcointalk.org/index.php?topic=5584952.msg67040416#msg67040416",
+          "date": "2026-08-13"
+        },
+        {
+          "kind": "official",
+          "text": "You got pretty close with 97% of the recoloring, nice, though a much easier and precise normalization than grayscale-to-tone exists, if some overall observations are made.",
+          "source": "https://bitcointalk.org/index.php?topic=5584952.msg67070333#msg67070333",
+          "date": "2026-08-22"
+        },
+        {
+          "kind": "official",
+          "text": "If you're referring to the extra LF, no, but I can't fix that for obvious reasons.",
+          "source": "https://bitcointalk.org/index.php?topic=5584952.msg67090189#msg67090189",
+          "date": "2026-08-28"
+        },
+        {
+          "kind": "official",
+          "text": "Guys, stop sending DMs and LLM essays about the puzzle, everything required to solve is in the first post, and it's actually much easier to solve then I anticipated. I already gave too many hints as it is.",
+          "source": "https://bitcointalk.org/index.php?topic=5584952.msg67090189#msg67090189",
+          "date": "2026-08-28"
+        },
+        {
+          "kind": "official",
+          "text": "meta-clue to either wake up or confuse even more your LLMs, as they seem to have crossed off-road... gvonys fhelucrM kbZ",
+          "source": "https://bitcointalk.org/index.php?topic=5584952.msg67116131#msg67116131",
+          "date": "2026-09-05"
+        },
+        {
+          "kind": "official",
+          "text": "There's no \"useless\" information added into the puzzle. If all of you are thinking some LLM will magically deduct information that's visible in plain sight by anyone, you should understand that LLMs can only understand data they were trained about, and this puzzle is not one of those things.",
+          "source": "https://bitcointalk.org/index.php?topic=5584952.msg67117836#msg67117836",
+          "date": "2026-09-06"
+        },
+        {
+          "kind": "official",
+          "text": "Only if you already know that the image was redrawn and requires to test the skin-tone to fix the image.",
+          "source": "https://bitcointalk.org/index.php?topic=5584952.msg67122008#msg67122008",
+          "date": "2026-09-07"
+        },
+        {
+          "kind": "official",
+          "text": "The third one helps as well. But anyway, all the clues I've given were already in the puzzle, since the puzzle is already self-explaining itself. The smart approach can find the correct solution in 4 milliseconds.",
+          "source": "https://bitcointalk.org/index.php?topic=5584952.msg67146555#msg67146555",
+          "date": "2026-09-15"
+        },
+        {
+          "kind": "official",
+          "text": "This is a hint.",
+          "source": "https://bitcointalk.org/index.php?topic=5584952.msg67170689#msg67170689",
+          "date": "2026-09-23"
+        },
+        {
+          "kind": "official",
+          "text": "So what does everyone think about the cracking face emoji?",
+          "source": "https://bitcointalk.org/index.php?topic=5584952.msg67218400#msg67218400",
+          "date": "2026-10-07"
+        },
+        {
+          "kind": "community",
+          "text": "Phyllotaxis ?",
+          "source": "https://bitcointalk.org/index.php?topic=5584952.msg66855641#msg66855641",
+          "date": "2026-06-20"
+        },
+        {
+          "kind": "community",
+          "text": "The signature signs the complete OP text with no trailing newline. It recovers the funded SegWit address bc1qrpn28qa82uyjg37dvsz3w7wpm3kpdea957nm9p, currently holding 800,000 sats.",
+          "source": "https://bitcointalk.org/index.php?topic=5584952.msg66990855#msg66990855",
+          "date": "2026-07-29"
+        }
+      ],
+      "assets": {
+        "puzzle": "puzzle.png",
+        "source_url": "https://www.talkimg.com/images/2026/06/05/UrS0Mq.png",
+        "digests": [
+          {
+            "file": "puzzle.png",
+            "sha256": "baf3ed80ffd8d2a1c17cdc8e212910abffdda4ede0b5900d542f587ef346cdc9",
+            "bytes": 1687922,
+            "url": "https://www.talkimg.com/images/2026/06/05/UrS0Mq.png",
+            "archive": "https://web.archive.org/web/20260925213920id_/https://www.talkimg.com/images/2026/06/05/UrS0Mq.png"
+          }
+        ]
+      },
+      "stages": [],
+      "hint_count": 19,
+      "tx_count": 1,
+      "checked": {
+        "state": "funded-unspent",
+        "balance": 800000,
+        "unit": "sats",
+        "source": "explorer",
+        "on": "2026-11-10"
+      }
+    },
+    {
+      "id": "real-big-block",
+      "collection": "real-big-block",
+      "author": "AoiNakamoto",
+      "chain": "bitcoin",
+      "address": "14zMkTgaVXJcxdh4JdWi29MLRR44iUSG9W",
+      "address_kind": "p2pkh",
+      "status": "unsolved",
+      "prize": 0.777,
+      "prize_asset": "BTC",
+      "start_date": "2019-07-22",
+      "source_url": "https://www.reddit.com/r/Grycoin/comments/cgkpbb/777_mbtc_quizchain_last_block/",
+      "techniques": null,
+      "pubkey": null,
+      "pre_genesis": false,
+      "hints": [
+        {
+          "kind": "official",
+          "text": "Question: Final version of the second chapter of Wattpad story, which I will publish in a moment.",
+          "source": "https://www.reddit.com/r/Grycoin/comments/cgkpbb/777_mbtc_quizchain_last_block/"
+        },
+        {
+          "kind": "official",
+          "text": "https://www.wattpad.com/720888559-second",
+          "source": "https://www.reddit.com/r/Grycoin/comments/cgkpbb/777_mbtc_quizchain_last_block/"
+        },
+        {
+          "kind": "official",
+          "text": "It is unlikely that anyone would be able to solve the real big block without hints.",
+          "source": "https://www.reddit.com/r/Grycoin/comments/chn8un/real_big_block_discussion/"
+        },
+        {
+          "kind": "official",
+          "text": "When I posted the real big block at the Wattpad site, I added extra line breaks between paragraphs. This information is needed to solve the block.",
+          "source": "https://www.reddit.com/r/Grycoin/comments/chn8un/comment/euvdqxe/"
+        },
+        {
+          "kind": "official",
+          "text": "I analyzed them with the tool at asciivalue.com and that shows one 13 and one 10 for each of the line breaks. The solution you need to hash with has only one line break between paragraphs, which is one 13 and one 10 in ASCII according to the asciivalue.com tool.",
+          "source": "https://www.reddit.com/r/Grycoin/comments/chn8un/comment/ev96vwg/"
+        },
+        {
+          "kind": "official",
+          "text": "Once someone figures out the format for the first stage, they will also have a big hint for the format of this second stage.",
+          "source": "https://www.reddit.com/r/Grycoin/comments/chn8un/comment/eve843h/"
+        },
+        {
+          "kind": "official",
+          "text": "Update: Took back the funds from the address above and sent them to a new address, funding transaction below, because I wanted to remove one of the twists I had. The block is now slightly easier. It is also hashed with two line breaks between paragraphs now.",
+          "source": "https://www.reddit.com/r/Grycoin/comments/cgkpbb/777_mbtc_quizchain_last_block/"
+        },
+        {
+          "kind": "official",
+          "text": "I took back the prize for a moment and sent it again to a new address, hashing with a slightly different solution, as explained in update above. That obviously means a hint for the solution: It has multiple paragraphs and two line breaks between each of them.",
+          "source": "https://www.reddit.com/r/Grycoin/comments/chn8un/comment/evj8ls1/"
+        },
+        {
+          "kind": "official",
+          "text": "I mean the second one. Hit enter twice. This displays in Ascii as 13 10 13 10, according to asciivalue.com.",
+          "source": "https://www.reddit.com/r/Grycoin/comments/chn8un/comment/evn5g4u/"
+        },
+        {
+          "kind": "official",
+          "text": "The main point of this block is to give a simple example for the format used in both phases of block 77, slightly developed from what I first used in block 2 and later in block 29 of the first run.",
+          "source": "https://www.reddit.com/r/Grycoin/comments/cleczc/grycoin_block_2/"
+        },
+        {
+          "kind": "official",
+          "text": "There are two expiry conditions. If no one solves this and claims the prize before either condition becomes true, I will send the prize to a climate emergency related charity and disclose the solution.",
+          "source": "https://www.reddit.com/r/Grycoin/comments/cgkpbb/777_mbtc_quizchain_last_block/"
+        },
+        {
+          "kind": "official",
+          "text": "The first condition: The 200 day moving average the Mayer Multiple is based on hits $100 per mbtc, which would mean a prize worth $77700. This will obviously happen at some time in the next years, but I am not sure if it takes longer than the second condition.",
+          "source": "https://www.reddit.com/r/Grycoin/comments/cgkpbb/777_mbtc_quizchain_last_block/"
+        },
+        {
+          "kind": "official",
+          "text": "The second condition: Tanabata 2022 comes.",
+          "source": "https://www.reddit.com/r/Grycoin/comments/cgkpbb/777_mbtc_quizchain_last_block/"
+        },
+        {
+          "kind": "official",
+          "text": "Prize will be sent to charity and solution disclosed if not solved before July 7th, 2022 or Mayer multiple goes to $100 per mbtc. Hints will be provided later.",
+          "source": "https://www.reddit.com/r/bitcoinpuzzles/comments/chf8k2/very_hard_777_mbtc_quizchain_real_big_block/",
+          "confirmation": {
+            "url": "https://web.archive.org/web/20230612075600/https://old.reddit.com/r/bitcoinpuzzles/comments/chf8k2/very_hard_777_mbtc_quizchain_real_big_block/",
+            "description": "Wayback capture of the post with the author's comment"
+          }
+        }
+      ],
+      "assets": {},
+      "stages": [],
+      "hint_count": 14,
+      "tx_count": 1,
+      "checked": {
+        "state": "funded-unspent",
+        "balance": 77700000,
+        "unit": "sats",
+        "source": "explorer",
+        "on": "2026-11-10"
+      }
+    },
+    {
+      "id": "rushwallet/30",
+      "collection": "rushwallet",
+      "author": "Dmitri Kryptokov",
+      "chain": "bitcoin",
+      "address": "13Q8hJqagtd77ojTJcEZPjTz2sBFSsYxyj",
+      "address_kind": "p2pkh",
+      "status": "unsolved",
+      "prize": null,
+      "prize_asset": "BTC",
+      "start_date": "2014-09-22",
+      "source_url": "https://web.archive.org/web/20150208172337/https://rushwallet.com/contest",
+      "techniques": null,
+      "pubkey": {
+        "value": "04b28d687ff46211d3cf75021db818b86f70addcb42ccedf53f4280926bd2a7fba0784eb6b8d23313c3c85ea1df284cf2844371ca499fcb48ba8a26df651c29a85",
+        "format": "uncompressed"
+      },
+      "pre_genesis": false,
+      "hints": [],
+      "assets": {},
+      "stages": [],
+      "hint_count": 0,
+      "tx_count": 3,
+      "checked": {
+        "state": "funded-unspent",
+        "balance": 1000000,
+        "unit": "sats",
+        "source": "explorer",
+        "on": "2026-11-10"
+      }
+    },
+    {
+      "id": "school-of-bitcoin",
+      "collection": "school-of-bitcoin",
+      "author": "School of Bitcoin",
+      "chain": "bitcoin",
+      "address": "bc1qcsdfkaqgy9ux668vmzflzqsyg0qtspncymt5ed",
+      "address_kind": "p2wpkh",
+      "status": "unsolved",
+      "prize": 0.01,
+      "prize_asset": "BTC",
+      "start_date": "2024-11-23",
+      "source_url": "https://x.com/schoolofbitcoin/status/1860193190491619457",
+      "techniques": [
+        {
+          "name": "morse",
+          "source": "https://stacker.news/items/908393"
+        },
+        {
+          "name": "binary",
+          "source": "https://stacker.news/items/908556"
+        }
+      ],
+      "pubkey": null,
+      "pre_genesis": false,
+      "hints": [
+        {
+          "kind": "official",
+          "text": "Hidden on this card... is every clue needed to find a treasure of... 1 Million Sats",
+          "source": "https://x.com/schoolofbitcoin/status/1860193190491619457",
+          "date": "2024-11-23"
+        },
+        {
+          "kind": "official",
+          "text": "at 2000 followers I said I would share the back of my business card... on which I have hidden all the clues you need to find and claim 1 MILLION sats",
+          "source": "https://x.com/schoolofbitcoin/status/1860193190491619457",
+          "date": "2024-11-23"
+        },
+        {
+          "kind": "official",
+          "text": "Oh, and when I get to 10,000 followers if it hasn't been claimed I will reveal a big clue to the treasure!",
+          "source": "https://x.com/schoolofbitcoin/status/1860193190491619457",
+          "date": "2024-11-23"
+        },
+        {
+          "kind": "official",
+          "text": "I've designed it to be a.i proof... prove me wrong",
+          "source": "https://x.com/schoolofbitcoin/status/1897907304072171821",
+          "date": "2025-03-07"
+        },
+        {
+          "kind": "official",
+          "text": "You need a touchscreen to zoom... either phone, tablet or laptop/desktop with touchscreen",
+          "source": "https://stacker.news/items/921244",
+          "date": "2025-03-22"
+        },
+        {
+          "kind": "community",
+          "text": "The morse code translates to ZEROBONEZEROONEZERO FINGZ KNEE DID 4D A DRESS 2Z PRIES. 0b1010 is binary for decimal 10, so 10 things needed for the address to see prize",
+          "source": "https://stacker.news/items/908393",
+          "date": "2025-03-09"
+        },
+        {
+          "kind": "community",
+          "text": "Wingdings, what a font! But it is the black characters you want :)",
+          "source": "https://stacker.news/items/908489",
+          "date": "2025-03-09"
+        },
+        {
+          "kind": "community",
+          "text": "Decoding it to ASCII characters gives: \"You found a clue to the hidden treasure of 1 FULL BITCOIN! :) abstract\". First seed word is abstract.",
+          "source": "https://stacker.news/items/908556",
+          "date": "2025-03-09"
+        }
+      ],
+      "assets": {
+        "puzzle": "puzzle.jpg",
+        "source_url": "https://x.com/schoolofbitcoin/status/1860193190491619457",
+        "digests": [
+          {
+            "file": "puzzle.jpg",
+            "sha256": "cc58d233151dfed747368a452c08651b5cd2e308a1180407c8c1c503bd22af21",
+            "bytes": 1081755,
+            "url": "https://pbs.twimg.com/media/GdC6pxMagAAy0ri.jpg?name=orig"
+          }
+        ]
+      },
+      "stages": [],
+      "hint_count": 8,
+      "tx_count": 1,
+      "checked": {
+        "state": "funded-unspent",
+        "balance": 1000000,
+        "unit": "sats",
+        "source": "explorer",
+        "on": "2026-11-10"
+      }
+    },
+    {
+      "id": "seed-phrase",
+      "collection": "seed-phrase",
+      "author": "MetaNeer Labs",
+      "chain": "bitcoin",
+      "address": "bc1q7x3p3rkmkxgf20n3apkccqcmn5mdtsf8zx5227",
+      "address_kind": "p2wpkh",
+      "status": "unsolved",
+      "prize": 0.01,
+      "prize_asset": "BTC",
+      "start_date": "2024-07-12",
+      "source_url": "https://seed-phrase.com/",
+      "techniques": [
+        {
+          "name": "hidden-seed-words",
+          "source": "https://seed-phrase.com/"
+        },
+        {
+          "name": "aes",
+          "source": "https://seed-phrase.com/"
+        }
+      ],
+      "pubkey": null,
+      "pre_genesis": false,
+      "hints": [
+        {
+          "kind": "official",
+          "text": "Solve puzzles to uncover a secret recovery phrase that unlocks a Bitcoin wallet. The first person to decode the entire phrase will control its contents. Visit back here for additional clues and updates.",
+          "source": "https://seed-phrase.com/",
+          "confirmation": {
+            "url": "https://github.com/metaneer/seed-phrase/commit/cc31e9fb06560146aa80c066c1b9467f1de53e10",
+            "description": "The commit that added clue 2024071201 to the site"
+          },
+          "date": "2024-07-12"
+        },
+        {
+          "kind": "official",
+          "text": "There will be red herrings.",
+          "source": "https://seed-phrase.com/",
+          "confirmation": {
+            "url": "https://github.com/metaneer/seed-phrase/commit/cc31e9fb06560146aa80c066c1b9467f1de53e10",
+            "description": "The commit that added clue 2024071201 to the site"
+          },
+          "date": "2024-07-12"
+        },
+        {
+          "kind": "official",
+          "text": "Speed is critical. Be the first to discover the seed phrase and then control the \ud83c\udfc6 at the end of the \ud83c\udf08.",
+          "source": "https://seed-phrase.com/",
+          "confirmation": {
+            "url": "https://github.com/metaneer/seed-phrase/commit/cc31e9fb06560146aa80c066c1b9467f1de53e10",
+            "description": "The commit that added clue 2024071201 to the site"
+          },
+          "date": "2024-07-12"
+        },
+        {
+          "kind": "official",
+          "text": "These words will be useful:",
+          "source": "https://seed-phrase.com/",
+          "confirmation": {
+            "url": "https://github.com/metaneer/seed-phrase/commit/8f6324332fd7a5251de39ef23cb915a86d0c300d",
+            "description": "The commit that added clue 2024071202 to the site"
+          },
+          "date": "2024-07-12"
+        },
+        {
+          "kind": "official",
+          "text": "Beneath the surface, truths do sleep, In the dark, their secrets keep. Lift the veil, and you will see, To reveal, expose, and set them free. What word embodies this quest?",
+          "source": "https://seed-phrase.com/",
+          "confirmation": {
+            "url": "https://github.com/metaneer/seed-phrase/commit/8e39e894d07fd7eec11215ea0c185ca2a5304dae",
+            "description": "The commit that added clue 2024071401 to the site"
+          },
+          "date": "2024-07-14"
+        },
+        {
+          "kind": "official",
+          "text": "The link to this clue will only open one time ever.",
+          "source": "https://seed-phrase.com/",
+          "confirmation": {
+            "url": "https://github.com/metaneer/seed-phrase/commit/061b99f1ae8f9d9e3e5a06a111dd62c6c3dfd1fe",
+            "description": "The commit that added clue 2024071402 to the site"
+          },
+          "date": "2024-07-14"
+        },
+        {
+          "kind": "official",
+          "text": "Picture whatafeeling.png. Alt: You gotta see it to believe it. Title: Don't be shocked, it's a fake.",
+          "source": "https://seed-phrase.com/",
+          "confirmation": {
+            "url": "https://github.com/metaneer/seed-phrase/commit/22f5c1d32de572197c088512f80fec156d13bbc6",
+            "description": "The commit that added clue 2024071601 to the site"
+          },
+          "date": "2024-07-16"
+        },
+        {
+          "kind": "official",
+          "text": "The month in which the world celebrates the harvest and prepares for the coming winter also saw the release of a transformative paper announcing a peer-to-peer electronic cash system.",
+          "source": "https://seed-phrase.com/",
+          "confirmation": {
+            "url": "https://github.com/metaneer/seed-phrase/commit/472b950d06da06d71dfef5339542d6ee5beb88fa",
+            "description": "The commit that added clue 2024071901 to the site"
+          },
+          "date": "2024-07-19"
+        },
+        {
+          "kind": "official",
+          "text": "web favorite icon",
+          "source": "https://seed-phrase.com/",
+          "confirmation": {
+            "url": "https://github.com/metaneer/seed-phrase/commit/601bcdece6d7d100b989df252172483516760361",
+            "description": "The commit that added clue 2024072001 to the site"
+          },
+          "date": "2024-07-20"
+        },
+        {
+          "kind": "official",
+          "text": "\ud83e\udd22",
+          "source": "https://seed-phrase.com/",
+          "confirmation": {
+            "url": "https://github.com/metaneer/seed-phrase/commit/4a7f6003d9f4ee15775fcd93dcb6100c9d5830d3",
+            "description": "The commit that added clue 2024072401 to the site"
+          },
+          "date": "2024-07-24"
+        },
+        {
+          "kind": "official",
+          "text": "Summation of x_i from i=1 to n equals 29,045, given that each x_i is between 1 and 2,048.",
+          "source": "https://seed-phrase.com/",
+          "confirmation": {
+            "url": "https://github.com/metaneer/seed-phrase/commit/15d33dff96bc4837d98ce77d36826cf2392facf1",
+            "description": "The commit that added clue 2024072801 to the site"
+          },
+          "date": "2024-07-28"
+        },
+        {
+          "kind": "official",
+          "text": "m/84'/0'/0'/0/0",
+          "source": "https://seed-phrase.com/",
+          "confirmation": {
+            "url": "https://github.com/metaneer/seed-phrase/commit/b77ed999cf3596e9f621d41ee0da84294d2d9d5f",
+            "description": "The commit that added clue 2024073001 to the site"
+          },
+          "date": "2024-07-30"
+        },
+        {
+          "kind": "official",
+          "text": "Picture illusionsmichael.png. Alt: Magician pulling back a large black cloth, mid-motion, revealing something hidden, while an astonished audience looks on in wonder. Title: Illusions Michael",
+          "source": "https://seed-phrase.com/",
+          "confirmation": {
+            "url": "https://github.com/metaneer/seed-phrase/commit/77ce96e587a35b3a1deed9e45f97805a5a859380",
+            "description": "The commit that added clue 2024080901 to the site"
+          },
+          "date": "2024-08-09"
+        },
+        {
+          "kind": "official",
+          "text": "Encrypted Text: af12ff6a02e571eae376e579a00bfdd318afee92 IV: 4faf05ee74196a6062d383e6 Password: answer to 2024-07-19 clue (lc) Salt: salt",
+          "source": "https://seed-phrase.com/",
+          "confirmation": {
+            "url": "https://github.com/metaneer/seed-phrase/commit/372f4df65f850606c9ccaa59b93840ce60f24c04",
+            "description": "The commit that added clue 2024081401 to the site"
+          },
+          "date": "2024-08-14"
+        }
+      ],
+      "assets": {
+        "hints": [
+          "bip-0039-wordlist-en-CN.pdf",
+          "whatafeeling.png",
+          "SPfavicon-256x256.png",
+          "sumofwords.png",
+          "illusionsmichael.png"
+        ],
+        "source_url": "https://seed-phrase.com/",
+        "digests": [
+          {
+            "file": "bip-0039-wordlist-en-CN.pdf",
+            "sha256": "18336786ef2909490b5c4f6ccda7a9ba38a0c176a61aa2eaa4a526110e707700",
+            "bytes": 27529,
+            "url": "https://seed-phrase.com/bip-0039-wordlist-en-CN.pdf",
+            "archive": "https://web.archive.org/web/20260209175939id_/https://seed-phrase.com/bip-0039-wordlist-en-CN.pdf"
+          },
+          {
+            "file": "whatafeeling.png",
+            "sha256": "b4f9ad85abbd6105aef8d79110b2be242c08294c13a1ad66d3a73883c96b7d78",
+            "bytes": 2244247,
+            "url": "https://seed-phrase.com/img/whatafeeling.png",
+            "archive": "https://web.archive.org/web/20241220094525id_/https://seed-phrase.com/img/whatafeeling.png"
+          },
+          {
+            "file": "SPfavicon-256x256.png",
+            "sha256": "1cdf7207e6d70d8e15036733ec4644b1448768c98bb74d68d6ee27aa6623755d",
+            "bytes": 52892,
+            "url": "https://seed-phrase.com/img/SPfavicon-256x256.png",
+            "archive": "https://web.archive.org/web/20241220094525id_/https://seed-phrase.com/img/SPfavicon-256x256.png"
+          },
+          {
+            "file": "sumofwords.png",
+            "sha256": "1cba74a2d97ab7641e64029aa0b171699838e41e0eac835ffd2cf82696c82cb1",
+            "bytes": 35150,
+            "url": "https://seed-phrase.com/img/sumofwords.png",
+            "archive": "https://web.archive.org/web/20241220094525id_/https://seed-phrase.com/img/sumofwords.png"
+          },
+          {
+            "file": "illusionsmichael.png",
+            "sha256": "641be431035c90b55ac98165518c70b2b6d75864ae38a401df4d0fbdd1186aa2",
+            "bytes": 1214522,
+            "url": "https://seed-phrase.com/img/illusionsmichael.png",
+            "archive": "https://web.archive.org/web/20241220094525id_/https://seed-phrase.com/img/illusionsmichael.png"
+          }
+        ]
+      },
+      "stages": [],
+      "hint_count": 14,
+      "tx_count": 2,
+      "checked": {
+        "state": "funded-unspent",
+        "balance": 1000000,
+        "unit": "sats",
+        "source": "explorer",
+        "on": "2026-11-10"
+      }
+    },
+    {
+      "id": "teikhos/0",
+      "collection": "teikhos",
+      "author": "Johan Nygren",
+      "chain": "ethereum",
+      "address": "0xaec7e8c221c3fd24e75c996e32289235fd899ebf",
+      "address_kind": "standard",
+      "status": "unsolved",
+      "prize": 1.000012026,
+      "prize_asset": "ETH",
+      "start_date": "2018-02-26",
+      "source_url": "https://etherscan.io/address/0xaec7e8c221c3fd24e75c996e32289235fd899ebf#code",
+      "techniques": [
+        {
+          "name": "xor",
+          "source": "https://etherscan.io/address/0xaec7e8c221c3fd24e75c996e32289235fd899ebf#code"
+        }
+      ],
+      "pubkey": null,
+      "pre_genesis": false,
+      "hints": [],
+      "assets": {},
+      "stages": [
+        {
+          "name": "authenticate",
+          "about": "The simple mask of teikhos/1, but on the right key authenticate() only returns true. Nothing in the code sends ETH anywhere, so the balance stays put whoever finds the key.",
+          "artifacts": [
+            {
+              "name": "verified contract source",
+              "url": "https://etherscan.io/address/0xaec7e8c221c3fd24e75c996e32289235fd899ebf#code"
+            }
+          ]
+        }
+      ],
+      "hint_count": 0,
+      "tx_count": 4,
+      "checked": {
+        "state": "funded-unspent",
+        "balance": 1000012026000000000,
+        "unit": "wei",
+        "source": "rpc",
+        "on": "2026-11-10"
+      }
+    },
+    {
+      "id": "teikhos/1",
+      "collection": "teikhos",
+      "author": "Johan Nygren",
+      "chain": "ethereum",
+      "address": "0x17e5e0910b9185b0ede564dcbf074ca910ad56a4",
+      "address_kind": "standard",
+      "status": "unsolved",
+      "prize": 1.000002026,
+      "prize_asset": "ETH",
+      "start_date": "2018-02-26",
+      "source_url": "https://etherscan.io/address/0x17e5e0910b9185b0ede564dcbf074ca910ad56a4#code",
+      "techniques": [
+        {
+          "name": "xor",
+          "source": "https://etherscan.io/address/0x17e5e0910b9185b0ede564dcbf074ca910ad56a4#code"
+        }
+      ],
+      "pubkey": null,
+      "pre_genesis": false,
+      "hints": [],
+      "assets": {},
+      "stages": [
+        {
+          "name": "authenticate",
+          "about": "Two 32-byte words sit in storage. XOR them with the two halves of the right 64-byte public key and you get the r and s of a signature that key made over itself. authenticate() checks it with ecrecover and self-destructs to whoever sent it.",
+          "artifacts": [
+            {
+              "name": "verified contract source",
+              "url": "https://etherscan.io/address/0x17e5e0910b9185b0ede564dcbf074ca910ad56a4#code"
+            }
+          ]
+        }
+      ],
+      "hint_count": 0,
+      "tx_count": 2,
+      "checked": {
+        "state": "funded-unspent",
+        "balance": 1000002026000000000,
+        "unit": "wei",
+        "source": "rpc",
+        "on": "2026-11-10"
+      }
+    },
+    {
+      "id": "teikhos/2",
+      "collection": "teikhos",
+      "author": "Johan Nygren",
+      "chain": "ethereum",
+      "address": "0xd7c6d542f3dcdceda845112b8fd567b8f8655805",
+      "address_kind": "standard",
+      "status": "unsolved",
+      "prize": 0.500002026,
+      "prize_asset": "ETH",
+      "start_date": "2018-02-27",
+      "source_url": "https://etherscan.io/address/0xd7c6d542f3dcdceda845112b8fd567b8f8655805#code",
+      "techniques": [
+        {
+          "name": "xor",
+          "source": "https://etherscan.io/address/0xd7c6d542f3dcdceda845112b8fd567b8f8655805#code"
+        }
+      ],
+      "pubkey": null,
+      "pre_genesis": false,
+      "hints": [],
+      "assets": {},
+      "stages": [
+        {
+          "name": "authenticate",
+          "about": "Same check as teikhos/1 with one more layer. The public key XORs a stored proof into a symmetric key, and that key XORs the other stored proof into the signature. Still one 64-byte input, still ecrecover, still self-destructs to the sender.",
+          "artifacts": [
+            {
+              "name": "verified contract source",
+              "url": "https://etherscan.io/address/0xd7c6d542f3dcdceda845112b8fd567b8f8655805#code"
+            },
+            {
+              "name": "ProofOfSymmetricKey.sol",
+              "url": "https://gist.github.com/resilience-me/be11a0ed3575dddca10df8263b53cc1d"
+            }
+          ]
+        }
+      ],
+      "hint_count": 0,
+      "tx_count": 2,
+      "checked": {
+        "state": "funded-unspent",
+        "balance": 500002026000000000,
+        "unit": "wei",
+        "source": "rpc",
+        "on": "2026-11-10"
+      }
+    },
+    {
+      "id": "teikhos/3",
+      "collection": "teikhos",
+      "author": "Johan Nygren",
+      "chain": "ethereum",
+      "address": "0x973c2178b09225d1de3ab037d40b3f24af696255",
+      "address_kind": "standard",
+      "status": "unsolved",
+      "prize": 0.500002026,
+      "prize_asset": "ETH",
+      "start_date": "2018-03-14",
+      "source_url": "https://etherscan.io/address/0x973c2178b09225d1de3ab037d40b3f24af696255#code",
+      "techniques": [
+        {
+          "name": "xor",
+          "source": "https://etherscan.io/address/0x973c2178b09225d1de3ab037d40b3f24af696255#code"
+        }
+      ],
+      "pubkey": null,
+      "pre_genesis": false,
+      "hints": [],
+      "assets": {},
+      "stages": [
+        {
+          "name": "commit",
+          "about": "Store a signature before anything else. authenticate() refuses a sender without a commit, and the earliest valid commit wins.",
+          "artifacts": [
+            {
+              "name": "verified contract source",
+              "url": "https://etherscan.io/address/0x973c2178b09225d1de3ab037d40b3f24af696255#code"
+            }
+          ]
+        },
+        {
+          "name": "authenticate",
+          "about": "Submit the public key whose Keccak-512, computed by a separate SHA3_512 contract, unmasks the stored proof into a signature by that key. The right key marks the bounty solved and opens a seven day window.",
+          "artifacts": [
+            {
+              "name": "verified contract source",
+              "url": "https://etherscan.io/address/0x973c2178b09225d1de3ab037d40b3f24af696255#code"
+            }
+          ]
+        },
+        {
+          "name": "reveal",
+          "about": "Inside the window, reveal your commit. It counts when it is a signature by your own address over the message the key signed.",
+          "artifacts": [
+            {
+              "name": "verified contract source",
+              "url": "https://etherscan.io/address/0x973c2178b09225d1de3ab037d40b3f24af696255#code"
+            }
+          ]
+        },
+        {
+          "name": "reward",
+          "about": "After the seven days anyone can call it. The contract self-destructs to the winner, or back to the author if nobody revealed a valid commit.",
+          "artifacts": [
+            {
+              "name": "verified contract source",
+              "url": "https://etherscan.io/address/0x973c2178b09225d1de3ab037d40b3f24af696255#code"
+            }
+          ]
+        }
+      ],
+      "hint_count": 0,
+      "tx_count": 2,
+      "checked": {
+        "state": "funded-unspent",
+        "balance": 500002026000000000,
+        "unit": "wei",
+        "source": "rpc",
+        "on": "2026-11-10"
+      }
+    },
+    {
+      "id": "walking-banks/1",
+      "collection": "walking-banks",
+      "author": "AH White",
+      "chain": "bitcoin",
+      "address": "bc1qxy4tf0s4n7x9w24rawf9qsxh2hyljrmvyrhwzt",
+      "address_kind": "p2wpkh",
+      "status": "unsolved",
+      "prize": 0.001,
+      "prize_asset": "BTC",
+      "start_date": "2024-09-05",
+      "source_url": "https://web.archive.org/web/20250716082759/https://www.walkingbanks.com/",
+      "techniques": null,
+      "pubkey": {
+        "value": "027b26f0973f7656d7405ebdc2d7500d855aee346ff4518d61507050254703d8a3",
+        "format": "compressed"
+      },
+      "pre_genesis": false,
+      "hints": [],
+      "assets": {},
+      "stages": [],
+      "hint_count": 0,
+      "tx_count": 1,
+      "checked": {
+        "state": "funded-unspent",
+        "balance": 100000,
+        "unit": "sats",
+        "source": "explorer",
+        "on": "2026-11-10"
+      }
+    },
+    {
+      "id": "walking-banks/2",
+      "collection": "walking-banks",
+      "author": "AH White",
+      "chain": "bitcoin",
+      "address": "bc1q4qc24xk5cehc4t7vr264zldsms2kmxf86jqjau",
+      "address_kind": "p2wpkh",
+      "status": "unsolved",
+      "prize": 0.007,
+      "prize_asset": "BTC",
+      "start_date": "2024-09-05",
+      "source_url": "https://web.archive.org/web/20250716082759/https://www.walkingbanks.com/",
+      "techniques": null,
+      "pubkey": {
+        "value": "0345a988db0b34ab48693b9d525ff227d98c67e8986c0664c1d9412f111e5afa3b",
+        "format": "compressed"
+      },
+      "pre_genesis": false,
+      "hints": [],
+      "assets": {},
+      "stages": [],
+      "hint_count": 0,
+      "tx_count": 1,
+      "checked": {
+        "state": "funded-unspent",
+        "balance": 700000,
+        "unit": "sats",
+        "source": "explorer",
+        "on": "2026-11-10"
+      }
+    },
+    {
+      "id": "wealth-in-poetry",
+      "collection": "wealth-in-poetry",
+      "author": "Trithemius",
+      "chain": "bitcoin",
+      "address": "1K4ezpLybootYF23TM4a8Y4NyP7auysnRo",
+      "address_kind": "p2pkh",
+      "status": "unsolved",
+      "prize": 0.0312463,
+      "prize_asset": "BTC",
+      "start_date": "2019-02-11",
+      "source_url": "https://medium.com/coinmonks/securing-bitcoin-seed-phrases-in-stories-d8eb43a02254",
+      "techniques": [
+        {
+          "name": "hidden-seed-words",
+          "source": "https://medium.com/coinmonks/securing-bitcoin-seed-phrases-in-stories-d8eb43a02254"
+        }
+      ],
+      "pubkey": null,
+      "pre_genesis": false,
+      "hints": [
+        {
+          "kind": "official",
+          "text": "The beauty of trithemian seeds is that they hide in plain sight. If you\u2019ve read this far, you\u2019ve read every word required to access a wallet with .03 BTC. Good luck!",
+          "source": "https://medium.com/coinmonks/securing-bitcoin-seed-phrases-in-stories-d8eb43a02254"
+        }
+      ],
+      "assets": {
+        "puzzle": "puzzle.txt",
+        "source_url": "https://web.archive.org/web/20190211203952/https://medium.com/coinmonks/securing-bitcoin-seed-phrases-in-stories-d8eb43a02254",
+        "digests": [
+          {
+            "file": "puzzle.txt",
+            "sha256": "d9d7cb69d8316f200f8a40c0154fa5f0bcf37e9a51fcf3bbec558164b2740e34",
+            "bytes": 15938
+          }
+        ]
+      },
+      "stages": [],
+      "hint_count": 1,
+      "tx_count": 2,
+      "checked": {
+        "state": "funded-unspent",
+        "balance": 3124630,
+        "unit": "sats",
+        "source": "explorer",
+        "on": "2026-11-10"
+      }
+    },
+    {
+      "id": "weave/3",
+      "collection": "weave",
+      "author": "Tiamat",
+      "chain": "arweave",
+      "address": "wHP6OPG5GMF5dedo_CD8AAy6x8La-gfI5b5pk65Tx_0",
+      "address_kind": "standard",
+      "status": "unsolved",
+      "prize": 1000.165838006237,
+      "prize_asset": "AR",
+      "start_date": "2019-05-25",
+      "source_url": "https://ur42unm2jhdm.arweave.net/VLJIGuTJewofKx8ad4JYQs93nEuGnkgjrIt_Sd2QPYw",
+      "techniques": null,
+      "pubkey": null,
+      "pre_genesis": false,
+      "hints": [],
+      "assets": {},
+      "stages": [],
+      "hint_count": 0,
+      "tx_count": 29,
+      "checked": {
+        "state": "funded-unspent",
+        "balance": 1000165838006237,
+        "unit": "winston",
+        "source": "arweave",
+        "on": "2026-11-10"
+      }
+    },
+    {
+      "id": "weave/10",
+      "collection": "weave",
+      "author": "Tiamat",
+      "chain": "arweave",
+      "address": "bkjJGw3NLxs8OAyRxgTL-QFpiB3lBJqZ76kDhWdB-Rs",
+      "address_kind": "standard",
+      "status": "unsolved",
+      "prize": 500.02225493,
+      "prize_asset": "AR",
+      "start_date": "2020-04-14",
+      "source_url": "https://arweave.net/1fLPMP_smP6ipdIYbYUAZtFPwO4crdYr4kMVf5uTivg",
+      "techniques": null,
+      "pubkey": null,
+      "pre_genesis": false,
+      "hints": [],
+      "assets": {},
+      "stages": [],
+      "hint_count": 0,
+      "tx_count": 15,
+      "checked": {
+        "state": "funded-unspent",
+        "balance": 500022254930000,
+        "unit": "winston",
+        "source": "arweave",
+        "on": "2026-11-10"
+      }
+    },
+    {
+      "id": "weave/11",
+      "collection": "weave",
+      "author": "Tiamat",
+      "chain": "ethereum",
+      "address": "0xff2142e98e09b5344994f9beb9c56c95506b9f17",
+      "address_kind": "standard",
+      "status": "unsolved",
+      "prize": 1,
+      "prize_asset": "ETH",
+      "start_date": "2020-04-14",
+      "source_url": "https://arweave.net/CzITHnEIlkQw9SbaX5futCzFrKk1qe_NwvWnIBmP2fY",
+      "techniques": null,
+      "pubkey": null,
+      "pre_genesis": false,
+      "hints": [],
+      "assets": {},
+      "stages": [],
+      "hint_count": 0,
+      "tx_count": 1,
+      "checked": {
+        "state": "funded-unspent",
+        "balance": 1000000000000000000,
+        "unit": "wei",
+        "source": "rpc",
+        "on": "2026-11-10"
+      }
+    },
+    {
+      "id": "zden/level-halv",
+      "collection": "zden",
+      "author": "Zden",
+      "chain": "bitcoin",
+      "address": "1crypto24HCr178iMcKd5iUi5D4rsg1nK",
+      "address_kind": "p2pkh",
+      "status": "unsolved",
+      "prize": 0.003125,
+      "prize_asset": "BTC",
+      "start_date": "2024-04-18",
+      "source_url": "https://crypto.haluska.sk/cryptoHALV.png",
+      "techniques": null,
+      "pubkey": null,
+      "pre_genesis": false,
+      "hints": [
+        {
+          "kind": "official",
+          "text": "Level HALV - my new crypto puzzle to celebrate the fourth Bitcoin Halving. This level is way easier than LVL 5. It shouldn't take long until it's solved.",
+          "source": "https://crypto.haluska.sk/",
+          "confirmation": {
+            "url": "https://web.archive.org/web/20240519071031/https://crypto.haluska.sk/",
+            "description": "Wayback capture of the puzzle page"
+          }
+        }
+      ],
+      "assets": {
+        "puzzle": "level-halv/puzzle.png",
+        "source_url": "https://crypto.haluska.sk/cryptoHALV.png",
+        "digests": [
+          {
+            "file": "level-halv/puzzle.png",
+            "sha256": "3a487ebaeb4801137f09159a2d533046936cd395f4e2f7d115ac554607790e95",
+            "bytes": 61566,
+            "url": "https://crypto.haluska.sk/cryptoHALV.png",
+            "archive": "https://web.archive.org/web/20250907231738id_/https://crypto.haluska.sk/cryptoHALV.png"
+          }
+        ]
+      },
+      "stages": [],
+      "hint_count": 1,
+      "tx_count": 1,
+      "checked": {
+        "state": "funded-unspent",
+        "balance": 312500,
+        "unit": "sats",
+        "source": "explorer",
+        "on": "2026-11-10"
+      }
+    }
+  ]
+}

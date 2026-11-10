@@ -139,6 +139,23 @@ grouped by prize, is in the tables below.
 - **Aoi Nakamoto Quizchain:** Real Big Block is open; Block 76 was swept on 2026-08-17;
   Block 77 Stage One was reproduced.
 
+## External boha watchlist
+
+`boha/` mirrors the 113 unsolved records from the boha dataset, published on npm as
+`@agntn/puzzles` and as the Rust crate `boha`. It is a generated watchlist, not a curated
+puzzle folder. The complete 558-record export is in `boha/export.json.gz`; the readable
+list and per-collection counts are in `boha/README.md`.
+
+The `boha sync` workflow runs daily, installs the latest package, and runs
+`tools/boha_sync.py`. It opens a pull request when boha adds a new unsolved record or
+marks one as no longer unsolved. Bitcoin and Litecoin balances are read through a batched
+Electrum request, with mempool.space or litecoinspace.org as the fallback. Ethereum and
+Arweave use their public endpoints. Run the sync by hand with:
+
+```sh
+python3 tools/boha_sync.py --export /tmp/boha-export.json
+```
+
 ## On-chain check policy
 
 Every address in this repository was checked on 2026-10-24. The date is in each table and each
