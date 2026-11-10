@@ -45,4 +45,6 @@ jobs:
           branch: boha-sync
           delete-branch: true
           add-paths: |
+            README.md
+            assets/boha-prize-map.svg
             boha/

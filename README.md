@@ -18,7 +18,8 @@ the already-solved tier is not copied. Pick one and keep going.
 
 *The biggest unsolved prizes on-chain right now, at live CoinGecko prices. Balances are the
 ones recorded in each folder and re-checked with `tools/check_escrows.py`; the tables below are
-regenerated from the manifests by `tools/build_index.py`.*
+regenerated from the manifests by `tools/build_index.py`. The separate 113-record boha
+watchlist is charted in [External boha watchlist](#external-boha-watchlist).*
 
 <!-- totals:start -->
 | Asset | Locked in unsolved puzzles | Approx. value |
@@ -143,23 +144,28 @@ grouped by prize, is in the tables below.
 
 ## External boha watchlist
 
-`boha/` mirrors the 113 unsolved records from the boha dataset, published on npm as
-`@agntn/puzzles` and as the Rust crate `boha`. It is a generated watchlist, not a curated
-puzzle folder. The complete 558-record export is in `boha/export.json.gz`; the readable
-list and per-collection counts are in `boha/README.md`.
+<!-- boha:start -->
+![Bar chart of boha unsolved prizes](assets/boha-prize-map.svg)
 
-The current snapshot is boha `0.31.0` (data `a747e6ab583e`): 558 records, 113 unsolved,
-all 113 live-checked as funded-unspent on 2026-11-10.
+*The 113 unsolved records in the boha watchlist, valued at the 2026-10-24 snapshot. These are separate from the curated folders and are not included in the totals above.*
 
-The `boha sync` workflow runs daily, installs the latest package, and runs
-`tools/boha_sync.py`. It opens a pull request when boha adds a new unsolved record or
-marks one as no longer unsolved. Bitcoin and Litecoin balances are read through a batched
-Electrum request, with mempool.space or litecoinspace.org as the fallback. Ethereum and
-Arweave use their public endpoints. Run the sync by hand with:
+**boha 0.31.0** (data `a747e6ab583e`) | **558 records** | **113 unsolved** | **113 live-checked as funded**
 
-```sh
-python3 tools/boha_sync.py --export /tmp/boha-export.json
-```
+| ID | Prize | Chain | Live check | Source |
+|---|---|---|---|---|
+| `bits/160` | 16.00 BTC | bitcoin | funded-unspent (1,600,123,082 sats) | [post](https://bitcointalk.org/index.php?topic=5218972) |
+| `bits/159` | 15.90 BTC | bitcoin | funded-unspent (1,590,002,600 sats) | [post](https://bitcointalk.org/index.php?topic=5218972) |
+| `bits/158` | 15.80 BTC | bitcoin | funded-unspent (1,580,001,000 sats) | [post](https://bitcointalk.org/index.php?topic=5218972) |
+| `bits/157` | 15.70 BTC | bitcoin | funded-unspent (1,570,001,000 sats) | [post](https://bitcointalk.org/index.php?topic=5218972) |
+| `bits/156` | 15.60 BTC | bitcoin | funded-unspent (1,560,001,000 sats) | [post](https://bitcointalk.org/index.php?topic=5218972) |
+| `bits/155` | 15.50 BTC | bitcoin | funded-unspent (1,550,011,600 sats) | [post](https://bitcointalk.org/index.php?topic=5218972) |
+| `bits/154` | 15.40 BTC | bitcoin | funded-unspent (1,540,001,000 sats) | [post](https://bitcointalk.org/index.php?topic=5218972) |
+| `bits/153` | 15.30 BTC | bitcoin | funded-unspent (1,530,001,000 sats) | [post](https://bitcointalk.org/index.php?topic=5218972) |
+| `bits/152` | 15.20 BTC | bitcoin | funded-unspent (1,520,001,000 sats) | [post](https://bitcointalk.org/index.php?topic=5218972) |
+| `bits/151` | 15.10 BTC | bitcoin | funded-unspent (1,510,001,000 sats) | [post](https://bitcointalk.org/index.php?topic=5218972) |
+
+The [full boha watchlist](boha/README.md) has all 113 records and per-collection counts.
+<!-- boha:end -->
 
 ## On-chain check policy
 

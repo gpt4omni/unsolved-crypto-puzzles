@@ -51,8 +51,20 @@ BOHA_DIR = os.path.join(REPO_ROOT, "boha")
 UNSOLVED_PATH = os.path.join(BOHA_DIR, "unsolved.json")
 README_PATH = os.path.join(BOHA_DIR, "README.md")
 EXPORT_GZ_PATH = os.path.join(BOHA_DIR, "export.json.gz")
+ROOT_README_PATH = os.path.join(REPO_ROOT, "README.md")
+SVG_PATH = os.path.join(REPO_ROOT, "assets", "boha-prize-map.svg")
+BOHA_BLOCK_START = "<!-- boha:start -->"
+BOHA_BLOCK_END = "<!-- boha:end -->"
 
 TODAY = date.today().isoformat()
+SNAPSHOT_DATE = "2026-10-24"
+SNAPSHOT_PRICES = {"BTC": 80765.0, "ETH": 2354.82, "AR": 3.47, "LTC": 56.96}
+CHAIN_COLOR = {
+    "bitcoin": "#eb6834",
+    "ethereum": "#2a78d6",
+    "arweave": "#1baf7a",
+    "litecoin": "#b3b1aa",
+}
 
 BTC_SERVERS = [
     ("electrum.blockstream.info", 50001, False),
@@ -587,6 +599,150 @@ def collection_rows(records):
     return counts
 
 
+def fmt_usd(value):
+    if value >= 1_000_000:
+        return f"${value / 1e6:.2f}M"
+    if value >= 10_000:
+        return f"${value / 1000:.0f}k"
+    if value >= 1000:
+        return f"${value / 1000:.1f}k"
+    return f"${value:.0f}"
+
+
+def native_amount(record):
+    amount = float(record.get("prize") or 0)
+    asset = record.get("prize_asset", "")
+    return amount, asset
+
+
+def usd_value(record):
+    amount, asset = native_amount(record)
+    price = SNAPSHOT_PRICES.get(asset)
+    return amount * price if price else 0.0
+
+
+def fmt_native(record):
+    amount, asset = native_amount(record)
+    if asset == "BTC":
+        return f"{amount:.4f} BTC" if amount < 1 else f"{amount:.2f} BTC"
+    if asset in ("ETH", "LTC"):
+        return f"{amount:.2f} {asset}"
+    return f"{amount:,.0f} {asset}"
+
+
+def esc(value):
+    return str(value).replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
+
+
+def render_boha_svg(records):
+    rows = sorted(records, key=lambda item: -usd_value(item))
+    shown = rows[:12]
+    rest = rows[12:]
+    total = sum(usd_value(item) for item in rows)
+    values = [usd_value(item) for item in shown]
+    vmax = max(values) if values else 1.0
+
+    width = 1000
+    top = 150
+    row_height = 34
+    count = len(shown)
+    height = top + count * row_height + 74 + (22 if rest else 0)
+    label_width = 235
+    bar_x = label_width + 16
+    bar_max = width - bar_x - 160
+
+    out = [
+        f'<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif">',
+        f'<rect x="0.5" y="0.5" width="{width - 1}" height="{height - 1}" rx="12" fill="#fcfcfb" stroke="#e6e5e0"/>',
+        f'<text x="32" y="46" fill="#0b0b0b" font-size="21" font-weight="700">Where the boha unsolved prizes sit</text>',
+        f'<text x="32" y="70" fill="#52514e" font-size="13">{len(records)} separate watchlist records, valued at the {SNAPSHOT_DATE} snapshot. Not counted in the curated 23.</text>',
+        f'<text x="{width - 32}" y="58" fill="#0b0b0b" font-size="44" font-weight="700" text-anchor="end">{esc(fmt_usd(total))}</text>',
+        f'<text x="{width - 32}" y="80" fill="#52514e" font-size="13" text-anchor="end">across {len(rows)} boha records</text>',
+    ]
+    x = 32
+    for symbol in ("BTC", "ETH", "LTC", "AR"):
+        price = SNAPSHOT_PRICES[symbol]
+        label = f"{symbol} ${price:,.0f}" if price >= 100 else f"{symbol} ${price:,.2f}"
+        chip_width = len(label) * 7.6 + 18
+        out.append(f'<rect x="{x}" y="88" width="{chip_width:.0f}" height="22" rx="11" fill="#f3f2ee" stroke="#e6e5e0"/>')
+        out.append(f'<text x="{x + 9}" y="103" fill="#52514e" font-size="12" font-weight="600">{esc(label)}</text>')
+        x += chip_width + 10
+    for fraction in (0.25, 0.5, 0.75, 1.0):
+        grid_x = bar_x + bar_max * fraction
+        out.append(f'<line x1="{grid_x:.0f}" y1="{top - 6}" x2="{grid_x:.0f}" y2="{top + count * row_height}" stroke="#e6e5e0" stroke-width="1"/>')
+        out.append(f'<text x="{grid_x:.0f}" y="{top - 12}" fill="#8a8985" font-size="11" text-anchor="middle">{esc(fmt_usd(vmax * fraction))}</text>')
+
+    y = top
+    for record in shown:
+        value = usd_value(record)
+        bar_width = max(4, bar_max * value / vmax)
+        color = CHAIN_COLOR.get(record["chain"], "#b3b1aa")
+        out.append(f'<text x="{label_width}" y="{y + 22}" fill="#0b0b0b" font-size="13" text-anchor="end">{esc(record["id"])}</text>')
+        out.append(f'<rect x="{bar_x}" y="{y + 6}" width="{bar_width:.1f}" height="22" rx="4" fill="{color}"/>')
+        out.append(f'<text x="{bar_x + bar_width + 10:.1f}" y="{y + 22}" fill="#0b0b0b" font-size="13" font-weight="600">{esc(fmt_usd(value))}</text>')
+        out.append(f'<text x="{bar_x + bar_width + 10 + len(fmt_usd(value)) * 8.5 + 6:.1f}" y="{y + 22}" fill="#52514e" font-size="12">{esc(fmt_native(record))}</text>')
+        y += row_height
+    if rest:
+        rest_value = sum(usd_value(item) for item in rest)
+        out.append(f'<text x="32" y="{y + 18}" fill="#52514e" font-size="12">The other {len(rest)} records total {esc(fmt_usd(rest_value))}.</text>')
+
+    legend_y = height - 28
+    legend_x = 32
+    for chain, label in (("bitcoin", "Bitcoin"), ("ethereum", "Ethereum"), ("arweave", "Arweave"), ("litecoin", "Litecoin")):
+        out.append(f'<rect x="{legend_x}" y="{legend_y - 11}" width="12" height="12" rx="3" fill="{CHAIN_COLOR[chain]}"/>')
+        out.append(f'<text x="{legend_x + 18}" y="{legend_y}" fill="#52514e" font-size="12">{label}</text>')
+        legend_x += 18 + len(label) * 7.2 + 22
+    out.append(f'<text x="{width - 32}" y="{legend_y}" fill="#8a8985" font-size="12" text-anchor="end">tools/boha_sync.py, boha watchlist</text>')
+    out.append("</svg>")
+    return "\n".join(out) + "\n"
+
+
+def render_boha_block(doc, records):
+    ordered = sorted(records, key=lambda item: -usd_value(item))[:10]
+    counts = doc.get("counts", {})
+    funded = sum(
+        1 for record in records
+        if str(record.get("checked", {}).get("state", "")).startswith(("funded", "contract"))
+    )
+    lines = [
+        "![Bar chart of boha unsolved prizes](assets/boha-prize-map.svg)",
+        "",
+        f"*The {len(records)} unsolved records in the boha watchlist, valued at the {SNAPSHOT_DATE} snapshot. These are separate from the curated folders and are not included in the totals above.*",
+        "",
+        f"**boha {doc.get('boha_version', '')}** (data `{doc.get('boha_data_version', '')}`) | "
+        f"**{counts.get('all_records', 0)} records** | "
+        f"**{len(records)} unsolved** | **{funded} live-checked as funded**",
+        "",
+        "| ID | Prize | Chain | Live check | Source |",
+        "|---|---|---|---|---|",
+    ]
+    for record in ordered:
+        source = record.get("source_url") or ""
+        source_cell = f"[post]({source})" if source and "(" not in source and ")" not in source else source
+        lines.append(
+            "| `{id}` | {prize} | {chain} | {check} | {source} |".format(
+                id=record["id"],
+                prize=fmt_native(record),
+                chain=record["chain"],
+                check=fmt_balance(record.get("checked")),
+                source=source_cell,
+            )
+        )
+    lines.extend([
+        "",
+        "The [full boha watchlist](boha/README.md) has all 113 records and per-collection counts.",
+    ])
+    return "\n".join(lines)
+
+
+def replace_boha_block(text, block):
+    start = text.find(BOHA_BLOCK_START)
+    end = text.find(BOHA_BLOCK_END)
+    if start == -1 or end == -1 or end < start:
+        raise SystemExit("root README is missing the boha:start / boha:end markers")
+    return text[: start + len(BOHA_BLOCK_START)] + "\n" + block + "\n" + text[end:]
+
+
 def build_readme(doc, records, new_ids, removed_ids):
     total = sum(len(c.get("puzzles", [])) for c in doc.get("collections", []))
     counts = collection_rows(records)
@@ -775,13 +931,25 @@ def main():
         with open(README_PATH, encoding="utf-8") as f:
             old_readme = f.read()
 
-    changed = (new_json != old_json) or (readme != old_readme)
+    svg = render_boha_svg(normalized)
+    old_svg = ""
+    if os.path.isfile(SVG_PATH):
+        with open(SVG_PATH, encoding="utf-8") as f:
+            old_svg = f.read()
+
+    with open(ROOT_README_PATH, encoding="utf-8") as f:
+        old_root = f.read()
+    new_root = replace_boha_block(old_root, render_boha_block(new_doc, normalized))
+
+    changed = (new_json != old_json) or (readme != old_readme) or (svg != old_svg) or (new_root != old_root)
     if not changed:
         print(f"No watchlist change ({len(normalized)} unsolved records).")
         return 0
 
     write_text(UNSOLVED_PATH, new_json)
     write_text(README_PATH, readme)
+    write_text(SVG_PATH, svg)
+    write_text(ROOT_README_PATH, new_root)
     write_gz(EXPORT_GZ_PATH, new_export)
 
     print(f"Wrote {len(normalized)} unsolved records.")
