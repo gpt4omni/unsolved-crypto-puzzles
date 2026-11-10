@@ -194,5 +194,5 @@ reproduced; each folder links to where to find them.
 
 ## Contact
 
-Research by floflo777, X: [@0xFlorent_](https://x.com/0xFlorent_). Issues on this repository
+Research by floflo777, X: [@0xFlorent_](https://x.com/0xFlorent_), and @gpt4omni. Create issues on this repository
 for corrections, solves, and new leads.
