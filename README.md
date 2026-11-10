@@ -46,6 +46,8 @@ Checked 2026-10-24 at BTC $80,765, ETH $2,354.82, AR $3.47, LTC $56.96, USDT $1.
 - **Every remaining address was re-checked.** The full per-address table, including decoys,
   payout addresses and contracts, is in [verification/BALANCES.md](verification/BALANCES.md);
   the removal record is in [verification/REMOVED.md](verification/REMOVED.md).
+- **boha watchlist added.** The `boha/` folder mirrors 113 unsolved records from
+  `@agntn/puzzles` 0.31.0; the daily `boha sync` workflow keeps it current.
 
 ## How to read this repository
 
@@ -145,6 +147,9 @@ grouped by prize, is in the tables below.
 `@agntn/puzzles` and as the Rust crate `boha`. It is a generated watchlist, not a curated
 puzzle folder. The complete 558-record export is in `boha/export.json.gz`; the readable
 list and per-collection counts are in `boha/README.md`.
+
+The current snapshot is boha `0.31.0` (data `a747e6ab583e`): 558 records, 113 unsolved,
+all 113 live-checked as funded-unspent on 2026-11-10.
 
 The `boha sync` workflow runs daily, installs the latest package, and runs
 `tools/boha_sync.py`. It opens a pull request when boha adds a new unsolved record or
