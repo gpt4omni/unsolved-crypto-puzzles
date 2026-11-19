@@ -22,8 +22,8 @@
   "prize": {
     "amount": 8.612541554266,
     "asset": "ETH",
-    "usd_estimate": 20281,
-    "usd_snapshot": "2026-10-24",
+    "usd_estimate": 15108,
+    "usd_snapshot": "2026-11-19",
     "note": "wallet funded with 10 ETH on 2020-02-12; the author has withdrawn from it 7 times since 2021-05, most recently 2024-06-04, totaling approximately 1.377 ETH; he still holds and periodically uses this private key, so this is not a frozen escrow"
   },
   "addresses": [
@@ -34,7 +34,7 @@
       "label": "main",
       "explorer": "https://etherscan.io/address/0x9C2F44EFAd0c1E852a09dF9939e6DaF061140CaF",
       "expected": "8.61254155425694462 ETH",
-      "verified_on": "2026-10-24",
+      "verified_on": "2026-11-19",
       "verified_state": "funded-unspent"
     }
   ],
@@ -112,5 +112,5 @@
     }
   ],
   "third_party_material": "no video or audio files are included; the challenge and hint videos are linked by URL only. The 5 planted sentences and 5 hints are the author's own published text, quoted short and verbatim with dates and links",
-  "last_updated": "2026-10-24"
+  "last_updated": "2026-11-19"
 }

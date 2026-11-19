@@ -22,8 +22,8 @@
   "prize": {
     "amount": 3.02608794,
     "asset": "LTC",
-    "usd_estimate": 172,
-    "usd_snapshot": "2026-10-24",
+    "usd_estimate": 128,
+    "usd_snapshot": "2026-11-19",
     "note": "302,608,794 litoshis. The pot is topped up by the public: the site invites donations straight into the prize address, which is why there are 8 incoming transactions. LTC was $54.17 when I read the price on 2026-09-12; the repository snapshot price of $54 is used here."
   },
   "addresses": [
@@ -34,7 +34,7 @@
       "label": "prize",
       "explorer": "https://litecoinspace.org/address/LUtL7qnm3gzxKjHcfVLSjydqhhinTVmTmS",
       "expected": "302,608,794 litoshis received over 8 transactions, 0 spent",
-      "verified_on": "2026-10-24",
+      "verified_on": "2026-11-19",
       "verified_state": "funded-unspent"
     }
   ],
@@ -222,5 +222,5 @@
     }
   ],
   "third_party_material": "Only the author's own published puzzle files are shipped here: the nine clue images served by p2gtreasure.com, the site banner, and the two lossless carriers Beach.png and Ship.png that his QR codes point at. Not shipped, and not to be added: the game demo p2g_demo.zip (134 MB, Google Drive, the author's own but far over the repository size limits), the album audio embedded in it or published on Spotify and iTunes, any frame or transcript of the 1997 film Titanic that the clue 7 montage is built from, and the audio of the author's YouTube video EojQgdZeTyM. All four are linked by URL instead. The clue poems are quoted in short excerpts only, in clues/author-posts.md.",
-  "last_updated": "2026-10-24"
+  "last_updated": "2026-11-19"
 }

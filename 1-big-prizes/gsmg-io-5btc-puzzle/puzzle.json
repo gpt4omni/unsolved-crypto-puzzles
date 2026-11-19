@@ -21,8 +21,8 @@
   "prize": {
     "amount": 1.25649674,
     "asset": "BTC",
-    "usd_estimate": 101481,
-    "usd_snapshot": "2026-10-24",
+    "usd_estimate": 77908,
+    "usd_snapshot": "2026-11-19",
     "note": "the balance of the prize address 1GSMG1JC9wtdSwfwApgj2xcmJPAwx7prBe at the 2026-10-24 snapshot (1.25649674 BTC; the excess over the 2026-08-16 snapshot is third-party dust). The creator announced in April 2019 that the reward halves at every Bitcoin halving, and it did: 5 BTC funded 2019-04-13, 2.5 BTC moved out in block 630001 (2020-05-11) and 1.25 BTC on 2024-04-24 to 17ucy1K9ZUAaoY6JVtM932W9jUp5LXfyHa, which has never spent and has no published payout path. Those 3.7505531 BTC are listed as an address below but not counted as prize; the reading that the Dualite blob gates them is unconfirmed. Correction contributed by Y0lan in issue #15 (2026-09-02), verified on chain 2026-09-03"
   },
   "addresses": [
@@ -33,7 +33,7 @@
       "label": "prize address (small blob gate)",
       "explorer": "https://mempool.space/address/1GSMG1JC9wtdSwfwApgj2xcmJPAwx7prBe",
       "expected": "125635374 sats",
-      "verified_on": "2026-10-24",
+      "verified_on": "2026-11-19",
       "verified_state": "partially-spent"
     },
     {
@@ -43,7 +43,7 @@
       "label": "halving split-off, creator controlled; not counted as prize (the Dualite-blob reading is unconfirmed)",
       "explorer": "https://mempool.space/address/17ucy1K9ZUAaoY6JVtM932W9jUp5LXfyHa",
       "expected": "375055856 sats",
-      "verified_on": "2026-10-24",
+      "verified_on": "2026-11-19",
       "verified_state": "funded-unspent"
     }
   ],
@@ -170,5 +170,5 @@
     }
   ],
   "third_party_material": "no book, article, forum dump, or other bulk third-party material is included; the short strings quoted in clues/author-posts.md are verbatim decodings of the puzzle's own published page content, two lines of the creator's archived Phase 2 and 3 page, and the creator's own OP_RETURN messages read from the chain; no Telegram export is quoted, since the puzzle's Telegram group has no stable public URL, and the few Telegram statements referred to are marked reported",
-  "last_updated": "2026-10-24"
+  "last_updated": "2026-11-19"
 }

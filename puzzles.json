@@ -1,18 +1,18 @@
 {
   "schema_version": 1,
-  "generated_on": "2026-10-24",
+  "generated_on": "2026-11-19",
   "price_snapshot": {
-    "date": "2026-10-24",
-    "BTC": 80765,
-    "ETH": 2354.82,
-    "AR": 3.47,
-    "LTC": 56.96,
+    "date": "2026-11-19",
+    "BTC": 62004,
+    "ETH": 1754.24,
+    "AR": 2.45,
+    "LTC": 42.27,
     "USDT": 1.0,
     "USDC": 1.0
   },
   "counts": {
-    "big": 7,
-    "mid": 14,
+    "big": 8,
+    "mid": 13,
     "small": 2
   },
   "puzzles": [
@@ -40,8 +40,8 @@
       "prize": {
         "amount": 0.777,
         "asset": "BTC",
-        "usd_estimate": 62754,
-        "usd_snapshot": "2026-10-24",
+        "usd_estimate": 48177,
+        "usd_snapshot": "2026-11-19",
         "note": "Block 76 (0.077 BTC) was solved and swept by a reader on 2026-08-17; only Real Big Block (0.777 BTC) remains open"
       },
       "addresses": [
@@ -52,7 +52,7 @@
           "label": "Real Big Block, stage 2",
           "explorer": "https://mempool.space/address/14zMkTgaVXJcxdh4JdWi29MLRR44iUSG9W",
           "expected": "77700000 sats",
-          "verified_on": "2026-10-24",
+          "verified_on": "2026-11-19",
           "verified_state": "funded-unspent"
         },
         {
@@ -62,7 +62,7 @@
           "label": "Quizchain2 Block 76",
           "explorer": "https://mempool.space/address/13Cv6SXUnzGDT8JHqzzJ8xMPtsSdhJA4wd",
           "expected": "7700000 sats",
-          "verified_on": "2026-10-24",
+          "verified_on": "2026-11-19",
           "verified_state": "swept"
         },
         {
@@ -72,7 +72,7 @@
           "label": "Real Big Block, stage 1 (certification reference, solved by a third party in 2019, not part of the live prize)",
           "explorer": "https://mempool.space/address/19TbyN5KCg1Lg7qHwezifsLVcdSa2Rj5KN",
           "expected": "n/a",
-          "verified_on": "2026-10-24",
+          "verified_on": "2026-11-19",
           "verified_state": "swept"
         }
       ],
@@ -191,7 +191,7 @@
         }
       ],
       "third_party_material": "no book, chapter text, forum dump, or other bulk third-party material is included; the Wattpad chapter (the author's own fiction) and Hal Finney's bitcointalk post (third-party historical content) are both referenced by URL only, never reproduced; quotes in clues/author-posts.md are short excerpts from the puzzle author's own public Reddit posts",
-      "last_updated": "2026-10-24",
+      "last_updated": "2026-11-19",
       "folder": "1-big-prizes/aoi-nakamoto-quizchain-0-854btc"
     },
     {
@@ -217,8 +217,8 @@
       "prize": {
         "amount": 2.00007358,
         "asset": "BTC",
-        "usd_estimate": 161536,
-        "usd_snapshot": "2026-10-24",
+        "usd_estimate": 124013,
+        "usd_snapshot": "2026-11-19",
         "note": "two independent cards, 1.00003481 BTC (AA009926) and 1.00003877 BTC (AA012381); a third card, AA007448, was solved and swept by a third party in 2020 and is not part of the live prize"
       },
       "addresses": [
@@ -229,7 +229,7 @@
           "label": "AA009926",
           "explorer": "https://mempool.space/address/1JxWyNrkgYvgsHu8hVQZqTXEB9RftRGP5m",
           "expected": "100003481 sats",
-          "verified_on": "2026-10-24",
+          "verified_on": "2026-11-19",
           "verified_state": "funded-unspent"
         },
         {
@@ -239,7 +239,7 @@
           "label": "AA012381",
           "explorer": "https://mempool.space/address/1QGtbKxx6FKDD66LwnrzHCAHmyZ7mDHqC4",
           "expected": "100003877 sats",
-          "verified_on": "2026-10-24",
+          "verified_on": "2026-11-19",
           "verified_state": "funded-unspent"
         },
         {
@@ -249,7 +249,7 @@
           "label": "AA007448 (oracle, solved by a third party in 2020, not part of the live prize)",
           "explorer": "https://mempool.space/address/1LL6Xy92LwGDRfQP9fBU7f1477cEKctr7c",
           "expected": "n/a",
-          "verified_on": "2026-10-24",
+          "verified_on": "2026-11-19",
           "verified_state": "swept"
         }
       ],
@@ -333,7 +333,7 @@
         }
       ],
       "third_party_material": "the 4 card photographs in clues/ are the author-published puzzle itself (mirrored from Bobby Lee's own posted images via github.com/oritwoen/boha); no book, article, or other third-party copyrighted material is included",
-      "last_updated": "2026-10-24",
+      "last_updated": "2026-11-19",
       "folder": "1-big-prizes/ballet-bobby-lee-2btc-cards"
     },
     {
@@ -360,8 +360,8 @@
       "prize": {
         "amount": 1.00016775,
         "asset": "BTC",
-        "usd_estimate": 80779,
-        "usd_snapshot": "2026-10-24",
+        "usd_estimate": 62014,
+        "usd_snapshot": "2026-11-19",
         "note": "single P2WPKH escrow, funded across 5 transactions ending 2022-10"
       },
       "addresses": [
@@ -372,7 +372,7 @@
           "label": "main",
           "explorer": "https://mempool.space/address/bc1qyjwa0tf0en4x09magpuwmt2smpsrlaxwn85lh6",
           "expected": "1.00016775 BTC (100,016,775 sats)",
-          "verified_on": "2026-10-24",
+          "verified_on": "2026-11-19",
           "verified_state": "funded-unspent"
         }
       ],
@@ -473,8 +473,869 @@
         }
       ],
       "third_party_material": "the 2 published Shamir shares and the challenge-page quotes are Bitaps's own puzzle material, quoted briefly with source and date; no third-party copyrighted material is included",
-      "last_updated": "2026-10-24",
+      "last_updated": "2026-11-19",
       "folder": "1-big-prizes/bitaps-shamir-challenge-1btc"
+    },
+    {
+      "schema_version": 1,
+      "slug": "bitcoin-transaction-puzzle-903btc",
+      "title": "Bitcoin Transaction Puzzle (the 1000 BTC challenge)",
+      "tier": "big",
+      "status": "open",
+      "dead_end_reason": null,
+      "series": "Bitcoin Transaction Puzzle #1-160",
+      "author": {
+        "name": "anonymous (BitcoinTalk account '****', donor unsigned)",
+        "handles": [],
+        "url": "https://bitcointalk.org/index.php?topic=5218972"
+      },
+      "published": {
+        "date": "2015-01-15",
+        "url": "https://bitcointalk.org/index.php?topic=5218972"
+      },
+      "chain": "bitcoin",
+      "prize": {
+        "amount": 903.01687103,
+        "asset": "BTC",
+        "usd_estimate": 55990658,
+        "usd_snapshot": "2026-11-19",
+        "note": "sum of the 77 still-funded escrows; the challenge was loaded at about 1,000 BTC across 160 addresses in 2015-2017"
+      },
+      "addresses": [
+        {
+          "address": "1PWo3JeB9jrGwfHDNpdGK54CRas7fsVzXU",
+          "chain": "bitcoin",
+          "role": "escrow",
+          "label": "puzzle #71",
+          "explorer": "https://mempool.space/address/1PWo3JeB9jrGwfHDNpdGK54CRas7fsVzXU",
+          "expected": "710196696 sats",
+          "verified_on": "2026-11-19",
+          "verified_state": "funded-unspent"
+        },
+        {
+          "address": "1JTK7s9YVYywfm5XUH7RNhHJH1LshCaRFR",
+          "chain": "bitcoin",
+          "role": "escrow",
+          "label": "puzzle #72",
+          "explorer": "https://mempool.space/address/1JTK7s9YVYywfm5XUH7RNhHJH1LshCaRFR",
+          "expected": "720014379 sats",
+          "verified_on": "2026-11-19",
+          "verified_state": "funded-unspent"
+        },
+        {
+          "address": "12VVRNPi4SJqUTsp6FmqDqY5sGosDtysn4",
+          "chain": "bitcoin",
+          "role": "escrow",
+          "label": "puzzle #73",
+          "explorer": "https://mempool.space/address/12VVRNPi4SJqUTsp6FmqDqY5sGosDtysn4",
+          "expected": "730013849 sats",
+          "verified_on": "2026-11-19",
+          "verified_state": "funded-unspent"
+        },
+        {
+          "address": "1FWGcVDK3JGzCC3WtkYetULPszMaK2Jksv",
+          "chain": "bitcoin",
+          "role": "escrow",
+          "label": "puzzle #74",
+          "explorer": "https://mempool.space/address/1FWGcVDK3JGzCC3WtkYetULPszMaK2Jksv",
+          "expected": "740004977 sats",
+          "verified_on": "2026-11-19",
+          "verified_state": "funded-unspent"
+        },
+        {
+          "address": "1DJh2eHFYQfACPmrvpyWc8MSTYKh7w9eRF",
+          "chain": "bitcoin",
+          "role": "escrow",
+          "label": "puzzle #76",
+          "explorer": "https://mempool.space/address/1DJh2eHFYQfACPmrvpyWc8MSTYKh7w9eRF",
+          "expected": "760000000 sats",
+          "verified_on": "2026-11-19",
+          "verified_state": "funded-unspent"
+        },
+        {
+          "address": "1Bxk4CQdqL9p22JEtDfdXMsng1XacifUtE",
+          "chain": "bitcoin",
+          "role": "escrow",
+          "label": "puzzle #77",
+          "explorer": "https://mempool.space/address/1Bxk4CQdqL9p22JEtDfdXMsng1XacifUtE",
+          "expected": "770002426 sats",
+          "verified_on": "2026-11-19",
+          "verified_state": "funded-unspent"
+        },
+        {
+          "address": "15qF6X51huDjqTmF9BJgxXdt1xcj46Jmhb",
+          "chain": "bitcoin",
+          "role": "escrow",
+          "label": "puzzle #78",
+          "explorer": "https://mempool.space/address/15qF6X51huDjqTmF9BJgxXdt1xcj46Jmhb",
+          "expected": "780000000 sats",
+          "verified_on": "2026-11-19",
+          "verified_state": "funded-unspent"
+        },
+        {
+          "address": "1ARk8HWJMn8js8tQmGUJeQHjSE7KRkn2t8",
+          "chain": "bitcoin",
+          "role": "escrow",
+          "label": "puzzle #79",
+          "explorer": "https://mempool.space/address/1ARk8HWJMn8js8tQmGUJeQHjSE7KRkn2t8",
+          "expected": "790000000 sats",
+          "verified_on": "2026-11-19",
+          "verified_state": "funded-unspent"
+        },
+        {
+          "address": "15qsCm78whspNQFydGJQk5rexzxTQopnHZ",
+          "chain": "bitcoin",
+          "role": "escrow",
+          "label": "puzzle #81",
+          "explorer": "https://mempool.space/address/15qsCm78whspNQFydGJQk5rexzxTQopnHZ",
+          "expected": "810001500 sats",
+          "verified_on": "2026-11-19",
+          "verified_state": "funded-unspent"
+        },
+        {
+          "address": "13zYrYhhJxp6Ui1VV7pqa5WDhNWM45ARAC",
+          "chain": "bitcoin",
+          "role": "escrow",
+          "label": "puzzle #82",
+          "explorer": "https://mempool.space/address/13zYrYhhJxp6Ui1VV7pqa5WDhNWM45ARAC",
+          "expected": "820000000 sats",
+          "verified_on": "2026-11-19",
+          "verified_state": "funded-unspent"
+        },
+        {
+          "address": "14MdEb4eFcT3MVG5sPFG4jGLuHJSnt1Dk2",
+          "chain": "bitcoin",
+          "role": "escrow",
+          "label": "puzzle #83",
+          "explorer": "https://mempool.space/address/14MdEb4eFcT3MVG5sPFG4jGLuHJSnt1Dk2",
+          "expected": "830002046 sats",
+          "verified_on": "2026-11-19",
+          "verified_state": "funded-unspent"
+        },
+        {
+          "address": "1CMq3SvFcVEcpLMuuH8PUcNiqsK1oicG2D",
+          "chain": "bitcoin",
+          "role": "escrow",
+          "label": "puzzle #84",
+          "explorer": "https://mempool.space/address/1CMq3SvFcVEcpLMuuH8PUcNiqsK1oicG2D",
+          "expected": "840001500 sats",
+          "verified_on": "2026-11-19",
+          "verified_state": "funded-unspent"
+        },
+        {
+          "address": "1K3x5L6G57Y494fDqBfrojD28UJv4s5JcK",
+          "chain": "bitcoin",
+          "role": "escrow",
+          "label": "puzzle #86",
+          "explorer": "https://mempool.space/address/1K3x5L6G57Y494fDqBfrojD28UJv4s5JcK",
+          "expected": "860000000 sats",
+          "verified_on": "2026-11-19",
+          "verified_state": "funded-unspent"
+        },
+        {
+          "address": "1PxH3K1Shdjb7gSEoTX7UPDZ6SH4qGPrvq",
+          "chain": "bitcoin",
+          "role": "escrow",
+          "label": "puzzle #87",
+          "explorer": "https://mempool.space/address/1PxH3K1Shdjb7gSEoTX7UPDZ6SH4qGPrvq",
+          "expected": "870000000 sats",
+          "verified_on": "2026-11-19",
+          "verified_state": "funded-unspent"
+        },
+        {
+          "address": "16AbnZjZZipwHMkYKBSfswGWKDmXHjEpSf",
+          "chain": "bitcoin",
+          "role": "escrow",
+          "label": "puzzle #88",
+          "explorer": "https://mempool.space/address/16AbnZjZZipwHMkYKBSfswGWKDmXHjEpSf",
+          "expected": "880000000 sats",
+          "verified_on": "2026-11-19",
+          "verified_state": "funded-unspent"
+        },
+        {
+          "address": "19QciEHbGVNY4hrhfKXmcBBCrJSBZ6TaVt",
+          "chain": "bitcoin",
+          "role": "escrow",
+          "label": "puzzle #89",
+          "explorer": "https://mempool.space/address/19QciEHbGVNY4hrhfKXmcBBCrJSBZ6TaVt",
+          "expected": "890000000 sats",
+          "verified_on": "2026-11-19",
+          "verified_state": "funded-unspent"
+        },
+        {
+          "address": "1EzVHtmbN4fs4MiNk3ppEnKKhsmXYJ4s74",
+          "chain": "bitcoin",
+          "role": "escrow",
+          "label": "puzzle #91",
+          "explorer": "https://mempool.space/address/1EzVHtmbN4fs4MiNk3ppEnKKhsmXYJ4s74",
+          "expected": "910000000 sats",
+          "verified_on": "2026-11-19",
+          "verified_state": "funded-unspent"
+        },
+        {
+          "address": "1AE8NzzgKE7Yhz7BWtAcAAxiFMbPo82NB5",
+          "chain": "bitcoin",
+          "role": "escrow",
+          "label": "puzzle #92",
+          "explorer": "https://mempool.space/address/1AE8NzzgKE7Yhz7BWtAcAAxiFMbPo82NB5",
+          "expected": "920000000 sats",
+          "verified_on": "2026-11-19",
+          "verified_state": "funded-unspent"
+        },
+        {
+          "address": "17Q7tuG2JwFFU9rXVj3uZqRtioH3mx2Jad",
+          "chain": "bitcoin",
+          "role": "escrow",
+          "label": "puzzle #93",
+          "explorer": "https://mempool.space/address/17Q7tuG2JwFFU9rXVj3uZqRtioH3mx2Jad",
+          "expected": "930000000 sats",
+          "verified_on": "2026-11-19",
+          "verified_state": "funded-unspent"
+        },
+        {
+          "address": "1K6xGMUbs6ZTXBnhw1pippqwK6wjBWtNpL",
+          "chain": "bitcoin",
+          "role": "escrow",
+          "label": "puzzle #94",
+          "explorer": "https://mempool.space/address/1K6xGMUbs6ZTXBnhw1pippqwK6wjBWtNpL",
+          "expected": "940000000 sats",
+          "verified_on": "2026-11-19",
+          "verified_state": "funded-unspent"
+        },
+        {
+          "address": "15ANYzzCp5BFHcCnVFzXqyibpzgPLWaD8b",
+          "chain": "bitcoin",
+          "role": "escrow",
+          "label": "puzzle #96",
+          "explorer": "https://mempool.space/address/15ANYzzCp5BFHcCnVFzXqyibpzgPLWaD8b",
+          "expected": "960000600 sats",
+          "verified_on": "2026-11-19",
+          "verified_state": "funded-unspent"
+        },
+        {
+          "address": "18ywPwj39nGjqBrQJSzZVq2izR12MDpDr8",
+          "chain": "bitcoin",
+          "role": "escrow",
+          "label": "puzzle #97",
+          "explorer": "https://mempool.space/address/18ywPwj39nGjqBrQJSzZVq2izR12MDpDr8",
+          "expected": "970002613 sats",
+          "verified_on": "2026-11-19",
+          "verified_state": "funded-unspent"
+        },
+        {
+          "address": "1CaBVPrwUxbQYYswu32w7Mj4HR4maNoJSX",
+          "chain": "bitcoin",
+          "role": "escrow",
+          "label": "puzzle #98",
+          "explorer": "https://mempool.space/address/1CaBVPrwUxbQYYswu32w7Mj4HR4maNoJSX",
+          "expected": "980000000 sats",
+          "verified_on": "2026-11-19",
+          "verified_state": "funded-unspent"
+        },
+        {
+          "address": "1JWnE6p6UN7ZJBN7TtcbNDoRcjFtuDWoNL",
+          "chain": "bitcoin",
+          "role": "escrow",
+          "label": "puzzle #99",
+          "explorer": "https://mempool.space/address/1JWnE6p6UN7ZJBN7TtcbNDoRcjFtuDWoNL",
+          "expected": "991257338 sats",
+          "verified_on": "2026-11-19",
+          "verified_state": "funded-unspent"
+        },
+        {
+          "address": "1CKCVdbDJasYmhswB6HKZHEAnNaDpK7W4n",
+          "chain": "bitcoin",
+          "role": "escrow",
+          "label": "puzzle #101",
+          "explorer": "https://mempool.space/address/1CKCVdbDJasYmhswB6HKZHEAnNaDpK7W4n",
+          "expected": "1010000000 sats",
+          "verified_on": "2026-11-19",
+          "verified_state": "funded-unspent"
+        },
+        {
+          "address": "1PXv28YxmYMaB8zxrKeZBW8dt2HK7RkRPX",
+          "chain": "bitcoin",
+          "role": "escrow",
+          "label": "puzzle #102",
+          "explorer": "https://mempool.space/address/1PXv28YxmYMaB8zxrKeZBW8dt2HK7RkRPX",
+          "expected": "1020000000 sats",
+          "verified_on": "2026-11-19",
+          "verified_state": "funded-unspent"
+        },
+        {
+          "address": "1AcAmB6jmtU6AiEcXkmiNE9TNVPsj9DULf",
+          "chain": "bitcoin",
+          "role": "escrow",
+          "label": "puzzle #103",
+          "explorer": "https://mempool.space/address/1AcAmB6jmtU6AiEcXkmiNE9TNVPsj9DULf",
+          "expected": "1030000000 sats",
+          "verified_on": "2026-11-19",
+          "verified_state": "funded-unspent"
+        },
+        {
+          "address": "1EQJvpsmhazYCcKX5Au6AZmZKRnzarMVZu",
+          "chain": "bitcoin",
+          "role": "escrow",
+          "label": "puzzle #104",
+          "explorer": "https://mempool.space/address/1EQJvpsmhazYCcKX5Au6AZmZKRnzarMVZu",
+          "expected": "1040001600 sats",
+          "verified_on": "2026-11-19",
+          "verified_state": "funded-unspent"
+        },
+        {
+          "address": "18KsfuHuzQaBTNLASyj15hy4LuqPUo1FNB",
+          "chain": "bitcoin",
+          "role": "escrow",
+          "label": "puzzle #106",
+          "explorer": "https://mempool.space/address/18KsfuHuzQaBTNLASyj15hy4LuqPUo1FNB",
+          "expected": "1060000000 sats",
+          "verified_on": "2026-11-19",
+          "verified_state": "funded-unspent"
+        },
+        {
+          "address": "15EJFC5ZTs9nhsdvSUeBXjLAuYq3SWaxTc",
+          "chain": "bitcoin",
+          "role": "escrow",
+          "label": "puzzle #107",
+          "explorer": "https://mempool.space/address/15EJFC5ZTs9nhsdvSUeBXjLAuYq3SWaxTc",
+          "expected": "1070000000 sats",
+          "verified_on": "2026-11-19",
+          "verified_state": "funded-unspent"
+        },
+        {
+          "address": "1HB1iKUqeffnVsvQsbpC6dNi1XKbyNuqao",
+          "chain": "bitcoin",
+          "role": "escrow",
+          "label": "puzzle #108",
+          "explorer": "https://mempool.space/address/1HB1iKUqeffnVsvQsbpC6dNi1XKbyNuqao",
+          "expected": "1080000000 sats",
+          "verified_on": "2026-11-19",
+          "verified_state": "funded-unspent"
+        },
+        {
+          "address": "1GvgAXVCbA8FBjXfWiAms4ytFeJcKsoyhL",
+          "chain": "bitcoin",
+          "role": "escrow",
+          "label": "puzzle #109",
+          "explorer": "https://mempool.space/address/1GvgAXVCbA8FBjXfWiAms4ytFeJcKsoyhL",
+          "expected": "1090010500 sats",
+          "verified_on": "2026-11-19",
+          "verified_state": "funded-unspent"
+        },
+        {
+          "address": "1824ZJQ7nKJ9QFTRBqn7z7dHV5EGpzUpH3",
+          "chain": "bitcoin",
+          "role": "escrow",
+          "label": "puzzle #111",
+          "explorer": "https://mempool.space/address/1824ZJQ7nKJ9QFTRBqn7z7dHV5EGpzUpH3",
+          "expected": "1110010000 sats",
+          "verified_on": "2026-11-19",
+          "verified_state": "funded-unspent"
+        },
+        {
+          "address": "18A7NA9FTsnJxWgkoFfPAFbQzuQxpRtCos",
+          "chain": "bitcoin",
+          "role": "escrow",
+          "label": "puzzle #112",
+          "explorer": "https://mempool.space/address/18A7NA9FTsnJxWgkoFfPAFbQzuQxpRtCos",
+          "expected": "1120000000 sats",
+          "verified_on": "2026-11-19",
+          "verified_state": "funded-unspent"
+        },
+        {
+          "address": "1NeGn21dUDDeqFQ63xb2SpgUuXuBLA4WT4",
+          "chain": "bitcoin",
+          "role": "escrow",
+          "label": "puzzle #113",
+          "explorer": "https://mempool.space/address/1NeGn21dUDDeqFQ63xb2SpgUuXuBLA4WT4",
+          "expected": "1130000000 sats",
+          "verified_on": "2026-11-19",
+          "verified_state": "funded-unspent"
+        },
+        {
+          "address": "174SNxfqpdMGYy5YQcfLbSTK3MRNZEePoy",
+          "chain": "bitcoin",
+          "role": "escrow",
+          "label": "puzzle #114",
+          "explorer": "https://mempool.space/address/174SNxfqpdMGYy5YQcfLbSTK3MRNZEePoy",
+          "expected": "1140000000 sats",
+          "verified_on": "2026-11-19",
+          "verified_state": "funded-unspent"
+        },
+        {
+          "address": "1MnJ6hdhvK37VLmqcdEwqC3iFxyWH2PHUV",
+          "chain": "bitcoin",
+          "role": "escrow",
+          "label": "puzzle #116",
+          "explorer": "https://mempool.space/address/1MnJ6hdhvK37VLmqcdEwqC3iFxyWH2PHUV",
+          "expected": "1160001210 sats",
+          "verified_on": "2026-11-19",
+          "verified_state": "funded-unspent"
+        },
+        {
+          "address": "1KNRfGWw7Q9Rmwsc6NT5zsdvEb9M2Wkj5Z",
+          "chain": "bitcoin",
+          "role": "escrow",
+          "label": "puzzle #117",
+          "explorer": "https://mempool.space/address/1KNRfGWw7Q9Rmwsc6NT5zsdvEb9M2Wkj5Z",
+          "expected": "1170000000 sats",
+          "verified_on": "2026-11-19",
+          "verified_state": "funded-unspent"
+        },
+        {
+          "address": "1PJZPzvGX19a7twf5HyD2VvNiPdHLzm9F6",
+          "chain": "bitcoin",
+          "role": "escrow",
+          "label": "puzzle #118",
+          "explorer": "https://mempool.space/address/1PJZPzvGX19a7twf5HyD2VvNiPdHLzm9F6",
+          "expected": "1180000661 sats",
+          "verified_on": "2026-11-19",
+          "verified_state": "funded-unspent"
+        },
+        {
+          "address": "1GuBBhf61rnvRe4K8zu8vdQB3kHzwFqSy7",
+          "chain": "bitcoin",
+          "role": "escrow",
+          "label": "puzzle #119",
+          "explorer": "https://mempool.space/address/1GuBBhf61rnvRe4K8zu8vdQB3kHzwFqSy7",
+          "expected": "1190000000 sats",
+          "verified_on": "2026-11-19",
+          "verified_state": "funded-unspent"
+        },
+        {
+          "address": "1GDSuiThEV64c166LUFC9uDcVdGjqkxKyh",
+          "chain": "bitcoin",
+          "role": "escrow",
+          "label": "puzzle #121",
+          "explorer": "https://mempool.space/address/1GDSuiThEV64c166LUFC9uDcVdGjqkxKyh",
+          "expected": "1210000000 sats",
+          "verified_on": "2026-11-19",
+          "verified_state": "funded-unspent"
+        },
+        {
+          "address": "1Me3ASYt5JCTAK2XaC32RMeH34PdprrfDx",
+          "chain": "bitcoin",
+          "role": "escrow",
+          "label": "puzzle #122",
+          "explorer": "https://mempool.space/address/1Me3ASYt5JCTAK2XaC32RMeH34PdprrfDx",
+          "expected": "1220000000 sats",
+          "verified_on": "2026-11-19",
+          "verified_state": "funded-unspent"
+        },
+        {
+          "address": "1CdufMQL892A69KXgv6UNBD17ywWqYpKut",
+          "chain": "bitcoin",
+          "role": "escrow",
+          "label": "puzzle #123",
+          "explorer": "https://mempool.space/address/1CdufMQL892A69KXgv6UNBD17ywWqYpKut",
+          "expected": "1230000000 sats",
+          "verified_on": "2026-11-19",
+          "verified_state": "funded-unspent"
+        },
+        {
+          "address": "1BkkGsX9ZM6iwL3zbqs7HWBV7SvosR6m8N",
+          "chain": "bitcoin",
+          "role": "escrow",
+          "label": "puzzle #124",
+          "explorer": "https://mempool.space/address/1BkkGsX9ZM6iwL3zbqs7HWBV7SvosR6m8N",
+          "expected": "1240000000 sats",
+          "verified_on": "2026-11-19",
+          "verified_state": "funded-unspent"
+        },
+        {
+          "address": "1AWCLZAjKbV1P7AHvaPNCKiB7ZWVDMxFiz",
+          "chain": "bitcoin",
+          "role": "escrow",
+          "label": "puzzle #126",
+          "explorer": "https://mempool.space/address/1AWCLZAjKbV1P7AHvaPNCKiB7ZWVDMxFiz",
+          "expected": "1260000000 sats",
+          "verified_on": "2026-11-19",
+          "verified_state": "funded-unspent"
+        },
+        {
+          "address": "1G6EFyBRU86sThN3SSt3GrHu1sA7w7nzi4",
+          "chain": "bitcoin",
+          "role": "escrow",
+          "label": "puzzle #127",
+          "explorer": "https://mempool.space/address/1G6EFyBRU86sThN3SSt3GrHu1sA7w7nzi4",
+          "expected": "1270000000 sats",
+          "verified_on": "2026-11-19",
+          "verified_state": "funded-unspent"
+        },
+        {
+          "address": "1MZ2L1gFrCtkkn6DnTT2e4PFUTHw9gNwaj",
+          "chain": "bitcoin",
+          "role": "escrow",
+          "label": "puzzle #128",
+          "explorer": "https://mempool.space/address/1MZ2L1gFrCtkkn6DnTT2e4PFUTHw9gNwaj",
+          "expected": "1280000000 sats",
+          "verified_on": "2026-11-19",
+          "verified_state": "funded-unspent"
+        },
+        {
+          "address": "1Hz3uv3nNZzBVMXLGadCucgjiCs5W9vaGz",
+          "chain": "bitcoin",
+          "role": "escrow",
+          "label": "puzzle #129",
+          "explorer": "https://mempool.space/address/1Hz3uv3nNZzBVMXLGadCucgjiCs5W9vaGz",
+          "expected": "1290000000 sats",
+          "verified_on": "2026-11-19",
+          "verified_state": "funded-unspent"
+        },
+        {
+          "address": "16zRPnT8znwq42q7XeMkZUhb1bKqgRogyy",
+          "chain": "bitcoin",
+          "role": "escrow",
+          "label": "puzzle #131",
+          "explorer": "https://mempool.space/address/16zRPnT8znwq42q7XeMkZUhb1bKqgRogyy",
+          "expected": "1310000000 sats",
+          "verified_on": "2026-11-19",
+          "verified_state": "funded-unspent"
+        },
+        {
+          "address": "1KrU4dHE5WrW8rhWDsTRjR21r8t3dsrS3R",
+          "chain": "bitcoin",
+          "role": "escrow",
+          "label": "puzzle #132",
+          "explorer": "https://mempool.space/address/1KrU4dHE5WrW8rhWDsTRjR21r8t3dsrS3R",
+          "expected": "1320000000 sats",
+          "verified_on": "2026-11-19",
+          "verified_state": "funded-unspent"
+        },
+        {
+          "address": "17uDfp5r4n441xkgLFmhNoSW1KWp6xVLD",
+          "chain": "bitcoin",
+          "role": "escrow",
+          "label": "puzzle #133",
+          "explorer": "https://mempool.space/address/17uDfp5r4n441xkgLFmhNoSW1KWp6xVLD",
+          "expected": "1330000000 sats",
+          "verified_on": "2026-11-19",
+          "verified_state": "funded-unspent"
+        },
+        {
+          "address": "13A3JrvXmvg5w9XGvyyR4JEJqiLz8ZySY3",
+          "chain": "bitcoin",
+          "role": "escrow",
+          "label": "puzzle #134",
+          "explorer": "https://mempool.space/address/13A3JrvXmvg5w9XGvyyR4JEJqiLz8ZySY3",
+          "expected": "1340000000 sats",
+          "verified_on": "2026-11-19",
+          "verified_state": "funded-unspent"
+        },
+        {
+          "address": "1UDHPdovvR985NrWSkdWQDEQ1xuRiTALq",
+          "chain": "bitcoin",
+          "role": "escrow",
+          "label": "puzzle #136",
+          "explorer": "https://mempool.space/address/1UDHPdovvR985NrWSkdWQDEQ1xuRiTALq",
+          "expected": "1360000000 sats",
+          "verified_on": "2026-11-19",
+          "verified_state": "funded-unspent"
+        },
+        {
+          "address": "15nf31J46iLuK1ZkTnqHo7WgN5cARFK3RA",
+          "chain": "bitcoin",
+          "role": "escrow",
+          "label": "puzzle #137",
+          "explorer": "https://mempool.space/address/15nf31J46iLuK1ZkTnqHo7WgN5cARFK3RA",
+          "expected": "1370000000 sats",
+          "verified_on": "2026-11-19",
+          "verified_state": "funded-unspent"
+        },
+        {
+          "address": "1Ab4vzG6wEQBDNQM1B2bvUz4fqXXdFk2WT",
+          "chain": "bitcoin",
+          "role": "escrow",
+          "label": "puzzle #138",
+          "explorer": "https://mempool.space/address/1Ab4vzG6wEQBDNQM1B2bvUz4fqXXdFk2WT",
+          "expected": "1380000000 sats",
+          "verified_on": "2026-11-19",
+          "verified_state": "funded-unspent"
+        },
+        {
+          "address": "1Fz63c775VV9fNyj25d9Xfw3YHE6sKCxbt",
+          "chain": "bitcoin",
+          "role": "escrow",
+          "label": "puzzle #139",
+          "explorer": "https://mempool.space/address/1Fz63c775VV9fNyj25d9Xfw3YHE6sKCxbt",
+          "expected": "1390000000 sats",
+          "verified_on": "2026-11-19",
+          "verified_state": "funded-unspent"
+        },
+        {
+          "address": "1QKBaU6WAeycb3DbKbLBkX7vJiaS8r42Xo",
+          "chain": "bitcoin",
+          "role": "escrow",
+          "label": "puzzle #140, public key exposed",
+          "explorer": "https://mempool.space/address/1QKBaU6WAeycb3DbKbLBkX7vJiaS8r42Xo",
+          "expected": "1400002880 sats",
+          "verified_on": "2026-11-19",
+          "verified_state": "partially-spent"
+        },
+        {
+          "address": "1CD91Vm97mLQvXhrnoMChhJx4TP9MaQkJo",
+          "chain": "bitcoin",
+          "role": "escrow",
+          "label": "puzzle #141",
+          "explorer": "https://mempool.space/address/1CD91Vm97mLQvXhrnoMChhJx4TP9MaQkJo",
+          "expected": "1410014846 sats",
+          "verified_on": "2026-11-19",
+          "verified_state": "funded-unspent"
+        },
+        {
+          "address": "15MnK2jXPqTMURX4xC3h4mAZxyCcaWWEDD",
+          "chain": "bitcoin",
+          "role": "escrow",
+          "label": "puzzle #142",
+          "explorer": "https://mempool.space/address/15MnK2jXPqTMURX4xC3h4mAZxyCcaWWEDD",
+          "expected": "1420000000 sats",
+          "verified_on": "2026-11-19",
+          "verified_state": "funded-unspent"
+        },
+        {
+          "address": "13N66gCzWWHEZBxhVxG18P8wyjEWF9Yoi1",
+          "chain": "bitcoin",
+          "role": "escrow",
+          "label": "puzzle #143",
+          "explorer": "https://mempool.space/address/13N66gCzWWHEZBxhVxG18P8wyjEWF9Yoi1",
+          "expected": "1430000000 sats",
+          "verified_on": "2026-11-19",
+          "verified_state": "funded-unspent"
+        },
+        {
+          "address": "1NevxKDYuDcCh1ZMMi6ftmWwGrZKC6j7Ux",
+          "chain": "bitcoin",
+          "role": "escrow",
+          "label": "puzzle #144",
+          "explorer": "https://mempool.space/address/1NevxKDYuDcCh1ZMMi6ftmWwGrZKC6j7Ux",
+          "expected": "1440000000 sats",
+          "verified_on": "2026-11-19",
+          "verified_state": "funded-unspent"
+        },
+        {
+          "address": "19GpszRNUej5yYqxXoLnbZWKew3KdVLkXg",
+          "chain": "bitcoin",
+          "role": "escrow",
+          "label": "puzzle #145, public key exposed",
+          "explorer": "https://mempool.space/address/19GpszRNUej5yYqxXoLnbZWKew3KdVLkXg",
+          "expected": "1450000600 sats",
+          "verified_on": "2026-11-19",
+          "verified_state": "partially-spent"
+        },
+        {
+          "address": "1M7ipcdYHey2Y5RZM34MBbpugghmjaV89P",
+          "chain": "bitcoin",
+          "role": "escrow",
+          "label": "puzzle #146",
+          "explorer": "https://mempool.space/address/1M7ipcdYHey2Y5RZM34MBbpugghmjaV89P",
+          "expected": "1460000000 sats",
+          "verified_on": "2026-11-19",
+          "verified_state": "funded-unspent"
+        },
+        {
+          "address": "18aNhurEAJsw6BAgtANpexk5ob1aGTwSeL",
+          "chain": "bitcoin",
+          "role": "escrow",
+          "label": "puzzle #147",
+          "explorer": "https://mempool.space/address/18aNhurEAJsw6BAgtANpexk5ob1aGTwSeL",
+          "expected": "1470000000 sats",
+          "verified_on": "2026-11-19",
+          "verified_state": "funded-unspent"
+        },
+        {
+          "address": "1FwZXt6EpRT7Fkndzv6K4b4DFoT4trbMrV",
+          "chain": "bitcoin",
+          "role": "escrow",
+          "label": "puzzle #148",
+          "explorer": "https://mempool.space/address/1FwZXt6EpRT7Fkndzv6K4b4DFoT4trbMrV",
+          "expected": "1480000000 sats",
+          "verified_on": "2026-11-19",
+          "verified_state": "funded-unspent"
+        },
+        {
+          "address": "1CXvTzR6qv8wJ7eprzUKeWxyGcHwDYP1i2",
+          "chain": "bitcoin",
+          "role": "escrow",
+          "label": "puzzle #149",
+          "explorer": "https://mempool.space/address/1CXvTzR6qv8wJ7eprzUKeWxyGcHwDYP1i2",
+          "expected": "1490001000 sats",
+          "verified_on": "2026-11-19",
+          "verified_state": "funded-unspent"
+        },
+        {
+          "address": "1MUJSJYtGPVGkBCTqGspnxyHahpt5Te8jy",
+          "chain": "bitcoin",
+          "role": "escrow",
+          "label": "puzzle #150, public key exposed",
+          "explorer": "https://mempool.space/address/1MUJSJYtGPVGkBCTqGspnxyHahpt5Te8jy",
+          "expected": "1500001600 sats",
+          "verified_on": "2026-11-19",
+          "verified_state": "partially-spent"
+        },
+        {
+          "address": "13Q84TNNvgcL3HJiqQPvyBb9m4hxjS3jkV",
+          "chain": "bitcoin",
+          "role": "escrow",
+          "label": "puzzle #151",
+          "explorer": "https://mempool.space/address/13Q84TNNvgcL3HJiqQPvyBb9m4hxjS3jkV",
+          "expected": "1510001000 sats",
+          "verified_on": "2026-11-19",
+          "verified_state": "funded-unspent"
+        },
+        {
+          "address": "1LuUHyrQr8PKSvbcY1v1PiuGuqFjWpDumN",
+          "chain": "bitcoin",
+          "role": "escrow",
+          "label": "puzzle #152",
+          "explorer": "https://mempool.space/address/1LuUHyrQr8PKSvbcY1v1PiuGuqFjWpDumN",
+          "expected": "1520001000 sats",
+          "verified_on": "2026-11-19",
+          "verified_state": "funded-unspent"
+        },
+        {
+          "address": "18192XpzzdDi2K11QVHR7td2HcPS6Qs5vg",
+          "chain": "bitcoin",
+          "role": "escrow",
+          "label": "puzzle #153",
+          "explorer": "https://mempool.space/address/18192XpzzdDi2K11QVHR7td2HcPS6Qs5vg",
+          "expected": "1530001000 sats",
+          "verified_on": "2026-11-19",
+          "verified_state": "funded-unspent"
+        },
+        {
+          "address": "1NgVmsCCJaKLzGyKLFJfVequnFW9ZvnMLN",
+          "chain": "bitcoin",
+          "role": "escrow",
+          "label": "puzzle #154",
+          "explorer": "https://mempool.space/address/1NgVmsCCJaKLzGyKLFJfVequnFW9ZvnMLN",
+          "expected": "1540001000 sats",
+          "verified_on": "2026-11-19",
+          "verified_state": "funded-unspent"
+        },
+        {
+          "address": "1AoeP37TmHdFh8uN72fu9AqgtLrUwcv2wJ",
+          "chain": "bitcoin",
+          "role": "escrow",
+          "label": "puzzle #155, public key exposed",
+          "explorer": "https://mempool.space/address/1AoeP37TmHdFh8uN72fu9AqgtLrUwcv2wJ",
+          "expected": "1550011600 sats",
+          "verified_on": "2026-11-19",
+          "verified_state": "partially-spent"
+        },
+        {
+          "address": "1FTpAbQa4h8trvhQXjXnmNhqdiGBd1oraE",
+          "chain": "bitcoin",
+          "role": "escrow",
+          "label": "puzzle #156",
+          "explorer": "https://mempool.space/address/1FTpAbQa4h8trvhQXjXnmNhqdiGBd1oraE",
+          "expected": "1560001000 sats",
+          "verified_on": "2026-11-19",
+          "verified_state": "funded-unspent"
+        },
+        {
+          "address": "14JHoRAdmJg3XR4RjMDh6Wed6ft6hzbQe9",
+          "chain": "bitcoin",
+          "role": "escrow",
+          "label": "puzzle #157",
+          "explorer": "https://mempool.space/address/14JHoRAdmJg3XR4RjMDh6Wed6ft6hzbQe9",
+          "expected": "1570001000 sats",
+          "verified_on": "2026-11-19",
+          "verified_state": "funded-unspent"
+        },
+        {
+          "address": "19z6waranEf8CcP8FqNgdwUe1QRxvUNKBG",
+          "chain": "bitcoin",
+          "role": "escrow",
+          "label": "puzzle #158",
+          "explorer": "https://mempool.space/address/19z6waranEf8CcP8FqNgdwUe1QRxvUNKBG",
+          "expected": "1580001000 sats",
+          "verified_on": "2026-11-19",
+          "verified_state": "funded-unspent"
+        },
+        {
+          "address": "14u4nA5sugaswb6SZgn5av2vuChdMnD9E5",
+          "chain": "bitcoin",
+          "role": "escrow",
+          "label": "puzzle #159",
+          "explorer": "https://mempool.space/address/14u4nA5sugaswb6SZgn5av2vuChdMnD9E5",
+          "expected": "1590002600 sats",
+          "verified_on": "2026-11-19",
+          "verified_state": "funded-unspent"
+        },
+        {
+          "address": "1NBC8uXJy1GiJ6drkiZa1WuKn51ps7EPTv",
+          "chain": "bitcoin",
+          "role": "escrow",
+          "label": "puzzle #160, public key exposed",
+          "explorer": "https://mempool.space/address/1NBC8uXJy1GiJ6drkiZa1WuKn51ps7EPTv",
+          "expected": "1600123082 sats",
+          "verified_on": "2026-11-19",
+          "verified_state": "partially-spent"
+        }
+      ],
+      "puzzle_type": [
+        "raw-private-key"
+      ],
+      "target_format": "secp256k1 private key drawn uniformly from [2^(n-1), 2^n) for puzzle #n, compressed public key, P2PKH address",
+      "derivation": {
+        "summary": "candidate integer k in [2^(n-1), 2^n) to compressed secp256k1 public key to HASH160 to P2PKH, compared against the escrow of puzzle #n",
+        "oracle": "tools/oracle.py",
+        "oracle_certified": true,
+        "certified_against": "puzzle #1, whose private key is 1: tools/oracle.py --selftest reproduces its funded address 1BgGZ9tcN4rm9KBzDn7KprQz87SZ26SAMH"
+      },
+      "difficulty_left": "bounded-compute",
+      "difficulty_note": "72 escrows are address-only (cost about 2^(n-2) key trials each); 5 (#140, #145, #150, #155, #160) expose their public key from a spent output, so Pollard's kangaroo applies at about 2^((n-1)/2) group operations",
+      "tested_total": {
+        "candidates": 0,
+        "families": 0,
+        "certified": false
+      },
+      "leads": [
+        {
+          "rank": 1,
+          "title": "Pollard's kangaroo on the 5 public-key-exposed escrows (#140, #145, #150, #155, #160)",
+          "cost": "about 2^69.5 to 2^79.5 group operations per target",
+          "status": "open"
+        },
+        {
+          "rank": 2,
+          "title": "Pooled brute force on the lowest address-only target, puzzle #71",
+          "cost": "2^70-key space, centuries for a single machine; pool work continues",
+          "status": "open"
+        },
+        {
+          "rank": 3,
+          "title": "Watch for new spends from unsolved escrows, which expose more public keys",
+          "cost": "minutes, periodic",
+          "status": "open"
+        }
+      ],
+      "solutions": [],
+      "artifacts": [
+        {
+          "path": "data/open_puzzles.csv",
+          "sha256": "000e7fe1bae20927452098b06a444e8478ae78e3b8586a7e26afd690a119c7d3",
+          "source": "boha watchlist addresses, balances re-checked on mempool.space 2026-11-19",
+          "archived": null
+        }
+      ],
+      "sources": [
+        {
+          "title": "BitcoinTalk topic 5218972, the puzzle's tracking thread",
+          "url": "https://bitcointalk.org/index.php?topic=5218972",
+          "date": "2017-06-21",
+          "archived": null
+        },
+        {
+          "title": "privatekeys.pw puzzle list",
+          "url": "https://privatekeys.pw/puzzles/bitcoin-puzzle-tx",
+          "date": "2026-11-19",
+          "archived": null
+        }
+      ],
+      "third_party_material": "no author text reproduced; the BitcoinTalk thread and privatekeys.pw are linked",
+      "last_updated": "2026-11-19",
+      "folder": "1-big-prizes/bitcoin-transaction-puzzle-903btc"
     },
     {
       "schema_version": 1,
@@ -499,8 +1360,8 @@
       "prize": {
         "amount": 20107284,
         "asset": "sats",
-        "usd_estimate": 16240,
-        "usd_snapshot": "2026-10-24",
+        "usd_estimate": 12467,
+        "usd_snapshot": "2026-11-19",
         "note": "0.20107284 BTC, funded 2020-05-10 in 5 transactions, before the puzzle post"
       },
       "addresses": [
@@ -511,7 +1372,7 @@
           "label": "main",
           "explorer": "https://mempool.space/address/1KfZGvwZxsvSmemoCmEV75uqcNzYBHjkHZ",
           "expected": "20107284 sats",
-          "verified_on": "2026-10-24",
+          "verified_on": "2026-11-19",
           "verified_state": "funded-unspent"
         }
       ],
@@ -591,7 +1452,7 @@
         }
       ],
       "third_party_material": "the collage image in clues/ is the author's own published puzzle material, posted once on Reddit; no other author material exists; community forum discussion is cited by URL and date only, never reproduced",
-      "last_updated": "2026-10-24",
+      "last_updated": "2026-11-19",
       "folder": "1-big-prizes/blm-brave-new-world-0-2btc"
     },
     {
@@ -617,8 +1478,8 @@
       "prize": {
         "amount": 1.25649674,
         "asset": "BTC",
-        "usd_estimate": 101481,
-        "usd_snapshot": "2026-10-24",
+        "usd_estimate": 77908,
+        "usd_snapshot": "2026-11-19",
         "note": "the balance of the prize address 1GSMG1JC9wtdSwfwApgj2xcmJPAwx7prBe at the 2026-10-24 snapshot (1.25649674 BTC; the excess over the 2026-08-16 snapshot is third-party dust). The creator announced in April 2019 that the reward halves at every Bitcoin halving, and it did: 5 BTC funded 2019-04-13, 2.5 BTC moved out in block 630001 (2020-05-11) and 1.25 BTC on 2024-04-24 to 17ucy1K9ZUAaoY6JVtM932W9jUp5LXfyHa, which has never spent and has no published payout path. Those 3.7505531 BTC are listed as an address below but not counted as prize; the reading that the Dualite blob gates them is unconfirmed. Correction contributed by Y0lan in issue #15 (2026-09-02), verified on chain 2026-09-03"
       },
       "addresses": [
@@ -629,7 +1490,7 @@
           "label": "prize address (small blob gate)",
           "explorer": "https://mempool.space/address/1GSMG1JC9wtdSwfwApgj2xcmJPAwx7prBe",
           "expected": "125635374 sats",
-          "verified_on": "2026-10-24",
+          "verified_on": "2026-11-19",
           "verified_state": "partially-spent"
         },
         {
@@ -639,7 +1500,7 @@
           "label": "halving split-off, creator controlled; not counted as prize (the Dualite-blob reading is unconfirmed)",
           "explorer": "https://mempool.space/address/17ucy1K9ZUAaoY6JVtM932W9jUp5LXfyHa",
           "expected": "375055856 sats",
-          "verified_on": "2026-10-24",
+          "verified_on": "2026-11-19",
           "verified_state": "funded-unspent"
         }
       ],
@@ -766,7 +1627,7 @@
         }
       ],
       "third_party_material": "no book, article, forum dump, or other bulk third-party material is included; the short strings quoted in clues/author-posts.md are verbatim decodings of the puzzle's own published page content, two lines of the creator's archived Phase 2 and 3 page, and the creator's own OP_RETURN messages read from the chain; no Telegram export is quoted, since the puzzle's Telegram group has no stable public URL, and the few Telegram statements referred to are marked reported",
-      "last_updated": "2026-10-24",
+      "last_updated": "2026-11-19",
       "folder": "1-big-prizes/gsmg-io-5btc-puzzle"
     },
     {
@@ -793,8 +1654,8 @@
       "prize": {
         "amount": 8.612541554266,
         "asset": "ETH",
-        "usd_estimate": 20281,
-        "usd_snapshot": "2026-10-24",
+        "usd_estimate": 15108,
+        "usd_snapshot": "2026-11-19",
         "note": "wallet funded with 10 ETH on 2020-02-12; the author has withdrawn from it 7 times since 2021-05, most recently 2024-06-04, totaling approximately 1.377 ETH; he still holds and periodically uses this private key, so this is not a frozen escrow"
       },
       "addresses": [
@@ -805,7 +1666,7 @@
           "label": "main",
           "explorer": "https://etherscan.io/address/0x9C2F44EFAd0c1E852a09dF9939e6DaF061140CaF",
           "expected": "8.61254155425694462 ETH",
-          "verified_on": "2026-10-24",
+          "verified_on": "2026-11-19",
           "verified_state": "funded-unspent"
         }
       ],
@@ -883,7 +1744,7 @@
         }
       ],
       "third_party_material": "no video or audio files are included; the challenge and hint videos are linked by URL only. The 5 planted sentences and 5 hints are the author's own published text, quoted short and verbatim with dates and links",
-      "last_updated": "2026-10-24",
+      "last_updated": "2026-11-19",
       "folder": "1-big-prizes/guntis-vitolins-metamask-8-6eth"
     },
     {
@@ -909,8 +1770,8 @@
       "prize": {
         "amount": 0.59364885,
         "asset": "BTC",
-        "usd_estimate": 47946,
-        "usd_snapshot": "2026-10-24",
+        "usd_estimate": 36809,
+        "usd_snapshot": "2026-11-19",
         "note": "combined across 4 live P2SH scripts (SHA-256, RIPEMD-160, HASH160, HASH256); a 5th sibling (SHA-1) was claimed in 2023 and is not part of this total"
       },
       "addresses": [
@@ -921,7 +1782,7 @@
           "label": "SHA-256",
           "explorer": "https://mempool.space/address/35Snmmy3uhaer2gTboc81ayCip4m9DT4ko",
           "expected": "0.27734251 BTC",
-          "verified_on": "2026-10-24",
+          "verified_on": "2026-11-19",
           "verified_state": "funded-unspent"
         },
         {
@@ -931,7 +1792,7 @@
           "label": "RIPEMD-160",
           "explorer": "https://mempool.space/address/3KyiQEGqqdb4nqfhUzGKN6KPhXmQsLNpay",
           "expected": "0.11576888 BTC",
-          "verified_on": "2026-10-24",
+          "verified_on": "2026-11-19",
           "verified_state": "funded-unspent"
         },
         {
@@ -941,7 +1802,7 @@
           "label": "HASH160 (RIPEMD160(SHA256()))",
           "explorer": "https://mempool.space/address/39VXyuoc6SXYKp9TcAhoiN1mb4ns6z3Yu6",
           "expected": "0.10026873 BTC",
-          "verified_on": "2026-10-24",
+          "verified_on": "2026-11-19",
           "verified_state": "funded-unspent"
         },
         {
@@ -951,7 +1812,7 @@
           "label": "HASH256 (SHA256(SHA256()))",
           "explorer": "https://mempool.space/address/3DUQQvz4t57Jy7jxE86kyFcNpKtURNf1VW",
           "expected": "0.10026873 BTC",
-          "verified_on": "2026-10-24",
+          "verified_on": "2026-11-19",
           "verified_state": "funded-unspent"
         },
         {
@@ -961,7 +1822,7 @@
           "label": "SHA-1 (reference sibling, claimed 2023-02-22, not part of the live prize)",
           "explorer": "https://mempool.space/address/37k7toV1Nv4DfmQbmZ8KuZDQCYK9x5KpzP",
           "expected": "0 BTC (fully spent)",
-          "verified_on": "2026-10-24",
+          "verified_on": "2026-11-19",
           "verified_state": "swept"
         }
       ],
@@ -1037,7 +1898,7 @@
         }
       ],
       "third_party_material": "the redeem-script table and the quoted lines are Peter Todd's own puzzle material, quoted briefly with source and date; the SHAttered SHA-1 collision pair is a public academic research artifact (Stevens et al., 2017), read directly from the public blockchain rather than reproduced from the paper; no other third-party material is included",
-      "last_updated": "2026-10-24",
+      "last_updated": "2026-11-19",
       "folder": "1-big-prizes/peter-todd-hash-collision-bounties-0-59btc"
     },
     {
@@ -1064,8 +1925,8 @@
       "prize": {
         "amount": 800000,
         "asset": "sats",
-        "usd_estimate": 646,
-        "usd_snapshot": "2026-10-24",
+        "usd_estimate": 496,
+        "usd_snapshot": "2026-11-19",
         "note": "split across two P2WPKH addresses derived from one published xpub, funded 2024-09-05"
       },
       "addresses": [
@@ -1076,7 +1937,7 @@
           "label": "account 0, index 0",
           "explorer": "https://mempool.space/address/bc1qxy4tf0s4n7x9w24rawf9qsxh2hyljrmvyrhwzt",
           "expected": "100000 sats",
-          "verified_on": "2026-10-24",
+          "verified_on": "2026-11-19",
           "verified_state": "funded-unspent"
         },
         {
@@ -1086,7 +1947,7 @@
           "label": "account 0, index 1",
           "explorer": "https://mempool.space/address/bc1q4qc24xk5cehc4t7vr264zldsms2kmxf86jqjau",
           "expected": "700000 sats",
-          "verified_on": "2026-10-24",
+          "verified_on": "2026-11-19",
           "verified_state": "funded-unspent"
         }
       ],
@@ -1146,7 +2007,7 @@
         }
       ],
       "third_party_material": "no book pages, OCR text, or audiobook audio/transcripts are included; the one chapter 11 passage quoted in clues/author-posts.md is the short excerpt that carries the puzzle's own decoding rule",
-      "last_updated": "2026-10-24",
+      "last_updated": "2026-11-19",
       "folder": "2-mid-prizes/ah-white-walking-banks-800ksats"
     },
     {
@@ -1172,8 +2033,8 @@
       "prize": {
         "amount": 500.02225493,
         "asset": "AR",
-        "usd_estimate": 1735,
-        "usd_snapshot": "2026-10-24",
+        "usd_estimate": 1225,
+        "usd_snapshot": "2026-11-19",
         "note": ""
       },
       "addresses": [
@@ -1184,7 +2045,7 @@
           "label": "main",
           "explorer": "https://viewblock.io/arweave/address/bkjJGw3NLxs8OAyRxgTL-QFpiB3lBJqZ76kDhWdB-Rs",
           "expected": "500.02225493 AR",
-          "verified_on": "2026-10-24",
+          "verified_on": "2026-11-19",
           "verified_state": "funded-unspent"
         }
       ],
@@ -1262,7 +2123,7 @@
         }
       ],
       "third_party_material": "the puzzle image is the author's own material, published on the Arweave permaweb page; one short quote from a named community member (the proven puzzle #13 solver) is reproduced from the public reply thread; no book, audio, or video material",
-      "last_updated": "2026-10-24",
+      "last_updated": "2026-11-19",
       "folder": "2-mid-prizes/arweave-puzzle-10-500ar"
     },
     {
@@ -1288,8 +2149,8 @@
       "prize": {
         "amount": 1.0,
         "asset": "ETH",
-        "usd_estimate": 2355,
-        "usd_snapshot": "2026-10-24",
+        "usd_estimate": 1754,
+        "usd_snapshot": "2026-11-19",
         "note": "1 ETH, address held as a plain EOA, never spent from since funding"
       },
       "addresses": [
@@ -1300,7 +2161,7 @@
           "label": "main",
           "explorer": "https://etherscan.io/address/0xFF2142E98E09b5344994F9bEB9C56C95506B9F17",
           "expected": "1 ETH",
-          "verified_on": "2026-10-24",
+          "verified_on": "2026-11-19",
           "verified_state": "funded-unspent"
         }
       ],
@@ -1373,7 +2234,7 @@
         }
       ],
       "third_party_material": "the puzzle image in clues/ is the author's own published puzzle material, stored on Arweave; the author's quotes in clues/author-posts.md are reproduced from a community repository that itself mirrors the author's Twitter replies; no other third-party material is included",
-      "last_updated": "2026-10-24",
+      "last_updated": "2026-11-19",
       "folder": "2-mid-prizes/arweave-puzzle-11-1eth"
     },
     {
@@ -1399,8 +2260,8 @@
       "prize": {
         "amount": 1000.165838006237,
         "asset": "AR",
-        "usd_estimate": 3471,
-        "usd_snapshot": "2026-10-24",
+        "usd_estimate": 2450,
+        "usd_snapshot": "2026-11-19",
         "note": "balance drifts slightly above the original funding from unsolicited dust deposits over the years"
       },
       "addresses": [
@@ -1411,7 +2272,7 @@
           "label": "main",
           "explorer": "https://viewblock.io/arweave/address/wHP6OPG5GMF5dedo_CD8AAy6x8La-gfI5b5pk65Tx_0",
           "expected": "1000.165838006237 AR",
-          "verified_on": "2026-10-24",
+          "verified_on": "2026-11-19",
           "verified_state": "funded-unspent"
         }
       ],
@@ -1561,7 +2422,7 @@
         }
       ],
       "third_party_material": "the 8 rebus images and their composite are the author's own puzzle material, published on the Arweave permaweb page; no book, audio, or video material; no third-party community images shipped",
-      "last_updated": "2026-10-24",
+      "last_updated": "2026-11-19",
       "folder": "2-mid-prizes/arweave-puzzle-3-1000ar"
     },
     {
@@ -1589,8 +2450,8 @@
       "prize": {
         "amount": 1001900,
         "asset": "sats",
-        "usd_estimate": 809,
-        "usd_snapshot": "2026-10-24",
+        "usd_estimate": 621,
+        "usd_snapshot": "2026-11-19",
         "note": "2 funding UTXOs summing to 1,001,900 sats, 0 spent as of 2026-08-16"
       },
       "addresses": [
@@ -1601,7 +2462,7 @@
           "label": "main",
           "explorer": "https://mempool.space/address/bc1qcyrndzgy036f6ax370g8zyvlw86ulawgt0246r",
           "expected": "1001900 sats",
-          "verified_on": "2026-10-24",
+          "verified_on": "2026-11-19",
           "verified_state": "funded-unspent"
         },
         {
@@ -1611,7 +2472,7 @@
           "label": "sister (empty passphrase, oracle calibration only, not a target)",
           "explorer": "https://mempool.space/address/bc1q57euh23y3qs2f9d5mtwpax5lqecfvrdkqce82a",
           "expected": "n/a, not a prize address",
-          "verified_on": "2026-10-24",
+          "verified_on": "2026-11-19",
           "verified_state": "swept"
         }
       ],
@@ -1689,7 +2550,7 @@
         }
       ],
       "third_party_material": "clues/kitten.jpeg is the author-published puzzle image, byte-identical to the original, sha256 recorded in artifacts[]; no wordlists or third-party bulk data included, only my own derived candidate counts",
-      "last_updated": "2026-10-24",
+      "last_updated": "2026-11-19",
       "folder": "2-mid-prizes/corey-phillips-kitten-passphrase-1msats"
     },
     {
@@ -1717,8 +2578,8 @@
       "prize": {
         "amount": 1.0,
         "asset": "ETH",
-        "usd_estimate": 2355,
-        "usd_snapshot": "2026-10-24",
+        "usd_estimate": 1754,
+        "usd_snapshot": "2026-11-19",
         "note": "the registry holds 1 ETH and each of the 7 registered challenges carries a 0.25 ETH prize, so the pot pays the first 4 claims and the 5th would revert; the 1 ETH balance, not the 1.75 ETH nominal total, is what the chain can pay today"
       },
       "addresses": [
@@ -1729,7 +2590,7 @@
           "label": "BountyRegistry, round 3",
           "explorer": "https://etherscan.io/address/0x71fB6afcD98c5BD611712ad4b8D314EF729aa69D",
           "expected": "1 ETH",
-          "verified_on": "2026-10-24",
+          "verified_on": "2026-11-19",
           "verified_state": "funded-unspent"
         },
         {
@@ -1739,7 +2600,7 @@
           "label": "Game",
           "explorer": "https://etherscan.io/address/0x046a3a4968282BaA7ad6291723873C8275434623",
           "expected": "0 ETH, prize held by the registry",
-          "verified_on": "2026-10-24",
+          "verified_on": "2026-11-19",
           "verified_state": "zero-balance-contract"
         },
         {
@@ -1749,7 +2610,7 @@
           "label": "Game2D",
           "explorer": "https://etherscan.io/address/0xE959e7ecA1afCa6cf2Bf8b07e25Da355b6C8E8c7",
           "expected": "0 ETH, prize held by the registry",
-          "verified_on": "2026-10-24",
+          "verified_on": "2026-11-19",
           "verified_state": "zero-balance-contract"
         },
         {
@@ -1759,7 +2620,7 @@
           "label": "GameEnum",
           "explorer": "https://etherscan.io/address/0xfb5423aDfBAC65ac675845Bb4FEBf8aeC128272E",
           "expected": "0 ETH, prize held by the registry",
-          "verified_on": "2026-10-24",
+          "verified_on": "2026-11-19",
           "verified_state": "zero-balance-contract"
         },
         {
@@ -1769,7 +2630,7 @@
           "label": "GameBitboard",
           "explorer": "https://etherscan.io/address/0x5E987b6aADD4DFC2236D21edE6D07feb04350b06",
           "expected": "0 ETH, prize held by the registry",
-          "verified_on": "2026-10-24",
+          "verified_on": "2026-11-19",
           "verified_state": "zero-balance-contract"
         },
         {
@@ -1779,7 +2640,7 @@
           "label": "GameMonadic",
           "explorer": "https://etherscan.io/address/0x86B7AEce1503242fED29E593FAEde3b7b00a5a1D",
           "expected": "0 ETH, prize held by the registry",
-          "verified_on": "2026-10-24",
+          "verified_on": "2026-11-19",
           "verified_state": "zero-balance-contract"
         },
         {
@@ -1789,7 +2650,7 @@
           "label": "GameNested",
           "explorer": "https://etherscan.io/address/0x3dF9789634995546B0126bC28B9F9FcBCB129F18",
           "expected": "0 ETH, prize held by the registry",
-          "verified_on": "2026-10-24",
+          "verified_on": "2026-11-19",
           "verified_state": "zero-balance-contract"
         },
         {
@@ -1799,7 +2660,7 @@
           "label": "GameTrait",
           "explorer": "https://etherscan.io/address/0x85b4d0B32b8a285111c244E52524B642f1A5ccFE",
           "expected": "0 ETH, prize held by the registry",
-          "verified_on": "2026-10-24",
+          "verified_on": "2026-11-19",
           "verified_state": "zero-balance-contract"
         }
       ],
@@ -1894,7 +2755,7 @@
         }
       ],
       "third_party_material": "no third-party articles or dumps; my own blog posts, repository sources and documentation, quoted in short excerpts with links, plus on-chain data I read directly from Ethereum mainnet",
-      "last_updated": "2026-10-24",
+      "last_updated": "2026-11-19",
       "folder": "2-mid-prizes/fe-lang-bountiful-compiler-bounty-1eth"
     },
     {
@@ -1921,8 +2782,8 @@
       "prize": {
         "amount": 600000,
         "asset": "sats",
-        "usd_estimate": 485,
-        "usd_snapshot": "2026-10-24",
+        "usd_estimate": 372,
+        "usd_snapshot": "2026-11-19",
         "note": "3 of 12 lots still open, 200,000 sats each; 9 lots already solved and swept (4 by me, 5 by the community before I started; I have since recovered the answers of 3 of those 5)"
       },
       "addresses": [
@@ -1933,7 +2794,7 @@
           "label": "EN_easy_1",
           "explorer": "https://mempool.space/address/14aFhno96fkt7knLWMDQ4j8yh8v5hBF4n1",
           "expected": "200000 sats",
-          "verified_on": "2026-10-24",
+          "verified_on": "2026-11-19",
           "verified_state": "swept"
         },
         {
@@ -1943,7 +2804,7 @@
           "label": "EN_easy_2",
           "explorer": "https://mempool.space/address/14utGQn5GdfPvUrHNLAwTmmP99QpXm9mg6",
           "expected": "200000 sats",
-          "verified_on": "2026-10-24",
+          "verified_on": "2026-11-19",
           "verified_state": "swept"
         },
         {
@@ -1953,7 +2814,7 @@
           "label": "EN_medium_s",
           "explorer": "https://mempool.space/address/1QFafw3weoWTRQhiLafRw2eyWbVmES6wfJ",
           "expected": "200000 sats",
-          "verified_on": "2026-10-24",
+          "verified_on": "2026-11-19",
           "verified_state": "swept"
         },
         {
@@ -1963,7 +2824,7 @@
           "label": "EN_medium",
           "explorer": "https://mempool.space/address/17Y9czcbcCz433QXsy1SGQjwLb27BBtLLZ",
           "expected": "200000 sats",
-          "verified_on": "2026-10-24",
+          "verified_on": "2026-11-19",
           "verified_state": "funded-unspent"
         },
         {
@@ -1973,7 +2834,7 @@
           "label": "EN_hard_1",
           "explorer": "https://mempool.space/address/181rPpfdUGFg4fVEdhDZEfDbBSqgigtoZR",
           "expected": "200000 sats",
-          "verified_on": "2026-10-24",
+          "verified_on": "2026-11-19",
           "verified_state": "swept"
         },
         {
@@ -1983,7 +2844,7 @@
           "label": "EN_hard_2",
           "explorer": "https://mempool.space/address/161YgNX2NrCzGunWvoV1hN3DuzWeuovBK3",
           "expected": "200000 sats",
-          "verified_on": "2026-10-24",
+          "verified_on": "2026-11-19",
           "verified_state": "swept"
         },
         {
@@ -1993,7 +2854,7 @@
           "label": "EN_veryhard_s",
           "explorer": "https://mempool.space/address/1KZei2D5yz3UJ59LvXsC1Y9y4ktSgcnVwz",
           "expected": "200000 sats",
-          "verified_on": "2026-10-24",
+          "verified_on": "2026-11-19",
           "verified_state": "swept"
         },
         {
@@ -2003,7 +2864,7 @@
           "label": "EN_veryhard",
           "explorer": "https://mempool.space/address/1DZ5NbUwDgxeJkKhQLgYcUUX36PtYso1pm",
           "expected": "200000 sats",
-          "verified_on": "2026-10-24",
+          "verified_on": "2026-11-19",
           "verified_state": "funded-unspent"
         },
         {
@@ -2013,7 +2874,7 @@
           "label": "IT_easy",
           "explorer": "https://mempool.space/address/1MEstvLAzc5DzJtvx7uyvKNNUCPN3ofWMK",
           "expected": "200000 sats",
-          "verified_on": "2026-10-24",
+          "verified_on": "2026-11-19",
           "verified_state": "swept"
         },
         {
@@ -2023,7 +2884,7 @@
           "label": "IT_medium",
           "explorer": "https://mempool.space/address/1Q78hDeaHXQbuCSQxG1uPAc4V3jsuVUG9r",
           "expected": "200000 sats",
-          "verified_on": "2026-10-24",
+          "verified_on": "2026-11-19",
           "verified_state": "swept"
         },
         {
@@ -2033,7 +2894,7 @@
           "label": "IT_hard",
           "explorer": "https://mempool.space/address/1QExGvuieS9MvuKC3R1qjp6jGTVcqisTDj",
           "expected": "200000 sats",
-          "verified_on": "2026-10-24",
+          "verified_on": "2026-11-19",
           "verified_state": "swept"
         },
         {
@@ -2043,7 +2904,7 @@
           "label": "IT_veryhard",
           "explorer": "https://mempool.space/address/19kkawFcg2U2s6vq368MXD7FJU9JZvRrjA",
           "expected": "200000 sats",
-          "verified_on": "2026-10-24",
+          "verified_on": "2026-11-19",
           "verified_state": "funded-unspent"
         },
         {
@@ -2053,8 +2914,8 @@
           "label": "my wallet (destination of all 4 payouts)",
           "explorer": "https://mempool.space/address/bc1qax0hsnwnxl7393awtc3hsy0ftm6tg4tyk2nfja",
           "expected": "n/a",
-          "verified_on": "2026-10-24",
-          "verified_state": "unknown"
+          "verified_on": "2026-11-19",
+          "verified_state": "partially-spent"
         }
       ],
       "puzzle_type": [
@@ -2184,7 +3045,7 @@
         }
       ],
       "third_party_material": "no book pages, ebook files, scans, OCR, or chapter text included; only page/figure numbers, short quotes (about 180 words total, well under the 300-word-per-book limit), and my own derived data (answer strings, hashes, solved-lot key material)",
-      "last_updated": "2026-10-24",
+      "last_updated": "2026-11-19",
       "folder": "2-mid-prizes/keir-finlow-bates-blockchain-book-600ksats"
     },
     {
@@ -2211,8 +3072,8 @@
       "prize": {
         "amount": 3.02608794,
         "asset": "LTC",
-        "usd_estimate": 172,
-        "usd_snapshot": "2026-10-24",
+        "usd_estimate": 128,
+        "usd_snapshot": "2026-11-19",
         "note": "302,608,794 litoshis. The pot is topped up by the public: the site invites donations straight into the prize address, which is why there are 8 incoming transactions. LTC was $54.17 when I read the price on 2026-09-12; the repository snapshot price of $54 is used here."
       },
       "addresses": [
@@ -2223,7 +3084,7 @@
           "label": "prize",
           "explorer": "https://litecoinspace.org/address/LUtL7qnm3gzxKjHcfVLSjydqhhinTVmTmS",
           "expected": "302,608,794 litoshis received over 8 transactions, 0 spent",
-          "verified_on": "2026-10-24",
+          "verified_on": "2026-11-19",
           "verified_state": "funded-unspent"
         }
       ],
@@ -2411,7 +3272,7 @@
         }
       ],
       "third_party_material": "Only the author's own published puzzle files are shipped here: the nine clue images served by p2gtreasure.com, the site banner, and the two lossless carriers Beach.png and Ship.png that his QR codes point at. Not shipped, and not to be added: the game demo p2g_demo.zip (134 MB, Google Drive, the author's own but far over the repository size limits), the album audio embedded in it or published on Spotify and iTunes, any frame or transcript of the 1997 film Titanic that the clue 7 montage is built from, and the audio of the author's YouTube video EojQgdZeTyM. All four are linked by URL instead. The clue poems are quoted in short excerpts only, in clues/author-posts.md.",
-      "last_updated": "2026-10-24",
+      "last_updated": "2026-11-19",
       "folder": "2-mid-prizes/path-to-greatness-treasure-hunt-3ltc"
     },
     {
@@ -2439,7 +3300,7 @@
         "amount": 1,
         "asset": "NFT",
         "usd_estimate": null,
-        "usd_snapshot": "2026-10-24",
+        "usd_snapshot": "2026-11-19",
         "note": "1 ERC-1155 NFT, \"Magic Internet moneyGAN\" (445/512); no market value recorded for this specific piece"
       },
       "addresses": [
@@ -2450,7 +3311,7 @@
           "label": "main",
           "explorer": "https://etherscan.io/address/0x18f87ec9c527aba1db44f715456bf28b0dae478d",
           "expected": "1 NFT (Magic Internet moneyGAN, 445/512)",
-          "verified_on": "2026-10-24",
+          "verified_on": "2026-11-19",
           "verified_state": "funded-unspent",
           "token_contract": "0x495f947276749Ce646f68AC8c248420045cb7b5e",
           "token_id": "38543999587180483086453667688708911953853707150137941511194370325563503017985",
@@ -2524,7 +3385,7 @@
         }
       ],
       "third_party_material": "",
-      "last_updated": "2026-10-24",
+      "last_updated": "2026-11-19",
       "folder": "2-mid-prizes/pindar-van-arman-cryptoartgan-nft"
     },
     {
@@ -2548,8 +3409,8 @@
       "prize": {
         "amount": 1000000,
         "asset": "sats",
-        "usd_estimate": 808,
-        "usd_snapshot": "2026-10-24",
+        "usd_estimate": 620,
+        "usd_snapshot": "2026-11-19",
         "note": "the escrow was funded 101,000,000 sats total: 100,000,000 sats on 2014-09-22 later returned to its own sender on 2015-03-25, and a separate 1,000,000 sats on 2015-04-24 that remains unspent; the 1,000,000 sats figure is the live prize"
       },
       "addresses": [
@@ -2560,7 +3421,7 @@
           "label": "main",
           "explorer": "https://mempool.space/address/13Q8hJqagtd77ojTJcEZPjTz2sBFSsYxyj",
           "expected": "1000000 sats",
-          "verified_on": "2026-10-24",
+          "verified_on": "2026-11-19",
           "verified_state": "partially-spent"
         }
       ],
@@ -2631,7 +3492,7 @@
         }
       ],
       "third_party_material": "the promotional video and its re-uploads are third-party/platform hosted and not mirrored here; only short quoted transcriptions and archived-page links are included",
-      "last_updated": "2026-10-24",
+      "last_updated": "2026-11-19",
       "folder": "2-mid-prizes/rushwallet-contest-30-1msats"
     },
     {
@@ -2657,8 +3518,8 @@
       "prize": {
         "amount": 1000000,
         "asset": "sats",
-        "usd_estimate": 808,
-        "usd_snapshot": "2026-10-24",
+        "usd_estimate": 620,
+        "usd_snapshot": "2026-11-19",
         "note": "single funding transaction, 0.01 BTC"
       },
       "addresses": [
@@ -2669,7 +3530,7 @@
           "label": "main",
           "explorer": "https://mempool.space/address/bc1qcsdfkaqgy9ux668vmzflzqsyg0qtspncymt5ed",
           "expected": "1000000 sats",
-          "verified_on": "2026-10-24",
+          "verified_on": "2026-11-19",
           "verified_state": "funded-unspent"
         }
       ],
@@ -2723,7 +3584,7 @@
         }
       ],
       "third_party_material": "the course video and slide content are copyrighted and not reproduced; only short decoded clue text (the binary overlay message, the Morse and Wingdings decodes) is quoted in clues/author-posts.md",
-      "last_updated": "2026-10-24",
+      "last_updated": "2026-11-19",
       "folder": "2-mid-prizes/school-of-bitcoin-1msats"
     },
     {
@@ -2753,8 +3614,8 @@
       "prize": {
         "amount": 2.000006078,
         "asset": "ETH",
-        "usd_estimate": 4710,
-        "usd_snapshot": "2026-10-24",
+        "usd_estimate": 3508,
+        "usd_snapshot": "2026-11-19",
         "note": "sum of the 3 open contracts: C1 1.000002026 ETH, C2 0.500002026 ETH, 9732 0.500002026 ETH, balance re-checked 2026-10-24; a 4th contract, AEC7, holds 1.000012 ETH with no payout path for anyone; a 5th, 735B, was solved by me for 0.5 ETH and is now drained"
       },
       "addresses": [
@@ -2765,7 +3626,7 @@
           "label": "735B",
           "explorer": "https://etherscan.io/address/0x735ba26f91e1275fa4b504649b19ef74739fe7e7",
           "expected": "0.5 ETH",
-          "verified_on": "2026-10-24",
+          "verified_on": "2026-11-19",
           "verified_state": "swept"
         },
         {
@@ -2775,7 +3636,7 @@
           "label": "C1",
           "explorer": "https://etherscan.io/address/0x17e5e0910b9185b0ede564dcbf074ca910ad56a4",
           "expected": "1.000002 ETH",
-          "verified_on": "2026-10-24",
+          "verified_on": "2026-11-19",
           "verified_state": "contract-holds-funds"
         },
         {
@@ -2785,7 +3646,7 @@
           "label": "C2",
           "explorer": "https://etherscan.io/address/0xd7c6d542f3dcdceda845112b8fd567b8f8655805",
           "expected": "0.500002 ETH",
-          "verified_on": "2026-10-24",
+          "verified_on": "2026-11-19",
           "verified_state": "contract-holds-funds"
         },
         {
@@ -2795,7 +3656,7 @@
           "label": "9732",
           "explorer": "https://etherscan.io/address/0x973c2178b09225d1de3ab037d40b3f24af696255",
           "expected": "0.500002 ETH",
-          "verified_on": "2026-10-24",
+          "verified_on": "2026-11-19",
           "verified_state": "contract-holds-funds"
         },
         {
@@ -2805,7 +3666,7 @@
           "label": "AEC7",
           "explorer": "https://etherscan.io/address/0xaec7e8c221c3fd24e75c996e32289235fd899ebf",
           "expected": "1.000012 ETH, no payout path exists",
-          "verified_on": "2026-10-24",
+          "verified_on": "2026-11-19",
           "verified_state": "contract-holds-funds"
         },
         {
@@ -2815,8 +3676,8 @@
           "label": "my wallet (735B payout destination)",
           "explorer": "https://etherscan.io/address/0x83e4b2a5A464bDfCD83057Ac08447f533A595156",
           "expected": "n/a",
-          "verified_on": "2026-10-24",
-          "verified_state": "unknown"
+          "verified_on": "2026-11-19",
+          "verified_state": "funded-unspent"
         }
       ],
       "puzzle_type": [
@@ -2897,7 +3758,7 @@
         }
       ],
       "third_party_material": "no third-party articles or dumps; only the author's own published GitHub issue and gist text (about 90 words quoted total), verified contract source, and on-chain transaction data",
-      "last_updated": "2026-10-24",
+      "last_updated": "2026-11-19",
       "folder": "2-mid-prizes/teikhos-bipedaljoe-solver-bounties-2eth"
     },
     {
@@ -2921,8 +3782,8 @@
       "prize": {
         "amount": 3124630,
         "asset": "sats",
-        "usd_estimate": 2524,
-        "usd_snapshot": "2026-10-24",
+        "usd_estimate": 1937,
+        "usd_snapshot": "2026-11-19",
         "note": "0.0312463 BTC, 2 funding transactions, exact dates not recorded"
       },
       "addresses": [
@@ -2933,7 +3794,7 @@
           "label": "main",
           "explorer": "https://mempool.space/address/1K4ezpLybootYF23TM4a8Y4NyP7auysnRo",
           "expected": "3124630 sats",
-          "verified_on": "2026-10-24",
+          "verified_on": "2026-11-19",
           "verified_state": "funded-unspent"
         }
       ],
@@ -2993,106 +3854,8 @@
         }
       ],
       "third_party_material": "the narrative text was written and published by the puzzle author himself as the vehicle for the puzzle; short excerpts are quoted in clues/author-posts.md; the embedded stock photography is third-party licensed illustration, referenced but not reproduced here",
-      "last_updated": "2026-10-24",
+      "last_updated": "2026-11-19",
       "folder": "2-mid-prizes/wealth-in-poetry-0-03btc"
-    },
-    {
-      "schema_version": 1,
-      "slug": "zden-haluska-halv-312ksats",
-      "title": "Zden Level HALV",
-      "tier": "mid",
-      "status": "open",
-      "dead_end_reason": null,
-      "series": "Zden's crypto.haluska.sk puzzle series",
-      "author": {
-        "name": "Zden (Zdenek Haluska)",
-        "handles": [
-          "x:@Zd3N"
-        ],
-        "url": "https://crypto.haluska.sk/"
-      },
-      "published": {
-        "date": "2024-04-20",
-        "url": "https://twitter.com/Zd3N/status/1781475361160663236"
-      },
-      "chain": "bitcoin",
-      "prize": {
-        "amount": 312500,
-        "asset": "sats",
-        "usd_estimate": 252,
-        "usd_snapshot": "2026-10-24",
-        "note": ""
-      },
-      "addresses": [
-        {
-          "address": "1crypto24HCr178iMcKd5iUi5D4rsg1nK",
-          "chain": "bitcoin",
-          "role": "escrow",
-          "label": "main",
-          "explorer": "https://mempool.space/address/1crypto24HCr178iMcKd5iUi5D4rsg1nK",
-          "expected": "312500 sats",
-          "verified_on": "2026-10-24",
-          "verified_state": "funded-unspent"
-        }
-      ],
-      "puzzle_type": [
-        "geometry",
-        "raw-private-key"
-      ],
-      "target_format": "256-bit private key as direct hex, P2PKH",
-      "derivation": {
-        "summary": "read the shape (circle or diamond) of each of 59 waveform lobes and any other channel needed, turn that reading into a 256-bit private key, derive P2PKH and compare to the escrow",
-        "oracle": "tools/oracle.py",
-        "oracle_certified": true,
-        "certified_against": "a standard public vector, private key 1 (the generator point); the puzzle's own waveform reading is not itself certified"
-      },
-      "difficulty_left": "external-info",
-      "difficulty_note": "the waveform geometry is stably measured across 3 independent passes; the measured information capacity of the image (about 118 bits) falls short of the 256 bits a private key needs, and no hint has been published for this specific puzzle, unlike every other long-open puzzle in the same series",
-      "tested_total": {
-        "candidates": 500000400,
-        "families": 5,
-        "certified": false
-      },
-      "leads": [
-        {
-          "rank": 1,
-          "title": "a hint published by the author (none exists yet for this puzzle)",
-          "cost": "needs a person",
-          "status": "open"
-        },
-        {
-          "rank": 2,
-          "title": "certify the oracle with a known-good vector",
-          "cost": "minutes, already done in this folder",
-          "status": "open"
-        }
-      ],
-      "solutions": [],
-      "artifacts": [
-        {
-          "path": "clues/cryptoHALV.png",
-          "sha256": "3a487ebaeb4801137f09159a2d533046936cd395f4e2f7d115ac554607790e95",
-          "source": "https://crypto.haluska.sk/",
-          "archived": null
-        }
-      ],
-      "sources": [
-        {
-          "title": "Zden, original announcement",
-          "url": "https://twitter.com/Zd3N/status/1781475361160663236",
-          "date": "2024-04-20",
-          "archived": null
-        },
-        {
-          "title": "Zden's puzzle site",
-          "url": "https://crypto.haluska.sk/",
-          "date": "2026-08-16",
-          "archived": null
-        }
-      ],
-      "third_party_material": "",
-      "last_updated": "2026-10-24",
-      "folder": "2-mid-prizes/zden-haluska-halv-312ksats"
     },
     {
       "schema_version": 1,
@@ -3117,8 +3880,8 @@
       "prize": {
         "amount": 0.05,
         "asset": "ETH",
-        "usd_estimate": 118,
-        "usd_snapshot": "2026-10-24",
+        "usd_estimate": 88,
+        "usd_snapshot": "2026-11-19",
         "note": "single externally-owned account, never signed a transaction (nonce 0); that this address is Puzzle #2's escrow is a strong inference from the funder and amount matching Puzzle #1, not stated directly by the author"
       },
       "addresses": [
@@ -3129,7 +3892,7 @@
           "label": "main",
           "explorer": "https://etherscan.io/address/0x1fa8Be9De5bBFE047C72dB8E8E3257128F7661ad",
           "expected": "0.05 ETH",
-          "verified_on": "2026-10-24",
+          "verified_on": "2026-11-19",
           "verified_state": "funded-unspent"
         }
       ],
@@ -3212,7 +3975,7 @@
         }
       ],
       "third_party_material": "No video frames, screenshots, or video files are included; both puzzles are linked by video ID only. The certification vector (Puzzle #1's already-solved private key) is drawn from the author's own public solution video for a prize claimed and spent by an unrelated third party in 2018.",
-      "last_updated": "2026-10-24",
+      "last_updated": "2026-11-19",
       "folder": "3-small-prizes/crypto-puzzles-2018-puzzle-2-0-05eth"
     },
     {
@@ -3238,8 +4001,8 @@
       "prize": {
         "amount": 30000,
         "asset": "sats",
-        "usd_estimate": 24,
-        "usd_snapshot": "2026-10-24",
+        "usd_estimate": 19,
+        "usd_snapshot": "2026-11-19",
         "note": "single P2WPKH escrow, one funding transaction"
       },
       "addresses": [
@@ -3250,7 +4013,7 @@
           "label": "main",
           "explorer": "https://mempool.space/address/bc1q5rjy2cdfy4n4dkk4r6pxtwqlm8tgjcc2dj0ee9",
           "expected": "30000 sats",
-          "verified_on": "2026-10-24",
+          "verified_on": "2026-11-19",
           "verified_state": "funded-unspent"
         }
       ],
@@ -3302,7 +4065,7 @@
         }
       ],
       "third_party_material": "The challenge video, its frames, and its audio are not included, since they are the author's copyrighted YouTube content; the video is linked by ID only. The 7 published seed words and short quotes from the description and comments are the author's own public material, reproduced in clues/author-posts.md.",
-      "last_updated": "2026-10-24",
+      "last_updated": "2026-11-19",
       "folder": "3-small-prizes/exitonly-challenge-14-30ksats"
     }
   ]

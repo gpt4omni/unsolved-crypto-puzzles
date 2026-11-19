@@ -23,8 +23,8 @@
   "prize": {
     "amount": 1001900,
     "asset": "sats",
-    "usd_estimate": 809,
-    "usd_snapshot": "2026-10-24",
+    "usd_estimate": 621,
+    "usd_snapshot": "2026-11-19",
     "note": "2 funding UTXOs summing to 1,001,900 sats, 0 spent as of 2026-08-16"
   },
   "addresses": [
@@ -35,7 +35,7 @@
       "label": "main",
       "explorer": "https://mempool.space/address/bc1qcyrndzgy036f6ax370g8zyvlw86ulawgt0246r",
       "expected": "1001900 sats",
-      "verified_on": "2026-10-24",
+      "verified_on": "2026-11-19",
       "verified_state": "funded-unspent"
     },
     {
@@ -45,7 +45,7 @@
       "label": "sister (empty passphrase, oracle calibration only, not a target)",
       "explorer": "https://mempool.space/address/bc1q57euh23y3qs2f9d5mtwpax5lqecfvrdkqce82a",
       "expected": "n/a, not a prize address",
-      "verified_on": "2026-10-24",
+      "verified_on": "2026-11-19",
       "verified_state": "swept"
     }
   ],
@@ -123,5 +123,5 @@
     }
   ],
   "third_party_material": "clues/kitten.jpeg is the author-published puzzle image, byte-identical to the original, sha256 recorded in artifacts[]; no wordlists or third-party bulk data included, only my own derived candidate counts",
-  "last_updated": "2026-10-24"
+  "last_updated": "2026-11-19"
 }

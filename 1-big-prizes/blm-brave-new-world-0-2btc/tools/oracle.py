@@ -35,6 +35,18 @@ from __future__ import annotations
 
 import argparse
 import hashlib
+
+try:
+    from Crypto.Hash import RIPEMD160
+    def ripemd160(data: bytes) -> bytes:
+        h = RIPEMD160.new()
+        h.update(data)
+        return h.digest()
+except ImportError:  # pragma: no cover
+    def ripemd160(data: bytes) -> bytes:
+        h = hashlib.new("ripemd160")
+        h.update(data)
+        return h.digest()
 import hmac
 import struct
 import sys
@@ -66,7 +78,7 @@ _BIP39_PATHS = {
 
 
 def _hash160(data: bytes) -> bytes:
-    return hashlib.new("ripemd160", hashlib.sha256(data).digest()).digest()
+    return ripemd160(hashlib.sha256(data).digest())
 
 
 def _p2pkh(pubkey: bytes) -> str:

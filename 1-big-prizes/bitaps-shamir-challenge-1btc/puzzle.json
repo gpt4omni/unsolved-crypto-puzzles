@@ -22,8 +22,8 @@
   "prize": {
     "amount": 1.00016775,
     "asset": "BTC",
-    "usd_estimate": 80779,
-    "usd_snapshot": "2026-10-24",
+    "usd_estimate": 62014,
+    "usd_snapshot": "2026-11-19",
     "note": "single P2WPKH escrow, funded across 5 transactions ending 2022-10"
   },
   "addresses": [
@@ -34,7 +34,7 @@
       "label": "main",
       "explorer": "https://mempool.space/address/bc1qyjwa0tf0en4x09magpuwmt2smpsrlaxwn85lh6",
       "expected": "1.00016775 BTC (100,016,775 sats)",
-      "verified_on": "2026-10-24",
+      "verified_on": "2026-11-19",
       "verified_state": "funded-unspent"
     }
   ],
@@ -135,5 +135,5 @@
     }
   ],
   "third_party_material": "the 2 published Shamir shares and the challenge-page quotes are Bitaps's own puzzle material, quoted briefly with source and date; no third-party copyrighted material is included",
-  "last_updated": "2026-10-24"
+  "last_updated": "2026-11-19"
 }

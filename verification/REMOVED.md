@@ -10,6 +10,7 @@ listed here so the archive stays auditable.
 |---|---|---|---|
 | Smith, Lyle & Moore Hunt #2 | 3,177,700 sats | The escrow `bc1q0akdjvrc2csau2n3gyxa3xcq0fss852x997m9y` was spent on 2026-10-22 to `1NJ37J3MtrBt9VdxHUTVbwusYB4VuLaCk9`. | [`8232754516a50aa917984fbe147431675ead1306cfb2597a0e0b21670a495c44`](https://mempool.space/tx/8232754516a50aa917984fbe147431675ead1306cfb2597a0e0b21670a495c44) |
 | FTPK Season 2 | 310.372091 USDT | The escrow `0xb5fe4f1b6cb2bbe6a327f8c68f370da7df18b2dc` sent 310.372091 USDT out on 2026-09-10. | [`06d2e114ed75c77b71f71d291ea6cf59160d450169899bcd4a5d0a1223e3e971`](https://etherscan.io/tx/06d2e114ed75c77b71f71d291ea6cf59160d450169899bcd4a5d0a1223e3e971) |
+| Zden Level HALV | 312,500 sats | The escrow `1crypto24HCr178iMcKd5iUi5D4rsg1nK` was spent on 2026-11-19 to `bc1q8s0s2aurnr3737na8kjgyt2wct9ymsa3c4qnp9`. | [`b7fe480c68c1e600355393bc8005e01526340e2db3218aabe82a9439ead34439`](https://mempool.space/tx/b7fe480c68c1e600355393bc8005e01526340e2db3218aabe82a9439ead34439) |
 
 ## Solved before this mirror
 

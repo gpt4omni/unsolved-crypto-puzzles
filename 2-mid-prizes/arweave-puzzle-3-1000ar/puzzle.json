@@ -21,8 +21,8 @@
   "prize": {
     "amount": 1000.165838006237,
     "asset": "AR",
-    "usd_estimate": 3471,
-    "usd_snapshot": "2026-10-24",
+    "usd_estimate": 2450,
+    "usd_snapshot": "2026-11-19",
     "note": "balance drifts slightly above the original funding from unsolicited dust deposits over the years"
   },
   "addresses": [
@@ -33,7 +33,7 @@
       "label": "main",
       "explorer": "https://viewblock.io/arweave/address/wHP6OPG5GMF5dedo_CD8AAy6x8La-gfI5b5pk65Tx_0",
       "expected": "1000.165838006237 AR",
-      "verified_on": "2026-10-24",
+      "verified_on": "2026-11-19",
       "verified_state": "funded-unspent"
     }
   ],
@@ -183,5 +183,5 @@
     }
   ],
   "third_party_material": "the 8 rebus images and their composite are the author's own puzzle material, published on the Arweave permaweb page; no book, audio, or video material; no third-party community images shipped",
-  "last_updated": "2026-10-24"
+  "last_updated": "2026-11-19"
 }

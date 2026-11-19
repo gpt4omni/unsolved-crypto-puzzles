@@ -38,6 +38,18 @@ from __future__ import annotations
 import argparse
 import base64
 import hashlib
+
+try:
+    from Crypto.Hash import RIPEMD160
+    def ripemd160(data: bytes) -> bytes:
+        h = RIPEMD160.new()
+        h.update(data)
+        return h.digest()
+except ImportError:  # pragma: no cover
+    def ripemd160(data: bytes) -> bytes:
+        h = hashlib.new("ripemd160")
+        h.update(data)
+        return h.digest()
 import sys
 
 import base58
@@ -182,7 +194,7 @@ def priv_to_address(priv_bytes: bytes) -> tuple[str, str]:
     sk = SigningKey.from_string(priv_bytes, curve=SECP256k1)
     vk = sk.get_verifying_key()
     pub = b"\x04" + vk.to_string()
-    h160 = hashlib.new("ripemd160", sha256(pub)).digest()
+    h160 = ripemd160(sha256(pub))
     address = base58.b58encode_check(b"\x00" + h160).decode()
     return address, pub.hex()
 
@@ -225,7 +237,7 @@ def selftest() -> bool:
     # real, independently checkable fact: the escrow's own on-chain public key
     # (recovered from its 2024 spending transaction) must hash to its address.
     pub = bytes.fromhex(KNOWN_PUBKEY_HEX)
-    h160 = hashlib.new("ripemd160", sha256(pub)).digest()
+    h160 = ripemd160(sha256(pub))
     address_from_known_pubkey = base58.b58encode_check(b"\x00" + h160).decode()
     part1 = address_from_known_pubkey == TARGET_ADDRESS
     print(f"HASH160(known on-chain pubkey) -> {TARGET_ADDRESS}: {'OK' if part1 else 'FAIL'}")

@@ -22,8 +22,8 @@
   "prize": {
     "amount": 800000,
     "asset": "sats",
-    "usd_estimate": 646,
-    "usd_snapshot": "2026-10-24",
+    "usd_estimate": 496,
+    "usd_snapshot": "2026-11-19",
     "note": "split across two P2WPKH addresses derived from one published xpub, funded 2024-09-05"
   },
   "addresses": [
@@ -34,7 +34,7 @@
       "label": "account 0, index 0",
       "explorer": "https://mempool.space/address/bc1qxy4tf0s4n7x9w24rawf9qsxh2hyljrmvyrhwzt",
       "expected": "100000 sats",
-      "verified_on": "2026-10-24",
+      "verified_on": "2026-11-19",
       "verified_state": "funded-unspent"
     },
     {
@@ -44,7 +44,7 @@
       "label": "account 0, index 1",
       "explorer": "https://mempool.space/address/bc1q4qc24xk5cehc4t7vr264zldsms2kmxf86jqjau",
       "expected": "700000 sats",
-      "verified_on": "2026-10-24",
+      "verified_on": "2026-11-19",
       "verified_state": "funded-unspent"
     }
   ],
@@ -104,5 +104,5 @@
     }
   ],
   "third_party_material": "no book pages, OCR text, or audiobook audio/transcripts are included; the one chapter 11 passage quoted in clues/author-posts.md is the short excerpt that carries the puzzle's own decoding rule",
-  "last_updated": "2026-10-24"
+  "last_updated": "2026-11-19"
 }

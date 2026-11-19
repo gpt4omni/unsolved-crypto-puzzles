@@ -25,8 +25,8 @@
   "prize": {
     "amount": 2.000006078,
     "asset": "ETH",
-    "usd_estimate": 4710,
-    "usd_snapshot": "2026-10-24",
+    "usd_estimate": 3508,
+    "usd_snapshot": "2026-11-19",
     "note": "sum of the 3 open contracts: C1 1.000002026 ETH, C2 0.500002026 ETH, 9732 0.500002026 ETH, balance re-checked 2026-10-24; a 4th contract, AEC7, holds 1.000012 ETH with no payout path for anyone; a 5th, 735B, was solved by me for 0.5 ETH and is now drained"
   },
   "addresses": [
@@ -37,7 +37,7 @@
       "label": "735B",
       "explorer": "https://etherscan.io/address/0x735ba26f91e1275fa4b504649b19ef74739fe7e7",
       "expected": "0.5 ETH",
-      "verified_on": "2026-10-24",
+      "verified_on": "2026-11-19",
       "verified_state": "swept"
     },
     {
@@ -47,7 +47,7 @@
       "label": "C1",
       "explorer": "https://etherscan.io/address/0x17e5e0910b9185b0ede564dcbf074ca910ad56a4",
       "expected": "1.000002 ETH",
-      "verified_on": "2026-10-24",
+      "verified_on": "2026-11-19",
       "verified_state": "contract-holds-funds"
     },
     {
@@ -57,7 +57,7 @@
       "label": "C2",
       "explorer": "https://etherscan.io/address/0xd7c6d542f3dcdceda845112b8fd567b8f8655805",
       "expected": "0.500002 ETH",
-      "verified_on": "2026-10-24",
+      "verified_on": "2026-11-19",
       "verified_state": "contract-holds-funds"
     },
     {
@@ -67,7 +67,7 @@
       "label": "9732",
       "explorer": "https://etherscan.io/address/0x973c2178b09225d1de3ab037d40b3f24af696255",
       "expected": "0.500002 ETH",
-      "verified_on": "2026-10-24",
+      "verified_on": "2026-11-19",
       "verified_state": "contract-holds-funds"
     },
     {
@@ -77,7 +77,7 @@
       "label": "AEC7",
       "explorer": "https://etherscan.io/address/0xaec7e8c221c3fd24e75c996e32289235fd899ebf",
       "expected": "1.000012 ETH, no payout path exists",
-      "verified_on": "2026-10-24",
+      "verified_on": "2026-11-19",
       "verified_state": "contract-holds-funds"
     },
     {
@@ -87,8 +87,8 @@
       "label": "my wallet (735B payout destination)",
       "explorer": "https://etherscan.io/address/0x83e4b2a5A464bDfCD83057Ac08447f533A595156",
       "expected": "n/a",
-      "verified_on": "2026-10-24",
-      "verified_state": "unknown"
+      "verified_on": "2026-11-19",
+      "verified_state": "funded-unspent"
     }
   ],
   "puzzle_type": [
@@ -169,5 +169,5 @@
     }
   ],
   "third_party_material": "no third-party articles or dumps; only the author's own published GitHub issue and gist text (about 90 words quoted total), verified contract source, and on-chain transaction data",
-  "last_updated": "2026-10-24"
+  "last_updated": "2026-11-19"
 }

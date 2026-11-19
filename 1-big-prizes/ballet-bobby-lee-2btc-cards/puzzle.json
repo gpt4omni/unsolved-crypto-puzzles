@@ -21,8 +21,8 @@
   "prize": {
     "amount": 2.00007358,
     "asset": "BTC",
-    "usd_estimate": 161536,
-    "usd_snapshot": "2026-10-24",
+    "usd_estimate": 124013,
+    "usd_snapshot": "2026-11-19",
     "note": "two independent cards, 1.00003481 BTC (AA009926) and 1.00003877 BTC (AA012381); a third card, AA007448, was solved and swept by a third party in 2020 and is not part of the live prize"
   },
   "addresses": [
@@ -33,7 +33,7 @@
       "label": "AA009926",
       "explorer": "https://mempool.space/address/1JxWyNrkgYvgsHu8hVQZqTXEB9RftRGP5m",
       "expected": "100003481 sats",
-      "verified_on": "2026-10-24",
+      "verified_on": "2026-11-19",
       "verified_state": "funded-unspent"
     },
     {
@@ -43,7 +43,7 @@
       "label": "AA012381",
       "explorer": "https://mempool.space/address/1QGtbKxx6FKDD66LwnrzHCAHmyZ7mDHqC4",
       "expected": "100003877 sats",
-      "verified_on": "2026-10-24",
+      "verified_on": "2026-11-19",
       "verified_state": "funded-unspent"
     },
     {
@@ -53,7 +53,7 @@
       "label": "AA007448 (oracle, solved by a third party in 2020, not part of the live prize)",
       "explorer": "https://mempool.space/address/1LL6Xy92LwGDRfQP9fBU7f1477cEKctr7c",
       "expected": "n/a",
-      "verified_on": "2026-10-24",
+      "verified_on": "2026-11-19",
       "verified_state": "swept"
     }
   ],
@@ -137,5 +137,5 @@
     }
   ],
   "third_party_material": "the 4 card photographs in clues/ are the author-published puzzle itself (mirrored from Bobby Lee's own posted images via github.com/oritwoen/boha); no book, article, or other third-party copyrighted material is included",
-  "last_updated": "2026-10-24"
+  "last_updated": "2026-11-19"
 }

@@ -21,8 +21,8 @@
   "prize": {
     "amount": 1.0,
     "asset": "ETH",
-    "usd_estimate": 2355,
-    "usd_snapshot": "2026-10-24",
+    "usd_estimate": 1754,
+    "usd_snapshot": "2026-11-19",
     "note": "1 ETH, address held as a plain EOA, never spent from since funding"
   },
   "addresses": [
@@ -33,7 +33,7 @@
       "label": "main",
       "explorer": "https://etherscan.io/address/0xFF2142E98E09b5344994F9bEB9C56C95506B9F17",
       "expected": "1 ETH",
-      "verified_on": "2026-10-24",
+      "verified_on": "2026-11-19",
       "verified_state": "funded-unspent"
     }
   ],
@@ -106,5 +106,5 @@
     }
   ],
   "third_party_material": "the puzzle image in clues/ is the author's own published puzzle material, stored on Arweave; the author's quotes in clues/author-posts.md are reproduced from a community repository that itself mirrors the author's Twitter replies; no other third-party material is included",
-  "last_updated": "2026-10-24"
+  "last_updated": "2026-11-19"
 }

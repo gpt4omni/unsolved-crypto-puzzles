@@ -21,8 +21,8 @@
   "prize": {
     "amount": 30000,
     "asset": "sats",
-    "usd_estimate": 24,
-    "usd_snapshot": "2026-10-24",
+    "usd_estimate": 19,
+    "usd_snapshot": "2026-11-19",
     "note": "single P2WPKH escrow, one funding transaction"
   },
   "addresses": [
@@ -33,7 +33,7 @@
       "label": "main",
       "explorer": "https://mempool.space/address/bc1q5rjy2cdfy4n4dkk4r6pxtwqlm8tgjcc2dj0ee9",
       "expected": "30000 sats",
-      "verified_on": "2026-10-24",
+      "verified_on": "2026-11-19",
       "verified_state": "funded-unspent"
     }
   ],
@@ -85,5 +85,5 @@
     }
   ],
   "third_party_material": "The challenge video, its frames, and its audio are not included, since they are the author's copyrighted YouTube content; the video is linked by ID only. The 7 published seed words and short quotes from the description and comments are the author's own public material, reproduced in clues/author-posts.md.",
-  "last_updated": "2026-10-24"
+  "last_updated": "2026-11-19"
 }
