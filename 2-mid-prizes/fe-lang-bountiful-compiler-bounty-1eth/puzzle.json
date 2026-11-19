@@ -23,8 +23,8 @@
   "prize": {
     "amount": 1.0,
     "asset": "ETH",
-    "usd_estimate": 2355,
-    "usd_snapshot": "2026-10-24",
+    "usd_estimate": 1754,
+    "usd_snapshot": "2026-11-19",
     "note": "the registry holds 1 ETH and each of the 7 registered challenges carries a 0.25 ETH prize, so the pot pays the first 4 claims and the 5th would revert; the 1 ETH balance, not the 1.75 ETH nominal total, is what the chain can pay today"
   },
   "addresses": [
@@ -35,7 +35,7 @@
       "label": "BountyRegistry, round 3",
       "explorer": "https://etherscan.io/address/0x71fB6afcD98c5BD611712ad4b8D314EF729aa69D",
       "expected": "1 ETH",
-      "verified_on": "2026-10-24",
+      "verified_on": "2026-11-19",
       "verified_state": "funded-unspent"
     },
     {
@@ -45,7 +45,7 @@
       "label": "Game",
       "explorer": "https://etherscan.io/address/0x046a3a4968282BaA7ad6291723873C8275434623",
       "expected": "0 ETH, prize held by the registry",
-      "verified_on": "2026-10-24",
+      "verified_on": "2026-11-19",
       "verified_state": "zero-balance-contract"
     },
     {
@@ -55,7 +55,7 @@
       "label": "Game2D",
       "explorer": "https://etherscan.io/address/0xE959e7ecA1afCa6cf2Bf8b07e25Da355b6C8E8c7",
       "expected": "0 ETH, prize held by the registry",
-      "verified_on": "2026-10-24",
+      "verified_on": "2026-11-19",
       "verified_state": "zero-balance-contract"
     },
     {
@@ -65,7 +65,7 @@
       "label": "GameEnum",
       "explorer": "https://etherscan.io/address/0xfb5423aDfBAC65ac675845Bb4FEBf8aeC128272E",
       "expected": "0 ETH, prize held by the registry",
-      "verified_on": "2026-10-24",
+      "verified_on": "2026-11-19",
       "verified_state": "zero-balance-contract"
     },
     {
@@ -75,7 +75,7 @@
       "label": "GameBitboard",
       "explorer": "https://etherscan.io/address/0x5E987b6aADD4DFC2236D21edE6D07feb04350b06",
       "expected": "0 ETH, prize held by the registry",
-      "verified_on": "2026-10-24",
+      "verified_on": "2026-11-19",
       "verified_state": "zero-balance-contract"
     },
     {
@@ -85,7 +85,7 @@
       "label": "GameMonadic",
       "explorer": "https://etherscan.io/address/0x86B7AEce1503242fED29E593FAEde3b7b00a5a1D",
       "expected": "0 ETH, prize held by the registry",
-      "verified_on": "2026-10-24",
+      "verified_on": "2026-11-19",
       "verified_state": "zero-balance-contract"
     },
     {
@@ -95,7 +95,7 @@
       "label": "GameNested",
       "explorer": "https://etherscan.io/address/0x3dF9789634995546B0126bC28B9F9FcBCB129F18",
       "expected": "0 ETH, prize held by the registry",
-      "verified_on": "2026-10-24",
+      "verified_on": "2026-11-19",
       "verified_state": "zero-balance-contract"
     },
     {
@@ -105,7 +105,7 @@
       "label": "GameTrait",
       "explorer": "https://etherscan.io/address/0x85b4d0B32b8a285111c244E52524B642f1A5ccFE",
       "expected": "0 ETH, prize held by the registry",
-      "verified_on": "2026-10-24",
+      "verified_on": "2026-11-19",
       "verified_state": "zero-balance-contract"
     }
   ],
@@ -200,5 +200,5 @@
     }
   ],
   "third_party_material": "no third-party articles or dumps; my own blog posts, repository sources and documentation, quoted in short excerpts with links, plus on-chain data I read directly from Ethereum mainnet",
-  "last_updated": "2026-10-24"
+  "last_updated": "2026-11-19"
 }

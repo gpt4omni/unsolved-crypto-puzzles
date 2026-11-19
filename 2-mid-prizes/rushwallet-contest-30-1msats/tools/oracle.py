@@ -28,6 +28,18 @@ from __future__ import annotations
 
 import argparse
 import hashlib
+
+try:
+    from Crypto.Hash import RIPEMD160
+    def ripemd160(data: bytes) -> bytes:
+        h = RIPEMD160.new()
+        h.update(data)
+        return h.digest()
+except ImportError:  # pragma: no cover
+    def ripemd160(data: bytes) -> bytes:
+        h = hashlib.new("ripemd160")
+        h.update(data)
+        return h.digest()
 import sys
 
 import base58
@@ -53,7 +65,7 @@ def derive_address(passphrase: str) -> str | None:
         return None
     vk = ecdsa.SigningKey.from_string(priv, curve=ecdsa.SECP256k1).get_verifying_key()
     pub_uncompressed = b"\x04" + vk.to_string()
-    h160 = hashlib.new("ripemd160", hashlib.sha256(pub_uncompressed).digest()).digest()
+    h160 = ripemd160(hashlib.sha256(pub_uncompressed).digest())
     return base58.b58encode_check(b"\x00" + h160).decode()
 
 

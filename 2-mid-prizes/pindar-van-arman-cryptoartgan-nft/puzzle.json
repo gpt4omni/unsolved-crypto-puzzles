@@ -23,7 +23,7 @@
     "amount": 1,
     "asset": "NFT",
     "usd_estimate": null,
-    "usd_snapshot": "2026-10-24",
+    "usd_snapshot": "2026-11-19",
     "note": "1 ERC-1155 NFT, \"Magic Internet moneyGAN\" (445/512); no market value recorded for this specific piece"
   },
   "addresses": [
@@ -34,7 +34,7 @@
       "label": "main",
       "explorer": "https://etherscan.io/address/0x18f87ec9c527aba1db44f715456bf28b0dae478d",
       "expected": "1 NFT (Magic Internet moneyGAN, 445/512)",
-      "verified_on": "2026-10-24",
+      "verified_on": "2026-11-19",
       "verified_state": "funded-unspent",
       "token_contract": "0x495f947276749Ce646f68AC8c248420045cb7b5e",
       "token_id": "38543999587180483086453667688708911953853707150137941511194370325563503017985",
@@ -108,5 +108,5 @@
     }
   ],
   "third_party_material": "",
-  "last_updated": "2026-10-24"
+  "last_updated": "2026-11-19"
 }

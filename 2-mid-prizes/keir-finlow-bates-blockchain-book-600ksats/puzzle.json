@@ -22,8 +22,8 @@
   "prize": {
     "amount": 600000,
     "asset": "sats",
-    "usd_estimate": 485,
-    "usd_snapshot": "2026-10-24",
+    "usd_estimate": 372,
+    "usd_snapshot": "2026-11-19",
     "note": "3 of 12 lots still open, 200,000 sats each; 9 lots already solved and swept (4 by me, 5 by the community before I started; I have since recovered the answers of 3 of those 5)"
   },
   "addresses": [
@@ -34,7 +34,7 @@
       "label": "EN_easy_1",
       "explorer": "https://mempool.space/address/14aFhno96fkt7knLWMDQ4j8yh8v5hBF4n1",
       "expected": "200000 sats",
-      "verified_on": "2026-10-24",
+      "verified_on": "2026-11-19",
       "verified_state": "swept"
     },
     {
@@ -44,7 +44,7 @@
       "label": "EN_easy_2",
       "explorer": "https://mempool.space/address/14utGQn5GdfPvUrHNLAwTmmP99QpXm9mg6",
       "expected": "200000 sats",
-      "verified_on": "2026-10-24",
+      "verified_on": "2026-11-19",
       "verified_state": "swept"
     },
     {
@@ -54,7 +54,7 @@
       "label": "EN_medium_s",
       "explorer": "https://mempool.space/address/1QFafw3weoWTRQhiLafRw2eyWbVmES6wfJ",
       "expected": "200000 sats",
-      "verified_on": "2026-10-24",
+      "verified_on": "2026-11-19",
       "verified_state": "swept"
     },
     {
@@ -64,7 +64,7 @@
       "label": "EN_medium",
       "explorer": "https://mempool.space/address/17Y9czcbcCz433QXsy1SGQjwLb27BBtLLZ",
       "expected": "200000 sats",
-      "verified_on": "2026-10-24",
+      "verified_on": "2026-11-19",
       "verified_state": "funded-unspent"
     },
     {
@@ -74,7 +74,7 @@
       "label": "EN_hard_1",
       "explorer": "https://mempool.space/address/181rPpfdUGFg4fVEdhDZEfDbBSqgigtoZR",
       "expected": "200000 sats",
-      "verified_on": "2026-10-24",
+      "verified_on": "2026-11-19",
       "verified_state": "swept"
     },
     {
@@ -84,7 +84,7 @@
       "label": "EN_hard_2",
       "explorer": "https://mempool.space/address/161YgNX2NrCzGunWvoV1hN3DuzWeuovBK3",
       "expected": "200000 sats",
-      "verified_on": "2026-10-24",
+      "verified_on": "2026-11-19",
       "verified_state": "swept"
     },
     {
@@ -94,7 +94,7 @@
       "label": "EN_veryhard_s",
       "explorer": "https://mempool.space/address/1KZei2D5yz3UJ59LvXsC1Y9y4ktSgcnVwz",
       "expected": "200000 sats",
-      "verified_on": "2026-10-24",
+      "verified_on": "2026-11-19",
       "verified_state": "swept"
     },
     {
@@ -104,7 +104,7 @@
       "label": "EN_veryhard",
       "explorer": "https://mempool.space/address/1DZ5NbUwDgxeJkKhQLgYcUUX36PtYso1pm",
       "expected": "200000 sats",
-      "verified_on": "2026-10-24",
+      "verified_on": "2026-11-19",
       "verified_state": "funded-unspent"
     },
     {
@@ -114,7 +114,7 @@
       "label": "IT_easy",
       "explorer": "https://mempool.space/address/1MEstvLAzc5DzJtvx7uyvKNNUCPN3ofWMK",
       "expected": "200000 sats",
-      "verified_on": "2026-10-24",
+      "verified_on": "2026-11-19",
       "verified_state": "swept"
     },
     {
@@ -124,7 +124,7 @@
       "label": "IT_medium",
       "explorer": "https://mempool.space/address/1Q78hDeaHXQbuCSQxG1uPAc4V3jsuVUG9r",
       "expected": "200000 sats",
-      "verified_on": "2026-10-24",
+      "verified_on": "2026-11-19",
       "verified_state": "swept"
     },
     {
@@ -134,7 +134,7 @@
       "label": "IT_hard",
       "explorer": "https://mempool.space/address/1QExGvuieS9MvuKC3R1qjp6jGTVcqisTDj",
       "expected": "200000 sats",
-      "verified_on": "2026-10-24",
+      "verified_on": "2026-11-19",
       "verified_state": "swept"
     },
     {
@@ -144,7 +144,7 @@
       "label": "IT_veryhard",
       "explorer": "https://mempool.space/address/19kkawFcg2U2s6vq368MXD7FJU9JZvRrjA",
       "expected": "200000 sats",
-      "verified_on": "2026-10-24",
+      "verified_on": "2026-11-19",
       "verified_state": "funded-unspent"
     },
     {
@@ -154,8 +154,8 @@
       "label": "my wallet (destination of all 4 payouts)",
       "explorer": "https://mempool.space/address/bc1qax0hsnwnxl7393awtc3hsy0ftm6tg4tyk2nfja",
       "expected": "n/a",
-      "verified_on": "2026-10-24",
-      "verified_state": "unknown"
+      "verified_on": "2026-11-19",
+      "verified_state": "partially-spent"
     }
   ],
   "puzzle_type": [
@@ -285,5 +285,5 @@
     }
   ],
   "third_party_material": "no book pages, ebook files, scans, OCR, or chapter text included; only page/figure numbers, short quotes (about 180 words total, well under the 300-word-per-book limit), and my own derived data (answer strings, hashes, solved-lot key material)",
-  "last_updated": "2026-10-24"
+  "last_updated": "2026-11-19"
 }

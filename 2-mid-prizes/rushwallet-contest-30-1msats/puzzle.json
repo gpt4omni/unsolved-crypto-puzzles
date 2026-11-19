@@ -19,8 +19,8 @@
   "prize": {
     "amount": 1000000,
     "asset": "sats",
-    "usd_estimate": 808,
-    "usd_snapshot": "2026-10-24",
+    "usd_estimate": 620,
+    "usd_snapshot": "2026-11-19",
     "note": "the escrow was funded 101,000,000 sats total: 100,000,000 sats on 2014-09-22 later returned to its own sender on 2015-03-25, and a separate 1,000,000 sats on 2015-04-24 that remains unspent; the 1,000,000 sats figure is the live prize"
   },
   "addresses": [
@@ -31,7 +31,7 @@
       "label": "main",
       "explorer": "https://mempool.space/address/13Q8hJqagtd77ojTJcEZPjTz2sBFSsYxyj",
       "expected": "1000000 sats",
-      "verified_on": "2026-10-24",
+      "verified_on": "2026-11-19",
       "verified_state": "partially-spent"
     }
   ],
@@ -102,5 +102,5 @@
     }
   ],
   "third_party_material": "the promotional video and its re-uploads are third-party/platform hosted and not mirrored here; only short quoted transcriptions and archived-page links are included",
-  "last_updated": "2026-10-24"
+  "last_updated": "2026-11-19"
 }

@@ -19,8 +19,8 @@
   "prize": {
     "amount": 3124630,
     "asset": "sats",
-    "usd_estimate": 2524,
-    "usd_snapshot": "2026-10-24",
+    "usd_estimate": 1937,
+    "usd_snapshot": "2026-11-19",
     "note": "0.0312463 BTC, 2 funding transactions, exact dates not recorded"
   },
   "addresses": [
@@ -31,7 +31,7 @@
       "label": "main",
       "explorer": "https://mempool.space/address/1K4ezpLybootYF23TM4a8Y4NyP7auysnRo",
       "expected": "3124630 sats",
-      "verified_on": "2026-10-24",
+      "verified_on": "2026-11-19",
       "verified_state": "funded-unspent"
     }
   ],
@@ -91,5 +91,5 @@
     }
   ],
   "third_party_material": "the narrative text was written and published by the puzzle author himself as the vehicle for the puzzle; short excerpts are quoted in clues/author-posts.md; the embedded stock photography is third-party licensed illustration, referenced but not reproduced here",
-  "last_updated": "2026-10-24"
+  "last_updated": "2026-11-19"
 }

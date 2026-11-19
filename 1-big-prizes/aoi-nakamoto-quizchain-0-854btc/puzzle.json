@@ -22,8 +22,8 @@
   "prize": {
     "amount": 0.777,
     "asset": "BTC",
-    "usd_estimate": 62754,
-    "usd_snapshot": "2026-10-24",
+    "usd_estimate": 48177,
+    "usd_snapshot": "2026-11-19",
     "note": "Block 76 (0.077 BTC) was solved and swept by a reader on 2026-08-17; only Real Big Block (0.777 BTC) remains open"
   },
   "addresses": [
@@ -34,7 +34,7 @@
       "label": "Real Big Block, stage 2",
       "explorer": "https://mempool.space/address/14zMkTgaVXJcxdh4JdWi29MLRR44iUSG9W",
       "expected": "77700000 sats",
-      "verified_on": "2026-10-24",
+      "verified_on": "2026-11-19",
       "verified_state": "funded-unspent"
     },
     {
@@ -44,7 +44,7 @@
       "label": "Quizchain2 Block 76",
       "explorer": "https://mempool.space/address/13Cv6SXUnzGDT8JHqzzJ8xMPtsSdhJA4wd",
       "expected": "7700000 sats",
-      "verified_on": "2026-10-24",
+      "verified_on": "2026-11-19",
       "verified_state": "swept"
     },
     {
@@ -54,7 +54,7 @@
       "label": "Real Big Block, stage 1 (certification reference, solved by a third party in 2019, not part of the live prize)",
       "explorer": "https://mempool.space/address/19TbyN5KCg1Lg7qHwezifsLVcdSa2Rj5KN",
       "expected": "n/a",
-      "verified_on": "2026-10-24",
+      "verified_on": "2026-11-19",
       "verified_state": "swept"
     }
   ],
@@ -173,5 +173,5 @@
     }
   ],
   "third_party_material": "no book, chapter text, forum dump, or other bulk third-party material is included; the Wattpad chapter (the author's own fiction) and Hal Finney's bitcointalk post (third-party historical content) are both referenced by URL only, never reproduced; quotes in clues/author-posts.md are short excerpts from the puzzle author's own public Reddit posts",
-  "last_updated": "2026-10-24"
+  "last_updated": "2026-11-19"
 }

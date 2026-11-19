@@ -31,7 +31,7 @@ from datetime import date
 
 REPO_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-PRICE_SNAPSHOT = {"date": "2026-10-24", "BTC": 80765, "ETH": 2354.82, "AR": 3.47, "LTC": 56.96, "USDT": 1.0, "USDC": 1.0}
+PRICE_SNAPSHOT = {"date": "2026-11-19", "BTC": 62004, "ETH": 1754.24, "AR": 2.45, "LTC": 42.27, "USDT": 1.0, "USDC": 1.0}
 
 TIERS = [
     ("1-big-prizes", "big"),

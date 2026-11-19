@@ -21,8 +21,8 @@
   "prize": {
     "amount": 0.05,
     "asset": "ETH",
-    "usd_estimate": 118,
-    "usd_snapshot": "2026-10-24",
+    "usd_estimate": 88,
+    "usd_snapshot": "2026-11-19",
     "note": "single externally-owned account, never signed a transaction (nonce 0); that this address is Puzzle #2's escrow is a strong inference from the funder and amount matching Puzzle #1, not stated directly by the author"
   },
   "addresses": [
@@ -33,7 +33,7 @@
       "label": "main",
       "explorer": "https://etherscan.io/address/0x1fa8Be9De5bBFE047C72dB8E8E3257128F7661ad",
       "expected": "0.05 ETH",
-      "verified_on": "2026-10-24",
+      "verified_on": "2026-11-19",
       "verified_state": "funded-unspent"
     }
   ],
@@ -116,5 +116,5 @@
     }
   ],
   "third_party_material": "No video frames, screenshots, or video files are included; both puzzles are linked by video ID only. The certification vector (Puzzle #1's already-solved private key) is drawn from the author's own public solution video for a prize claimed and spent by an unrelated third party in 2018.",
-  "last_updated": "2026-10-24"
+  "last_updated": "2026-11-19"
 }

@@ -21,8 +21,8 @@
   "prize": {
     "amount": 500.02225493,
     "asset": "AR",
-    "usd_estimate": 1735,
-    "usd_snapshot": "2026-10-24",
+    "usd_estimate": 1225,
+    "usd_snapshot": "2026-11-19",
     "note": ""
   },
   "addresses": [
@@ -33,7 +33,7 @@
       "label": "main",
       "explorer": "https://viewblock.io/arweave/address/bkjJGw3NLxs8OAyRxgTL-QFpiB3lBJqZ76kDhWdB-Rs",
       "expected": "500.02225493 AR",
-      "verified_on": "2026-10-24",
+      "verified_on": "2026-11-19",
       "verified_state": "funded-unspent"
     }
   ],
@@ -111,5 +111,5 @@
     }
   ],
   "third_party_material": "the puzzle image is the author's own material, published on the Arweave permaweb page; one short quote from a named community member (the proven puzzle #13 solver) is reproduced from the public reply thread; no book, audio, or video material",
-  "last_updated": "2026-10-24"
+  "last_updated": "2026-11-19"
 }

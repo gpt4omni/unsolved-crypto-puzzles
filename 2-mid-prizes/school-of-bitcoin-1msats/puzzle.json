@@ -21,8 +21,8 @@
   "prize": {
     "amount": 1000000,
     "asset": "sats",
-    "usd_estimate": 808,
-    "usd_snapshot": "2026-10-24",
+    "usd_estimate": 620,
+    "usd_snapshot": "2026-11-19",
     "note": "single funding transaction, 0.01 BTC"
   },
   "addresses": [
@@ -33,7 +33,7 @@
       "label": "main",
       "explorer": "https://mempool.space/address/bc1qcsdfkaqgy9ux668vmzflzqsyg0qtspncymt5ed",
       "expected": "1000000 sats",
-      "verified_on": "2026-10-24",
+      "verified_on": "2026-11-19",
       "verified_state": "funded-unspent"
     }
   ],
@@ -87,5 +87,5 @@
     }
   ],
   "third_party_material": "the course video and slide content are copyrighted and not reproduced; only short decoded clue text (the binary overlay message, the Morse and Wingdings decodes) is quoted in clues/author-posts.md",
-  "last_updated": "2026-10-24"
+  "last_updated": "2026-11-19"
 }

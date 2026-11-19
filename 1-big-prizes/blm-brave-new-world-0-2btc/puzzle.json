@@ -21,8 +21,8 @@
   "prize": {
     "amount": 20107284,
     "asset": "sats",
-    "usd_estimate": 16240,
-    "usd_snapshot": "2026-10-24",
+    "usd_estimate": 12467,
+    "usd_snapshot": "2026-11-19",
     "note": "0.20107284 BTC, funded 2020-05-10 in 5 transactions, before the puzzle post"
   },
   "addresses": [
@@ -33,7 +33,7 @@
       "label": "main",
       "explorer": "https://mempool.space/address/1KfZGvwZxsvSmemoCmEV75uqcNzYBHjkHZ",
       "expected": "20107284 sats",
-      "verified_on": "2026-10-24",
+      "verified_on": "2026-11-19",
       "verified_state": "funded-unspent"
     }
   ],
@@ -113,5 +113,5 @@
     }
   ],
   "third_party_material": "the collage image in clues/ is the author's own published puzzle material, posted once on Reddit; no other author material exists; community forum discussion is cited by URL and date only, never reproduced",
-  "last_updated": "2026-10-24"
+  "last_updated": "2026-11-19"
 }

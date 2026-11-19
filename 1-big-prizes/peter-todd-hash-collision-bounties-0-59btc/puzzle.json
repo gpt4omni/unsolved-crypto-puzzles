@@ -21,8 +21,8 @@
   "prize": {
     "amount": 0.59364885,
     "asset": "BTC",
-    "usd_estimate": 47946,
-    "usd_snapshot": "2026-10-24",
+    "usd_estimate": 36809,
+    "usd_snapshot": "2026-11-19",
     "note": "combined across 4 live P2SH scripts (SHA-256, RIPEMD-160, HASH160, HASH256); a 5th sibling (SHA-1) was claimed in 2023 and is not part of this total"
   },
   "addresses": [
@@ -33,7 +33,7 @@
       "label": "SHA-256",
       "explorer": "https://mempool.space/address/35Snmmy3uhaer2gTboc81ayCip4m9DT4ko",
       "expected": "0.27734251 BTC",
-      "verified_on": "2026-10-24",
+      "verified_on": "2026-11-19",
       "verified_state": "funded-unspent"
     },
     {
@@ -43,7 +43,7 @@
       "label": "RIPEMD-160",
       "explorer": "https://mempool.space/address/3KyiQEGqqdb4nqfhUzGKN6KPhXmQsLNpay",
       "expected": "0.11576888 BTC",
-      "verified_on": "2026-10-24",
+      "verified_on": "2026-11-19",
       "verified_state": "funded-unspent"
     },
     {
@@ -53,7 +53,7 @@
       "label": "HASH160 (RIPEMD160(SHA256()))",
       "explorer": "https://mempool.space/address/39VXyuoc6SXYKp9TcAhoiN1mb4ns6z3Yu6",
       "expected": "0.10026873 BTC",
-      "verified_on": "2026-10-24",
+      "verified_on": "2026-11-19",
       "verified_state": "funded-unspent"
     },
     {
@@ -63,7 +63,7 @@
       "label": "HASH256 (SHA256(SHA256()))",
       "explorer": "https://mempool.space/address/3DUQQvz4t57Jy7jxE86kyFcNpKtURNf1VW",
       "expected": "0.10026873 BTC",
-      "verified_on": "2026-10-24",
+      "verified_on": "2026-11-19",
       "verified_state": "funded-unspent"
     },
     {
@@ -73,7 +73,7 @@
       "label": "SHA-1 (reference sibling, claimed 2023-02-22, not part of the live prize)",
       "explorer": "https://mempool.space/address/37k7toV1Nv4DfmQbmZ8KuZDQCYK9x5KpzP",
       "expected": "0 BTC (fully spent)",
-      "verified_on": "2026-10-24",
+      "verified_on": "2026-11-19",
       "verified_state": "swept"
     }
   ],
@@ -149,5 +149,5 @@
     }
   ],
   "third_party_material": "the redeem-script table and the quoted lines are Peter Todd's own puzzle material, quoted briefly with source and date; the SHAttered SHA-1 collision pair is a public academic research artifact (Stevens et al., 2017), read directly from the public blockchain rather than reproduced from the paper; no other third-party material is included",
-  "last_updated": "2026-10-24"
+  "last_updated": "2026-11-19"
 }

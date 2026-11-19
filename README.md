@@ -9,7 +9,7 @@ work got stuck.
 Research and first-person notes are by **floflo777**, who worked about 40 of these and solved
 a few. This is a maintained mirror of
 [floflo777/open-crypto-puzzles](https://github.com/floflo777/open-crypto-puzzles): every
-escrow was re-checked on **2026-10-24**, puzzles whose prize had been swept were removed, and
+escrow was re-checked on **2026-11-19**, puzzles whose prize had been swept were removed, and
 the already-solved tier is not copied. Pick one and keep going.
 
 ## Still unsolved, sitting on-chain
@@ -24,23 +24,28 @@ watchlist is charted in [External boha watchlist](#external-boha-watchlist).*
 <!-- totals:start -->
 | Asset | Locked in unsolved puzzles | Approx. value |
 |---|---|---|
-| Bitcoin | 5.91 BTC | $477,000 |
-| Ethereum | 12.66 ETH | $30,000 |
-| Arweave | 1,500 AR | $5,200 |
-| Litecoin | 3.03 LTC | $200 |
+| Bitcoin | 908.92 BTC | $56,357,000 |
+| Ethereum | 12.66 ETH | $22,000 |
+| Arweave | 1,500 AR | $3,700 |
+| Litecoin | 3.03 LTC | $100 |
 | Stablecoins | 0 USDT + 0 USDC | $0 |
 | NFT | 1 prize | no cash value recorded |
-| **Total** | **across 23 funded puzzles** | **$512,000** |
+| **Total** | **across 23 funded puzzles** | **$56,383,000** |
 
-Checked 2026-10-24 at BTC $80,765, ETH $2,354.82, AR $3.47, LTC $56.96, USDT $1.0. Prices and balances move; verify each escrow yourself.
+Checked 2026-11-19 at BTC $62,004, ETH $1,754.24, AR $2.45, LTC $42.27, USDT $1.0. Prices and balances move; verify each escrow yourself.
 <!-- totals:end -->
 
 ### What changed in this snapshot
 
-- **23 puzzles remain funded.** Two puzzles that were open in the previous snapshot are gone:
+- **23 puzzles remain funded.** Three puzzles that were open in earlier snapshots are gone:
   [Smith, Lyle & Moore Hunt #2](https://mempool.space/address/bc1q0akdjvrc2csau2n3gyxa3xcq0fss852x997m9y)
-  had its 3,177,700 sats swept on 2026-10-22, and FTPK Season 2's 310.372091 USDT left the
-  escrow on 2026-09-10.
+  had its 3,177,700 sats swept on 2026-10-22, FTPK Season 2's 310.372091 USDT left the
+  escrow on 2026-09-10, and Zden Level HALV's 312,500 sats were swept on 2026-11-19
+  ([payout transaction](https://mempool.space/tx/b7fe480c68c1e600355393bc8005e01526340e2db3218aabe82a9439ead34439)).
+- **The 1000 BTC challenge joined the catalogue.** The 2015 Bitcoin Transaction Puzzle -
+  160 published key-range escrows, the most famous unsolved crypto prize - is now a full
+  folder: its 77 still-funded addresses (903.01687103 BTC) were re-checked on 2026-11-19.
+  They stay in the boha watchlist too; only this folder's totals count them.
 - **The solved tier is not copied.** The 13 puzzles in the previous archive's solved tier,
   including LogicBeach, Arweave #12, CaesarCoder and Zden LVL5, are omitted here. Their
   write-ups and payout proofs remain in the original repository.
@@ -97,50 +102,53 @@ grouped by prize, is in the tables below.
 ## Big prizes (>= $10,000)
 | Puzzle | Prize | USD | Chain | Type | What remains | Escrow checked | Status |
 |---|---|---|---|---|---|---|---|
-| [Ballet / Bobby Lee: Take Bobby's Bitcoin](1-big-prizes/ballet-bobby-lee-2btc-cards/) | 2.00007358 BTC | 161,536 | bitcoin | bip38, physical-object | external-info | 2026-10-24 | open |
-| [GSMG.io Puzzle](1-big-prizes/gsmg-io-5btc-puzzle/) | 1.25649674 BTC | 101,481 | bitcoin | text-cipher, pixel-code, web-tree, raw-private-key | insight | 2026-10-24 | open |
-| [Bitaps Shamir Secret Sharing Challenge](1-big-prizes/bitaps-shamir-challenge-1btc/) | 1.00016775 BTC | 80,779 | bitcoin | shamir, bip39-seed | external-info | 2026-10-24 | open |
-| [Aoi Nakamoto Quizchain](1-big-prizes/aoi-nakamoto-quizchain-0-854btc/) | 0.777 BTC | 62,754 | bitcoin | bip39-seed, word-selection | external-info | 2026-10-24 | open |
-| [Peter Todd Hash Collision Bounties](1-big-prizes/peter-todd-hash-collision-bounties-0-59btc/) | 0.59364885 BTC | 47,946 | bitcoin | hash-collision | research-breakthrough | 2026-10-24 | watch |
-| [Guntis Vitolins: 10 ETH Challenge](1-big-prizes/guntis-vitolins-metamask-8-6eth/) | 8.612541554266 ETH | 20,281 | ethereum | bip39-seed, word-selection, video-series | bounded-compute | 2026-10-24 | open |
-| [BLM Collage: Welcome to the Brave New World](1-big-prizes/blm-brave-new-world-0-2btc/) | 20,107,284 sats | 16,240 | bitcoin | image-stego, word-selection, bip39-seed, text-cipher | insight | 2026-10-24 | open |
+| [Bitcoin Transaction Puzzle (the 1000 BTC challenge)](1-big-prizes/bitcoin-transaction-puzzle-903btc/) | 903.01687103 BTC | 55,990,658 | bitcoin | raw-private-key | bounded-compute | 2026-11-19 | open |
+| [Ballet / Bobby Lee: Take Bobby's Bitcoin](1-big-prizes/ballet-bobby-lee-2btc-cards/) | 2.00007358 BTC | 124,013 | bitcoin | bip38, physical-object | external-info | 2026-11-19 | open |
+| [GSMG.io Puzzle](1-big-prizes/gsmg-io-5btc-puzzle/) | 1.25649674 BTC | 77,908 | bitcoin | text-cipher, pixel-code, web-tree, raw-private-key | insight | 2026-11-19 | open |
+| [Bitaps Shamir Secret Sharing Challenge](1-big-prizes/bitaps-shamir-challenge-1btc/) | 1.00016775 BTC | 62,014 | bitcoin | shamir, bip39-seed | external-info | 2026-11-19 | open |
+| [Aoi Nakamoto Quizchain](1-big-prizes/aoi-nakamoto-quizchain-0-854btc/) | 0.777 BTC | 48,177 | bitcoin | bip39-seed, word-selection | external-info | 2026-11-19 | open |
+| [Peter Todd Hash Collision Bounties](1-big-prizes/peter-todd-hash-collision-bounties-0-59btc/) | 0.59364885 BTC | 36,809 | bitcoin | hash-collision | research-breakthrough | 2026-11-19 | watch |
+| [Guntis Vitolins: 10 ETH Challenge](1-big-prizes/guntis-vitolins-metamask-8-6eth/) | 8.612541554266 ETH | 15,108 | ethereum | bip39-seed, word-selection, video-series | bounded-compute | 2026-11-19 | open |
+| [BLM Collage: Welcome to the Brave New World](1-big-prizes/blm-brave-new-world-0-2btc/) | 20,107,284 sats | 12,467 | bitcoin | image-stego, word-selection, bip39-seed, text-cipher | insight | 2026-11-19 | open |
 
 ## Mid prizes ($100 to $10,000)
 | Puzzle | Prize | USD | Chain | Type | What remains | Escrow checked | Status |
 |---|---|---|---|---|---|---|---|
-| [TeikhosBounty: Johan Nygren's Proof-of-Public-Key Puzzles](2-mid-prizes/teikhos-bipedaljoe-solver-bounties-2eth/) | 2.000006078 ETH | 4,710 | ethereum | smart-contract, timelock | external-info | 2026-10-24 | open |
-| [Arweave Puzzle #3](2-mid-prizes/arweave-puzzle-3-1000ar/) | 1,000.165838006237 AR | 3,471 | arweave | word-selection, text-cipher | insight | 2026-10-24 | open |
-| [Trithemius: Wealth in Poetry](2-mid-prizes/wealth-in-poetry-0-03btc/) | 3,124,630 sats | 2,524 | bitcoin | bip39-seed, text-cipher, brainwallet | insight | 2026-10-24 | open |
-| [Arweave Puzzle #11](2-mid-prizes/arweave-puzzle-11-1eth/) | 1 ETH | 2,355 | ethereum | image-stego, pixel-code, raw-private-key | insight | 2026-10-24 | open |
-| [Bountiful: the Fe compiler bug bounty](2-mid-prizes/fe-lang-bountiful-compiler-bounty-1eth/) | 1 ETH | 2,355 | ethereum | smart-contract, timelock | insight | 2026-10-24 | open |
-| [Arweave Puzzle #10](2-mid-prizes/arweave-puzzle-10-500ar/) | 500.02225493 AR | 1,735 | arweave | word-selection, text-cipher | insight | 2026-10-24 | open |
-| [Corey Phillips: Kitten Passphrase Puzzle](2-mid-prizes/corey-phillips-kitten-passphrase-1msats/) | 1,001,900 sats | 809 | bitcoin | bip39-seed, brainwallet | external-info | 2026-10-24 | open |
-| [RushWallet Contest #30](2-mid-prizes/rushwallet-contest-30-1msats/) | 1,000,000 sats | 808 | bitcoin | brainwallet, audio | external-info | 2026-10-24 | open |
-| [School of Bitcoin: 1 Million Sats In This Image](2-mid-prizes/school-of-bitcoin-1msats/) | 1,000,000 sats | 808 | bitcoin | bip39-seed, image-stego, password-pages | external-info | 2026-10-24 | open |
-| [AH White: Walking Banks](2-mid-prizes/ah-white-walking-banks-800ksats/) | 800,000 sats | 646 | bitcoin | bip39-seed, book, text-cipher | external-info | 2026-10-24 | open |
-| [Keir Finlow-Bates: Move Over Brokers Treasure Hunt](2-mid-prizes/keir-finlow-bates-blockchain-book-600ksats/) | 600,000 sats | 485 | bitcoin | book, brainwallet, text-cipher | human-action | 2026-10-24 | open |
-| [Zden Level HALV](2-mid-prizes/zden-haluska-halv-312ksats/) | 312,500 sats | 252 | bitcoin | geometry, raw-private-key | external-info | 2026-10-24 | open |
-| [Path to Greatness: Treasure Hunt](2-mid-prizes/path-to-greatness-treasure-hunt-3ltc/) | 3.02608794 LTC | 172 | litecoin | raw-private-key, image-stego, audio, text-cipher | insight | 2026-10-24 | open |
-| [Pindar Van Arman: cryptoArtGAN Act 1 Puzzle](2-mid-prizes/pindar-van-arman-cryptoartgan-nft/) | 1 NFT |  | ethereum | bip39-seed, word-selection | insight | 2026-10-24 | open |
+| [TeikhosBounty: Johan Nygren's Proof-of-Public-Key Puzzles](2-mid-prizes/teikhos-bipedaljoe-solver-bounties-2eth/) | 2.000006078 ETH | 3,508 | ethereum | smart-contract, timelock | external-info | 2026-11-19 | open |
+| [Arweave Puzzle #3](2-mid-prizes/arweave-puzzle-3-1000ar/) | 1,000.165838006237 AR | 2,450 | arweave | word-selection, text-cipher | insight | 2026-11-19 | open |
+| [Trithemius: Wealth in Poetry](2-mid-prizes/wealth-in-poetry-0-03btc/) | 3,124,630 sats | 1,937 | bitcoin | bip39-seed, text-cipher, brainwallet | insight | 2026-11-19 | open |
+| [Arweave Puzzle #11](2-mid-prizes/arweave-puzzle-11-1eth/) | 1 ETH | 1,754 | ethereum | image-stego, pixel-code, raw-private-key | insight | 2026-11-19 | open |
+| [Bountiful: the Fe compiler bug bounty](2-mid-prizes/fe-lang-bountiful-compiler-bounty-1eth/) | 1 ETH | 1,754 | ethereum | smart-contract, timelock | insight | 2026-11-19 | open |
+| [Arweave Puzzle #10](2-mid-prizes/arweave-puzzle-10-500ar/) | 500.02225493 AR | 1,225 | arweave | word-selection, text-cipher | insight | 2026-11-19 | open |
+| [Corey Phillips: Kitten Passphrase Puzzle](2-mid-prizes/corey-phillips-kitten-passphrase-1msats/) | 1,001,900 sats | 621 | bitcoin | bip39-seed, brainwallet | external-info | 2026-11-19 | open |
+| [RushWallet Contest #30](2-mid-prizes/rushwallet-contest-30-1msats/) | 1,000,000 sats | 620 | bitcoin | brainwallet, audio | external-info | 2026-11-19 | open |
+| [School of Bitcoin: 1 Million Sats In This Image](2-mid-prizes/school-of-bitcoin-1msats/) | 1,000,000 sats | 620 | bitcoin | bip39-seed, image-stego, password-pages | external-info | 2026-11-19 | open |
+| [AH White: Walking Banks](2-mid-prizes/ah-white-walking-banks-800ksats/) | 800,000 sats | 496 | bitcoin | bip39-seed, book, text-cipher | external-info | 2026-11-19 | open |
+| [Keir Finlow-Bates: Move Over Brokers Treasure Hunt](2-mid-prizes/keir-finlow-bates-blockchain-book-600ksats/) | 600,000 sats | 372 | bitcoin | book, brainwallet, text-cipher | human-action | 2026-11-19 | open |
+| [Path to Greatness: Treasure Hunt](2-mid-prizes/path-to-greatness-treasure-hunt-3ltc/) | 3.02608794 LTC | 128 | litecoin | raw-private-key, image-stego, audio, text-cipher | insight | 2026-11-19 | open |
+| [Pindar Van Arman: cryptoArtGAN Act 1 Puzzle](2-mid-prizes/pindar-van-arman-cryptoartgan-nft/) | 1 NFT |  | ethereum | bip39-seed, word-selection | insight | 2026-11-19 | open |
 
 ## Small prizes (< $100)
 | Puzzle | Prize | USD | Chain | Type | What remains | Escrow checked | Status |
 |---|---|---|---|---|---|---|---|
-| [Crypto Puzzles 2018: Puzzle #2](3-small-prizes/crypto-puzzles-2018-puzzle-2-0-05eth/) | 0.05 ETH | 118 | ethereum | raw-private-key, image-stego, video-series | external-info | 2026-10-24 | open |
-| [Exitonly Bitcoin Challenge 14](3-small-prizes/exitonly-challenge-14-30ksats/) | 30,000 sats | 24 | bitcoin | bip39-seed, word-selection | uneconomic | 2026-10-24 | open |
+| [Crypto Puzzles 2018: Puzzle #2](3-small-prizes/crypto-puzzles-2018-puzzle-2-0-05eth/) | 0.05 ETH | 88 | ethereum | raw-private-key, image-stego, video-series | external-info | 2026-11-19 | open |
+| [Exitonly Bitcoin Challenge 14](3-small-prizes/exitonly-challenge-14-30ksats/) | 30,000 sats | 19 | bitcoin | bip39-seed, word-selection | uneconomic | 2026-11-19 | open |
 <!-- generated:end -->
 
 ## Series
 
 - **Arweave:** #3, #10 and #11 are open; #12 was solved and is not copied here; #8, solved by
   others, remains the oracle calibration.
-- **Zden (crypto.haluska.sk):** HALV is open; LVL5 was solved and is not copied here.
+- **Zden (crypto.haluska.sk):** nothing open; LVL5 was solved and HALV's 312,500 sats were
+  swept on 2026-11-19, so neither is copied here.
 - **FTPK:** no funded season remains. Season 2 was swept on 2026-09-10 and Season 4 was
   solved; Seasons 1 and 3 are finished but still playable, and are useful for learning the
   author's grammar.
 - **Finlow-Bates "Blockchain book":** 12 lots, 3 open, 4 solved by floflo777, 5 by others.
 - **Aoi Nakamoto Quizchain:** Real Big Block is open; Block 76 was swept on 2026-08-17;
   Block 77 Stage One was reproduced.
+- **Bitcoin Transaction Puzzle:** 83 of 160 solved; the 77 still-funded escrows are the
+  catalogue's largest entry at 903.01687103 BTC.
 
 ## External boha watchlist
 
@@ -169,7 +177,7 @@ The [full boha watchlist](boha/README.md) has all 113 records and per-collection
 
 ## On-chain check policy
 
-Every address in this repository was checked on 2026-10-24. The date is in each table and each
+Every address in this repository was checked on 2026-11-19. The date is in each table and each
 `puzzle.json`; the full per-address snapshot is in [verification/BALANCES.md](verification/BALANCES.md).
 Prices and balances move. Run `python3 tools/check_escrows.py` for a fresh table, or open the
 explorer links. If you find a drift, open an issue with the txid.
