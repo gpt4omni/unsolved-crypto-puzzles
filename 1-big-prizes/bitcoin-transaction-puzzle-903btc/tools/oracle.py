@@ -66,9 +66,10 @@ def p2pkh_of(k):
 def parse_key(token):
     token = token.strip()
     try:
-        return int(token, 16) if token.lower().startswith("0x") else int(token)
+        k = int(token, 16) if token.lower().startswith("0x") else int(token)
     except ValueError:
         return None
+    return k if 0 < k < SECP256k1.order else None
 
 
 def check(k, targets):
@@ -96,7 +97,7 @@ def main():
                 continue
             n, addr = check(k, targets)
             if n is not None:
-                print(f"MATCH puzzle #{n} {addr}")
+                print(f"MATCH puzzle #{n} key={k} {addr}")
         return 0
     k = parse_key(args[0])
     if k is None:
@@ -106,7 +107,7 @@ def main():
     if n is None:
         print(f"NO MATCH {addr}")
         return 1
-    print(f"MATCH puzzle #{n} {addr}")
+    print(f"MATCH puzzle #{n} key={k} {addr}")
     return 0
 
 
