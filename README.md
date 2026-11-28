@@ -157,7 +157,7 @@ grouped by prize, is in the tables below.
 
 *The 113 unsolved records in the boha watchlist, valued at the 2026-10-24 snapshot. These are separate from the curated folders and are not included in the totals above.*
 
-**boha 0.31.0** (data `a747e6ab583e`) | **558 records** | **113 unsolved** | **113 live-checked as funded**
+**boha 0.31.1** (data `5fda14c04eae`) | **558 records** | **113 unsolved** | **113 live-checked as funded**
 
 | ID | Prize | Chain | Live check | Source |
 |---|---|---|---|---|

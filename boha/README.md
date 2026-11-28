@@ -11,7 +11,7 @@ balance can change between syncs; verify the address before spending time on it.
 
 ## Snapshot
 
-- boha version: `0.31.0` (data `a747e6ab583e`)
+- boha version: `0.31.1` (data `5fda14c04eae`)
 - all records: 558 across 51 collections
 - unsolved records: 113
 - new in this sync: 0

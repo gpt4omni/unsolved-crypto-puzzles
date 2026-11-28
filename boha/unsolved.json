@@ -2,9 +2,9 @@
   "schema_version": 1,
   "source": "https://github.com/agntn/puzzles",
   "package": "@agntn/puzzles",
-  "boha_version": "0.31.0",
-  "boha_data_version": "a747e6ab583e",
-  "generated_on": "2026-11-10",
+  "boha_version": "0.31.1",
+  "boha_data_version": "5fda14c04eae",
+  "generated_on": "2026-11-28",
   "counts": {
     "all_records": 558,
     "collections": 51,
